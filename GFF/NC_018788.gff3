@@ -1,0 +1,105 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_018788.1 1 17117
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9305
+NC_018788.1	RefSeq	region	1	17117	.	+	.	ID=NC_018788.1:1..17117;Dbxref=taxon:9305;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;isolate=Cedric;mol_type=genomic DNA
+NC_018788.1	RefSeq	gene	569	637	.	+	.	ID=gene-D258_mgt01;Dbxref=GeneID:79563209;Name=D258_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt01
+NC_018788.1	RefSeq	tRNA	569	637	.	+	.	ID=rna-D258_mgt01;Parent=gene-D258_mgt01;Dbxref=GeneID:79563209;gbkey=tRNA;locus_tag=D258_mgt01;product=tRNA-Phe
+NC_018788.1	RefSeq	exon	569	637	.	+	.	ID=exon-D258_mgt01-1;Parent=rna-D258_mgt01;Dbxref=GeneID:79563209;gbkey=tRNA;locus_tag=D258_mgt01;product=tRNA-Phe
+NC_018788.1	RefSeq	gene	638	1588	.	+	.	ID=gene-D258_mgr02;Dbxref=GeneID:79563195;Name=D258_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=D258_mgr02
+NC_018788.1	RefSeq	rRNA	638	1588	.	+	.	ID=rna-D258_mgr02;Parent=gene-D258_mgr02;Dbxref=GeneID:79563195;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=D258_mgr02;product=s-rRNA
+NC_018788.1	RefSeq	exon	638	1588	.	+	.	ID=exon-D258_mgr02-1;Parent=rna-D258_mgr02;Dbxref=GeneID:79563195;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=D258_mgr02;product=s-rRNA
+NC_018788.1	RefSeq	gene	1590	1657	.	+	.	ID=gene-D258_mgt02;Dbxref=GeneID:79563196;Name=D258_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt02
+NC_018788.1	RefSeq	tRNA	1590	1657	.	+	.	ID=rna-D258_mgt02;Parent=gene-D258_mgt02;Dbxref=GeneID:79563196;gbkey=tRNA;locus_tag=D258_mgt02;product=tRNA-Val
+NC_018788.1	RefSeq	exon	1590	1657	.	+	.	ID=exon-D258_mgt02-1;Parent=rna-D258_mgt02;Dbxref=GeneID:79563196;gbkey=tRNA;locus_tag=D258_mgt02;product=tRNA-Val
+NC_018788.1	RefSeq	gene	1658	3225	.	+	.	ID=gene-D258_mgr01;Dbxref=GeneID:79563197;Name=D258_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=D258_mgr01
+NC_018788.1	RefSeq	rRNA	1658	3225	.	+	.	ID=rna-D258_mgr01;Parent=gene-D258_mgr01;Dbxref=GeneID:79563197;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=D258_mgr01;product=l-rRNA
+NC_018788.1	RefSeq	exon	1658	3225	.	+	.	ID=exon-D258_mgr01-1;Parent=rna-D258_mgr01;Dbxref=GeneID:79563197;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=D258_mgr01;product=l-rRNA
+NC_018788.1	RefSeq	gene	3227	3299	.	+	.	ID=gene-D258_mgt03;Dbxref=GeneID:79563198;Name=D258_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt03
+NC_018788.1	RefSeq	tRNA	3227	3299	.	+	.	ID=rna-D258_mgt03;Parent=gene-D258_mgt03;Dbxref=GeneID:79563198;gbkey=tRNA;locus_tag=D258_mgt03;product=tRNA-Leu
+NC_018788.1	RefSeq	exon	3227	3299	.	+	.	ID=exon-D258_mgt03-1;Parent=rna-D258_mgt03;Dbxref=GeneID:79563198;gbkey=tRNA;locus_tag=D258_mgt03;product=tRNA-Leu
+NC_018788.1	RefSeq	gene	3301	4257	.	+	.	ID=gene-D258_mgp13;Dbxref=GeneID:13826446;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=D258_mgp13
+NC_018788.1	RefSeq	CDS	3301	4257	.	+	0	ID=cds-YP_006883654.1;Parent=gene-D258_mgp13;Dbxref=GenBank:YP_006883654.1,GeneID:13826446;Name=YP_006883654.1;gbkey=CDS;gene=ND1;locus_tag=D258_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_006883654.1;transl_table=2
+NC_018788.1	RefSeq	gene	4257	4324	.	-	.	ID=gene-D258_mgt04;Dbxref=GeneID:79563190;Name=D258_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt04
+NC_018788.1	RefSeq	tRNA	4257	4324	.	-	.	ID=rna-D258_mgt04;Parent=gene-D258_mgt04;Dbxref=GeneID:79563190;gbkey=tRNA;locus_tag=D258_mgt04;product=tRNA-Ile
+NC_018788.1	RefSeq	exon	4257	4324	.	-	.	ID=exon-D258_mgt04-1;Parent=rna-D258_mgt04;Dbxref=GeneID:79563190;gbkey=tRNA;locus_tag=D258_mgt04;product=tRNA-Ile
+NC_018788.1	RefSeq	gene	4322	4392	.	+	.	ID=gene-D258_mgt05;Dbxref=GeneID:79563199;Name=D258_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt05
+NC_018788.1	RefSeq	tRNA	4322	4392	.	+	.	ID=rna-D258_mgt05;Parent=gene-D258_mgt05;Dbxref=GeneID:79563199;gbkey=tRNA;locus_tag=D258_mgt05;product=tRNA-Gln
+NC_018788.1	RefSeq	exon	4322	4392	.	+	.	ID=exon-D258_mgt05-1;Parent=rna-D258_mgt05;Dbxref=GeneID:79563199;gbkey=tRNA;locus_tag=D258_mgt05;product=tRNA-Gln
+NC_018788.1	RefSeq	gene	4392	4459	.	+	.	ID=gene-D258_mgt06;Dbxref=GeneID:79563200;Name=D258_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt06
+NC_018788.1	RefSeq	tRNA	4392	4459	.	+	.	ID=rna-D258_mgt06;Parent=gene-D258_mgt06;Dbxref=GeneID:79563200;gbkey=tRNA;locus_tag=D258_mgt06;product=tRNA-Met
+NC_018788.1	RefSeq	exon	4392	4459	.	+	.	ID=exon-D258_mgt06-1;Parent=rna-D258_mgt06;Dbxref=GeneID:79563200;gbkey=tRNA;locus_tag=D258_mgt06;product=tRNA-Met
+NC_018788.1	RefSeq	gene	4461	5504	.	+	.	ID=gene-D258_mgp12;Dbxref=GeneID:13826439;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=D258_mgp12
+NC_018788.1	RefSeq	CDS	4461	5504	.	+	0	ID=cds-YP_006883655.1;Parent=gene-D258_mgp12;Dbxref=GenBank:YP_006883655.1,GeneID:13826439;Name=YP_006883655.1;gbkey=CDS;gene=ND2;locus_tag=D258_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_006883655.1;transl_table=2
+NC_018788.1	RefSeq	gene	5506	5574	.	-	.	ID=gene-D258_mgt07;Dbxref=GeneID:79563191;Name=D258_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt07
+NC_018788.1	RefSeq	tRNA	5506	5574	.	-	.	ID=rna-D258_mgt07;Parent=gene-D258_mgt07;Dbxref=GeneID:79563191;gbkey=tRNA;locus_tag=D258_mgt07;product=tRNA-Ala
+NC_018788.1	RefSeq	exon	5506	5574	.	-	.	ID=exon-D258_mgt07-1;Parent=rna-D258_mgt07;Dbxref=GeneID:79563191;gbkey=tRNA;locus_tag=D258_mgt07;product=tRNA-Ala
+NC_018788.1	RefSeq	gene	5580	5643	.	-	.	ID=gene-D258_mgt08;Dbxref=GeneID:79563201;Name=D258_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt08
+NC_018788.1	RefSeq	tRNA	5580	5643	.	-	.	ID=rna-D258_mgt08;Parent=gene-D258_mgt08;Dbxref=GeneID:79563201;gbkey=tRNA;locus_tag=D258_mgt08;product=tRNA-Cys
+NC_018788.1	RefSeq	exon	5580	5643	.	-	.	ID=exon-D258_mgt08-1;Parent=rna-D258_mgt08;Dbxref=GeneID:79563201;gbkey=tRNA;locus_tag=D258_mgt08;product=tRNA-Cys
+NC_018788.1	RefSeq	gene	5649	5718	.	+	.	ID=gene-D258_mgt09;Dbxref=GeneID:79563202;Name=D258_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt09
+NC_018788.1	RefSeq	tRNA	5649	5718	.	+	.	ID=rna-D258_mgt09;Parent=gene-D258_mgt09;Dbxref=GeneID:79563202;gbkey=tRNA;locus_tag=D258_mgt09;product=tRNA-Trp
+NC_018788.1	RefSeq	exon	5649	5718	.	+	.	ID=exon-D258_mgt09-1;Parent=rna-D258_mgt09;Dbxref=GeneID:79563202;gbkey=tRNA;locus_tag=D258_mgt09;product=tRNA-Trp
+NC_018788.1	RefSeq	gene	5800	5871	.	-	.	ID=gene-D258_mgt10;Dbxref=GeneID:79563203;Name=D258_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt10
+NC_018788.1	RefSeq	tRNA	5800	5871	.	-	.	ID=rna-D258_mgt10;Parent=gene-D258_mgt10;Dbxref=GeneID:79563203;gbkey=tRNA;locus_tag=D258_mgt10;product=tRNA-Asn
+NC_018788.1	RefSeq	exon	5800	5871	.	-	.	ID=exon-D258_mgt10-1;Parent=rna-D258_mgt10;Dbxref=GeneID:79563203;gbkey=tRNA;locus_tag=D258_mgt10;product=tRNA-Asn
+NC_018788.1	RefSeq	gene	5878	5941	.	-	.	ID=gene-D258_mgt11;Dbxref=GeneID:79563204;Name=D258_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt11
+NC_018788.1	RefSeq	tRNA	5878	5941	.	-	.	ID=rna-D258_mgt11;Parent=gene-D258_mgt11;Dbxref=GeneID:79563204;gbkey=tRNA;locus_tag=D258_mgt11;product=tRNA-Tyr
+NC_018788.1	RefSeq	exon	5878	5941	.	-	.	ID=exon-D258_mgt11-1;Parent=rna-D258_mgt11;Dbxref=GeneID:79563204;gbkey=tRNA;locus_tag=D258_mgt11;product=tRNA-Tyr
+NC_018788.1	RefSeq	gene	5943	7484	.	+	.	ID=gene-D258_mgp11;Dbxref=GeneID:13826440;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=D258_mgp11
+NC_018788.1	RefSeq	CDS	5943	7484	.	+	0	ID=cds-YP_006883656.1;Parent=gene-D258_mgp11;Dbxref=GenBank:YP_006883656.1,GeneID:13826440;Name=YP_006883656.1;gbkey=CDS;gene=COX1;locus_tag=D258_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_006883656.1;transl_table=2
+NC_018788.1	RefSeq	gene	7490	7558	.	-	.	ID=gene-D258_mgt12;Dbxref=GeneID:79563186;Name=D258_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt12
+NC_018788.1	RefSeq	tRNA	7490	7558	.	-	.	ID=rna-D258_mgt12;Parent=gene-D258_mgt12;Dbxref=GeneID:79563186;gbkey=tRNA;locus_tag=D258_mgt12;product=tRNA-Ser
+NC_018788.1	RefSeq	exon	7490	7558	.	-	.	ID=exon-D258_mgt12-1;Parent=rna-D258_mgt12;Dbxref=GeneID:79563186;gbkey=tRNA;locus_tag=D258_mgt12;product=tRNA-Ser
+NC_018788.1	RefSeq	gene	7562	7631	.	+	.	ID=gene-D258_mgt13;Dbxref=GeneID:79563205;Name=D258_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt13
+NC_018788.1	RefSeq	tRNA	7562	7631	.	+	.	ID=rna-D258_mgt13;Parent=gene-D258_mgt13;Dbxref=GeneID:79563205;gbkey=tRNA;locus_tag=D258_mgt13;product=tRNA-Asp
+NC_018788.1	RefSeq	exon	7562	7631	.	+	.	ID=exon-D258_mgt13-1;Parent=rna-D258_mgt13;Dbxref=GeneID:79563205;gbkey=tRNA;locus_tag=D258_mgt13;product=tRNA-Asp
+NC_018788.1	RefSeq	gene	7634	8315	.	+	.	ID=gene-D258_mgp10;Dbxref=GeneID:13826435;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=D258_mgp10
+NC_018788.1	RefSeq	CDS	7634	8315	.	+	0	ID=cds-YP_006883657.1;Parent=gene-D258_mgp10;Dbxref=GenBank:YP_006883657.1,GeneID:13826435;Name=YP_006883657.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=D258_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_006883657.1;transl_except=(pos:8315%2Caa:TERM);transl_table=2
+NC_018788.1	RefSeq	gene	8316	8377	.	+	.	ID=gene-D258_mgt14;Dbxref=GeneID:79563187;Name=D258_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt14
+NC_018788.1	RefSeq	tRNA	8316	8377	.	+	.	ID=rna-D258_mgt14;Parent=gene-D258_mgt14;Dbxref=GeneID:79563187;gbkey=tRNA;locus_tag=D258_mgt14;product=tRNA-Lys
+NC_018788.1	RefSeq	exon	8316	8377	.	+	.	ID=exon-D258_mgt14-1;Parent=rna-D258_mgt14;Dbxref=GeneID:79563187;gbkey=tRNA;locus_tag=D258_mgt14;product=tRNA-Lys
+NC_018788.1	RefSeq	gene	8377	8585	.	+	.	ID=gene-D258_mgp09;Dbxref=GeneID:13826437;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=D258_mgp09
+NC_018788.1	RefSeq	CDS	8377	8585	.	+	0	ID=cds-YP_006883658.1;Parent=gene-D258_mgp09;Dbxref=GenBank:YP_006883658.1,GeneID:13826437;Name=YP_006883658.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ATP8;locus_tag=D258_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_006883658.1;transl_except=(pos:8584..8585%2Caa:TERM);transl_table=2
+NC_018788.1	RefSeq	gene	8541	9221	.	+	.	ID=gene-D258_mgp08;Dbxref=GeneID:13826434;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=D258_mgp08
+NC_018788.1	RefSeq	CDS	8541	9221	.	+	0	ID=cds-YP_006883659.1;Parent=gene-D258_mgp08;Dbxref=GenBank:YP_006883659.1,GeneID:13826434;Name=YP_006883659.1;gbkey=CDS;gene=ATP6;locus_tag=D258_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_006883659.1;transl_table=2
+NC_018788.1	RefSeq	gene	9257	10040	.	+	.	ID=gene-D258_mgp07;Dbxref=GeneID:13826436;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=D258_mgp07
+NC_018788.1	RefSeq	CDS	9257	10040	.	+	0	ID=cds-YP_006883660.1;Parent=gene-D258_mgp07;Dbxref=GenBank:YP_006883660.1,GeneID:13826436;Name=YP_006883660.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=D258_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_006883660.1;transl_except=(pos:10040%2Caa:TERM);transl_table=2
+NC_018788.1	RefSeq	gene	10041	10108	.	+	.	ID=gene-D258_mgt15;Dbxref=GeneID:79563188;Name=D258_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt15
+NC_018788.1	RefSeq	tRNA	10041	10108	.	+	.	ID=rna-D258_mgt15;Parent=gene-D258_mgt15;Dbxref=GeneID:79563188;gbkey=tRNA;locus_tag=D258_mgt15;product=tRNA-Gly
+NC_018788.1	RefSeq	exon	10041	10108	.	+	.	ID=exon-D258_mgt15-1;Parent=rna-D258_mgt15;Dbxref=GeneID:79563188;gbkey=tRNA;locus_tag=D258_mgt15;product=tRNA-Gly
+NC_018788.1	RefSeq	gene	10109	10454	.	+	.	ID=gene-D258_mgp06;Dbxref=GeneID:13826438;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=D258_mgp06
+NC_018788.1	RefSeq	CDS	10109	10454	.	+	0	ID=cds-YP_006883661.1;Parent=gene-D258_mgp06;Dbxref=GenBank:YP_006883661.1,GeneID:13826438;Name=YP_006883661.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=D258_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_006883661.1;transl_except=(pos:10454%2Caa:TERM);transl_table=2
+NC_018788.1	RefSeq	gene	10455	10523	.	+	.	ID=gene-D258_mgt16;Dbxref=GeneID:79563192;Name=D258_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt16
+NC_018788.1	RefSeq	tRNA	10455	10523	.	+	.	ID=rna-D258_mgt16;Parent=gene-D258_mgt16;Dbxref=GeneID:79563192;gbkey=tRNA;locus_tag=D258_mgt16;product=tRNA-Arg
+NC_018788.1	RefSeq	exon	10455	10523	.	+	.	ID=exon-D258_mgt16-1;Parent=rna-D258_mgt16;Dbxref=GeneID:79563192;gbkey=tRNA;locus_tag=D258_mgt16;product=tRNA-Arg
+NC_018788.1	RefSeq	gene	10524	10820	.	+	.	ID=gene-D258_mgp05;Dbxref=GeneID:13826441;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=D258_mgp05
+NC_018788.1	RefSeq	CDS	10524	10820	.	+	0	ID=cds-YP_006883662.1;Parent=gene-D258_mgp05;Dbxref=GenBank:YP_006883662.1,GeneID:13826441;Name=YP_006883662.1;gbkey=CDS;gene=ND4L;locus_tag=D258_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_006883662.1;transl_table=2
+NC_018788.1	RefSeq	gene	10814	12191	.	+	.	ID=gene-D258_mgp04;Dbxref=GeneID:13826443;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=D258_mgp04
+NC_018788.1	RefSeq	CDS	10814	12191	.	+	0	ID=cds-YP_006883663.1;Parent=gene-D258_mgp04;Dbxref=GenBank:YP_006883663.1,GeneID:13826443;Name=YP_006883663.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=D258_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_006883663.1;transl_except=(pos:12191%2Caa:TERM);transl_table=2
+NC_018788.1	RefSeq	gene	12192	12260	.	+	.	ID=gene-D258_mgt17;Dbxref=GeneID:79563193;Name=D258_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt17
+NC_018788.1	RefSeq	tRNA	12192	12260	.	+	.	ID=rna-D258_mgt17;Parent=gene-D258_mgt17;Dbxref=GeneID:79563193;gbkey=tRNA;locus_tag=D258_mgt17;product=tRNA-His
+NC_018788.1	RefSeq	exon	12192	12260	.	+	.	ID=exon-D258_mgt17-1;Parent=rna-D258_mgt17;Dbxref=GeneID:79563193;gbkey=tRNA;locus_tag=D258_mgt17;product=tRNA-His
+NC_018788.1	RefSeq	gene	12260	12319	.	+	.	ID=gene-D258_mgt18;Dbxref=GeneID:79563206;Name=D258_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt18
+NC_018788.1	RefSeq	tRNA	12260	12319	.	+	.	ID=rna-D258_mgt18;Parent=gene-D258_mgt18;Dbxref=GeneID:79563206;gbkey=tRNA;locus_tag=D258_mgt18;product=tRNA-Ser
+NC_018788.1	RefSeq	exon	12260	12319	.	+	.	ID=exon-D258_mgt18-1;Parent=rna-D258_mgt18;Dbxref=GeneID:79563206;gbkey=tRNA;locus_tag=D258_mgt18;product=tRNA-Ser
+NC_018788.1	RefSeq	gene	12320	12390	.	+	.	ID=gene-D258_mgt19;Dbxref=GeneID:79563207;Name=D258_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt19
+NC_018788.1	RefSeq	tRNA	12320	12390	.	+	.	ID=rna-D258_mgt19;Parent=gene-D258_mgt19;Dbxref=GeneID:79563207;gbkey=tRNA;locus_tag=D258_mgt19;product=tRNA-Leu
+NC_018788.1	RefSeq	exon	12320	12390	.	+	.	ID=exon-D258_mgt19-1;Parent=rna-D258_mgt19;Dbxref=GeneID:79563207;gbkey=tRNA;locus_tag=D258_mgt19;product=tRNA-Leu
+NC_018788.1	RefSeq	gene	12391	14199	.	+	.	ID=gene-D258_mgp03;Dbxref=GeneID:13826442;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=D258_mgp03
+NC_018788.1	RefSeq	CDS	12391	14199	.	+	0	ID=cds-YP_006883664.1;Parent=gene-D258_mgp03;Dbxref=GenBank:YP_006883664.1,GeneID:13826442;Name=YP_006883664.1;gbkey=CDS;gene=ND5;locus_tag=D258_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_006883664.1;transl_table=2
+NC_018788.1	RefSeq	gene	14200	14700	.	-	.	ID=gene-D258_mgp02;Dbxref=GeneID:13826444;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=D258_mgp02
+NC_018788.1	RefSeq	CDS	14200	14700	.	-	0	ID=cds-YP_006883665.1;Parent=gene-D258_mgp02;Dbxref=GenBank:YP_006883665.1,GeneID:13826444;Name=YP_006883665.1;gbkey=CDS;gene=ND6;locus_tag=D258_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_006883665.1;transl_table=2
+NC_018788.1	RefSeq	gene	14704	14771	.	-	.	ID=gene-D258_mgt20;Dbxref=GeneID:79563194;Name=D258_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt20
+NC_018788.1	RefSeq	tRNA	14704	14771	.	-	.	ID=rna-D258_mgt20;Parent=gene-D258_mgt20;Dbxref=GeneID:79563194;gbkey=tRNA;locus_tag=D258_mgt20;product=tRNA-Glu
+NC_018788.1	RefSeq	exon	14704	14771	.	-	.	ID=exon-D258_mgt20-1;Parent=rna-D258_mgt20;Dbxref=GeneID:79563194;gbkey=tRNA;locus_tag=D258_mgt20;product=tRNA-Glu
+NC_018788.1	RefSeq	gene	14775	15920	.	+	.	ID=gene-D258_mgp01;Dbxref=GeneID:13826445;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=D258_mgp01
+NC_018788.1	RefSeq	CDS	14775	15920	.	+	0	ID=cds-YP_006883666.1;Parent=gene-D258_mgp01;Dbxref=GenBank:YP_006883666.1,GeneID:13826445;Name=YP_006883666.1;gbkey=CDS;gene=CYTB;locus_tag=D258_mgp01;product=cytochrome b;protein_id=YP_006883666.1;transl_table=2
+NC_018788.1	RefSeq	gene	15921	15988	.	+	.	ID=gene-D258_mgt21;Dbxref=GeneID:79563189;Name=D258_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt21
+NC_018788.1	RefSeq	tRNA	15921	15988	.	+	.	ID=rna-D258_mgt21;Parent=gene-D258_mgt21;Dbxref=GeneID:79563189;gbkey=tRNA;locus_tag=D258_mgt21;product=tRNA-Thr
+NC_018788.1	RefSeq	exon	15921	15988	.	+	.	ID=exon-D258_mgt21-1;Parent=rna-D258_mgt21;Dbxref=GeneID:79563189;gbkey=tRNA;locus_tag=D258_mgt21;product=tRNA-Thr
+NC_018788.1	RefSeq	gene	15991	16057	.	-	.	ID=gene-D258_mgt22;Dbxref=GeneID:79563208;Name=D258_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=D258_mgt22
+NC_018788.1	RefSeq	tRNA	15991	16057	.	-	.	ID=rna-D258_mgt22;Parent=gene-D258_mgt22;Dbxref=GeneID:79563208;gbkey=tRNA;locus_tag=D258_mgt22;product=tRNA-Pro
+NC_018788.1	RefSeq	exon	15991	16057	.	-	.	ID=exon-D258_mgt22-1;Parent=rna-D258_mgt22;Dbxref=GeneID:79563208;gbkey=tRNA;locus_tag=D258_mgt22;product=tRNA-Pro
+

@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_039717.1 1 16881
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9316
+NC_039717.1	RefSeq	region	1	16881	.	+	.	ID=NC_039717.1:1..16881;Dbxref=taxon:9316;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_039717.1	RefSeq	gene	1	71	.	+	.	ID=gene-EFF20_mgt01;Dbxref=GeneID:38328873;Name=trnF;gbkey=Gene;gene=trnF;gene_biotype=tRNA;locus_tag=EFF20_mgt01
+NC_039717.1	RefSeq	tRNA	1	71	.	+	.	ID=rna-EFF20_mgt01;Parent=gene-EFF20_mgt01;Dbxref=GeneID:38328873;gbkey=tRNA;gene=trnF;locus_tag=EFF20_mgt01;product=tRNA-Phe
+NC_039717.1	RefSeq	exon	1	71	.	+	.	ID=exon-EFF20_mgt01-1;Parent=rna-EFF20_mgt01;Dbxref=GeneID:38328873;gbkey=tRNA;gene=trnF;locus_tag=EFF20_mgt01;product=tRNA-Phe
+NC_039717.1	RefSeq	gene	72	1023	.	+	.	ID=gene-EFF20_mgr02;Dbxref=GeneID:38328839;Name=EFF20_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=EFF20_mgr02
+NC_039717.1	RefSeq	rRNA	72	1023	.	+	.	ID=rna-EFF20_mgr02;Parent=gene-EFF20_mgr02;Dbxref=GeneID:38328839;gbkey=rRNA;locus_tag=EFF20_mgr02;product=12S ribosomal RNA
+NC_039717.1	RefSeq	exon	72	1023	.	+	.	ID=exon-EFF20_mgr02-1;Parent=rna-EFF20_mgr02;Dbxref=GeneID:38328839;gbkey=rRNA;locus_tag=EFF20_mgr02;product=12S ribosomal RNA
+NC_039717.1	RefSeq	gene	1025	1093	.	+	.	ID=gene-EFF20_mgt02;Dbxref=GeneID:38328874;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA;locus_tag=EFF20_mgt02
+NC_039717.1	RefSeq	tRNA	1025	1093	.	+	.	ID=rna-EFF20_mgt02;Parent=gene-EFF20_mgt02;Dbxref=GeneID:38328874;gbkey=tRNA;gene=trnV;locus_tag=EFF20_mgt02;product=tRNA-Val
+NC_039717.1	RefSeq	exon	1025	1093	.	+	.	ID=exon-EFF20_mgt02-1;Parent=rna-EFF20_mgt02;Dbxref=GeneID:38328874;gbkey=tRNA;gene=trnV;locus_tag=EFF20_mgt02;product=tRNA-Val
+NC_039717.1	RefSeq	gene	1094	2663	.	+	.	ID=gene-EFF20_mgr01;Dbxref=GeneID:38328840;Name=EFF20_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=EFF20_mgr01
+NC_039717.1	RefSeq	rRNA	1094	2663	.	+	.	ID=rna-EFF20_mgr01;Parent=gene-EFF20_mgr01;Dbxref=GeneID:38328840;gbkey=rRNA;locus_tag=EFF20_mgr01;product=16S ribosomal RNA
+NC_039717.1	RefSeq	exon	1094	2663	.	+	.	ID=exon-EFF20_mgr01-1;Parent=rna-EFF20_mgr01;Dbxref=GeneID:38328840;gbkey=rRNA;locus_tag=EFF20_mgr01;product=16S ribosomal RNA
+NC_039717.1	RefSeq	gene	2664	2737	.	+	.	ID=gene-EFF20_mgt03;Dbxref=GeneID:38328875;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=EFF20_mgt03
+NC_039717.1	RefSeq	tRNA	2664	2737	.	+	.	ID=rna-EFF20_mgt03;Parent=gene-EFF20_mgt03;Dbxref=GeneID:38328875;gbkey=tRNA;gene=trnL;locus_tag=EFF20_mgt03;product=tRNA-Leu
+NC_039717.1	RefSeq	exon	2664	2737	.	+	.	ID=exon-EFF20_mgt03-1;Parent=rna-EFF20_mgt03;Dbxref=GeneID:38328875;gbkey=tRNA;gene=trnL;locus_tag=EFF20_mgt03;product=tRNA-Leu
+NC_039717.1	RefSeq	gene	2739	3695	.	+	.	ID=gene-EFF20_mgp13;Dbxref=GeneID:38328841;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=EFF20_mgp13
+NC_039717.1	RefSeq	CDS	2739	3695	.	+	0	ID=cds-YP_009529056.1;Parent=gene-EFF20_mgp13;Dbxref=GenBank:YP_009529056.1,GeneID:38328841;Name=YP_009529056.1;gbkey=CDS;gene=ND1;locus_tag=EFF20_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009529056.1;transl_table=2
+NC_039717.1	RefSeq	gene	3696	3763	.	+	.	ID=gene-EFF20_mgt04;Dbxref=GeneID:38328842;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=EFF20_mgt04
+NC_039717.1	RefSeq	tRNA	3696	3763	.	+	.	ID=rna-EFF20_mgt04;Parent=gene-EFF20_mgt04;Dbxref=GeneID:38328842;gbkey=tRNA;gene=trnI;locus_tag=EFF20_mgt04;product=tRNA-Ile
+NC_039717.1	RefSeq	exon	3696	3763	.	+	.	ID=exon-EFF20_mgt04-1;Parent=rna-EFF20_mgt04;Dbxref=GeneID:38328842;gbkey=tRNA;gene=trnI;locus_tag=EFF20_mgt04;product=tRNA-Ile
+NC_039717.1	RefSeq	gene	3764	3831	.	-	.	ID=gene-EFF20_mgt05;Dbxref=GeneID:38328843;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA;locus_tag=EFF20_mgt05
+NC_039717.1	RefSeq	tRNA	3764	3831	.	-	.	ID=rna-EFF20_mgt05;Parent=gene-EFF20_mgt05;Dbxref=GeneID:38328843;gbkey=tRNA;gene=trnQ;locus_tag=EFF20_mgt05;product=tRNA-Gln
+NC_039717.1	RefSeq	exon	3764	3831	.	-	.	ID=exon-EFF20_mgt05-1;Parent=rna-EFF20_mgt05;Dbxref=GeneID:38328843;gbkey=tRNA;gene=trnQ;locus_tag=EFF20_mgt05;product=tRNA-Gln
+NC_039717.1	RefSeq	gene	3832	3899	.	+	.	ID=gene-EFF20_mgt06;Dbxref=GeneID:38328844;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA;locus_tag=EFF20_mgt06
+NC_039717.1	RefSeq	tRNA	3832	3899	.	+	.	ID=rna-EFF20_mgt06;Parent=gene-EFF20_mgt06;Dbxref=GeneID:38328844;gbkey=tRNA;gene=trnM;locus_tag=EFF20_mgt06;product=tRNA-Met
+NC_039717.1	RefSeq	exon	3832	3899	.	+	.	ID=exon-EFF20_mgt06-1;Parent=rna-EFF20_mgt06;Dbxref=GeneID:38328844;gbkey=tRNA;gene=trnM;locus_tag=EFF20_mgt06;product=tRNA-Met
+NC_039717.1	RefSeq	gene	3900	4946	.	+	.	ID=gene-EFF20_mgp12;Dbxref=GeneID:38328845;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=EFF20_mgp12
+NC_039717.1	RefSeq	CDS	3900	4946	.	+	0	ID=cds-YP_009529057.1;Parent=gene-EFF20_mgp12;Dbxref=GenBank:YP_009529057.1,GeneID:38328845;Name=YP_009529057.1;gbkey=CDS;gene=ND2;locus_tag=EFF20_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009529057.1;transl_table=2
+NC_039717.1	RefSeq	gene	4947	5012	.	-	.	ID=gene-EFF20_mgt07;Dbxref=GeneID:38328846;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA;locus_tag=EFF20_mgt07
+NC_039717.1	RefSeq	tRNA	4947	5012	.	-	.	ID=rna-EFF20_mgt07;Parent=gene-EFF20_mgt07;Dbxref=GeneID:38328846;gbkey=tRNA;gene=trnA;locus_tag=EFF20_mgt07;product=tRNA-Ala
+NC_039717.1	RefSeq	exon	4947	5012	.	-	.	ID=exon-EFF20_mgt07-1;Parent=rna-EFF20_mgt07;Dbxref=GeneID:38328846;gbkey=tRNA;gene=trnA;locus_tag=EFF20_mgt07;product=tRNA-Ala
+NC_039717.1	RefSeq	gene	5022	5091	.	-	.	ID=gene-EFF20_mgt08;Dbxref=GeneID:38328847;Name=trnC;gbkey=Gene;gene=trnC;gene_biotype=tRNA;locus_tag=EFF20_mgt08
+NC_039717.1	RefSeq	tRNA	5022	5091	.	-	.	ID=rna-EFF20_mgt08;Parent=gene-EFF20_mgt08;Dbxref=GeneID:38328847;gbkey=tRNA;gene=trnC;locus_tag=EFF20_mgt08;product=tRNA-Cys
+NC_039717.1	RefSeq	exon	5022	5091	.	-	.	ID=exon-EFF20_mgt08-1;Parent=rna-EFF20_mgt08;Dbxref=GeneID:38328847;gbkey=tRNA;gene=trnC;locus_tag=EFF20_mgt08;product=tRNA-Cys
+NC_039717.1	RefSeq	gene	5092	5162	.	+	.	ID=gene-EFF20_mgt09;Dbxref=GeneID:38328848;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA;locus_tag=EFF20_mgt09
+NC_039717.1	RefSeq	tRNA	5092	5162	.	+	.	ID=rna-EFF20_mgt09;Parent=gene-EFF20_mgt09;Dbxref=GeneID:38328848;gbkey=tRNA;gene=trnW;locus_tag=EFF20_mgt09;product=tRNA-Trp
+NC_039717.1	RefSeq	exon	5092	5162	.	+	.	ID=exon-EFF20_mgt09-1;Parent=rna-EFF20_mgt09;Dbxref=GeneID:38328848;gbkey=tRNA;gene=trnW;locus_tag=EFF20_mgt09;product=tRNA-Trp
+NC_039717.1	RefSeq	origin_of_replication	5163	5240	.	+	.	ID=id-NC_039717.1:5163..5240;gbkey=rep_origin
+NC_039717.1	RefSeq	gene	5241	5315	.	-	.	ID=gene-EFF20_mgt10;Dbxref=GeneID:38328849;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA;locus_tag=EFF20_mgt10
+NC_039717.1	RefSeq	tRNA	5241	5315	.	-	.	ID=rna-EFF20_mgt10;Parent=gene-EFF20_mgt10;Dbxref=GeneID:38328849;gbkey=tRNA;gene=trnN;locus_tag=EFF20_mgt10;product=tRNA-Asn
+NC_039717.1	RefSeq	exon	5241	5315	.	-	.	ID=exon-EFF20_mgt10-1;Parent=rna-EFF20_mgt10;Dbxref=GeneID:38328849;gbkey=tRNA;gene=trnN;locus_tag=EFF20_mgt10;product=tRNA-Asn
+NC_039717.1	RefSeq	gene	5316	5384	.	-	.	ID=gene-EFF20_mgt11;Dbxref=GeneID:38328850;Name=trnY;gbkey=Gene;gene=trnY;gene_biotype=tRNA;locus_tag=EFF20_mgt11
+NC_039717.1	RefSeq	tRNA	5316	5384	.	-	.	ID=rna-EFF20_mgt11;Parent=gene-EFF20_mgt11;Dbxref=GeneID:38328850;gbkey=tRNA;gene=trnY;locus_tag=EFF20_mgt11;product=tRNA-Tyr
+NC_039717.1	RefSeq	exon	5316	5384	.	-	.	ID=exon-EFF20_mgt11-1;Parent=rna-EFF20_mgt11;Dbxref=GeneID:38328850;gbkey=tRNA;gene=trnY;locus_tag=EFF20_mgt11;product=tRNA-Tyr
+NC_039717.1	RefSeq	gene	5385	6926	.	+	.	ID=gene-EFF20_mgp11;Dbxref=GeneID:38328851;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=EFF20_mgp11
+NC_039717.1	RefSeq	CDS	5385	6926	.	+	0	ID=cds-YP_009529058.1;Parent=gene-EFF20_mgp11;Dbxref=GenBank:YP_009529058.1,GeneID:38328851;Name=YP_009529058.1;gbkey=CDS;gene=COX1;locus_tag=EFF20_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_009529058.1;transl_table=2
+NC_039717.1	RefSeq	gene	6930	7000	.	-	.	ID=gene-EFF20_mgt12;Dbxref=GeneID:38328852;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA;locus_tag=EFF20_mgt12
+NC_039717.1	RefSeq	tRNA	6930	7000	.	-	.	ID=rna-EFF20_mgt12;Parent=gene-EFF20_mgt12;Dbxref=GeneID:38328852;gbkey=tRNA;gene=trnS;locus_tag=EFF20_mgt12;product=tRNA-Ser
+NC_039717.1	RefSeq	exon	6930	7000	.	-	.	ID=exon-EFF20_mgt12-1;Parent=rna-EFF20_mgt12;Dbxref=GeneID:38328852;gbkey=tRNA;gene=trnS;locus_tag=EFF20_mgt12;product=tRNA-Ser
+NC_039717.1	RefSeq	gene	7001	7062	.	+	.	ID=gene-EFF20_mgt13;Dbxref=GeneID:38328853;Name=trnD;gbkey=Gene;gene=trnD;gene_biotype=tRNA;locus_tag=EFF20_mgt13
+NC_039717.1	RefSeq	tRNA	7001	7062	.	+	.	ID=rna-EFF20_mgt13;Parent=gene-EFF20_mgt13;Dbxref=GeneID:38328853;gbkey=tRNA;gene=trnD;locus_tag=EFF20_mgt13;product=tRNA-Asp
+NC_039717.1	RefSeq	exon	7001	7062	.	+	.	ID=exon-EFF20_mgt13-1;Parent=rna-EFF20_mgt13;Dbxref=GeneID:38328853;gbkey=tRNA;gene=trnD;locus_tag=EFF20_mgt13;product=tRNA-Asp
+NC_039717.1	RefSeq	gene	7072	7764	.	+	.	ID=gene-EFF20_mgp10;Dbxref=GeneID:38328854;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=EFF20_mgp10
+NC_039717.1	RefSeq	CDS	7072	7764	.	+	0	ID=cds-YP_009529059.1;Parent=gene-EFF20_mgp10;Dbxref=GenBank:YP_009529059.1,GeneID:38328854;Name=YP_009529059.1;gbkey=CDS;gene=COX2;locus_tag=EFF20_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_009529059.1;transl_table=2
+NC_039717.1	RefSeq	gene	7765	7818	.	+	.	ID=gene-EFF20_mgt14;Dbxref=GeneID:38328855;Name=trnK;gbkey=Gene;gene=trnK;gene_biotype=tRNA;locus_tag=EFF20_mgt14
+NC_039717.1	RefSeq	tRNA	7765	7818	.	+	.	ID=rna-EFF20_mgt14;Parent=gene-EFF20_mgt14;Dbxref=GeneID:38328855;gbkey=tRNA;gene=trnK;locus_tag=EFF20_mgt14;product=tRNA-Lys
+NC_039717.1	RefSeq	exon	7765	7818	.	+	.	ID=exon-EFF20_mgt14-1;Parent=rna-EFF20_mgt14;Dbxref=GeneID:38328855;gbkey=tRNA;gene=trnK;locus_tag=EFF20_mgt14;product=tRNA-Lys
+NC_039717.1	RefSeq	gene	7819	8028	.	+	.	ID=gene-EFF20_mgp09;Dbxref=GeneID:38328856;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=EFF20_mgp09
+NC_039717.1	RefSeq	CDS	7819	8028	.	+	0	ID=cds-YP_009529060.1;Parent=gene-EFF20_mgp09;Dbxref=GenBank:YP_009529060.1,GeneID:38328856;Name=YP_009529060.1;gbkey=CDS;gene=ATP8;locus_tag=EFF20_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_009529060.1;transl_table=2
+NC_039717.1	RefSeq	gene	7983	8663	.	+	.	ID=gene-EFF20_mgp08;Dbxref=GeneID:38328857;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=EFF20_mgp08
+NC_039717.1	RefSeq	CDS	7983	8663	.	+	0	ID=cds-YP_009529061.1;Parent=gene-EFF20_mgp08;Dbxref=GenBank:YP_009529061.1,GeneID:38328857;Name=YP_009529061.1;gbkey=CDS;gene=ATP6;locus_tag=EFF20_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_009529061.1;transl_table=2
+NC_039717.1	RefSeq	gene	8663	9446	.	+	.	ID=gene-EFF20_mgp07;Dbxref=GeneID:38328858;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=EFF20_mgp07
+NC_039717.1	RefSeq	CDS	8663	9446	.	+	0	ID=cds-YP_009529062.1;Parent=gene-EFF20_mgp07;Dbxref=GenBank:YP_009529062.1,GeneID:38328858;Name=YP_009529062.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=EFF20_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_009529062.1;transl_except=(pos:9446%2Caa:TERM);transl_table=2
+NC_039717.1	RefSeq	gene	9447	9511	.	+	.	ID=gene-EFF20_mgt15;Dbxref=GeneID:38328859;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA;locus_tag=EFF20_mgt15
+NC_039717.1	RefSeq	tRNA	9447	9511	.	+	.	ID=rna-EFF20_mgt15;Parent=gene-EFF20_mgt15;Dbxref=GeneID:38328859;gbkey=tRNA;gene=trnG;locus_tag=EFF20_mgt15;product=tRNA-Gly
+NC_039717.1	RefSeq	exon	9447	9511	.	+	.	ID=exon-EFF20_mgt15-1;Parent=rna-EFF20_mgt15;Dbxref=GeneID:38328859;gbkey=tRNA;gene=trnG;locus_tag=EFF20_mgt15;product=tRNA-Gly
+NC_039717.1	RefSeq	gene	9515	9862	.	+	.	ID=gene-EFF20_mgp06;Dbxref=GeneID:38328860;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=EFF20_mgp06
+NC_039717.1	RefSeq	CDS	9515	9862	.	+	0	ID=cds-YP_009529063.1;Parent=gene-EFF20_mgp06;Dbxref=GenBank:YP_009529063.1,GeneID:38328860;Name=YP_009529063.1;gbkey=CDS;gene=ND3;locus_tag=EFF20_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009529063.1;transl_table=2
+NC_039717.1	RefSeq	gene	9863	9929	.	+	.	ID=gene-EFF20_mgt16;Dbxref=GeneID:38328861;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA;locus_tag=EFF20_mgt16
+NC_039717.1	RefSeq	tRNA	9863	9929	.	+	.	ID=rna-EFF20_mgt16;Parent=gene-EFF20_mgt16;Dbxref=GeneID:38328861;gbkey=tRNA;gene=trnR;locus_tag=EFF20_mgt16;product=tRNA-Arg
+NC_039717.1	RefSeq	exon	9863	9929	.	+	.	ID=exon-EFF20_mgt16-1;Parent=rna-EFF20_mgt16;Dbxref=GeneID:38328861;gbkey=tRNA;gene=trnR;locus_tag=EFF20_mgt16;product=tRNA-Arg
+NC_039717.1	RefSeq	gene	9930	10226	.	+	.	ID=gene-EFF20_mgp05;Dbxref=GeneID:38328862;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=EFF20_mgp05
+NC_039717.1	RefSeq	CDS	9930	10226	.	+	0	ID=cds-YP_009529064.1;Parent=gene-EFF20_mgp05;Dbxref=GenBank:YP_009529064.1,GeneID:38328862;Name=YP_009529064.1;gbkey=CDS;gene=ND4L;locus_tag=EFF20_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009529064.1;transl_table=2
+NC_039717.1	RefSeq	gene	10220	11597	.	+	.	ID=gene-EFF20_mgp04;Dbxref=GeneID:38328863;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=EFF20_mgp04
+NC_039717.1	RefSeq	CDS	10220	11597	.	+	0	ID=cds-YP_009529065.1;Parent=gene-EFF20_mgp04;Dbxref=GenBank:YP_009529065.1,GeneID:38328863;Name=YP_009529065.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=EFF20_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009529065.1;transl_except=(pos:11597%2Caa:TERM);transl_table=2
+NC_039717.1	RefSeq	gene	11598	11666	.	+	.	ID=gene-EFF20_mgt17;Dbxref=GeneID:38328864;Name=trnH;gbkey=Gene;gene=trnH;gene_biotype=tRNA;locus_tag=EFF20_mgt17
+NC_039717.1	RefSeq	tRNA	11598	11666	.	+	.	ID=rna-EFF20_mgt17;Parent=gene-EFF20_mgt17;Dbxref=GeneID:38328864;gbkey=tRNA;gene=trnH;locus_tag=EFF20_mgt17;product=tRNA-His
+NC_039717.1	RefSeq	exon	11598	11666	.	+	.	ID=exon-EFF20_mgt17-1;Parent=rna-EFF20_mgt17;Dbxref=GeneID:38328864;gbkey=tRNA;gene=trnH;locus_tag=EFF20_mgt17;product=tRNA-His
+NC_039717.1	RefSeq	gene	11667	11724	.	+	.	ID=gene-EFF20_mgt18;Dbxref=GeneID:38328865;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA;locus_tag=EFF20_mgt18
+NC_039717.1	RefSeq	tRNA	11667	11724	.	+	.	ID=rna-EFF20_mgt18;Parent=gene-EFF20_mgt18;Dbxref=GeneID:38328865;gbkey=tRNA;gene=trnS;locus_tag=EFF20_mgt18;product=tRNA-Ser
+NC_039717.1	RefSeq	exon	11667	11724	.	+	.	ID=exon-EFF20_mgt18-1;Parent=rna-EFF20_mgt18;Dbxref=GeneID:38328865;gbkey=tRNA;gene=trnS;locus_tag=EFF20_mgt18;product=tRNA-Ser
+NC_039717.1	RefSeq	gene	11725	11795	.	+	.	ID=gene-EFF20_mgt19;Dbxref=GeneID:38328866;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA;locus_tag=EFF20_mgt19
+NC_039717.1	RefSeq	tRNA	11725	11795	.	+	.	ID=rna-EFF20_mgt19;Parent=gene-EFF20_mgt19;Dbxref=GeneID:38328866;gbkey=tRNA;gene=trnL;locus_tag=EFF20_mgt19;product=tRNA-Leu
+NC_039717.1	RefSeq	exon	11725	11795	.	+	.	ID=exon-EFF20_mgt19-1;Parent=rna-EFF20_mgt19;Dbxref=GeneID:38328866;gbkey=tRNA;gene=trnL;locus_tag=EFF20_mgt19;product=tRNA-Leu
+NC_039717.1	RefSeq	gene	11796	13604	.	+	.	ID=gene-EFF20_mgp03;Dbxref=GeneID:38328867;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=EFF20_mgp03
+NC_039717.1	RefSeq	CDS	11796	13604	.	+	0	ID=cds-YP_009529066.1;Parent=gene-EFF20_mgp03;Dbxref=GenBank:YP_009529066.1,GeneID:38328867;Name=YP_009529066.1;gbkey=CDS;gene=ND5;locus_tag=EFF20_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009529066.1;transl_table=2
+NC_039717.1	RefSeq	gene	13601	14104	.	-	.	ID=gene-EFF20_mgp02;Dbxref=GeneID:38328868;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=EFF20_mgp02
+NC_039717.1	RefSeq	CDS	13601	14104	.	-	0	ID=cds-YP_009529067.1;Parent=gene-EFF20_mgp02;Dbxref=GenBank:YP_009529067.1,GeneID:38328868;Name=YP_009529067.1;gbkey=CDS;gene=ND6;locus_tag=EFF20_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009529067.1;transl_table=2
+NC_039717.1	RefSeq	gene	14105	14176	.	-	.	ID=gene-EFF20_mgt20;Dbxref=GeneID:38328869;Name=trnE;gbkey=Gene;gene=trnE;gene_biotype=tRNA;locus_tag=EFF20_mgt20
+NC_039717.1	RefSeq	tRNA	14105	14176	.	-	.	ID=rna-EFF20_mgt20;Parent=gene-EFF20_mgt20;Dbxref=GeneID:38328869;gbkey=tRNA;gene=trnE;locus_tag=EFF20_mgt20;product=tRNA-Glu
+NC_039717.1	RefSeq	exon	14105	14176	.	-	.	ID=exon-EFF20_mgt20-1;Parent=rna-EFF20_mgt20;Dbxref=GeneID:38328869;gbkey=tRNA;gene=trnE;locus_tag=EFF20_mgt20;product=tRNA-Glu
+NC_039717.1	RefSeq	gene	14177	15322	.	+	.	ID=gene-EFF20_mgp01;Dbxref=GeneID:38328870;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=EFF20_mgp01
+NC_039717.1	RefSeq	CDS	14177	15322	.	+	0	ID=cds-YP_009529068.1;Parent=gene-EFF20_mgp01;Dbxref=GenBank:YP_009529068.1,GeneID:38328870;Name=YP_009529068.1;gbkey=CDS;gene=CYTB;locus_tag=EFF20_mgp01;product=cytochrome b;protein_id=YP_009529068.1;transl_table=2
+NC_039717.1	RefSeq	gene	15323	15391	.	+	.	ID=gene-EFF20_mgt21;Dbxref=GeneID:38328871;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA;locus_tag=EFF20_mgt21
+NC_039717.1	RefSeq	tRNA	15323	15391	.	+	.	ID=rna-EFF20_mgt21;Parent=gene-EFF20_mgt21;Dbxref=GeneID:38328871;gbkey=tRNA;gene=trnT;locus_tag=EFF20_mgt21;product=tRNA-Thr
+NC_039717.1	RefSeq	exon	15323	15391	.	+	.	ID=exon-EFF20_mgt21-1;Parent=rna-EFF20_mgt21;Dbxref=GeneID:38328871;gbkey=tRNA;gene=trnT;locus_tag=EFF20_mgt21;product=tRNA-Thr
+NC_039717.1	RefSeq	gene	15394	15460	.	-	.	ID=gene-EFF20_mgt22;Dbxref=GeneID:38328872;Name=trnP;gbkey=Gene;gene=trnP;gene_biotype=tRNA;locus_tag=EFF20_mgt22
+NC_039717.1	RefSeq	tRNA	15394	15460	.	-	.	ID=rna-EFF20_mgt22;Parent=gene-EFF20_mgt22;Dbxref=GeneID:38328872;gbkey=tRNA;gene=trnP;locus_tag=EFF20_mgt22;product=tRNA-Pro
+NC_039717.1	RefSeq	exon	15394	15460	.	-	.	ID=exon-EFF20_mgt22-1;Parent=rna-EFF20_mgt22;Dbxref=GeneID:38328872;gbkey=tRNA;gene=trnP;locus_tag=EFF20_mgt22;product=tRNA-Pro
+NC_039717.1	RefSeq	D_loop	15461	16881	.	+	.	ID=id-NC_039717.1:15461..16881;gbkey=D-loop
+

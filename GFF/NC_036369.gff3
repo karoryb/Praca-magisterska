@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_036369.1 1 16431
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9624
+NC_036369.1	RefSeq	region	1	16431	.	+	.	ID=NC_036369.1:1..16431;Dbxref=taxon:9624;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_036369.1	RefSeq	gene	260	328	.	+	.	ID=gene-CWR68_mgt01;Dbxref=GeneID:35094607;Name=CWR68_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt01
+NC_036369.1	RefSeq	tRNA	260	328	.	+	.	ID=rna-CWR68_mgt01;Parent=gene-CWR68_mgt01;Dbxref=GeneID:35094607;gbkey=tRNA;locus_tag=CWR68_mgt01;product=tRNA-Phe
+NC_036369.1	RefSeq	exon	260	328	.	+	.	ID=exon-CWR68_mgt01-1;Parent=rna-CWR68_mgt01;Dbxref=GeneID:35094607;gbkey=tRNA;locus_tag=CWR68_mgt01;product=tRNA-Phe
+NC_036369.1	RefSeq	gene	329	1283	.	+	.	ID=gene-CWR68_mgr02;Dbxref=GeneID:35094608;Name=CWR68_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=CWR68_mgr02
+NC_036369.1	RefSeq	rRNA	329	1283	.	+	.	ID=rna-CWR68_mgr02;Parent=gene-CWR68_mgr02;Dbxref=GeneID:35094608;gbkey=rRNA;locus_tag=CWR68_mgr02;product=12S ribosomal RNA
+NC_036369.1	RefSeq	exon	329	1283	.	+	.	ID=exon-CWR68_mgr02-1;Parent=rna-CWR68_mgr02;Dbxref=GeneID:35094608;gbkey=rRNA;locus_tag=CWR68_mgr02;product=12S ribosomal RNA
+NC_036369.1	RefSeq	gene	1284	1350	.	+	.	ID=gene-CWR68_mgt02;Dbxref=GeneID:35094609;Name=CWR68_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt02
+NC_036369.1	RefSeq	tRNA	1284	1350	.	+	.	ID=rna-CWR68_mgt02;Parent=gene-CWR68_mgt02;Dbxref=GeneID:35094609;gbkey=tRNA;locus_tag=CWR68_mgt02;product=tRNA-Val
+NC_036369.1	RefSeq	exon	1284	1350	.	+	.	ID=exon-CWR68_mgt02-1;Parent=rna-CWR68_mgt02;Dbxref=GeneID:35094609;gbkey=tRNA;locus_tag=CWR68_mgt02;product=tRNA-Val
+NC_036369.1	RefSeq	gene	1351	2928	.	+	.	ID=gene-CWR68_mgr01;Dbxref=GeneID:35094610;Name=CWR68_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=CWR68_mgr01
+NC_036369.1	RefSeq	rRNA	1351	2928	.	+	.	ID=rna-CWR68_mgr01;Parent=gene-CWR68_mgr01;Dbxref=GeneID:35094610;gbkey=rRNA;locus_tag=CWR68_mgr01;product=16S ribosomal RNA
+NC_036369.1	RefSeq	exon	1351	2928	.	+	.	ID=exon-CWR68_mgr01-1;Parent=rna-CWR68_mgr01;Dbxref=GeneID:35094610;gbkey=rRNA;locus_tag=CWR68_mgr01;product=16S ribosomal RNA
+NC_036369.1	RefSeq	gene	2930	3004	.	+	.	ID=gene-CWR68_mgt03;Dbxref=GeneID:35094611;Name=CWR68_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt03
+NC_036369.1	RefSeq	tRNA	2930	3004	.	+	.	ID=rna-CWR68_mgt03;Parent=gene-CWR68_mgt03;Dbxref=GeneID:35094611;gbkey=tRNA;locus_tag=CWR68_mgt03;product=tRNA-Leu
+NC_036369.1	RefSeq	exon	2930	3004	.	+	.	ID=exon-CWR68_mgt03-1;Parent=rna-CWR68_mgt03;Dbxref=GeneID:35094611;gbkey=tRNA;locus_tag=CWR68_mgt03;product=tRNA-Leu
+NC_036369.1	RefSeq	gene	3007	3962	.	+	.	ID=gene-CWR68_mgp13;Dbxref=GeneID:35094612;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=CWR68_mgp13
+NC_036369.1	RefSeq	CDS	3007	3962	.	+	0	ID=cds-YP_009444096.1;Parent=gene-CWR68_mgp13;Dbxref=GenBank:YP_009444096.1,GeneID:35094612;Name=YP_009444096.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=CWR68_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009444096.1;transl_except=(pos:3961..3962%2Caa:TERM);transl_table=2
+NC_036369.1	RefSeq	gene	3963	4031	.	+	.	ID=gene-CWR68_mgt04;Dbxref=GeneID:35094594;Name=CWR68_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt04
+NC_036369.1	RefSeq	tRNA	3963	4031	.	+	.	ID=rna-CWR68_mgt04;Parent=gene-CWR68_mgt04;Dbxref=GeneID:35094594;gbkey=tRNA;locus_tag=CWR68_mgt04;product=tRNA-Ile
+NC_036369.1	RefSeq	exon	3963	4031	.	+	.	ID=exon-CWR68_mgt04-1;Parent=rna-CWR68_mgt04;Dbxref=GeneID:35094594;gbkey=tRNA;locus_tag=CWR68_mgt04;product=tRNA-Ile
+NC_036369.1	RefSeq	gene	4029	4102	.	-	.	ID=gene-CWR68_mgt05;Dbxref=GeneID:35094613;Name=CWR68_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt05
+NC_036369.1	RefSeq	tRNA	4029	4102	.	-	.	ID=rna-CWR68_mgt05;Parent=gene-CWR68_mgt05;Dbxref=GeneID:35094613;gbkey=tRNA;locus_tag=CWR68_mgt05;product=tRNA-Gln
+NC_036369.1	RefSeq	exon	4029	4102	.	-	.	ID=exon-CWR68_mgt05-1;Parent=rna-CWR68_mgt05;Dbxref=GeneID:35094613;gbkey=tRNA;locus_tag=CWR68_mgt05;product=tRNA-Gln
+NC_036369.1	RefSeq	gene	4104	4173	.	+	.	ID=gene-CWR68_mgt06;Dbxref=GeneID:35094614;Name=CWR68_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt06
+NC_036369.1	RefSeq	tRNA	4104	4173	.	+	.	ID=rna-CWR68_mgt06;Parent=gene-CWR68_mgt06;Dbxref=GeneID:35094614;gbkey=tRNA;locus_tag=CWR68_mgt06;product=tRNA-Met
+NC_036369.1	RefSeq	exon	4104	4173	.	+	.	ID=exon-CWR68_mgt06-1;Parent=rna-CWR68_mgt06;Dbxref=GeneID:35094614;gbkey=tRNA;locus_tag=CWR68_mgt06;product=tRNA-Met
+NC_036369.1	RefSeq	gene	4174	5215	.	+	.	ID=gene-CWR68_mgp12;Dbxref=GeneID:35094615;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=CWR68_mgp12
+NC_036369.1	RefSeq	CDS	4174	5215	.	+	0	ID=cds-YP_009444097.1;Parent=gene-CWR68_mgp12;Dbxref=GenBank:YP_009444097.1,GeneID:35094615;Name=YP_009444097.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=CWR68_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009444097.1;transl_except=(pos:5215%2Caa:TERM);transl_table=2
+NC_036369.1	RefSeq	gene	5216	5283	.	+	.	ID=gene-CWR68_mgt07;Dbxref=GeneID:35094600;Name=CWR68_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt07
+NC_036369.1	RefSeq	tRNA	5216	5283	.	+	.	ID=rna-CWR68_mgt07;Parent=gene-CWR68_mgt07;Dbxref=GeneID:35094600;gbkey=tRNA;locus_tag=CWR68_mgt07;product=tRNA-Trp
+NC_036369.1	RefSeq	exon	5216	5283	.	+	.	ID=exon-CWR68_mgt07-1;Parent=rna-CWR68_mgt07;Dbxref=GeneID:35094600;gbkey=tRNA;locus_tag=CWR68_mgt07;product=tRNA-Trp
+NC_036369.1	RefSeq	gene	5296	5364	.	-	.	ID=gene-CWR68_mgt08;Dbxref=GeneID:35094616;Name=CWR68_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt08
+NC_036369.1	RefSeq	tRNA	5296	5364	.	-	.	ID=rna-CWR68_mgt08;Parent=gene-CWR68_mgt08;Dbxref=GeneID:35094616;gbkey=tRNA;locus_tag=CWR68_mgt08;product=tRNA-Ala
+NC_036369.1	RefSeq	exon	5296	5364	.	-	.	ID=exon-CWR68_mgt08-1;Parent=rna-CWR68_mgt08;Dbxref=GeneID:35094616;gbkey=tRNA;locus_tag=CWR68_mgt08;product=tRNA-Ala
+NC_036369.1	RefSeq	gene	5366	5437	.	-	.	ID=gene-CWR68_mgt09;Dbxref=GeneID:35094617;Name=CWR68_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt09
+NC_036369.1	RefSeq	tRNA	5366	5437	.	-	.	ID=rna-CWR68_mgt09;Parent=gene-CWR68_mgt09;Dbxref=GeneID:35094617;gbkey=tRNA;locus_tag=CWR68_mgt09;product=tRNA-Asn
+NC_036369.1	RefSeq	exon	5366	5437	.	-	.	ID=exon-CWR68_mgt09-1;Parent=rna-CWR68_mgt09;Dbxref=GeneID:35094617;gbkey=tRNA;locus_tag=CWR68_mgt09;product=tRNA-Asn
+NC_036369.1	RefSeq	gene	5472	5538	.	-	.	ID=gene-CWR68_mgt10;Dbxref=GeneID:35094618;Name=CWR68_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt10
+NC_036369.1	RefSeq	tRNA	5472	5538	.	-	.	ID=rna-CWR68_mgt10;Parent=gene-CWR68_mgt10;Dbxref=GeneID:35094618;gbkey=tRNA;locus_tag=CWR68_mgt10;product=tRNA-Cys
+NC_036369.1	RefSeq	exon	5472	5538	.	-	.	ID=exon-CWR68_mgt10-1;Parent=rna-CWR68_mgt10;Dbxref=GeneID:35094618;gbkey=tRNA;locus_tag=CWR68_mgt10;product=tRNA-Cys
+NC_036369.1	RefSeq	gene	5539	5606	.	-	.	ID=gene-CWR68_mgt11;Dbxref=GeneID:35094619;Name=CWR68_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt11
+NC_036369.1	RefSeq	tRNA	5539	5606	.	-	.	ID=rna-CWR68_mgt11;Parent=gene-CWR68_mgt11;Dbxref=GeneID:35094619;gbkey=tRNA;locus_tag=CWR68_mgt11;product=tRNA-Tyr
+NC_036369.1	RefSeq	exon	5539	5606	.	-	.	ID=exon-CWR68_mgt11-1;Parent=rna-CWR68_mgt11;Dbxref=GeneID:35094619;gbkey=tRNA;locus_tag=CWR68_mgt11;product=tRNA-Tyr
+NC_036369.1	RefSeq	gene	5608	7152	.	+	.	ID=gene-CWR68_mgp11;Dbxref=GeneID:35094620;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=CWR68_mgp11
+NC_036369.1	RefSeq	CDS	5608	7152	.	+	0	ID=cds-YP_009444098.1;Parent=gene-CWR68_mgp11;Dbxref=GenBank:YP_009444098.1,GeneID:35094620;Name=YP_009444098.1;gbkey=CDS;gene=COX1;locus_tag=CWR68_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_009444098.1;transl_table=2
+NC_036369.1	RefSeq	gene	7150	7218	.	-	.	ID=gene-CWR68_mgt12;Dbxref=GeneID:35094595;Name=CWR68_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt12
+NC_036369.1	RefSeq	tRNA	7150	7218	.	-	.	ID=rna-CWR68_mgt12;Parent=gene-CWR68_mgt12;Dbxref=GeneID:35094595;gbkey=tRNA;locus_tag=CWR68_mgt12;product=tRNA-Ser
+NC_036369.1	RefSeq	exon	7150	7218	.	-	.	ID=exon-CWR68_mgt12-1;Parent=rna-CWR68_mgt12;Dbxref=GeneID:35094595;gbkey=tRNA;locus_tag=CWR68_mgt12;product=tRNA-Ser
+NC_036369.1	RefSeq	gene	7225	7292	.	+	.	ID=gene-CWR68_mgt13;Dbxref=GeneID:35094621;Name=CWR68_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt13
+NC_036369.1	RefSeq	tRNA	7225	7292	.	+	.	ID=rna-CWR68_mgt13;Parent=gene-CWR68_mgt13;Dbxref=GeneID:35094621;gbkey=tRNA;locus_tag=CWR68_mgt13;product=tRNA-Asp
+NC_036369.1	RefSeq	exon	7225	7292	.	+	.	ID=exon-CWR68_mgt13-1;Parent=rna-CWR68_mgt13;Dbxref=GeneID:35094621;gbkey=tRNA;locus_tag=CWR68_mgt13;product=tRNA-Asp
+NC_036369.1	RefSeq	gene	7293	7976	.	+	.	ID=gene-CWR68_mgp10;Dbxref=GeneID:35094622;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=CWR68_mgp10
+NC_036369.1	RefSeq	CDS	7293	7976	.	+	0	ID=cds-YP_009444099.1;Parent=gene-CWR68_mgp10;Dbxref=GenBank:YP_009444099.1,GeneID:35094622;Name=YP_009444099.1;gbkey=CDS;gene=COX2;locus_tag=CWR68_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_009444099.1;transl_table=2
+NC_036369.1	RefSeq	gene	7994	8060	.	+	.	ID=gene-CWR68_mgt14;Dbxref=GeneID:35094596;Name=CWR68_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt14
+NC_036369.1	RefSeq	tRNA	7994	8060	.	+	.	ID=rna-CWR68_mgt14;Parent=gene-CWR68_mgt14;Dbxref=GeneID:35094596;gbkey=tRNA;locus_tag=CWR68_mgt14;product=tRNA-Lys
+NC_036369.1	RefSeq	exon	7994	8060	.	+	.	ID=exon-CWR68_mgt14-1;Parent=rna-CWR68_mgt14;Dbxref=GeneID:35094596;gbkey=tRNA;locus_tag=CWR68_mgt14;product=tRNA-Lys
+NC_036369.1	RefSeq	gene	8062	8265	.	+	.	ID=gene-CWR68_mgp09;Dbxref=GeneID:35094623;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=CWR68_mgp09
+NC_036369.1	RefSeq	CDS	8062	8265	.	+	0	ID=cds-YP_009444100.1;Parent=gene-CWR68_mgp09;Dbxref=GenBank:YP_009444100.1,GeneID:35094623;Name=YP_009444100.1;gbkey=CDS;gene=ATP8;locus_tag=CWR68_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_009444100.1;transl_table=2
+NC_036369.1	RefSeq	gene	8223	8903	.	+	.	ID=gene-CWR68_mgp08;Dbxref=GeneID:35094597;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=CWR68_mgp08
+NC_036369.1	RefSeq	CDS	8223	8903	.	+	0	ID=cds-YP_009444101.1;Parent=gene-CWR68_mgp08;Dbxref=GenBank:YP_009444101.1,GeneID:35094597;Name=YP_009444101.1;gbkey=CDS;gene=ATP6;locus_tag=CWR68_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_009444101.1;transl_table=2
+NC_036369.1	RefSeq	gene	8903	9686	.	+	.	ID=gene-CWR68_mgp07;Dbxref=GeneID:35094598;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=CWR68_mgp07
+NC_036369.1	RefSeq	CDS	8903	9686	.	+	0	ID=cds-YP_009444102.1;Parent=gene-CWR68_mgp07;Dbxref=GenBank:YP_009444102.1,GeneID:35094598;Name=YP_009444102.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=CWR68_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_009444102.1;transl_except=(pos:9686%2Caa:TERM);transl_table=2
+NC_036369.1	RefSeq	gene	9687	9754	.	+	.	ID=gene-CWR68_mgt15;Dbxref=GeneID:35094599;Name=CWR68_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt15
+NC_036369.1	RefSeq	tRNA	9687	9754	.	+	.	ID=rna-CWR68_mgt15;Parent=gene-CWR68_mgt15;Dbxref=GeneID:35094599;gbkey=tRNA;locus_tag=CWR68_mgt15;product=tRNA-Gly
+NC_036369.1	RefSeq	exon	9687	9754	.	+	.	ID=exon-CWR68_mgt15-1;Parent=rna-CWR68_mgt15;Dbxref=GeneID:35094599;gbkey=tRNA;locus_tag=CWR68_mgt15;product=tRNA-Gly
+NC_036369.1	RefSeq	gene	9755	10101	.	+	.	ID=gene-CWR68_mgp06;Dbxref=GeneID:35094624;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=CWR68_mgp06
+NC_036369.1	RefSeq	CDS	9755	10101	.	+	0	ID=cds-YP_009444103.1;Parent=gene-CWR68_mgp06;Dbxref=GenBank:YP_009444103.1,GeneID:35094624;Name=YP_009444103.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=CWR68_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009444103.1;transl_except=(pos:10100..10101%2Caa:TERM);transl_table=2
+NC_036369.1	RefSeq	gene	10102	10170	.	+	.	ID=gene-CWR68_mgt16;Dbxref=GeneID:35094601;Name=CWR68_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt16
+NC_036369.1	RefSeq	tRNA	10102	10170	.	+	.	ID=rna-CWR68_mgt16;Parent=gene-CWR68_mgt16;Dbxref=GeneID:35094601;gbkey=tRNA;locus_tag=CWR68_mgt16;product=tRNA-Arg
+NC_036369.1	RefSeq	exon	10102	10170	.	+	.	ID=exon-CWR68_mgt16-1;Parent=rna-CWR68_mgt16;Dbxref=GeneID:35094601;gbkey=tRNA;locus_tag=CWR68_mgt16;product=tRNA-Arg
+NC_036369.1	RefSeq	gene	10171	10467	.	+	.	ID=gene-CWR68_mgp05;Dbxref=GeneID:35094625;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=CWR68_mgp05
+NC_036369.1	RefSeq	CDS	10171	10467	.	+	0	ID=cds-YP_009444104.1;Parent=gene-CWR68_mgp05;Dbxref=GenBank:YP_009444104.1,GeneID:35094625;Name=YP_009444104.1;gbkey=CDS;gene=ND4L;locus_tag=CWR68_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009444104.1;transl_table=2
+NC_036369.1	RefSeq	gene	10461	11838	.	+	.	ID=gene-CWR68_mgp04;Dbxref=GeneID:35094602;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=CWR68_mgp04
+NC_036369.1	RefSeq	CDS	10461	11838	.	+	0	ID=cds-YP_009444105.1;Parent=gene-CWR68_mgp04;Dbxref=GenBank:YP_009444105.1,GeneID:35094602;Name=YP_009444105.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=CWR68_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009444105.1;transl_except=(pos:11838%2Caa:TERM);transl_table=2
+NC_036369.1	RefSeq	gene	11839	11907	.	+	.	ID=gene-CWR68_mgt17;Dbxref=GeneID:35094603;Name=CWR68_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt17
+NC_036369.1	RefSeq	tRNA	11839	11907	.	+	.	ID=rna-CWR68_mgt17;Parent=gene-CWR68_mgt17;Dbxref=GeneID:35094603;gbkey=tRNA;locus_tag=CWR68_mgt17;product=tRNA-His
+NC_036369.1	RefSeq	exon	11839	11907	.	+	.	ID=exon-CWR68_mgt17-1;Parent=rna-CWR68_mgt17;Dbxref=GeneID:35094603;gbkey=tRNA;locus_tag=CWR68_mgt17;product=tRNA-His
+NC_036369.1	RefSeq	gene	11908	11967	.	+	.	ID=gene-CWR68_mgt18;Dbxref=GeneID:35094626;Name=CWR68_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt18
+NC_036369.1	RefSeq	tRNA	11908	11967	.	+	.	ID=rna-CWR68_mgt18;Parent=gene-CWR68_mgt18;Dbxref=GeneID:35094626;gbkey=tRNA;locus_tag=CWR68_mgt18;product=tRNA-Ser
+NC_036369.1	RefSeq	exon	11908	11967	.	+	.	ID=exon-CWR68_mgt18-1;Parent=rna-CWR68_mgt18;Dbxref=GeneID:35094626;gbkey=tRNA;locus_tag=CWR68_mgt18;product=tRNA-Ser
+NC_036369.1	RefSeq	gene	11968	12037	.	+	.	ID=gene-CWR68_mgt19;Dbxref=GeneID:35094627;Name=CWR68_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt19
+NC_036369.1	RefSeq	tRNA	11968	12037	.	+	.	ID=rna-CWR68_mgt19;Parent=gene-CWR68_mgt19;Dbxref=GeneID:35094627;gbkey=tRNA;locus_tag=CWR68_mgt19;product=tRNA-Leu
+NC_036369.1	RefSeq	exon	11968	12037	.	+	.	ID=exon-CWR68_mgt19-1;Parent=rna-CWR68_mgt19;Dbxref=GeneID:35094627;gbkey=tRNA;locus_tag=CWR68_mgt19;product=tRNA-Leu
+NC_036369.1	RefSeq	gene	12044	13858	.	+	.	ID=gene-CWR68_mgp03;Dbxref=GeneID:35094628;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=CWR68_mgp03
+NC_036369.1	RefSeq	CDS	12044	13858	.	+	0	ID=cds-YP_009444106.1;Parent=gene-CWR68_mgp03;Dbxref=GenBank:YP_009444106.1,GeneID:35094628;Name=YP_009444106.1;gbkey=CDS;gene=ND5;locus_tag=CWR68_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009444106.1;transl_table=2
+NC_036369.1	RefSeq	gene	13842	14369	.	-	.	ID=gene-CWR68_mgp02;Dbxref=GeneID:35094604;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=CWR68_mgp02
+NC_036369.1	RefSeq	CDS	13842	14369	.	-	0	ID=cds-YP_009444107.1;Parent=gene-CWR68_mgp02;Dbxref=GenBank:YP_009444107.1,GeneID:35094604;Name=YP_009444107.1;gbkey=CDS;gene=ND6;locus_tag=CWR68_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009444107.1;transl_table=2
+NC_036369.1	RefSeq	gene	14370	14438	.	-	.	ID=gene-CWR68_mgt20;Dbxref=GeneID:35094605;Name=CWR68_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt20
+NC_036369.1	RefSeq	tRNA	14370	14438	.	-	.	ID=rna-CWR68_mgt20;Parent=gene-CWR68_mgt20;Dbxref=GeneID:35094605;gbkey=tRNA;locus_tag=CWR68_mgt20;product=tRNA-Glu
+NC_036369.1	RefSeq	exon	14370	14438	.	-	.	ID=exon-CWR68_mgt20-1;Parent=rna-CWR68_mgt20;Dbxref=GeneID:35094605;gbkey=tRNA;locus_tag=CWR68_mgt20;product=tRNA-Glu
+NC_036369.1	RefSeq	gene	14443	15582	.	+	.	ID=gene-CWR68_mgp01;Dbxref=GeneID:35094629;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=CWR68_mgp01
+NC_036369.1	RefSeq	CDS	14443	15582	.	+	0	ID=cds-YP_009444108.1;Parent=gene-CWR68_mgp01;Dbxref=GenBank:YP_009444108.1,GeneID:35094629;Name=YP_009444108.1;gbkey=CDS;gene=CYTB;locus_tag=CWR68_mgp01;product=cytochrome b;protein_id=YP_009444108.1;transl_table=2
+NC_036369.1	RefSeq	gene	15583	15652	.	+	.	ID=gene-CWR68_mgt21;Dbxref=GeneID:35094606;Name=CWR68_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt21
+NC_036369.1	RefSeq	tRNA	15583	15652	.	+	.	ID=rna-CWR68_mgt21;Parent=gene-CWR68_mgt21;Dbxref=GeneID:35094606;gbkey=tRNA;locus_tag=CWR68_mgt21;product=tRNA-Thr
+NC_036369.1	RefSeq	exon	15583	15652	.	+	.	ID=exon-CWR68_mgt21-1;Parent=rna-CWR68_mgt21;Dbxref=GeneID:35094606;gbkey=tRNA;locus_tag=CWR68_mgt21;product=tRNA-Thr
+NC_036369.1	RefSeq	gene	15652	15717	.	-	.	ID=gene-CWR68_mgt22;Dbxref=GeneID:35094630;Name=CWR68_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=CWR68_mgt22
+NC_036369.1	RefSeq	tRNA	15652	15717	.	-	.	ID=rna-CWR68_mgt22;Parent=gene-CWR68_mgt22;Dbxref=GeneID:35094630;gbkey=tRNA;locus_tag=CWR68_mgt22;product=tRNA-Pro
+NC_036369.1	RefSeq	exon	15652	15717	.	-	.	ID=exon-CWR68_mgt22-1;Parent=rna-CWR68_mgt22;Dbxref=GeneID:35094630;gbkey=tRNA;locus_tag=CWR68_mgt22;product=tRNA-Pro
+NC_036369.1	RefSeq	D_loop	15718	16431	.	+	.	ID=id-NC_036369.1:15718..16431;gbkey=D-loop
+

@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_048490.1 1 16435
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93167
+NC_048490.1	RefSeq	region	1	16435	.	+	.	ID=NC_048490.1:1..16435;Dbxref=taxon:93167;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_048490.1	RefSeq	gene	1	68	.	+	.	ID=gene-HRV76_mgt01;Dbxref=GeneID:55290056;Name=HRV76_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt01
+NC_048490.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-HRV76_mgt01;Parent=gene-HRV76_mgt01;Dbxref=GeneID:55290056;gbkey=tRNA;locus_tag=HRV76_mgt01;product=tRNA-Phe
+NC_048490.1	RefSeq	exon	1	68	.	+	.	ID=exon-HRV76_mgt01-1;Parent=rna-HRV76_mgt01;Dbxref=GeneID:55290056;gbkey=tRNA;locus_tag=HRV76_mgt01;product=tRNA-Phe
+NC_048490.1	RefSeq	gene	69	1039	.	+	.	ID=gene-HRV76_mgr02;Dbxref=GeneID:55290057;Name=HRV76_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=HRV76_mgr02
+NC_048490.1	RefSeq	rRNA	69	1039	.	+	.	ID=rna-HRV76_mgr02;Parent=gene-HRV76_mgr02;Dbxref=GeneID:55290057;gbkey=rRNA;locus_tag=HRV76_mgr02;product=12S ribosomal RNA
+NC_048490.1	RefSeq	exon	69	1039	.	+	.	ID=exon-HRV76_mgr02-1;Parent=rna-HRV76_mgr02;Dbxref=GeneID:55290057;gbkey=rRNA;locus_tag=HRV76_mgr02;product=12S ribosomal RNA
+NC_048490.1	RefSeq	gene	1040	1108	.	+	.	ID=gene-HRV76_mgt02;Dbxref=GeneID:55290058;Name=HRV76_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt02
+NC_048490.1	RefSeq	tRNA	1040	1108	.	+	.	ID=rna-HRV76_mgt02;Parent=gene-HRV76_mgt02;Dbxref=GeneID:55290058;gbkey=tRNA;locus_tag=HRV76_mgt02;product=tRNA-Val
+NC_048490.1	RefSeq	exon	1040	1108	.	+	.	ID=exon-HRV76_mgt02-1;Parent=rna-HRV76_mgt02;Dbxref=GeneID:55290058;gbkey=tRNA;locus_tag=HRV76_mgt02;product=tRNA-Val
+NC_048490.1	RefSeq	gene	1109	2670	.	+	.	ID=gene-HRV76_mgr01;Dbxref=GeneID:55290059;Name=HRV76_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=HRV76_mgr01
+NC_048490.1	RefSeq	rRNA	1109	2670	.	+	.	ID=rna-HRV76_mgr01;Parent=gene-HRV76_mgr01;Dbxref=GeneID:55290059;gbkey=rRNA;locus_tag=HRV76_mgr01;product=16S ribosomal RNA
+NC_048490.1	RefSeq	exon	1109	2670	.	+	.	ID=exon-HRV76_mgr01-1;Parent=rna-HRV76_mgr01;Dbxref=GeneID:55290059;gbkey=rRNA;locus_tag=HRV76_mgr01;product=16S ribosomal RNA
+NC_048490.1	RefSeq	gene	2671	2744	.	+	.	ID=gene-HRV76_mgt03;Dbxref=GeneID:55290060;Name=HRV76_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt03
+NC_048490.1	RefSeq	tRNA	2671	2744	.	+	.	ID=rna-HRV76_mgt03;Parent=gene-HRV76_mgt03;Dbxref=GeneID:55290060;gbkey=tRNA;locus_tag=HRV76_mgt03;product=tRNA-Leu
+NC_048490.1	RefSeq	exon	2671	2744	.	+	.	ID=exon-HRV76_mgt03-1;Parent=rna-HRV76_mgt03;Dbxref=GeneID:55290060;gbkey=tRNA;locus_tag=HRV76_mgt03;product=tRNA-Leu
+NC_048490.1	RefSeq	gene	2748	3703	.	+	.	ID=gene-HRV76_mgp13;Dbxref=GeneID:55290061;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=HRV76_mgp13
+NC_048490.1	RefSeq	CDS	2748	3703	.	+	0	ID=cds-YP_009827224.1;Parent=gene-HRV76_mgp13;Dbxref=GenBank:YP_009827224.1,GeneID:55290061;Name=YP_009827224.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=HRV76_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009827224.1;transl_except=(pos:3702..3703%2Caa:TERM);transl_table=2
+NC_048490.1	RefSeq	gene	3704	3772	.	+	.	ID=gene-HRV76_mgt04;Dbxref=GeneID:55290043;Name=HRV76_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt04
+NC_048490.1	RefSeq	tRNA	3704	3772	.	+	.	ID=rna-HRV76_mgt04;Parent=gene-HRV76_mgt04;Dbxref=GeneID:55290043;gbkey=tRNA;locus_tag=HRV76_mgt04;product=tRNA-Ile
+NC_048490.1	RefSeq	exon	3704	3772	.	+	.	ID=exon-HRV76_mgt04-1;Parent=rna-HRV76_mgt04;Dbxref=GeneID:55290043;gbkey=tRNA;locus_tag=HRV76_mgt04;product=tRNA-Ile
+NC_048490.1	RefSeq	gene	3770	3841	.	-	.	ID=gene-HRV76_mgt05;Dbxref=GeneID:55290062;Name=HRV76_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt05
+NC_048490.1	RefSeq	tRNA	3770	3841	.	-	.	ID=rna-HRV76_mgt05;Parent=gene-HRV76_mgt05;Dbxref=GeneID:55290062;gbkey=tRNA;locus_tag=HRV76_mgt05;product=tRNA-Gln
+NC_048490.1	RefSeq	exon	3770	3841	.	-	.	ID=exon-HRV76_mgt05-1;Parent=rna-HRV76_mgt05;Dbxref=GeneID:55290062;gbkey=tRNA;locus_tag=HRV76_mgt05;product=tRNA-Gln
+NC_048490.1	RefSeq	gene	3844	3912	.	+	.	ID=gene-HRV76_mgt06;Dbxref=GeneID:55290063;Name=HRV76_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt06
+NC_048490.1	RefSeq	tRNA	3844	3912	.	+	.	ID=rna-HRV76_mgt06;Parent=gene-HRV76_mgt06;Dbxref=GeneID:55290063;gbkey=tRNA;locus_tag=HRV76_mgt06;product=tRNA-Met
+NC_048490.1	RefSeq	exon	3844	3912	.	+	.	ID=exon-HRV76_mgt06-1;Parent=rna-HRV76_mgt06;Dbxref=GeneID:55290063;gbkey=tRNA;locus_tag=HRV76_mgt06;product=tRNA-Met
+NC_048490.1	RefSeq	gene	3913	4954	.	+	.	ID=gene-HRV76_mgp12;Dbxref=GeneID:55290064;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=HRV76_mgp12
+NC_048490.1	RefSeq	CDS	3913	4954	.	+	0	ID=cds-YP_009827225.1;Parent=gene-HRV76_mgp12;Dbxref=GenBank:YP_009827225.1,GeneID:55290064;Name=YP_009827225.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=HRV76_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009827225.1;transl_except=(pos:4954%2Caa:TERM);transl_table=2
+NC_048490.1	RefSeq	gene	4955	5022	.	+	.	ID=gene-HRV76_mgt07;Dbxref=GeneID:55290044;Name=HRV76_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt07
+NC_048490.1	RefSeq	tRNA	4955	5022	.	+	.	ID=rna-HRV76_mgt07;Parent=gene-HRV76_mgt07;Dbxref=GeneID:55290044;gbkey=tRNA;locus_tag=HRV76_mgt07;product=tRNA-Trp
+NC_048490.1	RefSeq	exon	4955	5022	.	+	.	ID=exon-HRV76_mgt07-1;Parent=rna-HRV76_mgt07;Dbxref=GeneID:55290044;gbkey=tRNA;locus_tag=HRV76_mgt07;product=tRNA-Trp
+NC_048490.1	RefSeq	gene	5026	5094	.	-	.	ID=gene-HRV76_mgt08;Dbxref=GeneID:55290065;Name=HRV76_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt08
+NC_048490.1	RefSeq	tRNA	5026	5094	.	-	.	ID=rna-HRV76_mgt08;Parent=gene-HRV76_mgt08;Dbxref=GeneID:55290065;gbkey=tRNA;locus_tag=HRV76_mgt08;product=tRNA-Ala
+NC_048490.1	RefSeq	exon	5026	5094	.	-	.	ID=exon-HRV76_mgt08-1;Parent=rna-HRV76_mgt08;Dbxref=GeneID:55290065;gbkey=tRNA;locus_tag=HRV76_mgt08;product=tRNA-Ala
+NC_048490.1	RefSeq	gene	5099	5171	.	-	.	ID=gene-HRV76_mgt09;Dbxref=GeneID:55290066;Name=HRV76_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt09
+NC_048490.1	RefSeq	tRNA	5099	5171	.	-	.	ID=rna-HRV76_mgt09;Parent=gene-HRV76_mgt09;Dbxref=GeneID:55290066;gbkey=tRNA;locus_tag=HRV76_mgt09;product=tRNA-Asn
+NC_048490.1	RefSeq	exon	5099	5171	.	-	.	ID=exon-HRV76_mgt09-1;Parent=rna-HRV76_mgt09;Dbxref=GeneID:55290066;gbkey=tRNA;locus_tag=HRV76_mgt09;product=tRNA-Asn
+NC_048490.1	RefSeq	origin_of_replication	5174	5202	.	+	.	ID=id-NC_048490.1:5174..5202;direction=LEFT;gbkey=rep_origin
+NC_048490.1	RefSeq	gene	5202	5268	.	-	.	ID=gene-HRV76_mgt10;Dbxref=GeneID:55290067;Name=HRV76_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt10
+NC_048490.1	RefSeq	tRNA	5202	5268	.	-	.	ID=rna-HRV76_mgt10;Parent=gene-HRV76_mgt10;Dbxref=GeneID:55290067;gbkey=tRNA;locus_tag=HRV76_mgt10;product=tRNA-Cys
+NC_048490.1	RefSeq	exon	5202	5268	.	-	.	ID=exon-HRV76_mgt10-1;Parent=rna-HRV76_mgt10;Dbxref=GeneID:55290067;gbkey=tRNA;locus_tag=HRV76_mgt10;product=tRNA-Cys
+NC_048490.1	RefSeq	gene	5269	5334	.	-	.	ID=gene-HRV76_mgt11;Dbxref=GeneID:55290068;Name=HRV76_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt11
+NC_048490.1	RefSeq	tRNA	5269	5334	.	-	.	ID=rna-HRV76_mgt11;Parent=gene-HRV76_mgt11;Dbxref=GeneID:55290068;gbkey=tRNA;locus_tag=HRV76_mgt11;product=tRNA-Tyr
+NC_048490.1	RefSeq	exon	5269	5334	.	-	.	ID=exon-HRV76_mgt11-1;Parent=rna-HRV76_mgt11;Dbxref=GeneID:55290068;gbkey=tRNA;locus_tag=HRV76_mgt11;product=tRNA-Tyr
+NC_048490.1	RefSeq	gene	5343	6884	.	+	.	ID=gene-HRV76_mgp11;Dbxref=GeneID:55290069;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=HRV76_mgp11
+NC_048490.1	RefSeq	CDS	5343	6884	.	+	0	ID=cds-YP_009827226.1;Parent=gene-HRV76_mgp11;Dbxref=GenBank:YP_009827226.1,GeneID:55290069;Name=YP_009827226.1;gbkey=CDS;gene=COX1;locus_tag=HRV76_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_009827226.1;transl_table=2
+NC_048490.1	RefSeq	gene	6886	6954	.	-	.	ID=gene-HRV76_mgt12;Dbxref=GeneID:55290045;Name=HRV76_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt12
+NC_048490.1	RefSeq	tRNA	6886	6954	.	-	.	ID=rna-HRV76_mgt12;Parent=gene-HRV76_mgt12;Dbxref=GeneID:55290045;gbkey=tRNA;locus_tag=HRV76_mgt12;product=tRNA-Ser
+NC_048490.1	RefSeq	exon	6886	6954	.	-	.	ID=exon-HRV76_mgt12-1;Parent=rna-HRV76_mgt12;Dbxref=GeneID:55290045;gbkey=tRNA;locus_tag=HRV76_mgt12;product=tRNA-Ser
+NC_048490.1	RefSeq	gene	6958	7026	.	+	.	ID=gene-HRV76_mgt13;Dbxref=GeneID:55290070;Name=HRV76_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt13
+NC_048490.1	RefSeq	tRNA	6958	7026	.	+	.	ID=rna-HRV76_mgt13;Parent=gene-HRV76_mgt13;Dbxref=GeneID:55290070;gbkey=tRNA;locus_tag=HRV76_mgt13;product=tRNA-Asp
+NC_048490.1	RefSeq	exon	6958	7026	.	+	.	ID=exon-HRV76_mgt13-1;Parent=rna-HRV76_mgt13;Dbxref=GeneID:55290070;gbkey=tRNA;locus_tag=HRV76_mgt13;product=tRNA-Asp
+NC_048490.1	RefSeq	gene	7027	7710	.	+	.	ID=gene-HRV76_mgp10;Dbxref=GeneID:55290071;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=HRV76_mgp10
+NC_048490.1	RefSeq	CDS	7027	7710	.	+	0	ID=cds-YP_009827227.1;Parent=gene-HRV76_mgp10;Dbxref=GenBank:YP_009827227.1,GeneID:55290071;Name=YP_009827227.1;gbkey=CDS;gene=COX2;locus_tag=HRV76_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_009827227.1;transl_table=2
+NC_048490.1	RefSeq	gene	7714	7780	.	+	.	ID=gene-HRV76_mgt14;Dbxref=GeneID:55290046;Name=HRV76_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt14
+NC_048490.1	RefSeq	tRNA	7714	7780	.	+	.	ID=rna-HRV76_mgt14;Parent=gene-HRV76_mgt14;Dbxref=GeneID:55290046;gbkey=tRNA;locus_tag=HRV76_mgt14;product=tRNA-Lys
+NC_048490.1	RefSeq	exon	7714	7780	.	+	.	ID=exon-HRV76_mgt14-1;Parent=rna-HRV76_mgt14;Dbxref=GeneID:55290046;gbkey=tRNA;locus_tag=HRV76_mgt14;product=tRNA-Lys
+NC_048490.1	RefSeq	gene	7782	7985	.	+	.	ID=gene-HRV76_mgp09;Dbxref=GeneID:55290072;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=HRV76_mgp09
+NC_048490.1	RefSeq	CDS	7782	7985	.	+	0	ID=cds-YP_009827228.1;Parent=gene-HRV76_mgp09;Dbxref=GenBank:YP_009827228.1,GeneID:55290072;Name=YP_009827228.1;gbkey=CDS;gene=ATP8;locus_tag=HRV76_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_009827228.1;transl_table=2
+NC_048490.1	RefSeq	gene	7943	8623	.	+	.	ID=gene-HRV76_mgp08;Dbxref=GeneID:55290047;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=HRV76_mgp08
+NC_048490.1	RefSeq	CDS	7943	8623	.	+	0	ID=cds-YP_009827229.1;Parent=gene-HRV76_mgp08;Dbxref=GenBank:YP_009827229.1,GeneID:55290047;Name=YP_009827229.1;gbkey=CDS;gene=ATP6;locus_tag=HRV76_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_009827229.1;transl_table=2
+NC_048490.1	RefSeq	gene	8623	9406	.	+	.	ID=gene-HRV76_mgp07;Dbxref=GeneID:55290048;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=HRV76_mgp07
+NC_048490.1	RefSeq	CDS	8623	9406	.	+	0	ID=cds-YP_009827230.1;Parent=gene-HRV76_mgp07;Dbxref=GenBank:YP_009827230.1,GeneID:55290048;Name=YP_009827230.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=HRV76_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_009827230.1;transl_except=(pos:9406%2Caa:TERM);transl_table=2
+NC_048490.1	RefSeq	gene	9407	9475	.	+	.	ID=gene-HRV76_mgt15;Dbxref=GeneID:55290049;Name=HRV76_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt15
+NC_048490.1	RefSeq	tRNA	9407	9475	.	+	.	ID=rna-HRV76_mgt15;Parent=gene-HRV76_mgt15;Dbxref=GeneID:55290049;gbkey=tRNA;locus_tag=HRV76_mgt15;product=tRNA-Gly
+NC_048490.1	RefSeq	exon	9407	9475	.	+	.	ID=exon-HRV76_mgt15-1;Parent=rna-HRV76_mgt15;Dbxref=GeneID:55290049;gbkey=tRNA;locus_tag=HRV76_mgt15;product=tRNA-Gly
+NC_048490.1	RefSeq	gene	9476	9822	.	+	.	ID=gene-HRV76_mgp06;Dbxref=GeneID:55290073;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=HRV76_mgp06
+NC_048490.1	RefSeq	CDS	9476	9822	.	+	0	ID=cds-YP_009827231.1;Parent=gene-HRV76_mgp06;Dbxref=GenBank:YP_009827231.1,GeneID:55290073;Name=YP_009827231.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=HRV76_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009827231.1;transl_except=(pos:9821..9822%2Caa:TERM);transl_table=2
+NC_048490.1	RefSeq	gene	9823	9889	.	+	.	ID=gene-HRV76_mgt16;Dbxref=GeneID:55290050;Name=HRV76_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt16
+NC_048490.1	RefSeq	tRNA	9823	9889	.	+	.	ID=rna-HRV76_mgt16;Parent=gene-HRV76_mgt16;Dbxref=GeneID:55290050;gbkey=tRNA;locus_tag=HRV76_mgt16;product=tRNA-Arg
+NC_048490.1	RefSeq	exon	9823	9889	.	+	.	ID=exon-HRV76_mgt16-1;Parent=rna-HRV76_mgt16;Dbxref=GeneID:55290050;gbkey=tRNA;locus_tag=HRV76_mgt16;product=tRNA-Arg
+NC_048490.1	RefSeq	gene	9891	10187	.	+	.	ID=gene-HRV76_mgp05;Dbxref=GeneID:55290074;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=HRV76_mgp05
+NC_048490.1	RefSeq	CDS	9891	10187	.	+	0	ID=cds-YP_009827232.1;Parent=gene-HRV76_mgp05;Dbxref=GenBank:YP_009827232.1,GeneID:55290074;Name=YP_009827232.1;gbkey=CDS;gene=ND4L;locus_tag=HRV76_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009827232.1;transl_table=2
+NC_048490.1	RefSeq	gene	10181	11558	.	+	.	ID=gene-HRV76_mgp04;Dbxref=GeneID:55290051;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=HRV76_mgp04
+NC_048490.1	RefSeq	CDS	10181	11558	.	+	0	ID=cds-YP_009827233.1;Parent=gene-HRV76_mgp04;Dbxref=GenBank:YP_009827233.1,GeneID:55290051;Name=YP_009827233.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=HRV76_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009827233.1;transl_except=(pos:11558%2Caa:TERM);transl_table=2
+NC_048490.1	RefSeq	gene	11559	11627	.	+	.	ID=gene-HRV76_mgt17;Dbxref=GeneID:55290052;Name=HRV76_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt17
+NC_048490.1	RefSeq	tRNA	11559	11627	.	+	.	ID=rna-HRV76_mgt17;Parent=gene-HRV76_mgt17;Dbxref=GeneID:55290052;gbkey=tRNA;locus_tag=HRV76_mgt17;product=tRNA-His
+NC_048490.1	RefSeq	exon	11559	11627	.	+	.	ID=exon-HRV76_mgt17-1;Parent=rna-HRV76_mgt17;Dbxref=GeneID:55290052;gbkey=tRNA;locus_tag=HRV76_mgt17;product=tRNA-His
+NC_048490.1	RefSeq	gene	11628	11686	.	+	.	ID=gene-HRV76_mgt18;Dbxref=GeneID:55290075;Name=HRV76_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt18
+NC_048490.1	RefSeq	tRNA	11628	11686	.	+	.	ID=rna-HRV76_mgt18;Parent=gene-HRV76_mgt18;Dbxref=GeneID:55290075;gbkey=tRNA;locus_tag=HRV76_mgt18;product=tRNA-Ser
+NC_048490.1	RefSeq	exon	11628	11686	.	+	.	ID=exon-HRV76_mgt18-1;Parent=rna-HRV76_mgt18;Dbxref=GeneID:55290075;gbkey=tRNA;locus_tag=HRV76_mgt18;product=tRNA-Ser
+NC_048490.1	RefSeq	gene	11687	11756	.	+	.	ID=gene-HRV76_mgt19;Dbxref=GeneID:55290076;Name=HRV76_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt19
+NC_048490.1	RefSeq	tRNA	11687	11756	.	+	.	ID=rna-HRV76_mgt19;Parent=gene-HRV76_mgt19;Dbxref=GeneID:55290076;gbkey=tRNA;locus_tag=HRV76_mgt19;product=tRNA-Leu
+NC_048490.1	RefSeq	exon	11687	11756	.	+	.	ID=exon-HRV76_mgt19-1;Parent=rna-HRV76_mgt19;Dbxref=GeneID:55290076;gbkey=tRNA;locus_tag=HRV76_mgt19;product=tRNA-Leu
+NC_048490.1	RefSeq	gene	11757	13574	.	+	.	ID=gene-HRV76_mgp03;Dbxref=GeneID:55290077;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=HRV76_mgp03
+NC_048490.1	RefSeq	CDS	11757	13574	.	+	0	ID=cds-YP_009827234.1;Parent=gene-HRV76_mgp03;Dbxref=GenBank:YP_009827234.1,GeneID:55290077;Name=YP_009827234.1;gbkey=CDS;gene=ND5;locus_tag=HRV76_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009827234.1;transl_table=2
+NC_048490.1	RefSeq	gene	13558	14082	.	-	.	ID=gene-HRV76_mgp02;Dbxref=GeneID:55290053;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=HRV76_mgp02
+NC_048490.1	RefSeq	CDS	13558	14082	.	-	0	ID=cds-YP_009827235.1;Parent=gene-HRV76_mgp02;Dbxref=GenBank:YP_009827235.1,GeneID:55290053;Name=YP_009827235.1;gbkey=CDS;gene=ND6;locus_tag=HRV76_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009827235.1;transl_table=2
+NC_048490.1	RefSeq	gene	14083	14151	.	-	.	ID=gene-HRV76_mgt20;Dbxref=GeneID:55290054;Name=HRV76_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt20
+NC_048490.1	RefSeq	tRNA	14083	14151	.	-	.	ID=rna-HRV76_mgt20;Parent=gene-HRV76_mgt20;Dbxref=GeneID:55290054;gbkey=tRNA;locus_tag=HRV76_mgt20;product=tRNA-Glu
+NC_048490.1	RefSeq	exon	14083	14151	.	-	.	ID=exon-HRV76_mgt20-1;Parent=rna-HRV76_mgt20;Dbxref=GeneID:55290054;gbkey=tRNA;locus_tag=HRV76_mgt20;product=tRNA-Glu
+NC_048490.1	RefSeq	gene	14156	15295	.	+	.	ID=gene-HRV76_mgp01;Dbxref=GeneID:55290078;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=HRV76_mgp01
+NC_048490.1	RefSeq	CDS	14156	15295	.	+	0	ID=cds-YP_009827236.1;Parent=gene-HRV76_mgp01;Dbxref=GenBank:YP_009827236.1,GeneID:55290078;Name=YP_009827236.1;gbkey=CDS;gene=CYTB;locus_tag=HRV76_mgp01;product=cytochrome b;protein_id=YP_009827236.1;transl_table=2
+NC_048490.1	RefSeq	gene	15296	15362	.	+	.	ID=gene-HRV76_mgt21;Dbxref=GeneID:55290055;Name=HRV76_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt21
+NC_048490.1	RefSeq	tRNA	15296	15362	.	+	.	ID=rna-HRV76_mgt21;Parent=gene-HRV76_mgt21;Dbxref=GeneID:55290055;gbkey=tRNA;locus_tag=HRV76_mgt21;product=tRNA-Thr
+NC_048490.1	RefSeq	exon	15296	15362	.	+	.	ID=exon-HRV76_mgt21-1;Parent=rna-HRV76_mgt21;Dbxref=GeneID:55290055;gbkey=tRNA;locus_tag=HRV76_mgt21;product=tRNA-Thr
+NC_048490.1	RefSeq	gene	15368	15436	.	-	.	ID=gene-HRV76_mgt22;Dbxref=GeneID:55290079;Name=HRV76_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=HRV76_mgt22
+NC_048490.1	RefSeq	tRNA	15368	15436	.	-	.	ID=rna-HRV76_mgt22;Parent=gene-HRV76_mgt22;Dbxref=GeneID:55290079;gbkey=tRNA;locus_tag=HRV76_mgt22;product=tRNA-Pro
+NC_048490.1	RefSeq	exon	15368	15436	.	-	.	ID=exon-HRV76_mgt22-1;Parent=rna-HRV76_mgt22;Dbxref=GeneID:55290079;gbkey=tRNA;locus_tag=HRV76_mgt22;product=tRNA-Pro
+NC_048490.1	RefSeq	D_loop	15437	16435	.	+	.	ID=id-NC_048490.1:15437..16435;gbkey=D-loop
+

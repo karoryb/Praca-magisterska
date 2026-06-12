@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_083222.1 1 16390
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9731
+NC_083222.1	RefSeq	region	1	16390	.	+	.	ID=NC_083222.1:1..16390;Dbxref=taxon:9731;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_083222.1	RefSeq	gene	1	72	.	+	.	ID=gene-D914_mgt01;Dbxref=GeneID:79570898;Name=D914_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt01
+NC_083222.1	RefSeq	tRNA	1	72	.	+	.	ID=rna-D914_mgt01;Parent=gene-D914_mgt01;Dbxref=GeneID:79570898;gbkey=tRNA;locus_tag=D914_mgt01;product=tRNA-Phe
+NC_083222.1	RefSeq	exon	1	72	.	+	.	ID=exon-D914_mgt01-1;Parent=rna-D914_mgt01;Dbxref=GeneID:79570898;gbkey=tRNA;locus_tag=D914_mgt01;product=tRNA-Phe
+NC_083222.1	RefSeq	gene	73	1045	.	+	.	ID=gene-D914_mgr02;Dbxref=GeneID:79570884;Name=D914_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=D914_mgr02
+NC_083222.1	RefSeq	rRNA	73	1045	.	+	.	ID=rna-D914_mgr02;Parent=gene-D914_mgr02;Dbxref=GeneID:79570884;gbkey=rRNA;locus_tag=D914_mgr02;product=12S ribosomal RNA
+NC_083222.1	RefSeq	exon	73	1045	.	+	.	ID=exon-D914_mgr02-1;Parent=rna-D914_mgr02;Dbxref=GeneID:79570884;gbkey=rRNA;locus_tag=D914_mgr02;product=12S ribosomal RNA
+NC_083222.1	RefSeq	gene	1046	1112	.	+	.	ID=gene-D914_mgt02;Dbxref=GeneID:79570885;Name=D914_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt02
+NC_083222.1	RefSeq	tRNA	1046	1112	.	+	.	ID=rna-D914_mgt02;Parent=gene-D914_mgt02;Dbxref=GeneID:79570885;gbkey=tRNA;locus_tag=D914_mgt02;product=tRNA-Val
+NC_083222.1	RefSeq	exon	1046	1112	.	+	.	ID=exon-D914_mgt02-1;Parent=rna-D914_mgt02;Dbxref=GeneID:79570885;gbkey=tRNA;locus_tag=D914_mgt02;product=tRNA-Val
+NC_083222.1	RefSeq	gene	1113	2691	.	+	.	ID=gene-D914_mgr01;Dbxref=GeneID:79570886;Name=D914_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=D914_mgr01
+NC_083222.1	RefSeq	rRNA	1113	2691	.	+	.	ID=rna-D914_mgr01;Parent=gene-D914_mgr01;Dbxref=GeneID:79570886;gbkey=rRNA;locus_tag=D914_mgr01;product=16S ribosomal RNA
+NC_083222.1	RefSeq	exon	1113	2691	.	+	.	ID=exon-D914_mgr01-1;Parent=rna-D914_mgr01;Dbxref=GeneID:79570886;gbkey=rRNA;locus_tag=D914_mgr01;product=16S ribosomal RNA
+NC_083222.1	RefSeq	gene	2692	2767	.	+	.	ID=gene-D914_mgt03;Dbxref=GeneID:79570887;Name=D914_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt03
+NC_083222.1	RefSeq	tRNA	2692	2767	.	+	.	ID=rna-D914_mgt03;Parent=gene-D914_mgt03;Dbxref=GeneID:79570887;gbkey=tRNA;locus_tag=D914_mgt03;product=tRNA-Leu
+NC_083222.1	RefSeq	exon	2692	2767	.	+	.	ID=exon-D914_mgt03-1;Parent=rna-D914_mgt03;Dbxref=GeneID:79570887;gbkey=tRNA;locus_tag=D914_mgt03;product=tRNA-Leu
+NC_083222.1	RefSeq	gene	2768	3724	.	+	.	ID=gene-D914_mgp13;Dbxref=GeneID:14005122;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=D914_mgp13
+NC_083222.1	RefSeq	CDS	2768	3724	.	+	0	ID=cds-YP_010963451.1;Parent=gene-D914_mgp13;Dbxref=GenBank:YP_010963451.1,GeneID:14005122;Name=YP_010963451.1;gbkey=CDS;gene=ND1;locus_tag=D914_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010963451.1;transl_table=2
+NC_083222.1	RefSeq	gene	3729	3797	.	+	.	ID=gene-D914_mgt04;Dbxref=GeneID:79570875;Name=D914_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt04
+NC_083222.1	RefSeq	tRNA	3729	3797	.	+	.	ID=rna-D914_mgt04;Parent=gene-D914_mgt04;Dbxref=GeneID:79570875;gbkey=tRNA;locus_tag=D914_mgt04;product=tRNA-Ile
+NC_083222.1	RefSeq	exon	3729	3797	.	+	.	ID=exon-D914_mgt04-1;Parent=rna-D914_mgt04;Dbxref=GeneID:79570875;gbkey=tRNA;locus_tag=D914_mgt04;product=tRNA-Ile
+NC_083222.1	RefSeq	gene	3795	3867	.	-	.	ID=gene-D914_mgt05;Dbxref=GeneID:79570888;Name=D914_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt05
+NC_083222.1	RefSeq	tRNA	3795	3867	.	-	.	ID=rna-D914_mgt05;Parent=gene-D914_mgt05;Dbxref=GeneID:79570888;gbkey=tRNA;locus_tag=D914_mgt05;product=tRNA-Gln
+NC_083222.1	RefSeq	exon	3795	3867	.	-	.	ID=exon-D914_mgt05-1;Parent=rna-D914_mgt05;Dbxref=GeneID:79570888;gbkey=tRNA;locus_tag=D914_mgt05;product=tRNA-Gln
+NC_083222.1	RefSeq	gene	3869	3937	.	+	.	ID=gene-D914_mgt06;Dbxref=GeneID:79570889;Name=D914_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt06
+NC_083222.1	RefSeq	tRNA	3869	3937	.	+	.	ID=rna-D914_mgt06;Parent=gene-D914_mgt06;Dbxref=GeneID:79570889;gbkey=tRNA;locus_tag=D914_mgt06;product=tRNA-Met
+NC_083222.1	RefSeq	exon	3869	3937	.	+	.	ID=exon-D914_mgt06-1;Parent=rna-D914_mgt06;Dbxref=GeneID:79570889;gbkey=tRNA;locus_tag=D914_mgt06;product=tRNA-Met
+NC_083222.1	RefSeq	gene	3938	4979	.	+	.	ID=gene-D914_mgp12;Dbxref=GeneID:14005110;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=D914_mgp12
+NC_083222.1	RefSeq	CDS	3938	4979	.	+	0	ID=cds-YP_010963452.1;Parent=gene-D914_mgp12;Dbxref=GenBank:YP_010963452.1,GeneID:14005110;Name=YP_010963452.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=D914_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010963452.1;transl_except=(pos:4979%2Caa:TERM);transl_table=2
+NC_083222.1	RefSeq	gene	4980	5048	.	+	.	ID=gene-D914_mgt07;Dbxref=GeneID:79570876;Name=D914_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt07
+NC_083222.1	RefSeq	tRNA	4980	5048	.	+	.	ID=rna-D914_mgt07;Parent=gene-D914_mgt07;Dbxref=GeneID:79570876;gbkey=tRNA;locus_tag=D914_mgt07;product=tRNA-Trp
+NC_083222.1	RefSeq	exon	4980	5048	.	+	.	ID=exon-D914_mgt07-1;Parent=rna-D914_mgt07;Dbxref=GeneID:79570876;gbkey=tRNA;locus_tag=D914_mgt07;product=tRNA-Trp
+NC_083222.1	RefSeq	gene	5054	5122	.	-	.	ID=gene-D914_mgt08;Dbxref=GeneID:79570890;Name=D914_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt08
+NC_083222.1	RefSeq	tRNA	5054	5122	.	-	.	ID=rna-D914_mgt08;Parent=gene-D914_mgt08;Dbxref=GeneID:79570890;gbkey=tRNA;locus_tag=D914_mgt08;product=tRNA-Ala
+NC_083222.1	RefSeq	exon	5054	5122	.	-	.	ID=exon-D914_mgt08-1;Parent=rna-D914_mgt08;Dbxref=GeneID:79570890;gbkey=tRNA;locus_tag=D914_mgt08;product=tRNA-Ala
+NC_083222.1	RefSeq	gene	5124	5197	.	-	.	ID=gene-D914_mgt09;Dbxref=GeneID:79570891;Name=D914_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt09
+NC_083222.1	RefSeq	tRNA	5124	5197	.	-	.	ID=rna-D914_mgt09;Parent=gene-D914_mgt09;Dbxref=GeneID:79570891;gbkey=tRNA;locus_tag=D914_mgt09;product=tRNA-Asn
+NC_083222.1	RefSeq	exon	5124	5197	.	-	.	ID=exon-D914_mgt09-1;Parent=rna-D914_mgt09;Dbxref=GeneID:79570891;gbkey=tRNA;locus_tag=D914_mgt09;product=tRNA-Asn
+NC_083222.1	RefSeq	gene	5230	5296	.	-	.	ID=gene-D914_mgt10;Dbxref=GeneID:79570892;Name=D914_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt10
+NC_083222.1	RefSeq	tRNA	5230	5296	.	-	.	ID=rna-D914_mgt10;Parent=gene-D914_mgt10;Dbxref=GeneID:79570892;gbkey=tRNA;locus_tag=D914_mgt10;product=tRNA-Cys
+NC_083222.1	RefSeq	exon	5230	5296	.	-	.	ID=exon-D914_mgt10-1;Parent=rna-D914_mgt10;Dbxref=GeneID:79570892;gbkey=tRNA;locus_tag=D914_mgt10;product=tRNA-Cys
+NC_083222.1	RefSeq	gene	5297	5362	.	-	.	ID=gene-D914_mgt11;Dbxref=GeneID:79570893;Name=D914_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt11
+NC_083222.1	RefSeq	tRNA	5297	5362	.	-	.	ID=rna-D914_mgt11;Parent=gene-D914_mgt11;Dbxref=GeneID:79570893;gbkey=tRNA;locus_tag=D914_mgt11;product=tRNA-Tyr
+NC_083222.1	RefSeq	exon	5297	5362	.	-	.	ID=exon-D914_mgt11-1;Parent=rna-D914_mgt11;Dbxref=GeneID:79570893;gbkey=tRNA;locus_tag=D914_mgt11;product=tRNA-Tyr
+NC_083222.1	RefSeq	gene	5364	6914	.	+	.	ID=gene-D914_mgp11;Dbxref=GeneID:14005111;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=D914_mgp11
+NC_083222.1	RefSeq	CDS	5364	6914	.	+	0	ID=cds-YP_010963453.1;Parent=gene-D914_mgp11;Dbxref=GenBank:YP_010963453.1,GeneID:14005111;Name=YP_010963453.1;gbkey=CDS;gene=COX1;locus_tag=D914_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010963453.1;transl_table=2
+NC_083222.1	RefSeq	gene	6911	6979	.	-	.	ID=gene-D914_mgt12;Dbxref=GeneID:79570877;Name=D914_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt12
+NC_083222.1	RefSeq	tRNA	6911	6979	.	-	.	ID=rna-D914_mgt12;Parent=gene-D914_mgt12;Dbxref=GeneID:79570877;gbkey=tRNA;locus_tag=D914_mgt12;product=tRNA-Ser
+NC_083222.1	RefSeq	exon	6911	6979	.	-	.	ID=exon-D914_mgt12-1;Parent=rna-D914_mgt12;Dbxref=GeneID:79570877;gbkey=tRNA;locus_tag=D914_mgt12;product=tRNA-Ser
+NC_083222.1	RefSeq	gene	6986	7053	.	+	.	ID=gene-D914_mgt13;Dbxref=GeneID:79570894;Name=D914_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt13
+NC_083222.1	RefSeq	tRNA	6986	7053	.	+	.	ID=rna-D914_mgt13;Parent=gene-D914_mgt13;Dbxref=GeneID:79570894;gbkey=tRNA;locus_tag=D914_mgt13;product=tRNA-Asp
+NC_083222.1	RefSeq	exon	6986	7053	.	+	.	ID=exon-D914_mgt13-1;Parent=rna-D914_mgt13;Dbxref=GeneID:79570894;gbkey=tRNA;locus_tag=D914_mgt13;product=tRNA-Asp
+NC_083222.1	RefSeq	gene	7054	7737	.	+	.	ID=gene-D914_mgp10;Dbxref=GeneID:14005112;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=D914_mgp10
+NC_083222.1	RefSeq	CDS	7054	7737	.	+	0	ID=cds-YP_010963454.1;Parent=gene-D914_mgp10;Dbxref=GenBank:YP_010963454.1,GeneID:14005112;Name=YP_010963454.1;gbkey=CDS;gene=COX2;locus_tag=D914_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010963454.1;transl_table=2
+NC_083222.1	RefSeq	gene	7741	7807	.	+	.	ID=gene-D914_mgt14;Dbxref=GeneID:79570878;Name=D914_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt14
+NC_083222.1	RefSeq	tRNA	7741	7807	.	+	.	ID=rna-D914_mgt14;Parent=gene-D914_mgt14;Dbxref=GeneID:79570878;gbkey=tRNA;locus_tag=D914_mgt14;product=tRNA-Lys
+NC_083222.1	RefSeq	exon	7741	7807	.	+	.	ID=exon-D914_mgt14-1;Parent=rna-D914_mgt14;Dbxref=GeneID:79570878;gbkey=tRNA;locus_tag=D914_mgt14;product=tRNA-Lys
+NC_083222.1	RefSeq	gene	7809	8000	.	+	.	ID=gene-D914_mgp09;Dbxref=GeneID:14005113;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=D914_mgp09
+NC_083222.1	RefSeq	CDS	7809	8000	.	+	0	ID=cds-YP_010963455.1;Parent=gene-D914_mgp09;Dbxref=GenBank:YP_010963455.1,GeneID:14005113;Name=YP_010963455.1;gbkey=CDS;gene=ATP8;locus_tag=D914_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010963455.1;transl_table=2
+NC_083222.1	RefSeq	gene	7970	8650	.	+	.	ID=gene-D914_mgp08;Dbxref=GeneID:14005114;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=D914_mgp08
+NC_083222.1	RefSeq	CDS	7970	8650	.	+	0	ID=cds-YP_010963456.1;Parent=gene-D914_mgp08;Dbxref=GenBank:YP_010963456.1,GeneID:14005114;Name=YP_010963456.1;gbkey=CDS;gene=ATP6;locus_tag=D914_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010963456.1;transl_table=2
+NC_083222.1	RefSeq	gene	8650	9434	.	+	.	ID=gene-D914_mgp07;Dbxref=GeneID:14005115;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=D914_mgp07
+NC_083222.1	RefSeq	CDS	8650	9434	.	+	0	ID=cds-YP_010963457.1;Parent=gene-D914_mgp07;Dbxref=GenBank:YP_010963457.1,GeneID:14005115;Name=YP_010963457.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=D914_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010963457.1;transl_except=(pos:9433..9434%2Caa:TERM);transl_table=2
+NC_083222.1	RefSeq	gene	9435	9503	.	+	.	ID=gene-D914_mgt15;Dbxref=GeneID:79570879;Name=D914_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt15
+NC_083222.1	RefSeq	tRNA	9435	9503	.	+	.	ID=rna-D914_mgt15;Parent=gene-D914_mgt15;Dbxref=GeneID:79570879;gbkey=tRNA;locus_tag=D914_mgt15;product=tRNA-Gly
+NC_083222.1	RefSeq	exon	9435	9503	.	+	.	ID=exon-D914_mgt15-1;Parent=rna-D914_mgt15;Dbxref=GeneID:79570879;gbkey=tRNA;locus_tag=D914_mgt15;product=tRNA-Gly
+NC_083222.1	RefSeq	gene	9504	9849	.	+	.	ID=gene-D914_mgp06;Dbxref=GeneID:14005116;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=D914_mgp06
+NC_083222.1	RefSeq	CDS	9504	9849	.	+	0	ID=cds-YP_010963458.1;Parent=gene-D914_mgp06;Dbxref=GenBank:YP_010963458.1,GeneID:14005116;Name=YP_010963458.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=D914_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010963458.1;transl_except=(pos:9849%2Caa:TERM);transl_table=2
+NC_083222.1	RefSeq	gene	9851	9920	.	+	.	ID=gene-D914_mgt16;Dbxref=GeneID:79570880;Name=D914_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt16
+NC_083222.1	RefSeq	tRNA	9851	9920	.	+	.	ID=rna-D914_mgt16;Parent=gene-D914_mgt16;Dbxref=GeneID:79570880;gbkey=tRNA;locus_tag=D914_mgt16;product=tRNA-Arg
+NC_083222.1	RefSeq	exon	9851	9920	.	+	.	ID=exon-D914_mgt16-1;Parent=rna-D914_mgt16;Dbxref=GeneID:79570880;gbkey=tRNA;locus_tag=D914_mgt16;product=tRNA-Arg
+NC_083222.1	RefSeq	gene	9921	10217	.	+	.	ID=gene-D914_mgp05;Dbxref=GeneID:14005117;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=D914_mgp05
+NC_083222.1	RefSeq	CDS	9921	10217	.	+	0	ID=cds-YP_010963459.1;Parent=gene-D914_mgp05;Dbxref=GenBank:YP_010963459.1,GeneID:14005117;Name=YP_010963459.1;gbkey=CDS;gene=ND4L;locus_tag=D914_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010963459.1;transl_table=2
+NC_083222.1	RefSeq	gene	10211	11588	.	+	.	ID=gene-D914_mgp04;Dbxref=GeneID:14005118;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=D914_mgp04
+NC_083222.1	RefSeq	CDS	10211	11588	.	+	0	ID=cds-YP_010963460.1;Parent=gene-D914_mgp04;Dbxref=GenBank:YP_010963460.1,GeneID:14005118;Name=YP_010963460.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=D914_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010963460.1;transl_except=(pos:11588%2Caa:TERM);transl_table=2
+NC_083222.1	RefSeq	gene	11590	11659	.	+	.	ID=gene-D914_mgt17;Dbxref=GeneID:79570881;Name=D914_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt17
+NC_083222.1	RefSeq	tRNA	11590	11659	.	+	.	ID=rna-D914_mgt17;Parent=gene-D914_mgt17;Dbxref=GeneID:79570881;gbkey=tRNA;locus_tag=D914_mgt17;product=tRNA-His
+NC_083222.1	RefSeq	exon	11590	11659	.	+	.	ID=exon-D914_mgt17-1;Parent=rna-D914_mgt17;Dbxref=GeneID:79570881;gbkey=tRNA;locus_tag=D914_mgt17;product=tRNA-His
+NC_083222.1	RefSeq	gene	11659	11720	.	+	.	ID=gene-D914_mgt18;Dbxref=GeneID:79570895;Name=D914_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt18
+NC_083222.1	RefSeq	tRNA	11659	11720	.	+	.	ID=rna-D914_mgt18;Parent=gene-D914_mgt18;Dbxref=GeneID:79570895;gbkey=tRNA;locus_tag=D914_mgt18;product=tRNA-Ser
+NC_083222.1	RefSeq	exon	11659	11720	.	+	.	ID=exon-D914_mgt18-1;Parent=rna-D914_mgt18;Dbxref=GeneID:79570895;gbkey=tRNA;locus_tag=D914_mgt18;product=tRNA-Ser
+NC_083222.1	RefSeq	gene	11721	11790	.	+	.	ID=gene-D914_mgt19;Dbxref=GeneID:79570896;Name=D914_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt19
+NC_083222.1	RefSeq	tRNA	11721	11790	.	+	.	ID=rna-D914_mgt19;Parent=gene-D914_mgt19;Dbxref=GeneID:79570896;gbkey=tRNA;locus_tag=D914_mgt19;product=tRNA-Leu
+NC_083222.1	RefSeq	exon	11721	11790	.	+	.	ID=exon-D914_mgt19-1;Parent=rna-D914_mgt19;Dbxref=GeneID:79570896;gbkey=tRNA;locus_tag=D914_mgt19;product=tRNA-Leu
+NC_083222.1	RefSeq	gene	11791	13611	.	+	.	ID=gene-D914_mgp03;Dbxref=GeneID:14005119;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=D914_mgp03
+NC_083222.1	RefSeq	CDS	11791	13611	.	+	0	ID=cds-YP_010963461.1;Parent=gene-D914_mgp03;Dbxref=GenBank:YP_010963461.1,GeneID:14005119;Name=YP_010963461.1;gbkey=CDS;gene=ND5;locus_tag=D914_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010963461.1;transl_table=2
+NC_083222.1	RefSeq	gene	13595	14122	.	-	.	ID=gene-D914_mgp02;Dbxref=GeneID:14005120;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=D914_mgp02
+NC_083222.1	RefSeq	CDS	13595	14122	.	-	0	ID=cds-YP_010963462.1;Parent=gene-D914_mgp02;Dbxref=GenBank:YP_010963462.1,GeneID:14005120;Name=YP_010963462.1;gbkey=CDS;gene=ND6;locus_tag=D914_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010963462.1;transl_table=2
+NC_083222.1	RefSeq	gene	14123	14191	.	+	.	ID=gene-D914_mgt20;Dbxref=GeneID:79570882;Name=D914_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt20
+NC_083222.1	RefSeq	tRNA	14123	14191	.	+	.	ID=rna-D914_mgt20;Parent=gene-D914_mgt20;Dbxref=GeneID:79570882;gbkey=tRNA;locus_tag=D914_mgt20;product=tRNA-Glu
+NC_083222.1	RefSeq	exon	14123	14191	.	+	.	ID=exon-D914_mgt20-1;Parent=rna-D914_mgt20;Dbxref=GeneID:79570882;gbkey=tRNA;locus_tag=D914_mgt20;product=tRNA-Glu
+NC_083222.1	RefSeq	gene	14196	15335	.	+	.	ID=gene-D914_mgp01;Dbxref=GeneID:14005121;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=D914_mgp01
+NC_083222.1	RefSeq	CDS	14196	15335	.	+	0	ID=cds-YP_010963463.1;Parent=gene-D914_mgp01;Dbxref=GenBank:YP_010963463.1,GeneID:14005121;Name=YP_010963463.1;gbkey=CDS;gene=CYTB;locus_tag=D914_mgp01;product=cytochrome b;protein_id=YP_010963463.1;transl_table=2
+NC_083222.1	RefSeq	gene	15336	15405	.	+	.	ID=gene-D914_mgt21;Dbxref=GeneID:79570883;Name=D914_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt21
+NC_083222.1	RefSeq	tRNA	15336	15405	.	+	.	ID=rna-D914_mgt21;Parent=gene-D914_mgt21;Dbxref=GeneID:79570883;gbkey=tRNA;locus_tag=D914_mgt21;product=tRNA-Thr
+NC_083222.1	RefSeq	exon	15336	15405	.	+	.	ID=exon-D914_mgt21-1;Parent=rna-D914_mgt21;Dbxref=GeneID:79570883;gbkey=tRNA;locus_tag=D914_mgt21;product=tRNA-Thr
+NC_083222.1	RefSeq	gene	15406	15471	.	-	.	ID=gene-D914_mgt22;Dbxref=GeneID:79570897;Name=D914_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=D914_mgt22
+NC_083222.1	RefSeq	tRNA	15406	15471	.	-	.	ID=rna-D914_mgt22;Parent=gene-D914_mgt22;Dbxref=GeneID:79570897;gbkey=tRNA;locus_tag=D914_mgt22;product=tRNA-Pro
+NC_083222.1	RefSeq	exon	15406	15471	.	-	.	ID=exon-D914_mgt22-1;Parent=rna-D914_mgt22;Dbxref=GeneID:79570897;gbkey=tRNA;locus_tag=D914_mgt22;product=tRNA-Pro
+NC_083222.1	RefSeq	D_loop	15472	16389	.	+	.	ID=id-NC_083222.1:15472..16389;gbkey=D-loop
+

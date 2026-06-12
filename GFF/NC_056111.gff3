@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_056111.1 1 17098
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=203696
+NC_056111.1	RefSeq	region	1	17098	.	+	.	ID=NC_056111.1:1..17098;Dbxref=taxon:203696;Is_circular=true;Name=MT;country=China;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;old-name=Myotis ricketti
+NC_056111.1	RefSeq	gene	1	68	.	+	.	ID=gene-KQ393_mgt01;Dbxref=GeneID:65317426;Name=KQ393_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt01
+NC_056111.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-KQ393_mgt01;Parent=gene-KQ393_mgt01;Dbxref=GeneID:65317426;gbkey=tRNA;locus_tag=KQ393_mgt01;product=tRNA-Phe
+NC_056111.1	RefSeq	exon	1	68	.	+	.	ID=exon-KQ393_mgt01-1;Parent=rna-KQ393_mgt01;Dbxref=GeneID:65317426;gbkey=tRNA;locus_tag=KQ393_mgt01;product=tRNA-Phe
+NC_056111.1	RefSeq	gene	69	1029	.	+	.	ID=gene-KQ393_mgr02;Dbxref=GeneID:65317427;Name=KQ393_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=KQ393_mgr02
+NC_056111.1	RefSeq	rRNA	69	1029	.	+	.	ID=rna-KQ393_mgr02;Parent=gene-KQ393_mgr02;Dbxref=GeneID:65317427;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KQ393_mgr02;product=12S ribosomal RNA
+NC_056111.1	RefSeq	exon	69	1029	.	+	.	ID=exon-KQ393_mgr02-1;Parent=rna-KQ393_mgr02;Dbxref=GeneID:65317427;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KQ393_mgr02;product=12S ribosomal RNA
+NC_056111.1	RefSeq	gene	1030	1097	.	+	.	ID=gene-KQ393_mgt02;Dbxref=GeneID:65317428;Name=KQ393_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt02
+NC_056111.1	RefSeq	tRNA	1030	1097	.	+	.	ID=rna-KQ393_mgt02;Parent=gene-KQ393_mgt02;Dbxref=GeneID:65317428;gbkey=tRNA;locus_tag=KQ393_mgt02;product=tRNA-Val
+NC_056111.1	RefSeq	exon	1030	1097	.	+	.	ID=exon-KQ393_mgt02-1;Parent=rna-KQ393_mgt02;Dbxref=GeneID:65317428;gbkey=tRNA;locus_tag=KQ393_mgt02;product=tRNA-Val
+NC_056111.1	RefSeq	gene	1097	2663	.	+	.	ID=gene-KQ393_mgr01;Dbxref=GeneID:65317429;Name=KQ393_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=KQ393_mgr01
+NC_056111.1	RefSeq	rRNA	1097	2663	.	+	.	ID=rna-KQ393_mgr01;Parent=gene-KQ393_mgr01;Dbxref=GeneID:65317429;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KQ393_mgr01;product=16S ribosomal RNA
+NC_056111.1	RefSeq	exon	1097	2663	.	+	.	ID=exon-KQ393_mgr01-1;Parent=rna-KQ393_mgr01;Dbxref=GeneID:65317429;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KQ393_mgr01;product=16S ribosomal RNA
+NC_056111.1	RefSeq	gene	2665	2739	.	+	.	ID=gene-KQ393_mgt03;Dbxref=GeneID:65317430;Name=KQ393_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt03
+NC_056111.1	RefSeq	tRNA	2665	2739	.	+	.	ID=rna-KQ393_mgt03;Parent=gene-KQ393_mgt03;Dbxref=GeneID:65317430;codons=UUR;gbkey=tRNA;locus_tag=KQ393_mgt03;product=tRNA-Leu
+NC_056111.1	RefSeq	exon	2665	2739	.	+	.	ID=exon-KQ393_mgt03-1;Parent=rna-KQ393_mgt03;Dbxref=GeneID:65317430;codons=UUR;gbkey=tRNA;locus_tag=KQ393_mgt03;product=tRNA-Leu
+NC_056111.1	RefSeq	gene	2745	3700	.	+	.	ID=gene-KQ393_mgp13;Dbxref=GeneID:65317431;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=KQ393_mgp13
+NC_056111.1	RefSeq	CDS	2745	3700	.	+	0	ID=cds-YP_010117570.1;Parent=gene-KQ393_mgp13;Dbxref=GenBank:YP_010117570.1,GeneID:65317431;Name=YP_010117570.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=KQ393_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010117570.1;transl_except=(pos:3699..3700%2Caa:TERM);transl_table=2
+NC_056111.1	RefSeq	gene	3701	3769	.	+	.	ID=gene-KQ393_mgt04;Dbxref=GeneID:65317413;Name=KQ393_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt04
+NC_056111.1	RefSeq	tRNA	3701	3769	.	+	.	ID=rna-KQ393_mgt04;Parent=gene-KQ393_mgt04;Dbxref=GeneID:65317413;gbkey=tRNA;locus_tag=KQ393_mgt04;product=tRNA-Ile
+NC_056111.1	RefSeq	exon	3701	3769	.	+	.	ID=exon-KQ393_mgt04-1;Parent=rna-KQ393_mgt04;Dbxref=GeneID:65317413;gbkey=tRNA;locus_tag=KQ393_mgt04;product=tRNA-Ile
+NC_056111.1	RefSeq	gene	3767	3840	.	-	.	ID=gene-KQ393_mgt05;Dbxref=GeneID:65317432;Name=KQ393_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt05
+NC_056111.1	RefSeq	tRNA	3767	3840	.	-	.	ID=rna-KQ393_mgt05;Parent=gene-KQ393_mgt05;Dbxref=GeneID:65317432;gbkey=tRNA;locus_tag=KQ393_mgt05;product=tRNA-Gln
+NC_056111.1	RefSeq	exon	3767	3840	.	-	.	ID=exon-KQ393_mgt05-1;Parent=rna-KQ393_mgt05;Dbxref=GeneID:65317432;gbkey=tRNA;locus_tag=KQ393_mgt05;product=tRNA-Gln
+NC_056111.1	RefSeq	gene	3841	3910	.	+	.	ID=gene-KQ393_mgt06;Dbxref=GeneID:65317433;Name=KQ393_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt06
+NC_056111.1	RefSeq	tRNA	3841	3910	.	+	.	ID=rna-KQ393_mgt06;Parent=gene-KQ393_mgt06;Dbxref=GeneID:65317433;gbkey=tRNA;locus_tag=KQ393_mgt06;product=tRNA-Met
+NC_056111.1	RefSeq	exon	3841	3910	.	+	.	ID=exon-KQ393_mgt06-1;Parent=rna-KQ393_mgt06;Dbxref=GeneID:65317433;gbkey=tRNA;locus_tag=KQ393_mgt06;product=tRNA-Met
+NC_056111.1	RefSeq	gene	3911	4952	.	+	.	ID=gene-KQ393_mgp12;Dbxref=GeneID:65317434;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=KQ393_mgp12
+NC_056111.1	RefSeq	CDS	3911	4952	.	+	0	ID=cds-YP_010117571.1;Parent=gene-KQ393_mgp12;Dbxref=GenBank:YP_010117571.1,GeneID:65317434;Name=YP_010117571.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=KQ393_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010117571.1;transl_except=(pos:4952%2Caa:TERM);transl_table=2
+NC_056111.1	RefSeq	gene	4953	5020	.	+	.	ID=gene-KQ393_mgt07;Dbxref=GeneID:65317414;Name=KQ393_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt07
+NC_056111.1	RefSeq	tRNA	4953	5020	.	+	.	ID=rna-KQ393_mgt07;Parent=gene-KQ393_mgt07;Dbxref=GeneID:65317414;gbkey=tRNA;locus_tag=KQ393_mgt07;product=tRNA-Trp
+NC_056111.1	RefSeq	exon	4953	5020	.	+	.	ID=exon-KQ393_mgt07-1;Parent=rna-KQ393_mgt07;Dbxref=GeneID:65317414;gbkey=tRNA;locus_tag=KQ393_mgt07;product=tRNA-Trp
+NC_056111.1	RefSeq	gene	5027	5095	.	-	.	ID=gene-KQ393_mgt08;Dbxref=GeneID:65317435;Name=KQ393_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt08
+NC_056111.1	RefSeq	tRNA	5027	5095	.	-	.	ID=rna-KQ393_mgt08;Parent=gene-KQ393_mgt08;Dbxref=GeneID:65317435;gbkey=tRNA;locus_tag=KQ393_mgt08;product=tRNA-Ala
+NC_056111.1	RefSeq	exon	5027	5095	.	-	.	ID=exon-KQ393_mgt08-1;Parent=rna-KQ393_mgt08;Dbxref=GeneID:65317435;gbkey=tRNA;locus_tag=KQ393_mgt08;product=tRNA-Ala
+NC_056111.1	RefSeq	gene	5097	5169	.	-	.	ID=gene-KQ393_mgt09;Dbxref=GeneID:65317436;Name=KQ393_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt09
+NC_056111.1	RefSeq	tRNA	5097	5169	.	-	.	ID=rna-KQ393_mgt09;Parent=gene-KQ393_mgt09;Dbxref=GeneID:65317436;gbkey=tRNA;locus_tag=KQ393_mgt09;product=tRNA-Asn
+NC_056111.1	RefSeq	exon	5097	5169	.	-	.	ID=exon-KQ393_mgt09-1;Parent=rna-KQ393_mgt09;Dbxref=GeneID:65317436;gbkey=tRNA;locus_tag=KQ393_mgt09;product=tRNA-Asn
+NC_056111.1	RefSeq	gene	5202	5267	.	-	.	ID=gene-KQ393_mgt10;Dbxref=GeneID:65317437;Name=KQ393_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt10
+NC_056111.1	RefSeq	tRNA	5202	5267	.	-	.	ID=rna-KQ393_mgt10;Parent=gene-KQ393_mgt10;Dbxref=GeneID:65317437;gbkey=tRNA;locus_tag=KQ393_mgt10;product=tRNA-Cys
+NC_056111.1	RefSeq	exon	5202	5267	.	-	.	ID=exon-KQ393_mgt10-1;Parent=rna-KQ393_mgt10;Dbxref=GeneID:65317437;gbkey=tRNA;locus_tag=KQ393_mgt10;product=tRNA-Cys
+NC_056111.1	RefSeq	gene	5268	5334	.	-	.	ID=gene-KQ393_mgt11;Dbxref=GeneID:65317438;Name=KQ393_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt11
+NC_056111.1	RefSeq	tRNA	5268	5334	.	-	.	ID=rna-KQ393_mgt11;Parent=gene-KQ393_mgt11;Dbxref=GeneID:65317438;gbkey=tRNA;locus_tag=KQ393_mgt11;product=tRNA-Tyr
+NC_056111.1	RefSeq	exon	5268	5334	.	-	.	ID=exon-KQ393_mgt11-1;Parent=rna-KQ393_mgt11;Dbxref=GeneID:65317438;gbkey=tRNA;locus_tag=KQ393_mgt11;product=tRNA-Tyr
+NC_056111.1	RefSeq	gene	5336	6880	.	+	.	ID=gene-KQ393_mgp11;Dbxref=GeneID:65317439;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=KQ393_mgp11
+NC_056111.1	RefSeq	CDS	5336	6880	.	+	0	ID=cds-YP_010117572.1;Parent=gene-KQ393_mgp11;Dbxref=GenBank:YP_010117572.1,GeneID:65317439;Name=YP_010117572.1;gbkey=CDS;gene=COX1;locus_tag=KQ393_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010117572.1;transl_table=2
+NC_056111.1	RefSeq	gene	6894	6962	.	-	.	ID=gene-KQ393_mgt12;Dbxref=GeneID:65317415;Name=KQ393_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt12
+NC_056111.1	RefSeq	tRNA	6894	6962	.	-	.	ID=rna-KQ393_mgt12;Parent=gene-KQ393_mgt12;Dbxref=GeneID:65317415;gbkey=tRNA;locus_tag=KQ393_mgt12;product=tRNA-Ser
+NC_056111.1	RefSeq	exon	6894	6962	.	-	.	ID=exon-KQ393_mgt12-1;Parent=rna-KQ393_mgt12;Dbxref=GeneID:65317415;gbkey=tRNA;locus_tag=KQ393_mgt12;product=tRNA-Ser
+NC_056111.1	RefSeq	gene	6970	7036	.	+	.	ID=gene-KQ393_mgt13;Dbxref=GeneID:65317440;Name=KQ393_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt13
+NC_056111.1	RefSeq	tRNA	6970	7036	.	+	.	ID=rna-KQ393_mgt13;Parent=gene-KQ393_mgt13;Dbxref=GeneID:65317440;gbkey=tRNA;locus_tag=KQ393_mgt13;product=tRNA-Asp
+NC_056111.1	RefSeq	exon	6970	7036	.	+	.	ID=exon-KQ393_mgt13-1;Parent=rna-KQ393_mgt13;Dbxref=GeneID:65317440;gbkey=tRNA;locus_tag=KQ393_mgt13;product=tRNA-Asp
+NC_056111.1	RefSeq	gene	7037	7720	.	+	.	ID=gene-KQ393_mgp10;Dbxref=GeneID:65317441;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=KQ393_mgp10
+NC_056111.1	RefSeq	CDS	7037	7720	.	+	0	ID=cds-YP_010117573.1;Parent=gene-KQ393_mgp10;Dbxref=GenBank:YP_010117573.1,GeneID:65317441;Name=YP_010117573.1;gbkey=CDS;gene=COX2;locus_tag=KQ393_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010117573.1;transl_table=2
+NC_056111.1	RefSeq	gene	7724	7791	.	+	.	ID=gene-KQ393_mgt14;Dbxref=GeneID:65317416;Name=KQ393_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt14
+NC_056111.1	RefSeq	tRNA	7724	7791	.	+	.	ID=rna-KQ393_mgt14;Parent=gene-KQ393_mgt14;Dbxref=GeneID:65317416;gbkey=tRNA;locus_tag=KQ393_mgt14;product=tRNA-Lys
+NC_056111.1	RefSeq	exon	7724	7791	.	+	.	ID=exon-KQ393_mgt14-1;Parent=rna-KQ393_mgt14;Dbxref=GeneID:65317416;gbkey=tRNA;locus_tag=KQ393_mgt14;product=tRNA-Lys
+NC_056111.1	RefSeq	gene	7793	7996	.	+	.	ID=gene-KQ393_mgp09;Dbxref=GeneID:65317442;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=KQ393_mgp09
+NC_056111.1	RefSeq	CDS	7793	7996	.	+	0	ID=cds-YP_010117574.1;Parent=gene-KQ393_mgp09;Dbxref=GenBank:YP_010117574.1,GeneID:65317442;Name=YP_010117574.1;gbkey=CDS;gene=ATP8;locus_tag=KQ393_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010117574.1;transl_table=2
+NC_056111.1	RefSeq	gene	7954	8634	.	+	.	ID=gene-KQ393_mgp08;Dbxref=GeneID:65317417;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=KQ393_mgp08
+NC_056111.1	RefSeq	CDS	7954	8634	.	+	0	ID=cds-YP_010117575.1;Parent=gene-KQ393_mgp08;Dbxref=GenBank:YP_010117575.1,GeneID:65317417;Name=YP_010117575.1;gbkey=CDS;gene=ATP6;locus_tag=KQ393_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010117575.1;transl_table=2
+NC_056111.1	RefSeq	gene	8634	9417	.	+	.	ID=gene-KQ393_mgp07;Dbxref=GeneID:65317418;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=KQ393_mgp07
+NC_056111.1	RefSeq	CDS	8634	9417	.	+	0	ID=cds-YP_010117576.1;Parent=gene-KQ393_mgp07;Dbxref=GenBank:YP_010117576.1,GeneID:65317418;Name=YP_010117576.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=KQ393_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010117576.1;transl_except=(pos:9417%2Caa:TERM);transl_table=2
+NC_056111.1	RefSeq	gene	9418	9487	.	+	.	ID=gene-KQ393_mgt15;Dbxref=GeneID:65317419;Name=KQ393_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt15
+NC_056111.1	RefSeq	tRNA	9418	9487	.	+	.	ID=rna-KQ393_mgt15;Parent=gene-KQ393_mgt15;Dbxref=GeneID:65317419;gbkey=tRNA;locus_tag=KQ393_mgt15;product=tRNA-Gly
+NC_056111.1	RefSeq	exon	9418	9487	.	+	.	ID=exon-KQ393_mgt15-1;Parent=rna-KQ393_mgt15;Dbxref=GeneID:65317419;gbkey=tRNA;locus_tag=KQ393_mgt15;product=tRNA-Gly
+NC_056111.1	RefSeq	gene	9488	9834	.	+	.	ID=gene-KQ393_mgp06;Dbxref=GeneID:65317443;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=KQ393_mgp06
+NC_056111.1	RefSeq	CDS	9488	9834	.	+	0	ID=cds-YP_010117577.1;Parent=gene-KQ393_mgp06;Dbxref=GenBank:YP_010117577.1,GeneID:65317443;Name=YP_010117577.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=KQ393_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010117577.1;transl_except=(pos:9833..9834%2Caa:TERM);transl_table=2
+NC_056111.1	RefSeq	gene	9835	9903	.	+	.	ID=gene-KQ393_mgt16;Dbxref=GeneID:65317420;Name=KQ393_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt16
+NC_056111.1	RefSeq	tRNA	9835	9903	.	+	.	ID=rna-KQ393_mgt16;Parent=gene-KQ393_mgt16;Dbxref=GeneID:65317420;gbkey=tRNA;locus_tag=KQ393_mgt16;product=tRNA-Arg
+NC_056111.1	RefSeq	exon	9835	9903	.	+	.	ID=exon-KQ393_mgt16-1;Parent=rna-KQ393_mgt16;Dbxref=GeneID:65317420;gbkey=tRNA;locus_tag=KQ393_mgt16;product=tRNA-Arg
+NC_056111.1	RefSeq	gene	9905	10201	.	+	.	ID=gene-KQ393_mgp05;Dbxref=GeneID:65317444;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=KQ393_mgp05
+NC_056111.1	RefSeq	CDS	9905	10201	.	+	0	ID=cds-YP_010117578.1;Parent=gene-KQ393_mgp05;Dbxref=GenBank:YP_010117578.1,GeneID:65317444;Name=YP_010117578.1;gbkey=CDS;gene=ND4L;locus_tag=KQ393_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010117578.1;transl_table=2
+NC_056111.1	RefSeq	gene	10195	11572	.	+	.	ID=gene-KQ393_mgp04;Dbxref=GeneID:65317421;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=KQ393_mgp04
+NC_056111.1	RefSeq	CDS	10195	11572	.	+	0	ID=cds-YP_010117579.1;Parent=gene-KQ393_mgp04;Dbxref=GenBank:YP_010117579.1,GeneID:65317421;Name=YP_010117579.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=KQ393_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010117579.1;transl_except=(pos:11572%2Caa:TERM);transl_table=2
+NC_056111.1	RefSeq	gene	11573	11641	.	+	.	ID=gene-KQ393_mgt17;Dbxref=GeneID:65317422;Name=KQ393_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt17
+NC_056111.1	RefSeq	tRNA	11573	11641	.	+	.	ID=rna-KQ393_mgt17;Parent=gene-KQ393_mgt17;Dbxref=GeneID:65317422;gbkey=tRNA;locus_tag=KQ393_mgt17;product=tRNA-His
+NC_056111.1	RefSeq	exon	11573	11641	.	+	.	ID=exon-KQ393_mgt17-1;Parent=rna-KQ393_mgt17;Dbxref=GeneID:65317422;gbkey=tRNA;locus_tag=KQ393_mgt17;product=tRNA-His
+NC_056111.1	RefSeq	gene	11642	11700	.	+	.	ID=gene-KQ393_mgt18;Dbxref=GeneID:65317445;Name=KQ393_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt18
+NC_056111.1	RefSeq	tRNA	11642	11700	.	+	.	ID=rna-KQ393_mgt18;Parent=gene-KQ393_mgt18;Dbxref=GeneID:65317445;codons=AGY;gbkey=tRNA;locus_tag=KQ393_mgt18;product=tRNA-Ser
+NC_056111.1	RefSeq	exon	11642	11700	.	+	.	ID=exon-KQ393_mgt18-1;Parent=rna-KQ393_mgt18;Dbxref=GeneID:65317445;codons=AGY;gbkey=tRNA;locus_tag=KQ393_mgt18;product=tRNA-Ser
+NC_056111.1	RefSeq	gene	11703	11772	.	+	.	ID=gene-KQ393_mgt19;Dbxref=GeneID:65317446;Name=KQ393_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt19
+NC_056111.1	RefSeq	tRNA	11703	11772	.	+	.	ID=rna-KQ393_mgt19;Parent=gene-KQ393_mgt19;Dbxref=GeneID:65317446;codons=CUN;gbkey=tRNA;locus_tag=KQ393_mgt19;product=tRNA-Leu
+NC_056111.1	RefSeq	exon	11703	11772	.	+	.	ID=exon-KQ393_mgt19-1;Parent=rna-KQ393_mgt19;Dbxref=GeneID:65317446;codons=CUN;gbkey=tRNA;locus_tag=KQ393_mgt19;product=tRNA-Leu
+NC_056111.1	RefSeq	gene	11773	13593	.	+	.	ID=gene-KQ393_mgp03;Dbxref=GeneID:65317447;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=KQ393_mgp03
+NC_056111.1	RefSeq	CDS	11773	13593	.	+	0	ID=cds-YP_010117580.1;Parent=gene-KQ393_mgp03;Dbxref=GenBank:YP_010117580.1,GeneID:65317447;Name=YP_010117580.1;gbkey=CDS;gene=ND5;locus_tag=KQ393_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010117580.1;transl_table=2
+NC_056111.1	RefSeq	gene	13577	14101	.	-	.	ID=gene-KQ393_mgp02;Dbxref=GeneID:65317423;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=KQ393_mgp02
+NC_056111.1	RefSeq	CDS	13577	14101	.	-	0	ID=cds-YP_010117581.1;Parent=gene-KQ393_mgp02;Dbxref=GenBank:YP_010117581.1,GeneID:65317423;Name=YP_010117581.1;gbkey=CDS;gene=ND6;locus_tag=KQ393_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010117581.1;transl_table=2
+NC_056111.1	RefSeq	gene	14105	14173	.	-	.	ID=gene-KQ393_mgt20;Dbxref=GeneID:65317424;Name=KQ393_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt20
+NC_056111.1	RefSeq	tRNA	14105	14173	.	-	.	ID=rna-KQ393_mgt20;Parent=gene-KQ393_mgt20;Dbxref=GeneID:65317424;gbkey=tRNA;locus_tag=KQ393_mgt20;product=tRNA-Glu
+NC_056111.1	RefSeq	exon	14105	14173	.	-	.	ID=exon-KQ393_mgt20-1;Parent=rna-KQ393_mgt20;Dbxref=GeneID:65317424;gbkey=tRNA;locus_tag=KQ393_mgt20;product=tRNA-Glu
+NC_056111.1	RefSeq	gene	14180	15319	.	+	.	ID=gene-KQ393_mgp01;Dbxref=GeneID:65317448;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=KQ393_mgp01
+NC_056111.1	RefSeq	CDS	14180	15319	.	+	0	ID=cds-YP_010117582.1;Parent=gene-KQ393_mgp01;Dbxref=GenBank:YP_010117582.1,GeneID:65317448;Name=YP_010117582.1;gbkey=CDS;gene=CYTB;locus_tag=KQ393_mgp01;product=cytochrome b;protein_id=YP_010117582.1;transl_table=2
+NC_056111.1	RefSeq	gene	15320	15388	.	+	.	ID=gene-KQ393_mgt21;Dbxref=GeneID:65317425;Name=KQ393_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt21
+NC_056111.1	RefSeq	tRNA	15320	15388	.	+	.	ID=rna-KQ393_mgt21;Parent=gene-KQ393_mgt21;Dbxref=GeneID:65317425;gbkey=tRNA;locus_tag=KQ393_mgt21;product=tRNA-Thr
+NC_056111.1	RefSeq	exon	15320	15388	.	+	.	ID=exon-KQ393_mgt21-1;Parent=rna-KQ393_mgt21;Dbxref=GeneID:65317425;gbkey=tRNA;locus_tag=KQ393_mgt21;product=tRNA-Thr
+NC_056111.1	RefSeq	gene	15388	15453	.	-	.	ID=gene-KQ393_mgt22;Dbxref=GeneID:65317449;Name=KQ393_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=KQ393_mgt22
+NC_056111.1	RefSeq	tRNA	15388	15453	.	-	.	ID=rna-KQ393_mgt22;Parent=gene-KQ393_mgt22;Dbxref=GeneID:65317449;gbkey=tRNA;locus_tag=KQ393_mgt22;product=tRNA-Pro
+NC_056111.1	RefSeq	exon	15388	15453	.	-	.	ID=exon-KQ393_mgt22-1;Parent=rna-KQ393_mgt22;Dbxref=GeneID:65317449;gbkey=tRNA;locus_tag=KQ393_mgt22;product=tRNA-Pro
+NC_056111.1	RefSeq	D_loop	15454	17098	.	+	.	ID=id-NC_056111.1:15454..17098;gbkey=D-loop
+

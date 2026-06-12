@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_002083.1 1 16499
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9601
+NC_002083.1	RefSeq	region	1	16499	.	+	.	ID=NC_002083.1:1..16499;Dbxref=taxon:9601;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;isolate=YN93-312;mol_type=genomic DNA;old-name=Pongo pygmaeus abelii
+NC_002083.1	RefSeq	gene	1	71	.	+	.	ID=gene-KEF63_t01;Dbxref=GeneID:64985496;Name=KEF63_t01;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t01
+NC_002083.1	RefSeq	tRNA	1	71	.	+	.	ID=rna-KEF63_t01;Parent=gene-KEF63_t01;Dbxref=GeneID:64985496;gbkey=tRNA;locus_tag=KEF63_t01;product=tRNA-Phe
+NC_002083.1	RefSeq	exon	1	71	.	+	.	ID=exon-KEF63_t01-1;Parent=rna-KEF63_t01;Dbxref=GeneID:64985496;gbkey=tRNA;locus_tag=KEF63_t01;product=tRNA-Phe
+NC_002083.1	RefSeq	gene	72	1025	.	+	.	ID=gene-KEF63_r02;Dbxref=GeneID:64985482;Name=KEF63_r02;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEF63_r02
+NC_002083.1	RefSeq	rRNA	72	1025	.	+	.	ID=rna-KEF63_r02;Parent=gene-KEF63_r02;Dbxref=GeneID:64985482;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KEF63_r02;product=s-rRNA
+NC_002083.1	RefSeq	exon	72	1025	.	+	.	ID=exon-KEF63_r02-1;Parent=rna-KEF63_r02;Dbxref=GeneID:64985482;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KEF63_r02;product=s-rRNA
+NC_002083.1	RefSeq	gene	1026	1094	.	+	.	ID=gene-KEF63_t02;Dbxref=GeneID:64985483;Name=KEF63_t02;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t02
+NC_002083.1	RefSeq	tRNA	1026	1094	.	+	.	ID=rna-KEF63_t02;Parent=gene-KEF63_t02;Dbxref=GeneID:64985483;gbkey=tRNA;locus_tag=KEF63_t02;product=tRNA-Val
+NC_002083.1	RefSeq	exon	1026	1094	.	+	.	ID=exon-KEF63_t02-1;Parent=rna-KEF63_t02;Dbxref=GeneID:64985483;gbkey=tRNA;locus_tag=KEF63_t02;product=tRNA-Val
+NC_002083.1	RefSeq	gene	1095	2654	.	+	.	ID=gene-KEF63_r01;Dbxref=GeneID:64985484;Name=KEF63_r01;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEF63_r01
+NC_002083.1	RefSeq	rRNA	1095	2654	.	+	.	ID=rna-KEF63_r01;Parent=gene-KEF63_r01;Dbxref=GeneID:64985484;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KEF63_r01;product=l-rRNA
+NC_002083.1	RefSeq	exon	1095	2654	.	+	.	ID=exon-KEF63_r01-1;Parent=rna-KEF63_r01;Dbxref=GeneID:64985484;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KEF63_r01;product=l-rRNA
+NC_002083.1	RefSeq	gene	2655	2729	.	+	.	ID=gene-KEF63_t03;Dbxref=GeneID:64985485;Name=KEF63_t03;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t03
+NC_002083.1	RefSeq	tRNA	2655	2729	.	+	.	ID=rna-KEF63_t03;Parent=gene-KEF63_t03;Dbxref=GeneID:64985485;codons=UUR;gbkey=tRNA;locus_tag=KEF63_t03;product=tRNA-Leu
+NC_002083.1	RefSeq	exon	2655	2729	.	+	.	ID=exon-KEF63_t03-1;Parent=rna-KEF63_t03;Dbxref=GeneID:64985485;codons=UUR;gbkey=tRNA;locus_tag=KEF63_t03;product=tRNA-Leu
+NC_002083.1	RefSeq	gene	2732	3687	.	+	.	ID=gene-KEF63_p13;Dbxref=GeneID:808473;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;gene_synonym=NADH1;locus_tag=KEF63_p13
+NC_002083.1	RefSeq	CDS	2732	3687	.	+	0	ID=cds-NP_007835.1;Parent=gene-KEF63_p13;Dbxref=UniProtKB/Swiss-Prot:P92690,GenBank:NP_007835.1,GeneID:808473;Name=NP_007835.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=KEF63_p13;product=NADH dehydrogenase subunit 1;protein_id=NP_007835.1;transl_except=(pos:3686..3687%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	3688	3756	.	+	.	ID=gene-KEF63_t04;Dbxref=GeneID:64985473;Name=KEF63_t04;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t04
+NC_002083.1	RefSeq	tRNA	3688	3756	.	+	.	ID=rna-KEF63_t04;Parent=gene-KEF63_t04;Dbxref=GeneID:64985473;gbkey=tRNA;locus_tag=KEF63_t04;product=tRNA-Ile
+NC_002083.1	RefSeq	exon	3688	3756	.	+	.	ID=exon-KEF63_t04-1;Parent=rna-KEF63_t04;Dbxref=GeneID:64985473;gbkey=tRNA;locus_tag=KEF63_t04;product=tRNA-Ile
+NC_002083.1	RefSeq	gene	3754	3825	.	-	.	ID=gene-KEF63_t05;Dbxref=GeneID:64985486;Name=KEF63_t05;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t05
+NC_002083.1	RefSeq	tRNA	3754	3825	.	-	.	ID=rna-KEF63_t05;Parent=gene-KEF63_t05;Dbxref=GeneID:64985486;gbkey=tRNA;locus_tag=KEF63_t05;product=tRNA-Gln
+NC_002083.1	RefSeq	exon	3754	3825	.	-	.	ID=exon-KEF63_t05-1;Parent=rna-KEF63_t05;Dbxref=GeneID:64985486;gbkey=tRNA;locus_tag=KEF63_t05;product=tRNA-Gln
+NC_002083.1	RefSeq	gene	3827	3894	.	+	.	ID=gene-KEF63_t06;Dbxref=GeneID:64985487;Name=KEF63_t06;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t06
+NC_002083.1	RefSeq	tRNA	3827	3894	.	+	.	ID=rna-KEF63_t06;Parent=gene-KEF63_t06;Dbxref=GeneID:64985487;gbkey=tRNA;locus_tag=KEF63_t06;product=tRNA-Met
+NC_002083.1	RefSeq	exon	3827	3894	.	+	.	ID=exon-KEF63_t06-1;Parent=rna-KEF63_t06;Dbxref=GeneID:64985487;gbkey=tRNA;locus_tag=KEF63_t06;product=tRNA-Met
+NC_002083.1	RefSeq	gene	3895	4936	.	+	.	ID=gene-KEF63_p12;Dbxref=GeneID:808478;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;gene_synonym=NADH2;locus_tag=KEF63_p12
+NC_002083.1	RefSeq	CDS	3895	4936	.	+	0	ID=cds-NP_007836.1;Parent=gene-KEF63_p12;Dbxref=UniProtKB/Swiss-Prot:P92691,GenBank:NP_007836.1,GeneID:808478;Name=NP_007836.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=KEF63_p12;product=NADH dehydrogenase subunit 2;protein_id=NP_007836.1;transl_except=(pos:4936%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	4937	5003	.	+	.	ID=gene-KEF63_t07;Dbxref=GeneID:64985474;Name=KEF63_t07;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t07
+NC_002083.1	RefSeq	tRNA	4937	5003	.	+	.	ID=rna-KEF63_t07;Parent=gene-KEF63_t07;Dbxref=GeneID:64985474;gbkey=tRNA;locus_tag=KEF63_t07;product=tRNA-Trp
+NC_002083.1	RefSeq	exon	4937	5003	.	+	.	ID=exon-KEF63_t07-1;Parent=rna-KEF63_t07;Dbxref=GeneID:64985474;gbkey=tRNA;locus_tag=KEF63_t07;product=tRNA-Trp
+NC_002083.1	RefSeq	gene	5010	5078	.	-	.	ID=gene-KEF63_t08;Dbxref=GeneID:64985488;Name=KEF63_t08;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t08
+NC_002083.1	RefSeq	tRNA	5010	5078	.	-	.	ID=rna-KEF63_t08;Parent=gene-KEF63_t08;Dbxref=GeneID:64985488;gbkey=tRNA;locus_tag=KEF63_t08;product=tRNA-Ala
+NC_002083.1	RefSeq	exon	5010	5078	.	-	.	ID=exon-KEF63_t08-1;Parent=rna-KEF63_t08;Dbxref=GeneID:64985488;gbkey=tRNA;locus_tag=KEF63_t08;product=tRNA-Ala
+NC_002083.1	RefSeq	gene	5080	5152	.	-	.	ID=gene-KEF63_t09;Dbxref=GeneID:64985489;Name=KEF63_t09;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t09
+NC_002083.1	RefSeq	tRNA	5080	5152	.	-	.	ID=rna-KEF63_t09;Parent=gene-KEF63_t09;Dbxref=GeneID:64985489;gbkey=tRNA;locus_tag=KEF63_t09;product=tRNA-Asn
+NC_002083.1	RefSeq	exon	5080	5152	.	-	.	ID=exon-KEF63_t09-1;Parent=rna-KEF63_t09;Dbxref=GeneID:64985489;gbkey=tRNA;locus_tag=KEF63_t09;product=tRNA-Asn
+NC_002083.1	RefSeq	origin_of_replication	5153	5185	.	+	.	ID=id-NC_002083.1:5153..5185;direction=LEFT;gbkey=rep_origin
+NC_002083.1	RefSeq	gene	5183	5249	.	-	.	ID=gene-KEF63_t10;Dbxref=GeneID:64985490;Name=KEF63_t10;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t10
+NC_002083.1	RefSeq	tRNA	5183	5249	.	-	.	ID=rna-KEF63_t10;Parent=gene-KEF63_t10;Dbxref=GeneID:64985490;gbkey=tRNA;locus_tag=KEF63_t10;product=tRNA-Cys
+NC_002083.1	RefSeq	exon	5183	5249	.	-	.	ID=exon-KEF63_t10-1;Parent=rna-KEF63_t10;Dbxref=GeneID:64985490;gbkey=tRNA;locus_tag=KEF63_t10;product=tRNA-Cys
+NC_002083.1	RefSeq	gene	5249	5315	.	-	.	ID=gene-KEF63_t11;Dbxref=GeneID:64985491;Name=KEF63_t11;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t11
+NC_002083.1	RefSeq	tRNA	5249	5315	.	-	.	ID=rna-KEF63_t11;Parent=gene-KEF63_t11;Dbxref=GeneID:64985491;gbkey=tRNA;locus_tag=KEF63_t11;product=tRNA-Tyr
+NC_002083.1	RefSeq	exon	5249	5315	.	-	.	ID=exon-KEF63_t11-1;Parent=rna-KEF63_t11;Dbxref=GeneID:64985491;gbkey=tRNA;locus_tag=KEF63_t11;product=tRNA-Tyr
+NC_002083.1	RefSeq	gene	5342	6884	.	+	.	ID=gene-KEF63_p11;Dbxref=GeneID:808482;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=KEF63_p11
+NC_002083.1	RefSeq	CDS	5342	6884	.	+	0	ID=cds-NP_007837.1;Parent=gene-KEF63_p11;Dbxref=UniProtKB/Swiss-Prot:P92692,GenBank:NP_007837.1,GeneID:808482;Name=NP_007837.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX1;locus_tag=KEF63_p11;product=cytochrome c oxidase subunit I;protein_id=NP_007837.1;transl_except=(pos:6884%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	6884	6952	.	-	.	ID=gene-KEF63_t12;Dbxref=GeneID:64985475;Name=KEF63_t12;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t12
+NC_002083.1	RefSeq	tRNA	6884	6952	.	-	.	ID=rna-KEF63_t12;Parent=gene-KEF63_t12;Dbxref=GeneID:64985475;codons=UCN;gbkey=tRNA;locus_tag=KEF63_t12;product=tRNA-Ser
+NC_002083.1	RefSeq	exon	6884	6952	.	-	.	ID=exon-KEF63_t12-1;Parent=rna-KEF63_t12;Dbxref=GeneID:64985475;codons=UCN;gbkey=tRNA;locus_tag=KEF63_t12;product=tRNA-Ser
+NC_002083.1	RefSeq	gene	6955	7022	.	+	.	ID=gene-KEF63_t13;Dbxref=GeneID:64985492;Name=KEF63_t13;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t13
+NC_002083.1	RefSeq	tRNA	6955	7022	.	+	.	ID=rna-KEF63_t13;Parent=gene-KEF63_t13;Dbxref=GeneID:64985492;gbkey=tRNA;locus_tag=KEF63_t13;product=tRNA-Asp
+NC_002083.1	RefSeq	exon	6955	7022	.	+	.	ID=exon-KEF63_t13-1;Parent=rna-KEF63_t13;Dbxref=GeneID:64985492;gbkey=tRNA;locus_tag=KEF63_t13;product=tRNA-Asp
+NC_002083.1	RefSeq	gene	7023	7706	.	+	.	ID=gene-KEF63_p10;Dbxref=GeneID:808475;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=KEF63_p10
+NC_002083.1	RefSeq	CDS	7023	7706	.	+	0	ID=cds-NP_007838.1;Parent=gene-KEF63_p10;Dbxref=UniProtKB/Swiss-Prot:P92693,GenBank:NP_007838.1,GeneID:808475;Name=NP_007838.1;gbkey=CDS;gene=COX2;locus_tag=KEF63_p10;product=cytochrome c oxidase subunit II;protein_id=NP_007838.1;transl_table=2
+NC_002083.1	RefSeq	gene	7751	7820	.	+	.	ID=gene-KEF63_t14;Dbxref=GeneID:64985476;Name=KEF63_t14;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t14
+NC_002083.1	RefSeq	tRNA	7751	7820	.	+	.	ID=rna-KEF63_t14;Parent=gene-KEF63_t14;Dbxref=GeneID:64985476;gbkey=tRNA;locus_tag=KEF63_t14;product=tRNA-Lys
+NC_002083.1	RefSeq	exon	7751	7820	.	+	.	ID=exon-KEF63_t14-1;Parent=rna-KEF63_t14;Dbxref=GeneID:64985476;gbkey=tRNA;locus_tag=KEF63_t14;product=tRNA-Lys
+NC_002083.1	RefSeq	gene	7822	8028	.	+	.	ID=gene-KEF63_p09;Dbxref=GeneID:808474;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;gene_synonym=ATPase8;locus_tag=KEF63_p09
+NC_002083.1	RefSeq	CDS	7822	8028	.	+	0	ID=cds-NP_007839.1;Parent=gene-KEF63_p09;Dbxref=UniProtKB/Swiss-Prot:P92694,GenBank:NP_007839.1,GeneID:808474;Name=NP_007839.1;gbkey=CDS;gene=ATP8;locus_tag=KEF63_p09;product=ATP synthase F0 subunit 8;protein_id=NP_007839.1;transl_table=2
+NC_002083.1	RefSeq	gene	7983	8663	.	+	.	ID=gene-KEF63_p08;Dbxref=GeneID:808485;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;gene_synonym=ATPase6;locus_tag=KEF63_p08
+NC_002083.1	RefSeq	CDS	7983	8663	.	+	0	ID=cds-NP_007840.1;Parent=gene-KEF63_p08;Dbxref=UniProtKB/Swiss-Prot:P92695,GenBank:NP_007840.1,GeneID:808485;Name=NP_007840.1;gbkey=CDS;gene=ATP6;locus_tag=KEF63_p08;product=ATP synthase F0 subunit 6;protein_id=NP_007840.1;transl_table=2
+NC_002083.1	RefSeq	gene	8663	9446	.	+	.	ID=gene-KEF63_p07;Dbxref=GeneID:808480;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=KEF63_p07
+NC_002083.1	RefSeq	CDS	8663	9446	.	+	0	ID=cds-NP_007841.1;Parent=gene-KEF63_p07;Dbxref=UniProtKB/Swiss-Prot:P92696,GenBank:NP_007841.1,GeneID:808480;Name=NP_007841.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=KEF63_p07;product=cytochrome c oxidase subunit III;protein_id=NP_007841.1;transl_except=(pos:9446%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	9447	9514	.	+	.	ID=gene-KEF63_t15;Dbxref=GeneID:64985477;Name=KEF63_t15;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t15
+NC_002083.1	RefSeq	tRNA	9447	9514	.	+	.	ID=rna-KEF63_t15;Parent=gene-KEF63_t15;Dbxref=GeneID:64985477;gbkey=tRNA;locus_tag=KEF63_t15;product=tRNA-Gly
+NC_002083.1	RefSeq	exon	9447	9514	.	+	.	ID=exon-KEF63_t15-1;Parent=rna-KEF63_t15;Dbxref=GeneID:64985477;gbkey=tRNA;locus_tag=KEF63_t15;product=tRNA-Gly
+NC_002083.1	RefSeq	gene	9515	9860	.	+	.	ID=gene-KEF63_p06;Dbxref=GeneID:808479;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;gene_synonym=NADH3;locus_tag=KEF63_p06
+NC_002083.1	RefSeq	CDS	9515	9860	.	+	0	ID=cds-NP_007842.1;Parent=gene-KEF63_p06;Dbxref=UniProtKB/Swiss-Prot:P92697,GenBank:NP_007842.1,GeneID:808479;Name=NP_007842.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=KEF63_p06;product=NADH dehydrogenase subunit 3;protein_id=NP_007842.1;transl_except=(pos:9860%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	9861	9925	.	+	.	ID=gene-KEF63_t16;Dbxref=GeneID:64985478;Name=KEF63_t16;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t16
+NC_002083.1	RefSeq	tRNA	9861	9925	.	+	.	ID=rna-KEF63_t16;Parent=gene-KEF63_t16;Dbxref=GeneID:64985478;gbkey=tRNA;locus_tag=KEF63_t16;product=tRNA-Arg
+NC_002083.1	RefSeq	exon	9861	9925	.	+	.	ID=exon-KEF63_t16-1;Parent=rna-KEF63_t16;Dbxref=GeneID:64985478;gbkey=tRNA;locus_tag=KEF63_t16;product=tRNA-Arg
+NC_002083.1	RefSeq	gene	9926	10222	.	+	.	ID=gene-KEF63_p05;Dbxref=GeneID:808477;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;gene_synonym=NADH4L;locus_tag=KEF63_p05
+NC_002083.1	RefSeq	CDS	9926	10222	.	+	0	ID=cds-NP_007843.1;Parent=gene-KEF63_p05;Dbxref=UniProtKB/Swiss-Prot:Q35585,GenBank:NP_007843.1,GeneID:808477;Name=NP_007843.1;gbkey=CDS;gene=ND4L;locus_tag=KEF63_p05;product=NADH dehydrogenase subunit 4L;protein_id=NP_007843.1;transl_table=2
+NC_002083.1	RefSeq	gene	10216	11593	.	+	.	ID=gene-KEF63_p04;Dbxref=GeneID:808481;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;gene_synonym=NAD4;locus_tag=KEF63_p04
+NC_002083.1	RefSeq	CDS	10216	11593	.	+	0	ID=cds-NP_007844.1;Parent=gene-KEF63_p04;Dbxref=UniProtKB/Swiss-Prot:P92698,GenBank:NP_007844.1,GeneID:808481;Name=NP_007844.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=KEF63_p04;product=NADH dehydrogenase subunit 4;protein_id=NP_007844.1;transl_except=(pos:11593%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	11594	11661	.	+	.	ID=gene-KEF63_t17;Dbxref=GeneID:64985479;Name=KEF63_t17;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t17
+NC_002083.1	RefSeq	tRNA	11594	11661	.	+	.	ID=rna-KEF63_t17;Parent=gene-KEF63_t17;Dbxref=GeneID:64985479;gbkey=tRNA;locus_tag=KEF63_t17;product=tRNA-His
+NC_002083.1	RefSeq	exon	11594	11661	.	+	.	ID=exon-KEF63_t17-1;Parent=rna-KEF63_t17;Dbxref=GeneID:64985479;gbkey=tRNA;locus_tag=KEF63_t17;product=tRNA-His
+NC_002083.1	RefSeq	gene	11662	11719	.	+	.	ID=gene-KEF63_t18;Dbxref=GeneID:64985493;Name=KEF63_t18;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t18
+NC_002083.1	RefSeq	tRNA	11662	11719	.	+	.	ID=rna-KEF63_t18;Parent=gene-KEF63_t18;Dbxref=GeneID:64985493;codons=AGY;gbkey=tRNA;locus_tag=KEF63_t18;product=tRNA-Ser
+NC_002083.1	RefSeq	exon	11662	11719	.	+	.	ID=exon-KEF63_t18-1;Parent=rna-KEF63_t18;Dbxref=GeneID:64985493;codons=AGY;gbkey=tRNA;locus_tag=KEF63_t18;product=tRNA-Ser
+NC_002083.1	RefSeq	gene	11720	11790	.	+	.	ID=gene-KEF63_t19;Dbxref=GeneID:64985494;Name=KEF63_t19;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t19
+NC_002083.1	RefSeq	tRNA	11720	11790	.	+	.	ID=rna-KEF63_t19;Parent=gene-KEF63_t19;Dbxref=GeneID:64985494;codons=CUN;gbkey=tRNA;locus_tag=KEF63_t19;product=tRNA-Leu
+NC_002083.1	RefSeq	exon	11720	11790	.	+	.	ID=exon-KEF63_t19-1;Parent=rna-KEF63_t19;Dbxref=GeneID:64985494;codons=CUN;gbkey=tRNA;locus_tag=KEF63_t19;product=tRNA-Leu
+NC_002083.1	RefSeq	gene	11797	13602	.	+	.	ID=gene-KEF63_p03;Dbxref=GeneID:808484;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;gene_synonym=NAD5;locus_tag=KEF63_p03
+NC_002083.1	RefSeq	CDS	11797	13602	.	+	0	ID=cds-NP_007845.1;Parent=gene-KEF63_p03;Dbxref=GenBank:NP_007845.1,GeneID:808484;Name=NP_007845.1;gbkey=CDS;gene=ND5;locus_tag=KEF63_p03;product=NADH dehydrogenase subunit 5;protein_id=NP_007845.1;transl_table=2
+NC_002083.1	RefSeq	gene	13603	14127	.	-	.	ID=gene-KEF63_p02;Dbxref=GeneID:808476;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;gene_synonym=NADH6;locus_tag=KEF63_p02
+NC_002083.1	RefSeq	CDS	13603	14127	.	-	0	ID=cds-NP_007846.1;Parent=gene-KEF63_p02;Dbxref=UniProtKB/Swiss-Prot:P92700,GenBank:NP_007846.1,GeneID:808476;Name=NP_007846.1;gbkey=CDS;gene=ND6;locus_tag=KEF63_p02;product=NADH dehydrogenase subunit 6;protein_id=NP_007846.1;transl_table=2
+NC_002083.1	RefSeq	gene	14128	14196	.	-	.	ID=gene-KEF63_t20;Dbxref=GeneID:64985480;Name=KEF63_t20;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t20
+NC_002083.1	RefSeq	tRNA	14128	14196	.	-	.	ID=rna-KEF63_t20;Parent=gene-KEF63_t20;Dbxref=GeneID:64985480;gbkey=tRNA;locus_tag=KEF63_t20;product=tRNA-Glu
+NC_002083.1	RefSeq	exon	14128	14196	.	-	.	ID=exon-KEF63_t20-1;Parent=rna-KEF63_t20;Dbxref=GeneID:64985480;gbkey=tRNA;locus_tag=KEF63_t20;product=tRNA-Glu
+NC_002083.1	RefSeq	gene	14201	15341	.	+	.	ID=gene-KEF63_p01;Dbxref=GeneID:808483;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;gene_synonym=Cytochrome b;locus_tag=KEF63_p01
+NC_002083.1	RefSeq	CDS	14201	15341	.	+	0	ID=cds-NP_007847.1;Parent=gene-KEF63_p01;Dbxref=UniProtKB/Swiss-Prot:P92701,GenBank:NP_007847.1,GeneID:808483;Name=NP_007847.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=CYTB;locus_tag=KEF63_p01;product=cytochrome b;protein_id=NP_007847.1;transl_except=(pos:15341%2Caa:TERM);transl_table=2
+NC_002083.1	RefSeq	gene	15342	15407	.	+	.	ID=gene-KEF63_t21;Dbxref=GeneID:64985481;Name=KEF63_t21;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t21
+NC_002083.1	RefSeq	tRNA	15342	15407	.	+	.	ID=rna-KEF63_t21;Parent=gene-KEF63_t21;Dbxref=GeneID:64985481;gbkey=tRNA;locus_tag=KEF63_t21;product=tRNA-Thr
+NC_002083.1	RefSeq	exon	15342	15407	.	+	.	ID=exon-KEF63_t21-1;Parent=rna-KEF63_t21;Dbxref=GeneID:64985481;gbkey=tRNA;locus_tag=KEF63_t21;product=tRNA-Thr
+NC_002083.1	RefSeq	gene	15415	15483	.	-	.	ID=gene-KEF63_t22;Dbxref=GeneID:64985495;Name=KEF63_t22;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEF63_t22
+NC_002083.1	RefSeq	tRNA	15415	15483	.	-	.	ID=rna-KEF63_t22;Parent=gene-KEF63_t22;Dbxref=GeneID:64985495;gbkey=tRNA;locus_tag=KEF63_t22;product=tRNA-Pro
+NC_002083.1	RefSeq	exon	15415	15483	.	-	.	ID=exon-KEF63_t22-1;Parent=rna-KEF63_t22;Dbxref=GeneID:64985495;gbkey=tRNA;locus_tag=KEF63_t22;product=tRNA-Pro
+NC_002083.1	RefSeq	sequence_feature	15484	16499	.	+	.	ID=id-NC_002083.1:15484..16499;Note=control region;gbkey=misc_feature
+

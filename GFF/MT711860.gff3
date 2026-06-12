@@ -1,0 +1,82 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MT711860.1 1 16496
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=61851
+MT711860.1	Genbank	region	1	16496	.	+	.	ID=MT711860.1:1..16496;Dbxref=taxon:61851;Is_circular=true;Name=MT;country=India;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;tissue-type=blood
+MT711860.1	Genbank	tRNA	1	70	.	+	.	ID=rna-MT711860.1:1..70;gbkey=tRNA;product=tRNA-Phe
+MT711860.1	Genbank	exon	1	70	.	+	.	ID=exon-MT711860.1:1..70-1;Parent=rna-MT711860.1:1..70;gbkey=tRNA;product=tRNA-Phe
+MT711860.1	Genbank	rRNA	71	1023	.	+	.	ID=rna-MT711860.1:71..1023;gbkey=rRNA;product=12S ribosomal RNA
+MT711860.1	Genbank	exon	71	1023	.	+	.	ID=exon-MT711860.1:71..1023-1;Parent=rna-MT711860.1:71..1023;gbkey=rRNA;product=12S ribosomal RNA
+MT711860.1	Genbank	tRNA	1024	1092	.	+	.	ID=rna-MT711860.1:1024..1092;gbkey=tRNA;product=tRNA-Val
+MT711860.1	Genbank	exon	1024	1092	.	+	.	ID=exon-MT711860.1:1024..1092-1;Parent=rna-MT711860.1:1024..1092;gbkey=tRNA;product=tRNA-Val
+MT711860.1	Genbank	rRNA	1093	2650	.	+	.	ID=rna-MT711860.1:1093..2650;gbkey=rRNA;product=16S ribosomal RNA
+MT711860.1	Genbank	exon	1093	2650	.	+	.	ID=exon-MT711860.1:1093..2650-1;Parent=rna-MT711860.1:1093..2650;gbkey=rRNA;product=16S ribosomal RNA
+MT711860.1	Genbank	tRNA	2651	2725	.	+	.	ID=rna-MT711860.1:2651..2725;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+MT711860.1	Genbank	exon	2651	2725	.	+	.	ID=exon-MT711860.1:2651..2725-1;Parent=rna-MT711860.1:2651..2725;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+MT711860.1	Genbank	gene	2728	3683	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	2728	3683	.	+	0	ID=cds-UOG85212.1;Parent=gene-ND1;Dbxref=NCBI_GP:UOG85212.1;Name=UOG85212.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=UOG85212.1;transl_except=(pos:3682..3683%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	3684	3752	.	+	.	ID=rna-MT711860.1:3684..3752;gbkey=tRNA;product=tRNA-Ile
+MT711860.1	Genbank	exon	3684	3752	.	+	.	ID=exon-MT711860.1:3684..3752-1;Parent=rna-MT711860.1:3684..3752;gbkey=tRNA;product=tRNA-Ile
+MT711860.1	Genbank	tRNA	3750	3821	.	-	.	ID=rna-MT711860.1:3750..3821;gbkey=tRNA;product=tRNA-Gln
+MT711860.1	Genbank	exon	3750	3821	.	-	.	ID=exon-MT711860.1:3750..3821-1;Parent=rna-MT711860.1:3750..3821;gbkey=tRNA;product=tRNA-Gln
+MT711860.1	Genbank	tRNA	3822	3889	.	+	.	ID=rna-MT711860.1:3822..3889;gbkey=tRNA;product=tRNA-Met
+MT711860.1	Genbank	exon	3822	3889	.	+	.	ID=exon-MT711860.1:3822..3889-1;Parent=rna-MT711860.1:3822..3889;gbkey=tRNA;product=tRNA-Met
+MT711860.1	Genbank	gene	3890	4932	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	3890	4932	.	+	0	ID=cds-UOG85213.1;Parent=gene-ND2;Dbxref=NCBI_GP:UOG85213.1;Name=UOG85213.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=UOG85213.1;transl_except=(pos:4931..4932%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	4933	5000	.	+	.	ID=rna-MT711860.1:4933..5000;gbkey=tRNA;product=tRNA-Trp
+MT711860.1	Genbank	exon	4933	5000	.	+	.	ID=exon-MT711860.1:4933..5000-1;Parent=rna-MT711860.1:4933..5000;gbkey=tRNA;product=tRNA-Trp
+MT711860.1	Genbank	tRNA	5010	5078	.	-	.	ID=rna-MT711860.1:5010..5078;gbkey=tRNA;product=tRNA-Ala
+MT711860.1	Genbank	exon	5010	5078	.	-	.	ID=exon-MT711860.1:5010..5078-1;Parent=rna-MT711860.1:5010..5078;gbkey=tRNA;product=tRNA-Ala
+MT711860.1	Genbank	tRNA	5080	5153	.	-	.	ID=rna-MT711860.1:5080..5153;gbkey=tRNA;product=tRNA-Asn
+MT711860.1	Genbank	exon	5080	5153	.	-	.	ID=exon-MT711860.1:5080..5153-1;Parent=rna-MT711860.1:5080..5153;gbkey=tRNA;product=tRNA-Asn
+MT711860.1	Genbank	tRNA	5185	5250	.	-	.	ID=rna-MT711860.1:5185..5250;gbkey=tRNA;product=tRNA-Cys
+MT711860.1	Genbank	exon	5185	5250	.	-	.	ID=exon-MT711860.1:5185..5250-1;Parent=rna-MT711860.1:5185..5250;gbkey=tRNA;product=tRNA-Cys
+MT711860.1	Genbank	tRNA	5250	5315	.	-	.	ID=rna-MT711860.1:5250..5315;gbkey=tRNA;product=tRNA-Tyr
+MT711860.1	Genbank	exon	5250	5315	.	-	.	ID=exon-MT711860.1:5250..5315-1;Parent=rna-MT711860.1:5250..5315;gbkey=tRNA;product=tRNA-Tyr
+MT711860.1	Genbank	gene	5326	6867	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	5326	6867	.	+	0	ID=cds-UOG85214.1;Parent=gene-COX1;Dbxref=NCBI_GP:UOG85214.1;Name=UOG85214.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=UOG85214.1;transl_table=2
+MT711860.1	Genbank	tRNA	6868	6936	.	-	.	ID=rna-MT711860.1:6868..6936;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+MT711860.1	Genbank	exon	6868	6936	.	-	.	ID=exon-MT711860.1:6868..6936-1;Parent=rna-MT711860.1:6868..6936;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+MT711860.1	Genbank	tRNA	6940	7008	.	+	.	ID=rna-MT711860.1:6940..7008;gbkey=tRNA;product=tRNA-Asp
+MT711860.1	Genbank	exon	6940	7008	.	+	.	ID=exon-MT711860.1:6940..7008-1;Parent=rna-MT711860.1:6940..7008;gbkey=tRNA;product=tRNA-Asp
+MT711860.1	Genbank	gene	7009	7692	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	7009	7692	.	+	0	ID=cds-UOG85215.1;Parent=gene-COX2;Dbxref=NCBI_GP:UOG85215.1;Name=UOG85215.1;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=UOG85215.1;transl_table=2
+MT711860.1	Genbank	tRNA	7720	7788	.	+	.	ID=rna-MT711860.1:7720..7788;gbkey=tRNA;product=tRNA-Lys
+MT711860.1	Genbank	exon	7720	7788	.	+	.	ID=exon-MT711860.1:7720..7788-1;Parent=rna-MT711860.1:7720..7788;gbkey=tRNA;product=tRNA-Lys
+MT711860.1	Genbank	gene	7790	7996	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	7790	7996	.	+	0	ID=cds-UOG85216.1;Parent=gene-ATP8;Dbxref=NCBI_GP:UOG85216.1;Name=UOG85216.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=UOG85216.1;transl_table=2
+MT711860.1	Genbank	gene	7951	8631	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	7951	8631	.	+	0	ID=cds-UOG85217.1;Parent=gene-ATP6;Dbxref=NCBI_GP:UOG85217.1;Name=UOG85217.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=UOG85217.1;transl_table=2
+MT711860.1	Genbank	gene	8631	9414	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	8631	9414	.	+	0	ID=cds-UOG85218.1;Parent=gene-COX3;Dbxref=NCBI_GP:UOG85218.1;Name=UOG85218.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=UOG85218.1;transl_except=(pos:9414%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	9415	9482	.	+	.	ID=rna-MT711860.1:9415..9482;gbkey=tRNA;product=tRNA-Gly
+MT711860.1	Genbank	exon	9415	9482	.	+	.	ID=exon-MT711860.1:9415..9482-1;Parent=rna-MT711860.1:9415..9482;gbkey=tRNA;product=tRNA-Gly
+MT711860.1	Genbank	gene	9483	9828	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	9483	9828	.	+	0	ID=cds-UOG85219.1;Parent=gene-ND3;Dbxref=NCBI_GP:UOG85219.1;Name=UOG85219.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=UOG85219.1;transl_except=(pos:9828%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	9829	9894	.	+	.	ID=rna-MT711860.1:9829..9894;gbkey=tRNA;product=tRNA-Arg
+MT711860.1	Genbank	exon	9829	9894	.	+	.	ID=exon-MT711860.1:9829..9894-1;Parent=rna-MT711860.1:9829..9894;gbkey=tRNA;product=tRNA-Arg
+MT711860.1	Genbank	gene	9895	10191	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	9895	10191	.	+	0	ID=cds-UOG85220.1;Parent=gene-ND4L;Dbxref=NCBI_GP:UOG85220.1;Name=UOG85220.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=UOG85220.1;transl_table=2
+MT711860.1	Genbank	gene	10185	11562	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	10185	11562	.	+	0	ID=cds-UOG85221.1;Parent=gene-ND4;Dbxref=NCBI_GP:UOG85221.1;Name=UOG85221.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=UOG85221.1;transl_except=(pos:11562%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	11563	11631	.	+	.	ID=rna-MT711860.1:11563..11631;gbkey=tRNA;product=tRNA-His
+MT711860.1	Genbank	exon	11563	11631	.	+	.	ID=exon-MT711860.1:11563..11631-1;Parent=rna-MT711860.1:11563..11631;gbkey=tRNA;product=tRNA-His
+MT711860.1	Genbank	tRNA	11632	11690	.	+	.	ID=rna-MT711860.1:11632..11690;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+MT711860.1	Genbank	exon	11632	11690	.	+	.	ID=exon-MT711860.1:11632..11690-1;Parent=rna-MT711860.1:11632..11690;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+MT711860.1	Genbank	tRNA	11691	11761	.	+	.	ID=rna-MT711860.1:11691..11761;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+MT711860.1	Genbank	exon	11691	11761	.	+	.	ID=exon-MT711860.1:11691..11761-1;Parent=rna-MT711860.1:11691..11761;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+MT711860.1	Genbank	gene	11768	13573	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	11768	13573	.	+	0	ID=cds-UOG85222.1;Parent=gene-ND5;Dbxref=NCBI_GP:UOG85222.1;Name=UOG85222.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=UOG85222.1;transl_table=2
+MT711860.1	Genbank	gene	13574	14098	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	13574	14098	.	-	0	ID=cds-UOG85223.1;Parent=gene-ND6;Dbxref=NCBI_GP:UOG85223.1;Name=UOG85223.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=UOG85223.1;transl_table=2
+MT711860.1	Genbank	tRNA	14099	14167	.	-	.	ID=rna-MT711860.1:14099..14167;gbkey=tRNA;product=tRNA-Glu
+MT711860.1	Genbank	exon	14099	14167	.	-	.	ID=exon-MT711860.1:14099..14167-1;Parent=rna-MT711860.1:14099..14167;gbkey=tRNA;product=tRNA-Glu
+MT711860.1	Genbank	gene	14172	15312	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+MT711860.1	Genbank	CDS	14172	15312	.	+	0	ID=cds-UOG85224.1;Parent=gene-CYTB;Dbxref=NCBI_GP:UOG85224.1;Name=UOG85224.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=UOG85224.1;transl_except=(pos:15312%2Caa:TERM);transl_table=2
+MT711860.1	Genbank	tRNA	15313	15379	.	+	.	ID=rna-MT711860.1:15313..15379;gbkey=tRNA;product=tRNA-Thr
+MT711860.1	Genbank	exon	15313	15379	.	+	.	ID=exon-MT711860.1:15313..15379-1;Parent=rna-MT711860.1:15313..15379;gbkey=tRNA;product=tRNA-Thr
+MT711860.1	Genbank	tRNA	15382	15449	.	-	.	ID=rna-MT711860.1:15382..15449;gbkey=tRNA;product=tRNA-Pro
+MT711860.1	Genbank	exon	15382	15449	.	-	.	ID=exon-MT711860.1:15382..15449-1;Parent=rna-MT711860.1:15382..15449;gbkey=tRNA;product=tRNA-Pro
+MT711860.1	Genbank	D_loop	15450	16496	.	+	.	ID=id-MT711860.1:15450..16496;gbkey=D-loop
+

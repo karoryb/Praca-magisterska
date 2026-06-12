@@ -1,0 +1,83 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KY996500.1 1 17140
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9330
+KY996500.1	Genbank	region	1	17140	.	+	.	ID=KY996500.1:1..17140;Dbxref=taxon:9330;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+KY996500.1	Genbank	tRNA	1	70	.	+	.	ID=rna-KY996500.1:1..70;gbkey=tRNA;product=tRNA-Phe
+KY996500.1	Genbank	exon	1	70	.	+	.	ID=exon-KY996500.1:1..70-1;Parent=rna-KY996500.1:1..70;gbkey=tRNA;product=tRNA-Phe
+KY996500.1	Genbank	rRNA	71	1018	.	+	.	ID=rna-KY996500.1:71..1018;gbkey=rRNA;product=12S ribosomal RNA
+KY996500.1	Genbank	exon	71	1018	.	+	.	ID=exon-KY996500.1:71..1018-1;Parent=rna-KY996500.1:71..1018;gbkey=rRNA;product=12S ribosomal RNA
+KY996500.1	Genbank	tRNA	1020	1088	.	+	.	ID=rna-KY996500.1:1020..1088;gbkey=tRNA;product=tRNA-Val
+KY996500.1	Genbank	exon	1020	1088	.	+	.	ID=exon-KY996500.1:1020..1088-1;Parent=rna-KY996500.1:1020..1088;gbkey=tRNA;product=tRNA-Val
+KY996500.1	Genbank	rRNA	1089	2660	.	+	.	ID=rna-KY996500.1:1089..2660;gbkey=rRNA;product=16S ribosomal RNA
+KY996500.1	Genbank	exon	1089	2660	.	+	.	ID=exon-KY996500.1:1089..2660-1;Parent=rna-KY996500.1:1089..2660;gbkey=rRNA;product=16S ribosomal RNA
+KY996500.1	Genbank	tRNA	2661	2734	.	+	.	ID=rna-KY996500.1:2661..2734;gbkey=tRNA;product=tRNA-Leu
+KY996500.1	Genbank	exon	2661	2734	.	+	.	ID=exon-KY996500.1:2661..2734-1;Parent=rna-KY996500.1:2661..2734;gbkey=tRNA;product=tRNA-Leu
+KY996500.1	Genbank	gene	2736	3691	.	+	.	ID=gene-KY996500.1:2736..3691;description=ND1;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	2736	3691	.	+	0	ID=cds-ATZ81891.1;Parent=gene-KY996500.1:2736..3691;Dbxref=NCBI_GP:ATZ81891.1;Name=ATZ81891.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=NADH dehydrogenase subunit 1;protein_id=ATZ81891.1;transl_except=(pos:3690..3691%2Caa:TERM);transl_table=2
+KY996500.1	Genbank	tRNA	3692	3760	.	+	.	ID=rna-KY996500.1:3692..3760;gbkey=tRNA;product=tRNA-Ile
+KY996500.1	Genbank	exon	3692	3760	.	+	.	ID=exon-KY996500.1:3692..3760-1;Parent=rna-KY996500.1:3692..3760;gbkey=tRNA;product=tRNA-Ile
+KY996500.1	Genbank	tRNA	3758	3829	.	-	.	ID=rna-KY996500.1:3758..3829;gbkey=tRNA;product=tRNA-Gln
+KY996500.1	Genbank	exon	3758	3829	.	-	.	ID=exon-KY996500.1:3758..3829-1;Parent=rna-KY996500.1:3758..3829;gbkey=tRNA;product=tRNA-Gln
+KY996500.1	Genbank	tRNA	3829	3897	.	+	.	ID=rna-KY996500.1:3829..3897;gbkey=tRNA;product=tRNA-Met
+KY996500.1	Genbank	exon	3829	3897	.	+	.	ID=exon-KY996500.1:3829..3897-1;Parent=rna-KY996500.1:3829..3897;gbkey=tRNA;product=tRNA-Met
+KY996500.1	Genbank	gene	3898	4944	.	+	.	ID=gene-KY996500.1:3898..4944;description=ND2;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	3898	4944	.	+	0	ID=cds-ATZ81879.1;Parent=gene-KY996500.1:3898..4944;Dbxref=NCBI_GP:ATZ81879.1;Name=ATZ81879.1;gbkey=CDS;product=NADH dehydrogenase subunit 2;protein_id=ATZ81879.1;transl_table=2
+KY996500.1	Genbank	tRNA	4942	5010	.	-	.	ID=rna-KY996500.1:4942..5010;gbkey=tRNA;product=tRNA-Ala
+KY996500.1	Genbank	exon	4942	5010	.	-	.	ID=exon-KY996500.1:4942..5010-1;Parent=rna-KY996500.1:4942..5010;gbkey=tRNA;product=tRNA-Ala
+KY996500.1	Genbank	tRNA	5020	5085	.	-	.	ID=rna-KY996500.1:5020..5085;gbkey=tRNA;product=tRNA-Cys
+KY996500.1	Genbank	exon	5020	5085	.	-	.	ID=exon-KY996500.1:5020..5085-1;Parent=rna-KY996500.1:5020..5085;gbkey=tRNA;product=tRNA-Cys
+KY996500.1	Genbank	tRNA	5090	5160	.	+	.	ID=rna-KY996500.1:5090..5160;gbkey=tRNA;product=tRNA-Trp
+KY996500.1	Genbank	exon	5090	5160	.	+	.	ID=exon-KY996500.1:5090..5160-1;Parent=rna-KY996500.1:5090..5160;gbkey=tRNA;product=tRNA-Trp
+KY996500.1	Genbank	origin_of_replication	5174	5211	.	+	.	ID=id-KY996500.1:5174..5211;Note=L-strand repeat origin;gbkey=rep_origin
+KY996500.1	Genbank	tRNA	5242	5313	.	-	.	ID=rna-KY996500.1:5242..5313;gbkey=tRNA;product=tRNA-Asn
+KY996500.1	Genbank	exon	5242	5313	.	-	.	ID=exon-KY996500.1:5242..5313-1;Parent=rna-KY996500.1:5242..5313;gbkey=tRNA;product=tRNA-Asn
+KY996500.1	Genbank	tRNA	5317	5384	.	-	.	ID=rna-KY996500.1:5317..5384;gbkey=tRNA;product=tRNA-Tyr
+KY996500.1	Genbank	exon	5317	5384	.	-	.	ID=exon-KY996500.1:5317..5384-1;Parent=rna-KY996500.1:5317..5384;gbkey=tRNA;product=tRNA-Tyr
+KY996500.1	Genbank	gene	5386	6927	.	+	.	ID=gene-KY996500.1:5386..6927;description=COX1;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	5386	6927	.	+	0	ID=cds-ATZ81880.1;Parent=gene-KY996500.1:5386..6927;Dbxref=NCBI_GP:ATZ81880.1;Name=ATZ81880.1;gbkey=CDS;product=cytochrome c oxidase subunit I;protein_id=ATZ81880.1;transl_table=2
+KY996500.1	Genbank	tRNA	6931	6999	.	-	.	ID=rna-KY996500.1:6931..6999;gbkey=tRNA;product=tRNA-Ser
+KY996500.1	Genbank	exon	6931	6999	.	-	.	ID=exon-KY996500.1:6931..6999-1;Parent=rna-KY996500.1:6931..6999;gbkey=tRNA;product=tRNA-Ser
+KY996500.1	Genbank	tRNA	7002	7071	.	+	.	ID=rna-KY996500.1:7002..7071;gbkey=tRNA;product=tRNA-Asp
+KY996500.1	Genbank	exon	7002	7071	.	+	.	ID=exon-KY996500.1:7002..7071-1;Parent=rna-KY996500.1:7002..7071;gbkey=tRNA;product=tRNA-Asp
+KY996500.1	Genbank	gene	7073	7754	.	+	.	ID=gene-KY996500.1:7073..7754;description=COX2;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	7073	7754	.	+	0	ID=cds-ATZ81881.1;Parent=gene-KY996500.1:7073..7754;Dbxref=NCBI_GP:ATZ81881.1;Name=ATZ81881.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=cytochrome c oxidase subunit II;protein_id=ATZ81881.1;transl_except=(pos:7754%2Caa:TERM);transl_table=2
+KY996500.1	Genbank	tRNA	7755	7818	.	+	.	ID=rna-KY996500.1:7755..7818;gbkey=tRNA;product=tRNA-Lys
+KY996500.1	Genbank	exon	7755	7818	.	+	.	ID=exon-KY996500.1:7755..7818-1;Parent=rna-KY996500.1:7755..7818;gbkey=tRNA;product=tRNA-Lys
+KY996500.1	Genbank	gene	7820	8029	.	+	.	ID=gene-KY996500.1:7820..8029;description=ATP8;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	7820	8029	.	+	0	ID=cds-ATZ81882.1;Parent=gene-KY996500.1:7820..8029;Dbxref=NCBI_GP:ATZ81882.1;Name=ATZ81882.1;gbkey=CDS;product=ATP synthase F0 subunit 8;protein_id=ATZ81882.1;transl_table=2
+KY996500.1	Genbank	gene	7984	8664	.	+	.	ID=gene-KY996500.1:7984..8664;description=ATP6;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	7984	8664	.	+	0	ID=cds-ATZ81883.1;Parent=gene-KY996500.1:7984..8664;Dbxref=NCBI_GP:ATZ81883.1;Name=ATZ81883.1;gbkey=CDS;product=ATP synthase F0 subunit 6;protein_id=ATZ81883.1;transl_table=2
+KY996500.1	Genbank	gene	8664	9447	.	+	.	ID=gene-KY996500.1:8664..9447;description=COX3;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	8664	9447	.	+	0	ID=cds-ATZ81884.1;Parent=gene-KY996500.1:8664..9447;Dbxref=NCBI_GP:ATZ81884.1;Name=ATZ81884.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=cytochrome c oxidase subunit III;protein_id=ATZ81884.1;transl_except=(pos:9447%2Caa:TERM);transl_table=2
+KY996500.1	Genbank	tRNA	9448	9515	.	+	.	ID=rna-KY996500.1:9448..9515;gbkey=tRNA;product=tRNA-Gly
+KY996500.1	Genbank	exon	9448	9515	.	+	.	ID=exon-KY996500.1:9448..9515-1;Parent=rna-KY996500.1:9448..9515;gbkey=tRNA;product=tRNA-Gly
+KY996500.1	Genbank	gene	9516	9861	.	+	.	ID=gene-KY996500.1:9516..9861;description=ND3;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	9516	9861	.	+	0	ID=cds-ATZ81885.1;Parent=gene-KY996500.1:9516..9861;Dbxref=NCBI_GP:ATZ81885.1;Name=ATZ81885.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=NADH dehydrogenase subunit 3;protein_id=ATZ81885.1;transl_except=(pos:9861%2Caa:TERM);transl_table=2
+KY996500.1	Genbank	tRNA	9862	9930	.	+	.	ID=rna-KY996500.1:9862..9930;gbkey=tRNA;product=tRNA-Arg
+KY996500.1	Genbank	exon	9862	9930	.	+	.	ID=exon-KY996500.1:9862..9930-1;Parent=rna-KY996500.1:9862..9930;gbkey=tRNA;product=tRNA-Arg
+KY996500.1	Genbank	gene	9931	10227	.	+	.	ID=gene-KY996500.1:9931..10227;description=ND4L;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	9931	10227	.	+	0	ID=cds-ATZ81886.1;Parent=gene-KY996500.1:9931..10227;Dbxref=NCBI_GP:ATZ81886.1;Name=ATZ81886.1;gbkey=CDS;product=NADH dehydrogenase subunit 4L;protein_id=ATZ81886.1;transl_table=2
+KY996500.1	Genbank	gene	10221	11598	.	+	.	ID=gene-KY996500.1:10221..11598;description=ND4;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	10221	11598	.	+	0	ID=cds-ATZ81887.1;Parent=gene-KY996500.1:10221..11598;Dbxref=NCBI_GP:ATZ81887.1;Name=ATZ81887.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;product=NADH dehydrogenase subunit 4;protein_id=ATZ81887.1;transl_except=(pos:11598%2Caa:TERM);transl_table=2
+KY996500.1	Genbank	tRNA	11599	11667	.	+	.	ID=rna-KY996500.1:11599..11667;gbkey=tRNA;product=tRNA-His
+KY996500.1	Genbank	exon	11599	11667	.	+	.	ID=exon-KY996500.1:11599..11667-1;Parent=rna-KY996500.1:11599..11667;gbkey=tRNA;product=tRNA-His
+KY996500.1	Genbank	tRNA	11668	11726	.	+	.	ID=rna-KY996500.1:11668..11726;gbkey=tRNA;product=tRNA-Ser
+KY996500.1	Genbank	exon	11668	11726	.	+	.	ID=exon-KY996500.1:11668..11726-1;Parent=rna-KY996500.1:11668..11726;gbkey=tRNA;product=tRNA-Ser
+KY996500.1	Genbank	tRNA	11726	11796	.	+	.	ID=rna-KY996500.1:11726..11796;gbkey=tRNA;product=tRNA-Leu
+KY996500.1	Genbank	exon	11726	11796	.	+	.	ID=exon-KY996500.1:11726..11796-1;Parent=rna-KY996500.1:11726..11796;gbkey=tRNA;product=tRNA-Leu
+KY996500.1	Genbank	gene	11797	13605	.	+	.	ID=gene-KY996500.1:11797..13605;description=ND5;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	11797	13605	.	+	0	ID=cds-ATZ81888.1;Parent=gene-KY996500.1:11797..13605;Dbxref=NCBI_GP:ATZ81888.1;Name=ATZ81888.1;gbkey=CDS;product=NADH dehydrogenase subunit 5;protein_id=ATZ81888.1;transl_table=2
+KY996500.1	Genbank	gene	13602	14105	.	-	.	ID=gene-KY996500.1:13602..14105;description=ND6;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	13602	14105	.	-	0	ID=cds-ATZ81889.1;Parent=gene-KY996500.1:13602..14105;Dbxref=NCBI_GP:ATZ81889.1;Name=ATZ81889.1;gbkey=CDS;product=NADH dehydrogenase subunit 6;protein_id=ATZ81889.1;transl_table=2
+KY996500.1	Genbank	tRNA	14106	14174	.	-	.	ID=rna-KY996500.1:14106..14174;gbkey=tRNA;product=tRNA-Glu
+KY996500.1	Genbank	exon	14106	14174	.	-	.	ID=exon-KY996500.1:14106..14174-1;Parent=rna-KY996500.1:14106..14174;gbkey=tRNA;product=tRNA-Glu
+KY996500.1	Genbank	gene	14178	15323	.	+	.	ID=gene-KY996500.1:14178..15323;description=CYTB;gbkey=Gene;gene_biotype=protein_coding
+KY996500.1	Genbank	CDS	14178	15323	.	+	0	ID=cds-ATZ81890.1;Parent=gene-KY996500.1:14178..15323;Dbxref=NCBI_GP:ATZ81890.1;Name=ATZ81890.1;gbkey=CDS;product=cytochrome b;protein_id=ATZ81890.1;transl_table=2
+KY996500.1	Genbank	tRNA	15324	15392	.	+	.	ID=rna-KY996500.1:15324..15392;gbkey=tRNA;product=tRNA-Thr
+KY996500.1	Genbank	exon	15324	15392	.	+	.	ID=exon-KY996500.1:15324..15392-1;Parent=rna-KY996500.1:15324..15392;gbkey=tRNA;product=tRNA-Thr
+KY996500.1	Genbank	tRNA	15395	15464	.	-	.	ID=rna-KY996500.1:15395..15464;gbkey=tRNA;product=tRNA-Pro
+KY996500.1	Genbank	exon	15395	15464	.	-	.	ID=exon-KY996500.1:15395..15464-1;Parent=rna-KY996500.1:15395..15464;gbkey=tRNA;product=tRNA-Pro
+KY996500.1	Genbank	D_loop	15465	16877	.	+	.	ID=id-KY996500.1:15465..16877;gbkey=D-loop
+

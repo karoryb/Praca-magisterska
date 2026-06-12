@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_029422.1 1 17224
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=159330
+NC_029422.1	RefSeq	region	1	17224	.	+	.	ID=NC_029422.1:1..17224;Dbxref=taxon:159330;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_029422.1	RefSeq	gene	1	68	.	+	.	ID=gene-AZ364_gt01;Dbxref=GeneID:26894710;Name=AZ364_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt01
+NC_029422.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-AZ364_gt01;Parent=gene-AZ364_gt01;Dbxref=GeneID:26894710;gbkey=tRNA;locus_tag=AZ364_gt01;product=tRNA-Phe
+NC_029422.1	RefSeq	exon	1	68	.	+	.	ID=exon-AZ364_gt01-1;Parent=rna-AZ364_gt01;Dbxref=GeneID:26894710;gbkey=tRNA;locus_tag=AZ364_gt01;product=tRNA-Phe
+NC_029422.1	RefSeq	gene	69	1032	.	+	.	ID=gene-AZ364_gr02;Dbxref=GeneID:26894687;Name=AZ364_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=AZ364_gr02
+NC_029422.1	RefSeq	rRNA	69	1032	.	+	.	ID=rna-AZ364_gr02;Parent=gene-AZ364_gr02;Dbxref=GeneID:26894687;gbkey=rRNA;locus_tag=AZ364_gr02;product=12S ribosomal RNA
+NC_029422.1	RefSeq	exon	69	1032	.	+	.	ID=exon-AZ364_gr02-1;Parent=rna-AZ364_gr02;Dbxref=GeneID:26894687;gbkey=rRNA;locus_tag=AZ364_gr02;product=12S ribosomal RNA
+NC_029422.1	RefSeq	gene	1033	1099	.	+	.	ID=gene-AZ364_gt02;Dbxref=GeneID:26894688;Name=AZ364_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt02
+NC_029422.1	RefSeq	tRNA	1033	1099	.	+	.	ID=rna-AZ364_gt02;Parent=gene-AZ364_gt02;Dbxref=GeneID:26894688;gbkey=tRNA;locus_tag=AZ364_gt02;product=tRNA-Val
+NC_029422.1	RefSeq	exon	1033	1099	.	+	.	ID=exon-AZ364_gt02-1;Parent=rna-AZ364_gt02;Dbxref=GeneID:26894688;gbkey=tRNA;locus_tag=AZ364_gt02;product=tRNA-Val
+NC_029422.1	RefSeq	gene	1100	2675	.	+	.	ID=gene-AZ364_gr01;Dbxref=GeneID:26894689;Name=AZ364_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=AZ364_gr01
+NC_029422.1	RefSeq	rRNA	1100	2675	.	+	.	ID=rna-AZ364_gr01;Parent=gene-AZ364_gr01;Dbxref=GeneID:26894689;gbkey=rRNA;locus_tag=AZ364_gr01;product=16S ribosomal RNA
+NC_029422.1	RefSeq	exon	1100	2675	.	+	.	ID=exon-AZ364_gr01-1;Parent=rna-AZ364_gr01;Dbxref=GeneID:26894689;gbkey=rRNA;locus_tag=AZ364_gr01;product=16S ribosomal RNA
+NC_029422.1	RefSeq	gene	2676	2750	.	+	.	ID=gene-AZ364_gt03;Dbxref=GeneID:26894690;Name=AZ364_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt03
+NC_029422.1	RefSeq	tRNA	2676	2750	.	+	.	ID=rna-AZ364_gt03;Parent=gene-AZ364_gt03;Dbxref=GeneID:26894690;codons=CUN;gbkey=tRNA;locus_tag=AZ364_gt03;product=tRNA-Leu
+NC_029422.1	RefSeq	exon	2676	2750	.	+	.	ID=exon-AZ364_gt03-1;Parent=rna-AZ364_gt03;Dbxref=GeneID:26894690;codons=CUN;gbkey=tRNA;locus_tag=AZ364_gt03;product=tRNA-Leu
+NC_029422.1	RefSeq	gene	2756	3711	.	+	.	ID=gene-AZ364_gp13;Dbxref=GeneID:26894691;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=AZ364_gp13
+NC_029422.1	RefSeq	CDS	2756	3711	.	+	0	ID=cds-YP_009234300.1;Parent=gene-AZ364_gp13;Dbxref=GenBank:YP_009234300.1,GeneID:26894691;Name=YP_009234300.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=AZ364_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009234300.1;transl_except=(pos:3710..3711%2Caa:TERM);transl_table=2
+NC_029422.1	RefSeq	gene	3712	3780	.	+	.	ID=gene-AZ364_gt04;Dbxref=GeneID:26894674;Name=AZ364_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt04
+NC_029422.1	RefSeq	tRNA	3712	3780	.	+	.	ID=rna-AZ364_gt04;Parent=gene-AZ364_gt04;Dbxref=GeneID:26894674;gbkey=tRNA;locus_tag=AZ364_gt04;product=tRNA-Ile
+NC_029422.1	RefSeq	exon	3712	3780	.	+	.	ID=exon-AZ364_gt04-1;Parent=rna-AZ364_gt04;Dbxref=GeneID:26894674;gbkey=tRNA;locus_tag=AZ364_gt04;product=tRNA-Ile
+NC_029422.1	RefSeq	gene	3778	3851	.	-	.	ID=gene-AZ364_gt05;Dbxref=GeneID:26894692;Name=AZ364_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt05
+NC_029422.1	RefSeq	tRNA	3778	3851	.	-	.	ID=rna-AZ364_gt05;Parent=gene-AZ364_gt05;Dbxref=GeneID:26894692;gbkey=tRNA;locus_tag=AZ364_gt05;product=tRNA-Gln
+NC_029422.1	RefSeq	exon	3778	3851	.	-	.	ID=exon-AZ364_gt05-1;Parent=rna-AZ364_gt05;Dbxref=GeneID:26894692;gbkey=tRNA;locus_tag=AZ364_gt05;product=tRNA-Gln
+NC_029422.1	RefSeq	gene	3852	3921	.	+	.	ID=gene-AZ364_gt06;Dbxref=GeneID:26894693;Name=AZ364_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt06
+NC_029422.1	RefSeq	tRNA	3852	3921	.	+	.	ID=rna-AZ364_gt06;Parent=gene-AZ364_gt06;Dbxref=GeneID:26894693;gbkey=tRNA;locus_tag=AZ364_gt06;product=tRNA-Met
+NC_029422.1	RefSeq	exon	3852	3921	.	+	.	ID=exon-AZ364_gt06-1;Parent=rna-AZ364_gt06;Dbxref=GeneID:26894693;gbkey=tRNA;locus_tag=AZ364_gt06;product=tRNA-Met
+NC_029422.1	RefSeq	gene	3922	4963	.	+	.	ID=gene-AZ364_gp12;Dbxref=GeneID:26894694;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=AZ364_gp12
+NC_029422.1	RefSeq	CDS	3922	4963	.	+	0	ID=cds-YP_009234301.1;Parent=gene-AZ364_gp12;Dbxref=GenBank:YP_009234301.1,GeneID:26894694;Name=YP_009234301.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=AZ364_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009234301.1;transl_except=(pos:4963%2Caa:TERM);transl_table=2
+NC_029422.1	RefSeq	gene	4964	5031	.	+	.	ID=gene-AZ364_gt07;Dbxref=GeneID:26894675;Name=AZ364_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt07
+NC_029422.1	RefSeq	tRNA	4964	5031	.	+	.	ID=rna-AZ364_gt07;Parent=gene-AZ364_gt07;Dbxref=GeneID:26894675;gbkey=tRNA;locus_tag=AZ364_gt07;product=tRNA-Trp
+NC_029422.1	RefSeq	exon	4964	5031	.	+	.	ID=exon-AZ364_gt07-1;Parent=rna-AZ364_gt07;Dbxref=GeneID:26894675;gbkey=tRNA;locus_tag=AZ364_gt07;product=tRNA-Trp
+NC_029422.1	RefSeq	gene	5037	5105	.	-	.	ID=gene-AZ364_gt08;Dbxref=GeneID:26894695;Name=AZ364_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt08
+NC_029422.1	RefSeq	tRNA	5037	5105	.	-	.	ID=rna-AZ364_gt08;Parent=gene-AZ364_gt08;Dbxref=GeneID:26894695;gbkey=tRNA;locus_tag=AZ364_gt08;product=tRNA-Ala
+NC_029422.1	RefSeq	exon	5037	5105	.	-	.	ID=exon-AZ364_gt08-1;Parent=rna-AZ364_gt08;Dbxref=GeneID:26894695;gbkey=tRNA;locus_tag=AZ364_gt08;product=tRNA-Ala
+NC_029422.1	RefSeq	gene	5107	5178	.	-	.	ID=gene-AZ364_gt09;Dbxref=GeneID:26894696;Name=AZ364_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt09
+NC_029422.1	RefSeq	tRNA	5107	5178	.	-	.	ID=rna-AZ364_gt09;Parent=gene-AZ364_gt09;Dbxref=GeneID:26894696;gbkey=tRNA;locus_tag=AZ364_gt09;product=tRNA-Asn
+NC_029422.1	RefSeq	exon	5107	5178	.	-	.	ID=exon-AZ364_gt09-1;Parent=rna-AZ364_gt09;Dbxref=GeneID:26894696;gbkey=tRNA;locus_tag=AZ364_gt09;product=tRNA-Asn
+NC_029422.1	RefSeq	origin_of_replication	5179	5213	.	+	.	ID=id-NC_029422.1:5179..5213;Note=origin of L-strand replication;gbkey=rep_origin
+NC_029422.1	RefSeq	gene	5211	5276	.	-	.	ID=gene-AZ364_gt10;Dbxref=GeneID:26894697;Name=AZ364_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt10
+NC_029422.1	RefSeq	tRNA	5211	5276	.	-	.	ID=rna-AZ364_gt10;Parent=gene-AZ364_gt10;Dbxref=GeneID:26894697;gbkey=tRNA;locus_tag=AZ364_gt10;product=tRNA-Cys
+NC_029422.1	RefSeq	exon	5211	5276	.	-	.	ID=exon-AZ364_gt10-1;Parent=rna-AZ364_gt10;Dbxref=GeneID:26894697;gbkey=tRNA;locus_tag=AZ364_gt10;product=tRNA-Cys
+NC_029422.1	RefSeq	gene	5277	5343	.	-	.	ID=gene-AZ364_gt11;Dbxref=GeneID:26894698;Name=AZ364_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt11
+NC_029422.1	RefSeq	tRNA	5277	5343	.	-	.	ID=rna-AZ364_gt11;Parent=gene-AZ364_gt11;Dbxref=GeneID:26894698;gbkey=tRNA;locus_tag=AZ364_gt11;product=tRNA-Tyr
+NC_029422.1	RefSeq	exon	5277	5343	.	-	.	ID=exon-AZ364_gt11-1;Parent=rna-AZ364_gt11;Dbxref=GeneID:26894698;gbkey=tRNA;locus_tag=AZ364_gt11;product=tRNA-Tyr
+NC_029422.1	RefSeq	gene	5345	6889	.	+	.	ID=gene-AZ364_gp11;Dbxref=GeneID:26894699;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=AZ364_gp11
+NC_029422.1	RefSeq	CDS	5345	6889	.	+	0	ID=cds-YP_009234302.1;Parent=gene-AZ364_gp11;Dbxref=GenBank:YP_009234302.1,GeneID:26894699;Name=YP_009234302.1;gbkey=CDS;gene=COX1;locus_tag=AZ364_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009234302.1;transl_table=2
+NC_029422.1	RefSeq	gene	6901	6969	.	-	.	ID=gene-AZ364_gt12;Dbxref=GeneID:26894676;Name=AZ364_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt12
+NC_029422.1	RefSeq	tRNA	6901	6969	.	-	.	ID=rna-AZ364_gt12;Parent=gene-AZ364_gt12;Dbxref=GeneID:26894676;codons=UCN;gbkey=tRNA;locus_tag=AZ364_gt12;product=tRNA-Ser
+NC_029422.1	RefSeq	exon	6901	6969	.	-	.	ID=exon-AZ364_gt12-1;Parent=rna-AZ364_gt12;Dbxref=GeneID:26894676;codons=UCN;gbkey=tRNA;locus_tag=AZ364_gt12;product=tRNA-Ser
+NC_029422.1	RefSeq	gene	6977	7043	.	+	.	ID=gene-AZ364_gt13;Dbxref=GeneID:26894700;Name=AZ364_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt13
+NC_029422.1	RefSeq	tRNA	6977	7043	.	+	.	ID=rna-AZ364_gt13;Parent=gene-AZ364_gt13;Dbxref=GeneID:26894700;gbkey=tRNA;locus_tag=AZ364_gt13;product=tRNA-Asp
+NC_029422.1	RefSeq	exon	6977	7043	.	+	.	ID=exon-AZ364_gt13-1;Parent=rna-AZ364_gt13;Dbxref=GeneID:26894700;gbkey=tRNA;locus_tag=AZ364_gt13;product=tRNA-Asp
+NC_029422.1	RefSeq	gene	7044	7727	.	+	.	ID=gene-AZ364_gp10;Dbxref=GeneID:26894701;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=AZ364_gp10
+NC_029422.1	RefSeq	CDS	7044	7727	.	+	0	ID=cds-YP_009234303.1;Parent=gene-AZ364_gp10;Dbxref=GenBank:YP_009234303.1,GeneID:26894701;Name=YP_009234303.1;gbkey=CDS;gene=COX2;locus_tag=AZ364_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009234303.1;transl_table=2
+NC_029422.1	RefSeq	gene	7731	7798	.	+	.	ID=gene-AZ364_gt14;Dbxref=GeneID:26894677;Name=AZ364_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt14
+NC_029422.1	RefSeq	tRNA	7731	7798	.	+	.	ID=rna-AZ364_gt14;Parent=gene-AZ364_gt14;Dbxref=GeneID:26894677;gbkey=tRNA;locus_tag=AZ364_gt14;product=tRNA-Lys
+NC_029422.1	RefSeq	exon	7731	7798	.	+	.	ID=exon-AZ364_gt14-1;Parent=rna-AZ364_gt14;Dbxref=GeneID:26894677;gbkey=tRNA;locus_tag=AZ364_gt14;product=tRNA-Lys
+NC_029422.1	RefSeq	gene	7800	8003	.	+	.	ID=gene-AZ364_gp09;Dbxref=GeneID:26894702;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=AZ364_gp09
+NC_029422.1	RefSeq	CDS	7800	8003	.	+	0	ID=cds-YP_009234304.1;Parent=gene-AZ364_gp09;Dbxref=GenBank:YP_009234304.1,GeneID:26894702;Name=YP_009234304.1;gbkey=CDS;gene=ATP8;locus_tag=AZ364_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009234304.1;transl_table=2
+NC_029422.1	RefSeq	gene	7961	8641	.	+	.	ID=gene-AZ364_gp08;Dbxref=GeneID:26894678;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=AZ364_gp08
+NC_029422.1	RefSeq	CDS	7961	8641	.	+	0	ID=cds-YP_009234305.1;Parent=gene-AZ364_gp08;Dbxref=GenBank:YP_009234305.1,GeneID:26894678;Name=YP_009234305.1;gbkey=CDS;gene=ATP6;locus_tag=AZ364_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009234305.1;transl_table=2
+NC_029422.1	RefSeq	gene	8641	9424	.	+	.	ID=gene-AZ364_gp07;Dbxref=GeneID:26894679;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=AZ364_gp07
+NC_029422.1	RefSeq	CDS	8641	9424	.	+	0	ID=cds-YP_009234306.1;Parent=gene-AZ364_gp07;Dbxref=GenBank:YP_009234306.1,GeneID:26894679;Name=YP_009234306.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=AZ364_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009234306.1;transl_except=(pos:9424%2Caa:TERM);transl_table=2
+NC_029422.1	RefSeq	gene	9425	9493	.	+	.	ID=gene-AZ364_gt15;Dbxref=GeneID:26894680;Name=AZ364_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt15
+NC_029422.1	RefSeq	tRNA	9425	9493	.	+	.	ID=rna-AZ364_gt15;Parent=gene-AZ364_gt15;Dbxref=GeneID:26894680;gbkey=tRNA;locus_tag=AZ364_gt15;product=tRNA-Gly
+NC_029422.1	RefSeq	exon	9425	9493	.	+	.	ID=exon-AZ364_gt15-1;Parent=rna-AZ364_gt15;Dbxref=GeneID:26894680;gbkey=tRNA;locus_tag=AZ364_gt15;product=tRNA-Gly
+NC_029422.1	RefSeq	gene	9494	9840	.	+	.	ID=gene-AZ364_gp06;Dbxref=GeneID:26894703;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=AZ364_gp06
+NC_029422.1	RefSeq	CDS	9494	9840	.	+	0	ID=cds-YP_009234307.1;Parent=gene-AZ364_gp06;Dbxref=GenBank:YP_009234307.1,GeneID:26894703;Name=YP_009234307.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=AZ364_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009234307.1;transl_except=(pos:9839..9840%2Caa:TERM);transl_table=2
+NC_029422.1	RefSeq	gene	9841	9909	.	+	.	ID=gene-AZ364_gt16;Dbxref=GeneID:26894681;Name=AZ364_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt16
+NC_029422.1	RefSeq	tRNA	9841	9909	.	+	.	ID=rna-AZ364_gt16;Parent=gene-AZ364_gt16;Dbxref=GeneID:26894681;gbkey=tRNA;locus_tag=AZ364_gt16;product=tRNA-Arg
+NC_029422.1	RefSeq	exon	9841	9909	.	+	.	ID=exon-AZ364_gt16-1;Parent=rna-AZ364_gt16;Dbxref=GeneID:26894681;gbkey=tRNA;locus_tag=AZ364_gt16;product=tRNA-Arg
+NC_029422.1	RefSeq	gene	9911	10207	.	+	.	ID=gene-AZ364_gp05;Dbxref=GeneID:26894704;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=AZ364_gp05
+NC_029422.1	RefSeq	CDS	9911	10207	.	+	0	ID=cds-YP_009234308.1;Parent=gene-AZ364_gp05;Dbxref=GenBank:YP_009234308.1,GeneID:26894704;Name=YP_009234308.1;gbkey=CDS;gene=ND4L;locus_tag=AZ364_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009234308.1;transl_table=2
+NC_029422.1	RefSeq	gene	10201	11578	.	+	.	ID=gene-AZ364_gp04;Dbxref=GeneID:26894682;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=AZ364_gp04
+NC_029422.1	RefSeq	CDS	10201	11578	.	+	0	ID=cds-YP_009234309.1;Parent=gene-AZ364_gp04;Dbxref=GenBank:YP_009234309.1,GeneID:26894682;Name=YP_009234309.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=AZ364_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009234309.1;transl_except=(pos:11578%2Caa:TERM);transl_table=2
+NC_029422.1	RefSeq	gene	11579	11646	.	+	.	ID=gene-AZ364_gt17;Dbxref=GeneID:26894683;Name=AZ364_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt17
+NC_029422.1	RefSeq	tRNA	11579	11646	.	+	.	ID=rna-AZ364_gt17;Parent=gene-AZ364_gt17;Dbxref=GeneID:26894683;gbkey=tRNA;locus_tag=AZ364_gt17;product=tRNA-His
+NC_029422.1	RefSeq	exon	11579	11646	.	+	.	ID=exon-AZ364_gt17-1;Parent=rna-AZ364_gt17;Dbxref=GeneID:26894683;gbkey=tRNA;locus_tag=AZ364_gt17;product=tRNA-His
+NC_029422.1	RefSeq	gene	11647	11705	.	+	.	ID=gene-AZ364_gt18;Dbxref=GeneID:26894705;Name=AZ364_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt18
+NC_029422.1	RefSeq	tRNA	11647	11705	.	+	.	ID=rna-AZ364_gt18;Parent=gene-AZ364_gt18;Dbxref=GeneID:26894705;codons=AGY;gbkey=tRNA;locus_tag=AZ364_gt18;product=tRNA-Ser
+NC_029422.1	RefSeq	exon	11647	11705	.	+	.	ID=exon-AZ364_gt18-1;Parent=rna-AZ364_gt18;Dbxref=GeneID:26894705;codons=AGY;gbkey=tRNA;locus_tag=AZ364_gt18;product=tRNA-Ser
+NC_029422.1	RefSeq	gene	11707	11776	.	+	.	ID=gene-AZ364_gt19;Dbxref=GeneID:26894706;Name=AZ364_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt19
+NC_029422.1	RefSeq	tRNA	11707	11776	.	+	.	ID=rna-AZ364_gt19;Parent=gene-AZ364_gt19;Dbxref=GeneID:26894706;codons=UUR;gbkey=tRNA;locus_tag=AZ364_gt19;product=tRNA-Leu
+NC_029422.1	RefSeq	exon	11707	11776	.	+	.	ID=exon-AZ364_gt19-1;Parent=rna-AZ364_gt19;Dbxref=GeneID:26894706;codons=UUR;gbkey=tRNA;locus_tag=AZ364_gt19;product=tRNA-Leu
+NC_029422.1	RefSeq	gene	11777	13597	.	+	.	ID=gene-AZ364_gp03;Dbxref=GeneID:26894707;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=AZ364_gp03
+NC_029422.1	RefSeq	CDS	11777	13597	.	+	0	ID=cds-YP_009234310.1;Parent=gene-AZ364_gp03;Dbxref=GenBank:YP_009234310.1,GeneID:26894707;Name=YP_009234310.1;gbkey=CDS;gene=ND5;locus_tag=AZ364_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009234310.1;transl_table=2
+NC_029422.1	RefSeq	gene	13581	14108	.	-	.	ID=gene-AZ364_gp02;Dbxref=GeneID:26894684;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=AZ364_gp02
+NC_029422.1	RefSeq	CDS	13581	14108	.	-	0	ID=cds-YP_009234311.1;Parent=gene-AZ364_gp02;Dbxref=GenBank:YP_009234311.1,GeneID:26894684;Name=YP_009234311.1;gbkey=CDS;gene=ND6;locus_tag=AZ364_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009234311.1;transl_table=2
+NC_029422.1	RefSeq	gene	14109	14177	.	-	.	ID=gene-AZ364_gt20;Dbxref=GeneID:26894685;Name=AZ364_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt20
+NC_029422.1	RefSeq	tRNA	14109	14177	.	-	.	ID=rna-AZ364_gt20;Parent=gene-AZ364_gt20;Dbxref=GeneID:26894685;gbkey=tRNA;locus_tag=AZ364_gt20;product=tRNA-Glu
+NC_029422.1	RefSeq	exon	14109	14177	.	-	.	ID=exon-AZ364_gt20-1;Parent=rna-AZ364_gt20;Dbxref=GeneID:26894685;gbkey=tRNA;locus_tag=AZ364_gt20;product=tRNA-Glu
+NC_029422.1	RefSeq	gene	14184	15323	.	+	.	ID=gene-AZ364_gp01;Dbxref=GeneID:26894708;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=AZ364_gp01
+NC_029422.1	RefSeq	CDS	14184	15323	.	+	0	ID=cds-YP_009234312.1;Parent=gene-AZ364_gp01;Dbxref=GenBank:YP_009234312.1,GeneID:26894708;Name=YP_009234312.1;gbkey=CDS;gene=CYTB;locus_tag=AZ364_gp01;product=cytochrome b;protein_id=YP_009234312.1;transl_table=2
+NC_029422.1	RefSeq	gene	15324	15392	.	+	.	ID=gene-AZ364_gt21;Dbxref=GeneID:26894686;Name=AZ364_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt21
+NC_029422.1	RefSeq	tRNA	15324	15392	.	+	.	ID=rna-AZ364_gt21;Parent=gene-AZ364_gt21;Dbxref=GeneID:26894686;gbkey=tRNA;locus_tag=AZ364_gt21;product=tRNA-Thr
+NC_029422.1	RefSeq	exon	15324	15392	.	+	.	ID=exon-AZ364_gt21-1;Parent=rna-AZ364_gt21;Dbxref=GeneID:26894686;gbkey=tRNA;locus_tag=AZ364_gt21;product=tRNA-Thr
+NC_029422.1	RefSeq	gene	15392	15458	.	-	.	ID=gene-AZ364_gt22;Dbxref=GeneID:26894709;Name=AZ364_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=AZ364_gt22
+NC_029422.1	RefSeq	tRNA	15392	15458	.	-	.	ID=rna-AZ364_gt22;Parent=gene-AZ364_gt22;Dbxref=GeneID:26894709;gbkey=tRNA;locus_tag=AZ364_gt22;product=tRNA-Pro
+NC_029422.1	RefSeq	exon	15392	15458	.	-	.	ID=exon-AZ364_gt22-1;Parent=rna-AZ364_gt22;Dbxref=GeneID:26894709;gbkey=tRNA;locus_tag=AZ364_gt22;product=tRNA-Pro
+NC_029422.1	RefSeq	D_loop	15460	17224	.	+	.	ID=id-NC_029422.1:15460..17224;Note=control region;gbkey=D-loop
+

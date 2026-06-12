@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_016470.1 1 17153
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9696
+NC_016470.1	RefSeq	region	1	17153	.	+	.	ID=NC_016470.1:1..17153;Dbxref=taxon:9696;Is_circular=true;Name=MT;cell-type=epithelial from scat;gbkey=Src;genome=mitochondrion;isolate=PC110509;mol_type=genomic DNA
+NC_016470.1	RefSeq	gene	915	984	.	+	.	ID=gene-KEH31_t01;Dbxref=GeneID:64988987;Name=KEH31_t01;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t01
+NC_016470.1	RefSeq	tRNA	915	984	.	+	.	ID=rna-KEH31_t01;Parent=gene-KEH31_t01;Dbxref=GeneID:64988987;gbkey=tRNA;locus_tag=KEH31_t01;product=tRNA-Phe
+NC_016470.1	RefSeq	exon	915	984	.	+	.	ID=exon-KEH31_t01-1;Parent=rna-KEH31_t01;Dbxref=GeneID:64988987;gbkey=tRNA;locus_tag=KEH31_t01;product=tRNA-Phe
+NC_016470.1	RefSeq	gene	985	1944	.	+	.	ID=gene-KEH31_r02;Dbxref=GeneID:64988973;Name=KEH31_r02;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEH31_r02
+NC_016470.1	RefSeq	rRNA	985	1944	.	+	.	ID=rna-KEH31_r02;Parent=gene-KEH31_r02;Dbxref=GeneID:64988973;Note=s-rRNA;gbkey=rRNA;locus_tag=KEH31_r02;product=12S ribosomal RNA
+NC_016470.1	RefSeq	exon	985	1944	.	+	.	ID=exon-KEH31_r02-1;Parent=rna-KEH31_r02;Dbxref=GeneID:64988973;Note=s-rRNA;gbkey=rRNA;locus_tag=KEH31_r02;product=12S ribosomal RNA
+NC_016470.1	RefSeq	gene	1945	2012	.	+	.	ID=gene-KEH31_t02;Dbxref=GeneID:64988974;Name=KEH31_t02;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t02
+NC_016470.1	RefSeq	tRNA	1945	2012	.	+	.	ID=rna-KEH31_t02;Parent=gene-KEH31_t02;Dbxref=GeneID:64988974;gbkey=tRNA;locus_tag=KEH31_t02;product=tRNA-Val
+NC_016470.1	RefSeq	exon	1945	2012	.	+	.	ID=exon-KEH31_t02-1;Parent=rna-KEH31_t02;Dbxref=GeneID:64988974;gbkey=tRNA;locus_tag=KEH31_t02;product=tRNA-Val
+NC_016470.1	RefSeq	gene	2013	3582	.	+	.	ID=gene-KEH31_r01;Dbxref=GeneID:64988975;Name=KEH31_r01;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEH31_r01
+NC_016470.1	RefSeq	rRNA	2013	3582	.	+	.	ID=rna-KEH31_r01;Parent=gene-KEH31_r01;Dbxref=GeneID:64988975;Note=l-rRNA;gbkey=rRNA;locus_tag=KEH31_r01;product=16S ribosomal RNA
+NC_016470.1	RefSeq	exon	2013	3582	.	+	.	ID=exon-KEH31_r01-1;Parent=rna-KEH31_r01;Dbxref=GeneID:64988975;Note=l-rRNA;gbkey=rRNA;locus_tag=KEH31_r01;product=16S ribosomal RNA
+NC_016470.1	RefSeq	gene	3583	3657	.	+	.	ID=gene-KEH31_t03;Dbxref=GeneID:64988976;Name=KEH31_t03;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t03
+NC_016470.1	RefSeq	tRNA	3583	3657	.	+	.	ID=rna-KEH31_t03;Parent=gene-KEH31_t03;Dbxref=GeneID:64988976;gbkey=tRNA;locus_tag=KEH31_t03;product=tRNA-Leu
+NC_016470.1	RefSeq	exon	3583	3657	.	+	.	ID=exon-KEH31_t03-1;Parent=rna-KEH31_t03;Dbxref=GeneID:64988976;gbkey=tRNA;locus_tag=KEH31_t03;product=tRNA-Leu
+NC_016470.1	RefSeq	gene	3660	4615	.	+	.	ID=gene-KEH31_p13;Dbxref=GeneID:11473378;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=KEH31_p13
+NC_016470.1	RefSeq	CDS	3660	4615	.	+	0	ID=cds-YP_004940588.1;Parent=gene-KEH31_p13;Dbxref=GenBank:YP_004940588.1,GeneID:11473378;Name=YP_004940588.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=KEH31_p13;product=NADH dehydrogenase subunit 1;protein_id=YP_004940588.1;transl_except=(pos:4614..4615%2Caa:TERM);transl_table=2
+NC_016470.1	RefSeq	gene	4616	4684	.	+	.	ID=gene-KEH31_t04;Dbxref=GeneID:64988964;Name=KEH31_t04;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t04
+NC_016470.1	RefSeq	tRNA	4616	4684	.	+	.	ID=rna-KEH31_t04;Parent=gene-KEH31_t04;Dbxref=GeneID:64988964;gbkey=tRNA;locus_tag=KEH31_t04;product=tRNA-Ile
+NC_016470.1	RefSeq	exon	4616	4684	.	+	.	ID=exon-KEH31_t04-1;Parent=rna-KEH31_t04;Dbxref=GeneID:64988964;gbkey=tRNA;locus_tag=KEH31_t04;product=tRNA-Ile
+NC_016470.1	RefSeq	gene	4682	4755	.	-	.	ID=gene-KEH31_t05;Dbxref=GeneID:64988977;Name=KEH31_t05;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t05
+NC_016470.1	RefSeq	tRNA	4682	4755	.	-	.	ID=rna-KEH31_t05;Parent=gene-KEH31_t05;Dbxref=GeneID:64988977;gbkey=tRNA;locus_tag=KEH31_t05;product=tRNA-Gln
+NC_016470.1	RefSeq	exon	4682	4755	.	-	.	ID=exon-KEH31_t05-1;Parent=rna-KEH31_t05;Dbxref=GeneID:64988977;gbkey=tRNA;locus_tag=KEH31_t05;product=tRNA-Gln
+NC_016470.1	RefSeq	gene	4757	4825	.	+	.	ID=gene-KEH31_t06;Dbxref=GeneID:64988978;Name=KEH31_t06;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t06
+NC_016470.1	RefSeq	tRNA	4757	4825	.	+	.	ID=rna-KEH31_t06;Parent=gene-KEH31_t06;Dbxref=GeneID:64988978;gbkey=tRNA;locus_tag=KEH31_t06;product=tRNA-Met
+NC_016470.1	RefSeq	exon	4757	4825	.	+	.	ID=exon-KEH31_t06-1;Parent=rna-KEH31_t06;Dbxref=GeneID:64988978;gbkey=tRNA;locus_tag=KEH31_t06;product=tRNA-Met
+NC_016470.1	RefSeq	gene	4826	5867	.	+	.	ID=gene-KEH31_p12;Dbxref=GeneID:11473379;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=KEH31_p12
+NC_016470.1	RefSeq	CDS	4826	5867	.	+	0	ID=cds-YP_004940589.1;Parent=gene-KEH31_p12;Dbxref=GenBank:YP_004940589.1,GeneID:11473379;Name=YP_004940589.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=KEH31_p12;product=NADH dehydrogenase subunit 2;protein_id=YP_004940589.1;transl_except=(pos:5867%2Caa:TERM);transl_table=2
+NC_016470.1	RefSeq	gene	5868	5935	.	+	.	ID=gene-KEH31_t07;Dbxref=GeneID:64988965;Name=KEH31_t07;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t07
+NC_016470.1	RefSeq	tRNA	5868	5935	.	+	.	ID=rna-KEH31_t07;Parent=gene-KEH31_t07;Dbxref=GeneID:64988965;gbkey=tRNA;locus_tag=KEH31_t07;product=tRNA-Trp
+NC_016470.1	RefSeq	exon	5868	5935	.	+	.	ID=exon-KEH31_t07-1;Parent=rna-KEH31_t07;Dbxref=GeneID:64988965;gbkey=tRNA;locus_tag=KEH31_t07;product=tRNA-Trp
+NC_016470.1	RefSeq	gene	5954	6022	.	-	.	ID=gene-KEH31_t08;Dbxref=GeneID:64988979;Name=KEH31_t08;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t08
+NC_016470.1	RefSeq	tRNA	5954	6022	.	-	.	ID=rna-KEH31_t08;Parent=gene-KEH31_t08;Dbxref=GeneID:64988979;gbkey=tRNA;locus_tag=KEH31_t08;product=tRNA-Ala
+NC_016470.1	RefSeq	exon	5954	6022	.	-	.	ID=exon-KEH31_t08-1;Parent=rna-KEH31_t08;Dbxref=GeneID:64988979;gbkey=tRNA;locus_tag=KEH31_t08;product=tRNA-Ala
+NC_016470.1	RefSeq	gene	6024	6096	.	-	.	ID=gene-KEH31_t09;Dbxref=GeneID:64988980;Name=KEH31_t09;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t09
+NC_016470.1	RefSeq	tRNA	6024	6096	.	-	.	ID=rna-KEH31_t09;Parent=gene-KEH31_t09;Dbxref=GeneID:64988980;gbkey=tRNA;locus_tag=KEH31_t09;product=tRNA-Asn
+NC_016470.1	RefSeq	exon	6024	6096	.	-	.	ID=exon-KEH31_t09-1;Parent=rna-KEH31_t09;Dbxref=GeneID:64988980;gbkey=tRNA;locus_tag=KEH31_t09;product=tRNA-Asn
+NC_016470.1	RefSeq	origin_of_replication	6097	6128	.	+	.	ID=id-NC_016470.1:6097..6128;Note=origin of L-strand replication%3B OLR;gbkey=rep_origin
+NC_016470.1	RefSeq	gene	6129	6194	.	-	.	ID=gene-KEH31_t10;Dbxref=GeneID:64988981;Name=KEH31_t10;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t10
+NC_016470.1	RefSeq	tRNA	6129	6194	.	-	.	ID=rna-KEH31_t10;Parent=gene-KEH31_t10;Dbxref=GeneID:64988981;gbkey=tRNA;locus_tag=KEH31_t10;product=tRNA-Cys
+NC_016470.1	RefSeq	exon	6129	6194	.	-	.	ID=exon-KEH31_t10-1;Parent=rna-KEH31_t10;Dbxref=GeneID:64988981;gbkey=tRNA;locus_tag=KEH31_t10;product=tRNA-Cys
+NC_016470.1	RefSeq	gene	6195	6261	.	-	.	ID=gene-KEH31_t11;Dbxref=GeneID:64988982;Name=KEH31_t11;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t11
+NC_016470.1	RefSeq	tRNA	6195	6261	.	-	.	ID=rna-KEH31_t11;Parent=gene-KEH31_t11;Dbxref=GeneID:64988982;gbkey=tRNA;locus_tag=KEH31_t11;product=tRNA-Tyr
+NC_016470.1	RefSeq	exon	6195	6261	.	-	.	ID=exon-KEH31_t11-1;Parent=rna-KEH31_t11;Dbxref=GeneID:64988982;gbkey=tRNA;locus_tag=KEH31_t11;product=tRNA-Tyr
+NC_016470.1	RefSeq	gene	6263	7807	.	+	.	ID=gene-KEH31_p11;Dbxref=GeneID:11473380;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=KEH31_p11
+NC_016470.1	RefSeq	CDS	6263	7807	.	+	0	ID=cds-YP_004940590.1;Parent=gene-KEH31_p11;Dbxref=GenBank:YP_004940590.1,GeneID:11473380;Name=YP_004940590.1;gbkey=CDS;gene=COX1;locus_tag=KEH31_p11;product=cytochrome c oxidase subunit I;protein_id=YP_004940590.1;transl_table=2
+NC_016470.1	RefSeq	gene	7806	7875	.	-	.	ID=gene-KEH31_t12;Dbxref=GeneID:64988966;Name=KEH31_t12;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t12
+NC_016470.1	RefSeq	tRNA	7806	7875	.	-	.	ID=rna-KEH31_t12;Parent=gene-KEH31_t12;Dbxref=GeneID:64988966;gbkey=tRNA;locus_tag=KEH31_t12;product=tRNA-Ser
+NC_016470.1	RefSeq	exon	7806	7875	.	-	.	ID=exon-KEH31_t12-1;Parent=rna-KEH31_t12;Dbxref=GeneID:64988966;gbkey=tRNA;locus_tag=KEH31_t12;product=tRNA-Ser
+NC_016470.1	RefSeq	gene	7880	7948	.	+	.	ID=gene-KEH31_t13;Dbxref=GeneID:64988983;Name=KEH31_t13;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t13
+NC_016470.1	RefSeq	tRNA	7880	7948	.	+	.	ID=rna-KEH31_t13;Parent=gene-KEH31_t13;Dbxref=GeneID:64988983;gbkey=tRNA;locus_tag=KEH31_t13;product=tRNA-Asp
+NC_016470.1	RefSeq	exon	7880	7948	.	+	.	ID=exon-KEH31_t13-1;Parent=rna-KEH31_t13;Dbxref=GeneID:64988983;gbkey=tRNA;locus_tag=KEH31_t13;product=tRNA-Asp
+NC_016470.1	RefSeq	gene	7949	8632	.	+	.	ID=gene-KEH31_p10;Dbxref=GeneID:11473381;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=KEH31_p10
+NC_016470.1	RefSeq	CDS	7949	8632	.	+	0	ID=cds-YP_004940591.1;Parent=gene-KEH31_p10;Dbxref=GenBank:YP_004940591.1,GeneID:11473381;Name=YP_004940591.1;gbkey=CDS;gene=COX2;locus_tag=KEH31_p10;product=cytochrome c oxidase subunit II;protein_id=YP_004940591.1;transl_table=2
+NC_016470.1	RefSeq	gene	8636	8703	.	+	.	ID=gene-KEH31_t14;Dbxref=GeneID:64988967;Name=KEH31_t14;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t14
+NC_016470.1	RefSeq	tRNA	8636	8703	.	+	.	ID=rna-KEH31_t14;Parent=gene-KEH31_t14;Dbxref=GeneID:64988967;gbkey=tRNA;locus_tag=KEH31_t14;product=tRNA-Lys
+NC_016470.1	RefSeq	exon	8636	8703	.	+	.	ID=exon-KEH31_t14-1;Parent=rna-KEH31_t14;Dbxref=GeneID:64988967;gbkey=tRNA;locus_tag=KEH31_t14;product=tRNA-Lys
+NC_016470.1	RefSeq	gene	8705	8908	.	+	.	ID=gene-KEH31_p09;Dbxref=GeneID:11473382;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=KEH31_p09
+NC_016470.1	RefSeq	CDS	8705	8908	.	+	0	ID=cds-YP_004940592.1;Parent=gene-KEH31_p09;Dbxref=GenBank:YP_004940592.1,GeneID:11473382;Name=YP_004940592.1;gbkey=CDS;gene=ATP8;locus_tag=KEH31_p09;product=ATP synthase F0 subunit 8;protein_id=YP_004940592.1;transl_table=2
+NC_016470.1	RefSeq	gene	8866	9546	.	+	.	ID=gene-KEH31_p08;Dbxref=GeneID:11473383;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=KEH31_p08
+NC_016470.1	RefSeq	CDS	8866	9546	.	+	0	ID=cds-YP_004940593.1;Parent=gene-KEH31_p08;Dbxref=GenBank:YP_004940593.1,GeneID:11473383;Name=YP_004940593.1;gbkey=CDS;gene=ATP6;locus_tag=KEH31_p08;product=ATP synthase F0 subunit 6;protein_id=YP_004940593.1;transl_table=2
+NC_016470.1	RefSeq	gene	9546	10329	.	+	.	ID=gene-KEH31_p07;Dbxref=GeneID:11473384;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=KEH31_p07
+NC_016470.1	RefSeq	CDS	9546	10329	.	+	0	ID=cds-YP_004940594.1;Parent=gene-KEH31_p07;Dbxref=GenBank:YP_004940594.1,GeneID:11473384;Name=YP_004940594.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=KEH31_p07;product=cytochrome c oxidase subunit III;protein_id=YP_004940594.1;transl_except=(pos:10329%2Caa:TERM);transl_table=2
+NC_016470.1	RefSeq	gene	10330	10398	.	+	.	ID=gene-KEH31_t15;Dbxref=GeneID:64988968;Name=KEH31_t15;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t15
+NC_016470.1	RefSeq	tRNA	10330	10398	.	+	.	ID=rna-KEH31_t15;Parent=gene-KEH31_t15;Dbxref=GeneID:64988968;gbkey=tRNA;locus_tag=KEH31_t15;product=tRNA-Gly
+NC_016470.1	RefSeq	exon	10330	10398	.	+	.	ID=exon-KEH31_t15-1;Parent=rna-KEH31_t15;Dbxref=GeneID:64988968;gbkey=tRNA;locus_tag=KEH31_t15;product=tRNA-Gly
+NC_016470.1	RefSeq	gene	10399	10745	.	+	.	ID=gene-KEH31_p06;Dbxref=GeneID:11473385;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=KEH31_p06
+NC_016470.1	RefSeq	CDS	10399	10745	.	+	0	ID=cds-YP_004940595.1;Parent=gene-KEH31_p06;Dbxref=GenBank:YP_004940595.1,GeneID:11473385;Name=YP_004940595.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=KEH31_p06;product=NADH dehydrogenase subunit 3;protein_id=YP_004940595.1;transl_except=(pos:10744..10745%2Caa:TERM);transl_table=2
+NC_016470.1	RefSeq	gene	10746	10814	.	+	.	ID=gene-KEH31_t16;Dbxref=GeneID:64988969;Name=KEH31_t16;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t16
+NC_016470.1	RefSeq	tRNA	10746	10814	.	+	.	ID=rna-KEH31_t16;Parent=gene-KEH31_t16;Dbxref=GeneID:64988969;gbkey=tRNA;locus_tag=KEH31_t16;product=tRNA-Arg
+NC_016470.1	RefSeq	exon	10746	10814	.	+	.	ID=exon-KEH31_t16-1;Parent=rna-KEH31_t16;Dbxref=GeneID:64988969;gbkey=tRNA;locus_tag=KEH31_t16;product=tRNA-Arg
+NC_016470.1	RefSeq	gene	10815	11111	.	+	.	ID=gene-KEH31_p05;Dbxref=GeneID:11473386;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=KEH31_p05
+NC_016470.1	RefSeq	CDS	10815	11111	.	+	0	ID=cds-YP_004940596.1;Parent=gene-KEH31_p05;Dbxref=GenBank:YP_004940596.1,GeneID:11473386;Name=YP_004940596.1;gbkey=CDS;gene=ND4L;locus_tag=KEH31_p05;product=NADH dehydrogenase subunit 4L;protein_id=YP_004940596.1;transl_table=2
+NC_016470.1	RefSeq	gene	11105	12482	.	+	.	ID=gene-KEH31_p04;Dbxref=GeneID:11473377;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=KEH31_p04
+NC_016470.1	RefSeq	CDS	11105	12482	.	+	0	ID=cds-YP_004940597.1;Parent=gene-KEH31_p04;Dbxref=GenBank:YP_004940597.1,GeneID:11473377;Name=YP_004940597.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=KEH31_p04;product=NADH dehydrogenase subunit 4;protein_id=YP_004940597.1;transl_except=(pos:12482%2Caa:TERM);transl_table=2
+NC_016470.1	RefSeq	gene	12483	12551	.	+	.	ID=gene-KEH31_t17;Dbxref=GeneID:64988970;Name=KEH31_t17;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t17
+NC_016470.1	RefSeq	tRNA	12483	12551	.	+	.	ID=rna-KEH31_t17;Parent=gene-KEH31_t17;Dbxref=GeneID:64988970;gbkey=tRNA;locus_tag=KEH31_t17;product=tRNA-His
+NC_016470.1	RefSeq	exon	12483	12551	.	+	.	ID=exon-KEH31_t17-1;Parent=rna-KEH31_t17;Dbxref=GeneID:64988970;gbkey=tRNA;locus_tag=KEH31_t17;product=tRNA-His
+NC_016470.1	RefSeq	gene	12552	12610	.	+	.	ID=gene-KEH31_t18;Dbxref=GeneID:64988984;Name=KEH31_t18;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t18
+NC_016470.1	RefSeq	tRNA	12552	12610	.	+	.	ID=rna-KEH31_t18;Parent=gene-KEH31_t18;Dbxref=GeneID:64988984;gbkey=tRNA;locus_tag=KEH31_t18;product=tRNA-Ser
+NC_016470.1	RefSeq	exon	12552	12610	.	+	.	ID=exon-KEH31_t18-1;Parent=rna-KEH31_t18;Dbxref=GeneID:64988984;gbkey=tRNA;locus_tag=KEH31_t18;product=tRNA-Ser
+NC_016470.1	RefSeq	gene	12611	12680	.	+	.	ID=gene-KEH31_t19;Dbxref=GeneID:64988985;Name=KEH31_t19;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t19
+NC_016470.1	RefSeq	tRNA	12611	12680	.	+	.	ID=rna-KEH31_t19;Parent=gene-KEH31_t19;Dbxref=GeneID:64988985;gbkey=tRNA;locus_tag=KEH31_t19;product=tRNA-Leu
+NC_016470.1	RefSeq	exon	12611	12680	.	+	.	ID=exon-KEH31_t19-1;Parent=rna-KEH31_t19;Dbxref=GeneID:64988985;gbkey=tRNA;locus_tag=KEH31_t19;product=tRNA-Leu
+NC_016470.1	RefSeq	gene	12681	14501	.	+	.	ID=gene-KEH31_p03;Dbxref=GeneID:11473374;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=KEH31_p03
+NC_016470.1	RefSeq	CDS	12681	14501	.	+	0	ID=cds-YP_004940598.1;Parent=gene-KEH31_p03;Dbxref=GenBank:YP_004940598.1,GeneID:11473374;Name=YP_004940598.1;gbkey=CDS;gene=ND5;locus_tag=KEH31_p03;product=NADH dehydrogenase subunit 5;protein_id=YP_004940598.1;transl_table=2
+NC_016470.1	RefSeq	gene	14485	15012	.	-	.	ID=gene-KEH31_p02;Dbxref=GeneID:11473375;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=KEH31_p02
+NC_016470.1	RefSeq	CDS	14485	15012	.	-	0	ID=cds-YP_004940599.1;Parent=gene-KEH31_p02;Dbxref=GenBank:YP_004940599.1,GeneID:11473375;Name=YP_004940599.1;gbkey=CDS;gene=ND6;locus_tag=KEH31_p02;product=NADH dehydrogenase subunit 6;protein_id=YP_004940599.1;transl_table=2
+NC_016470.1	RefSeq	gene	15013	15081	.	-	.	ID=gene-KEH31_t20;Dbxref=GeneID:64988971;Name=KEH31_t20;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t20
+NC_016470.1	RefSeq	tRNA	15013	15081	.	-	.	ID=rna-KEH31_t20;Parent=gene-KEH31_t20;Dbxref=GeneID:64988971;gbkey=tRNA;locus_tag=KEH31_t20;product=tRNA-Glu
+NC_016470.1	RefSeq	exon	15013	15081	.	-	.	ID=exon-KEH31_t20-1;Parent=rna-KEH31_t20;Dbxref=GeneID:64988971;gbkey=tRNA;locus_tag=KEH31_t20;product=tRNA-Glu
+NC_016470.1	RefSeq	gene	15085	16224	.	+	.	ID=gene-KEH31_p01;Dbxref=GeneID:11473376;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=KEH31_p01
+NC_016470.1	RefSeq	CDS	15085	16224	.	+	0	ID=cds-YP_004940600.1;Parent=gene-KEH31_p01;Dbxref=GenBank:YP_004940600.1,GeneID:11473376;Name=YP_004940600.1;gbkey=CDS;gene=CYTB;locus_tag=KEH31_p01;product=cytochrome b;protein_id=YP_004940600.1;transl_table=2
+NC_016470.1	RefSeq	gene	16225	16293	.	+	.	ID=gene-KEH31_t21;Dbxref=GeneID:64988972;Name=KEH31_t21;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t21
+NC_016470.1	RefSeq	tRNA	16225	16293	.	+	.	ID=rna-KEH31_t21;Parent=gene-KEH31_t21;Dbxref=GeneID:64988972;gbkey=tRNA;locus_tag=KEH31_t21;product=tRNA-Thr
+NC_016470.1	RefSeq	exon	16225	16293	.	+	.	ID=exon-KEH31_t21-1;Parent=rna-KEH31_t21;Dbxref=GeneID:64988972;gbkey=tRNA;locus_tag=KEH31_t21;product=tRNA-Thr
+NC_016470.1	RefSeq	gene	16294	16360	.	-	.	ID=gene-KEH31_t22;Dbxref=GeneID:64988986;Name=KEH31_t22;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEH31_t22
+NC_016470.1	RefSeq	tRNA	16294	16360	.	-	.	ID=rna-KEH31_t22;Parent=gene-KEH31_t22;Dbxref=GeneID:64988986;gbkey=tRNA;locus_tag=KEH31_t22;product=tRNA-Pro
+NC_016470.1	RefSeq	exon	16294	16360	.	-	.	ID=exon-KEH31_t22-1;Parent=rna-KEH31_t22;Dbxref=GeneID:64988986;gbkey=tRNA;locus_tag=KEH31_t22;product=tRNA-Pro
+NC_016470.1	RefSeq	sequence_feature	16361	18067	.	+	.	ID=id-NC_016470.1:1..17153;Note=control region%3B CR;gbkey=misc_feature
+

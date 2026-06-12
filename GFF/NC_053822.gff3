@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_053822.1 1 16282
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=329629
+NC_053822.1	RefSeq	region	1	16282	.	+	.	ID=NC_053822.1:1..16282;Dbxref=taxon:329629;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_053822.1	RefSeq	gene	1	68	.	+	.	ID=gene-J1951_mgt01;Dbxref=GeneID:63373145;Name=J1951_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt01
+NC_053822.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-J1951_mgt01;Parent=gene-J1951_mgt01;Dbxref=GeneID:63373145;gbkey=tRNA;locus_tag=J1951_mgt01;product=tRNA-Phe
+NC_053822.1	RefSeq	exon	1	68	.	+	.	ID=exon-J1951_mgt01-1;Parent=rna-J1951_mgt01;Dbxref=GeneID:63373145;gbkey=tRNA;locus_tag=J1951_mgt01;product=tRNA-Phe
+NC_053822.1	RefSeq	gene	69	1022	.	+	.	ID=gene-J1951_mgr02;Dbxref=GeneID:63373146;Name=J1951_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=J1951_mgr02
+NC_053822.1	RefSeq	rRNA	69	1022	.	+	.	ID=rna-J1951_mgr02;Parent=gene-J1951_mgr02;Dbxref=GeneID:63373146;gbkey=rRNA;locus_tag=J1951_mgr02;product=12S ribosomal RNA
+NC_053822.1	RefSeq	exon	69	1022	.	+	.	ID=exon-J1951_mgr02-1;Parent=rna-J1951_mgr02;Dbxref=GeneID:63373146;gbkey=rRNA;locus_tag=J1951_mgr02;product=12S ribosomal RNA
+NC_053822.1	RefSeq	gene	1023	1094	.	+	.	ID=gene-J1951_mgt02;Dbxref=GeneID:63373147;Name=J1951_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt02
+NC_053822.1	RefSeq	tRNA	1023	1094	.	+	.	ID=rna-J1951_mgt02;Parent=gene-J1951_mgt02;Dbxref=GeneID:63373147;gbkey=tRNA;locus_tag=J1951_mgt02;product=tRNA-Val
+NC_053822.1	RefSeq	exon	1023	1094	.	+	.	ID=exon-J1951_mgt02-1;Parent=rna-J1951_mgt02;Dbxref=GeneID:63373147;gbkey=tRNA;locus_tag=J1951_mgt02;product=tRNA-Val
+NC_053822.1	RefSeq	gene	1095	2655	.	+	.	ID=gene-J1951_mgr01;Dbxref=GeneID:63373148;Name=J1951_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=J1951_mgr01
+NC_053822.1	RefSeq	rRNA	1095	2655	.	+	.	ID=rna-J1951_mgr01;Parent=gene-J1951_mgr01;Dbxref=GeneID:63373148;gbkey=rRNA;locus_tag=J1951_mgr01;product=16S ribosomal RNA
+NC_053822.1	RefSeq	exon	1095	2655	.	+	.	ID=exon-J1951_mgr01-1;Parent=rna-J1951_mgr01;Dbxref=GeneID:63373148;gbkey=rRNA;locus_tag=J1951_mgr01;product=16S ribosomal RNA
+NC_053822.1	RefSeq	gene	2657	2731	.	+	.	ID=gene-J1951_mgt03;Dbxref=GeneID:63373149;Name=J1951_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt03
+NC_053822.1	RefSeq	tRNA	2657	2731	.	+	.	ID=rna-J1951_mgt03;Parent=gene-J1951_mgt03;Dbxref=GeneID:63373149;gbkey=tRNA;locus_tag=J1951_mgt03;product=tRNA-Leu
+NC_053822.1	RefSeq	exon	2657	2731	.	+	.	ID=exon-J1951_mgt03-1;Parent=rna-J1951_mgt03;Dbxref=GeneID:63373149;gbkey=tRNA;locus_tag=J1951_mgt03;product=tRNA-Leu
+NC_053822.1	RefSeq	gene	2732	3686	.	+	.	ID=gene-J1951_mgp13;Dbxref=GeneID:63373150;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=J1951_mgp13
+NC_053822.1	RefSeq	CDS	2732	3686	.	+	0	ID=cds-YP_010029443.1;Parent=gene-J1951_mgp13;Dbxref=GenBank:YP_010029443.1,GeneID:63373150;Name=YP_010029443.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=J1951_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010029443.1;transl_except=(pos:3686%2Caa:TERM);transl_table=2
+NC_053822.1	RefSeq	gene	3687	3755	.	+	.	ID=gene-J1951_mgt04;Dbxref=GeneID:63373132;Name=J1951_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt04
+NC_053822.1	RefSeq	tRNA	3687	3755	.	+	.	ID=rna-J1951_mgt04;Parent=gene-J1951_mgt04;Dbxref=GeneID:63373132;gbkey=tRNA;locus_tag=J1951_mgt04;product=tRNA-Ile
+NC_053822.1	RefSeq	exon	3687	3755	.	+	.	ID=exon-J1951_mgt04-1;Parent=rna-J1951_mgt04;Dbxref=GeneID:63373132;gbkey=tRNA;locus_tag=J1951_mgt04;product=tRNA-Ile
+NC_053822.1	RefSeq	gene	3754	3827	.	-	.	ID=gene-J1951_mgt05;Dbxref=GeneID:63373151;Name=J1951_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt05
+NC_053822.1	RefSeq	tRNA	3754	3827	.	-	.	ID=rna-J1951_mgt05;Parent=gene-J1951_mgt05;Dbxref=GeneID:63373151;gbkey=tRNA;locus_tag=J1951_mgt05;product=tRNA-Gln
+NC_053822.1	RefSeq	exon	3754	3827	.	-	.	ID=exon-J1951_mgt05-1;Parent=rna-J1951_mgt05;Dbxref=GeneID:63373151;gbkey=tRNA;locus_tag=J1951_mgt05;product=tRNA-Gln
+NC_053822.1	RefSeq	gene	3828	3896	.	+	.	ID=gene-J1951_mgt06;Dbxref=GeneID:63373152;Name=J1951_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt06
+NC_053822.1	RefSeq	tRNA	3828	3896	.	+	.	ID=rna-J1951_mgt06;Parent=gene-J1951_mgt06;Dbxref=GeneID:63373152;gbkey=tRNA;locus_tag=J1951_mgt06;product=tRNA-Met
+NC_053822.1	RefSeq	exon	3828	3896	.	+	.	ID=exon-J1951_mgt06-1;Parent=rna-J1951_mgt06;Dbxref=GeneID:63373152;gbkey=tRNA;locus_tag=J1951_mgt06;product=tRNA-Met
+NC_053822.1	RefSeq	gene	3897	4929	.	+	.	ID=gene-J1951_mgp12;Dbxref=GeneID:63373153;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=J1951_mgp12
+NC_053822.1	RefSeq	CDS	3897	4929	.	+	0	ID=cds-YP_010029444.1;Parent=gene-J1951_mgp12;Dbxref=GenBank:YP_010029444.1,GeneID:63373153;Name=YP_010029444.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=J1951_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010029444.1;transl_except=(pos:4929%2Caa:TERM);transl_table=2
+NC_053822.1	RefSeq	gene	4930	4996	.	+	.	ID=gene-J1951_mgt07;Dbxref=GeneID:63373133;Name=J1951_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt07
+NC_053822.1	RefSeq	tRNA	4930	4996	.	+	.	ID=rna-J1951_mgt07;Parent=gene-J1951_mgt07;Dbxref=GeneID:63373133;gbkey=tRNA;locus_tag=J1951_mgt07;product=tRNA-Trp
+NC_053822.1	RefSeq	exon	4930	4996	.	+	.	ID=exon-J1951_mgt07-1;Parent=rna-J1951_mgt07;Dbxref=GeneID:63373133;gbkey=tRNA;locus_tag=J1951_mgt07;product=tRNA-Trp
+NC_053822.1	RefSeq	gene	4999	5068	.	-	.	ID=gene-J1951_mgt08;Dbxref=GeneID:63373154;Name=J1951_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt08
+NC_053822.1	RefSeq	tRNA	4999	5068	.	-	.	ID=rna-J1951_mgt08;Parent=gene-J1951_mgt08;Dbxref=GeneID:63373154;gbkey=tRNA;locus_tag=J1951_mgt08;product=tRNA-Ala
+NC_053822.1	RefSeq	exon	4999	5068	.	-	.	ID=exon-J1951_mgt08-1;Parent=rna-J1951_mgt08;Dbxref=GeneID:63373154;gbkey=tRNA;locus_tag=J1951_mgt08;product=tRNA-Ala
+NC_053822.1	RefSeq	gene	5071	5141	.	-	.	ID=gene-J1951_mgt09;Dbxref=GeneID:63373155;Name=J1951_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt09
+NC_053822.1	RefSeq	tRNA	5071	5141	.	-	.	ID=rna-J1951_mgt09;Parent=gene-J1951_mgt09;Dbxref=GeneID:63373155;gbkey=tRNA;locus_tag=J1951_mgt09;product=tRNA-Asn
+NC_053822.1	RefSeq	exon	5071	5141	.	-	.	ID=exon-J1951_mgt09-1;Parent=rna-J1951_mgt09;Dbxref=GeneID:63373155;gbkey=tRNA;locus_tag=J1951_mgt09;product=tRNA-Asn
+NC_053822.1	RefSeq	origin_of_replication	5143	5173	.	-	.	ID=id-NC_053822.1:5143..5173;gbkey=rep_origin
+NC_053822.1	RefSeq	gene	5174	5240	.	-	.	ID=gene-J1951_mgt10;Dbxref=GeneID:63373156;Name=J1951_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt10
+NC_053822.1	RefSeq	tRNA	5174	5240	.	-	.	ID=rna-J1951_mgt10;Parent=gene-J1951_mgt10;Dbxref=GeneID:63373156;gbkey=tRNA;locus_tag=J1951_mgt10;product=tRNA-Cys
+NC_053822.1	RefSeq	exon	5174	5240	.	-	.	ID=exon-J1951_mgt10-1;Parent=rna-J1951_mgt10;Dbxref=GeneID:63373156;gbkey=tRNA;locus_tag=J1951_mgt10;product=tRNA-Cys
+NC_053822.1	RefSeq	gene	5241	5308	.	+	.	ID=gene-J1951_mgt11;Dbxref=GeneID:63373157;Name=J1951_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt11
+NC_053822.1	RefSeq	tRNA	5241	5308	.	+	.	ID=rna-J1951_mgt11;Parent=gene-J1951_mgt11;Dbxref=GeneID:63373157;gbkey=tRNA;locus_tag=J1951_mgt11;product=tRNA-Tyr
+NC_053822.1	RefSeq	exon	5241	5308	.	+	.	ID=exon-J1951_mgt11-1;Parent=rna-J1951_mgt11;Dbxref=GeneID:63373157;gbkey=tRNA;locus_tag=J1951_mgt11;product=tRNA-Tyr
+NC_053822.1	RefSeq	gene	5309	6853	.	+	.	ID=gene-J1951_mgp11;Dbxref=GeneID:63373158;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=J1951_mgp11
+NC_053822.1	RefSeq	CDS	5309	6853	.	+	0	ID=cds-YP_010029445.1;Parent=gene-J1951_mgp11;Dbxref=GenBank:YP_010029445.1,GeneID:63373158;Name=YP_010029445.1;gbkey=CDS;gene=COX1;locus_tag=J1951_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010029445.1;transl_table=2
+NC_053822.1	RefSeq	gene	6854	6919	.	+	.	ID=gene-J1951_mgt12;Dbxref=GeneID:63373134;Name=J1951_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt12
+NC_053822.1	RefSeq	tRNA	6854	6919	.	+	.	ID=rna-J1951_mgt12;Parent=gene-J1951_mgt12;Dbxref=GeneID:63373134;gbkey=tRNA;locus_tag=J1951_mgt12;product=tRNA-Ser
+NC_053822.1	RefSeq	exon	6854	6919	.	+	.	ID=exon-J1951_mgt12-1;Parent=rna-J1951_mgt12;Dbxref=GeneID:63373134;gbkey=tRNA;locus_tag=J1951_mgt12;product=tRNA-Ser
+NC_053822.1	RefSeq	gene	6923	6991	.	+	.	ID=gene-J1951_mgt13;Dbxref=GeneID:63373159;Name=J1951_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt13
+NC_053822.1	RefSeq	tRNA	6923	6991	.	+	.	ID=rna-J1951_mgt13;Parent=gene-J1951_mgt13;Dbxref=GeneID:63373159;gbkey=tRNA;locus_tag=J1951_mgt13;product=tRNA-Asp
+NC_053822.1	RefSeq	exon	6923	6991	.	+	.	ID=exon-J1951_mgt13-1;Parent=rna-J1951_mgt13;Dbxref=GeneID:63373159;gbkey=tRNA;locus_tag=J1951_mgt13;product=tRNA-Asp
+NC_053822.1	RefSeq	gene	6993	7676	.	+	.	ID=gene-J1951_mgp10;Dbxref=GeneID:63373160;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=J1951_mgp10
+NC_053822.1	RefSeq	CDS	6993	7676	.	+	0	ID=cds-YP_010029446.1;Parent=gene-J1951_mgp10;Dbxref=GenBank:YP_010029446.1,GeneID:63373160;Name=YP_010029446.1;gbkey=CDS;gene=COX2;locus_tag=J1951_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010029446.1;transl_table=2
+NC_053822.1	RefSeq	gene	7685	7743	.	+	.	ID=gene-J1951_mgt14;Dbxref=GeneID:63373135;Name=J1951_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt14
+NC_053822.1	RefSeq	tRNA	7685	7743	.	+	.	ID=rna-J1951_mgt14;Parent=gene-J1951_mgt14;Dbxref=GeneID:63373135;gbkey=tRNA;locus_tag=J1951_mgt14;product=tRNA-Lys
+NC_053822.1	RefSeq	exon	7685	7743	.	+	.	ID=exon-J1951_mgt14-1;Parent=rna-J1951_mgt14;Dbxref=GeneID:63373135;gbkey=tRNA;locus_tag=J1951_mgt14;product=tRNA-Lys
+NC_053822.1	RefSeq	gene	7745	7948	.	+	.	ID=gene-J1951_mgp09;Dbxref=GeneID:63373161;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=J1951_mgp09
+NC_053822.1	RefSeq	CDS	7745	7948	.	+	0	ID=cds-YP_010029447.1;Parent=gene-J1951_mgp09;Dbxref=GenBank:YP_010029447.1,GeneID:63373161;Name=YP_010029447.1;gbkey=CDS;gene=ATP8;locus_tag=J1951_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010029447.1;transl_table=2
+NC_053822.1	RefSeq	gene	7906	8586	.	+	.	ID=gene-J1951_mgp08;Dbxref=GeneID:63373136;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=J1951_mgp08
+NC_053822.1	RefSeq	CDS	7906	8586	.	+	0	ID=cds-YP_010029448.1;Parent=gene-J1951_mgp08;Dbxref=GenBank:YP_010029448.1,GeneID:63373136;Name=YP_010029448.1;gbkey=CDS;gene=ATP6;locus_tag=J1951_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010029448.1;transl_table=2
+NC_053822.1	RefSeq	gene	8586	9369	.	+	.	ID=gene-J1951_mgp07;Dbxref=GeneID:63373137;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=J1951_mgp07
+NC_053822.1	RefSeq	CDS	8586	9369	.	+	0	ID=cds-YP_010029449.1;Parent=gene-J1951_mgp07;Dbxref=GenBank:YP_010029449.1,GeneID:63373137;Name=YP_010029449.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=J1951_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010029449.1;transl_except=(pos:9369%2Caa:TERM);transl_table=2
+NC_053822.1	RefSeq	gene	9370	9437	.	+	.	ID=gene-J1951_mgt15;Dbxref=GeneID:63373138;Name=J1951_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt15
+NC_053822.1	RefSeq	tRNA	9370	9437	.	+	.	ID=rna-J1951_mgt15;Parent=gene-J1951_mgt15;Dbxref=GeneID:63373138;gbkey=tRNA;locus_tag=J1951_mgt15;product=tRNA-Gly
+NC_053822.1	RefSeq	exon	9370	9437	.	+	.	ID=exon-J1951_mgt15-1;Parent=rna-J1951_mgt15;Dbxref=GeneID:63373138;gbkey=tRNA;locus_tag=J1951_mgt15;product=tRNA-Gly
+NC_053822.1	RefSeq	gene	9438	9785	.	+	.	ID=gene-J1951_mgp06;Dbxref=GeneID:63373162;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=J1951_mgp06
+NC_053822.1	RefSeq	CDS	9438	9785	.	+	0	ID=cds-YP_010029450.1;Parent=gene-J1951_mgp06;Dbxref=GenBank:YP_010029450.1,GeneID:63373162;Name=YP_010029450.1;gbkey=CDS;gene=ND3;locus_tag=J1951_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010029450.1;transl_table=2
+NC_053822.1	RefSeq	gene	9787	9854	.	+	.	ID=gene-J1951_mgt16;Dbxref=GeneID:63373139;Name=J1951_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt16
+NC_053822.1	RefSeq	tRNA	9787	9854	.	+	.	ID=rna-J1951_mgt16;Parent=gene-J1951_mgt16;Dbxref=GeneID:63373139;gbkey=tRNA;locus_tag=J1951_mgt16;product=tRNA-Arg
+NC_053822.1	RefSeq	exon	9787	9854	.	+	.	ID=exon-J1951_mgt16-1;Parent=rna-J1951_mgt16;Dbxref=GeneID:63373139;gbkey=tRNA;locus_tag=J1951_mgt16;product=tRNA-Arg
+NC_053822.1	RefSeq	gene	9856	10152	.	+	.	ID=gene-J1951_mgp05;Dbxref=GeneID:63373163;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=J1951_mgp05
+NC_053822.1	RefSeq	CDS	9856	10152	.	+	0	ID=cds-YP_010029451.1;Parent=gene-J1951_mgp05;Dbxref=GenBank:YP_010029451.1,GeneID:63373163;Name=YP_010029451.1;gbkey=CDS;gene=ND4L;locus_tag=J1951_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010029451.1;transl_table=2
+NC_053822.1	RefSeq	gene	10146	11523	.	+	.	ID=gene-J1951_mgp04;Dbxref=GeneID:63373140;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=J1951_mgp04
+NC_053822.1	RefSeq	CDS	10146	11523	.	+	0	ID=cds-YP_010029452.1;Parent=gene-J1951_mgp04;Dbxref=GenBank:YP_010029452.1,GeneID:63373140;Name=YP_010029452.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=J1951_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010029452.1;transl_except=(pos:11523%2Caa:TERM);transl_table=2
+NC_053822.1	RefSeq	gene	11524	11591	.	+	.	ID=gene-J1951_mgt17;Dbxref=GeneID:63373141;Name=J1951_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt17
+NC_053822.1	RefSeq	tRNA	11524	11591	.	+	.	ID=rna-J1951_mgt17;Parent=gene-J1951_mgt17;Dbxref=GeneID:63373141;gbkey=tRNA;locus_tag=J1951_mgt17;product=tRNA-His
+NC_053822.1	RefSeq	exon	11524	11591	.	+	.	ID=exon-J1951_mgt17-1;Parent=rna-J1951_mgt17;Dbxref=GeneID:63373141;gbkey=tRNA;locus_tag=J1951_mgt17;product=tRNA-His
+NC_053822.1	RefSeq	gene	11592	11649	.	+	.	ID=gene-J1951_mgt18;Dbxref=GeneID:63373164;Name=J1951_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt18
+NC_053822.1	RefSeq	tRNA	11592	11649	.	+	.	ID=rna-J1951_mgt18;Parent=gene-J1951_mgt18;Dbxref=GeneID:63373164;gbkey=tRNA;locus_tag=J1951_mgt18;product=tRNA-Ser
+NC_053822.1	RefSeq	exon	11592	11649	.	+	.	ID=exon-J1951_mgt18-1;Parent=rna-J1951_mgt18;Dbxref=GeneID:63373164;gbkey=tRNA;locus_tag=J1951_mgt18;product=tRNA-Ser
+NC_053822.1	RefSeq	gene	11649	11719	.	+	.	ID=gene-J1951_mgt19;Dbxref=GeneID:63373165;Name=J1951_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt19
+NC_053822.1	RefSeq	tRNA	11649	11719	.	+	.	ID=rna-J1951_mgt19;Parent=gene-J1951_mgt19;Dbxref=GeneID:63373165;gbkey=tRNA;locus_tag=J1951_mgt19;product=tRNA-Leu
+NC_053822.1	RefSeq	exon	11649	11719	.	+	.	ID=exon-J1951_mgt19-1;Parent=rna-J1951_mgt19;Dbxref=GeneID:63373165;gbkey=tRNA;locus_tag=J1951_mgt19;product=tRNA-Leu
+NC_053822.1	RefSeq	gene	11720	13540	.	+	.	ID=gene-J1951_mgp03;Dbxref=GeneID:63373166;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=J1951_mgp03
+NC_053822.1	RefSeq	CDS	11720	13540	.	+	0	ID=cds-YP_010029453.1;Parent=gene-J1951_mgp03;Dbxref=GenBank:YP_010029453.1,GeneID:63373166;Name=YP_010029453.1;gbkey=CDS;gene=ND5;locus_tag=J1951_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010029453.1;transl_table=2
+NC_053822.1	RefSeq	gene	13524	14048	.	-	.	ID=gene-J1951_mgp02;Dbxref=GeneID:63373142;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=J1951_mgp02
+NC_053822.1	RefSeq	CDS	13524	14048	.	-	0	ID=cds-YP_010029454.1;Parent=gene-J1951_mgp02;Dbxref=GenBank:YP_010029454.1,GeneID:63373142;Name=YP_010029454.1;gbkey=CDS;gene=ND6;locus_tag=J1951_mgp02;product=NADH dehydrogenase subunit 5;protein_id=YP_010029454.1;transl_table=2
+NC_053822.1	RefSeq	gene	14049	14117	.	-	.	ID=gene-J1951_mgt20;Dbxref=GeneID:63373143;Name=J1951_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt20
+NC_053822.1	RefSeq	tRNA	14049	14117	.	-	.	ID=rna-J1951_mgt20;Parent=gene-J1951_mgt20;Dbxref=GeneID:63373143;gbkey=tRNA;locus_tag=J1951_mgt20;product=tRNA-Glu
+NC_053822.1	RefSeq	exon	14049	14117	.	-	.	ID=exon-J1951_mgt20-1;Parent=rna-J1951_mgt20;Dbxref=GeneID:63373143;gbkey=tRNA;locus_tag=J1951_mgt20;product=tRNA-Glu
+NC_053822.1	RefSeq	gene	14122	15264	.	+	.	ID=gene-J1951_mgp01;Dbxref=GeneID:63373167;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=J1951_mgp01
+NC_053822.1	RefSeq	CDS	14122	15264	.	+	0	ID=cds-YP_010029455.1;Parent=gene-J1951_mgp01;Dbxref=GenBank:YP_010029455.1,GeneID:63373167;Name=YP_010029455.1;gbkey=CDS;gene=CYTB;locus_tag=J1951_mgp01;product=cytochrome b;protein_id=YP_010029455.1;transl_table=2
+NC_053822.1	RefSeq	gene	15265	15332	.	+	.	ID=gene-J1951_mgt21;Dbxref=GeneID:63373144;Name=J1951_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt21
+NC_053822.1	RefSeq	tRNA	15265	15332	.	+	.	ID=rna-J1951_mgt21;Parent=gene-J1951_mgt21;Dbxref=GeneID:63373144;gbkey=tRNA;locus_tag=J1951_mgt21;product=tRNA-Thr
+NC_053822.1	RefSeq	exon	15265	15332	.	+	.	ID=exon-J1951_mgt21-1;Parent=rna-J1951_mgt21;Dbxref=GeneID:63373144;gbkey=tRNA;locus_tag=J1951_mgt21;product=tRNA-Thr
+NC_053822.1	RefSeq	gene	15333	15397	.	-	.	ID=gene-J1951_mgt22;Dbxref=GeneID:63373168;Name=J1951_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=J1951_mgt22
+NC_053822.1	RefSeq	tRNA	15333	15397	.	-	.	ID=rna-J1951_mgt22;Parent=gene-J1951_mgt22;Dbxref=GeneID:63373168;gbkey=tRNA;locus_tag=J1951_mgt22;product=tRNA-Pro
+NC_053822.1	RefSeq	exon	15333	15397	.	-	.	ID=exon-J1951_mgt22-1;Parent=rna-J1951_mgt22;Dbxref=GeneID:63373168;gbkey=tRNA;locus_tag=J1951_mgt22;product=tRNA-Pro
+NC_053822.1	RefSeq	D_loop	15398	16282	.	+	.	ID=id-NC_053822.1:15398..16282;gbkey=D-loop
+

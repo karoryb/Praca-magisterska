@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_027237.1 1 17478
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51300
+NC_027237.1	RefSeq	region	1	17478	.	+	.	ID=NC_027237.1:1..17478;Dbxref=taxon:51300;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_027237.1	RefSeq	gene	1	73	.	+	.	ID=gene-ACI58_gt01;Dbxref=GeneID:24572232;Name=ACI58_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt01
+NC_027237.1	RefSeq	tRNA	1	73	.	+	.	ID=rna-ACI58_gt01;Parent=gene-ACI58_gt01;Dbxref=GeneID:24572232;gbkey=tRNA;locus_tag=ACI58_gt01;product=tRNA-Phe
+NC_027237.1	RefSeq	exon	1	73	.	+	.	ID=exon-ACI58_gt01-1;Parent=rna-ACI58_gt01;Dbxref=GeneID:24572232;gbkey=tRNA;locus_tag=ACI58_gt01;product=tRNA-Phe
+NC_027237.1	RefSeq	gene	74	1033	.	+	.	ID=gene-ACI58_gr02;Dbxref=GeneID:24572233;Name=ACI58_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=ACI58_gr02
+NC_027237.1	RefSeq	rRNA	74	1033	.	+	.	ID=rna-ACI58_gr02;Parent=gene-ACI58_gr02;Dbxref=GeneID:24572233;gbkey=rRNA;locus_tag=ACI58_gr02;product=12S ribosomal RNA
+NC_027237.1	RefSeq	exon	74	1033	.	+	.	ID=exon-ACI58_gr02-1;Parent=rna-ACI58_gr02;Dbxref=GeneID:24572233;gbkey=rRNA;locus_tag=ACI58_gr02;product=12S ribosomal RNA
+NC_027237.1	RefSeq	gene	1034	1101	.	+	.	ID=gene-ACI58_gt02;Dbxref=GeneID:24572234;Name=ACI58_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt02
+NC_027237.1	RefSeq	tRNA	1034	1101	.	+	.	ID=rna-ACI58_gt02;Parent=gene-ACI58_gt02;Dbxref=GeneID:24572234;gbkey=tRNA;locus_tag=ACI58_gt02;product=tRNA-Val
+NC_027237.1	RefSeq	exon	1034	1101	.	+	.	ID=exon-ACI58_gt02-1;Parent=rna-ACI58_gt02;Dbxref=GeneID:24572234;gbkey=tRNA;locus_tag=ACI58_gt02;product=tRNA-Val
+NC_027237.1	RefSeq	gene	1102	2671	.	+	.	ID=gene-ACI58_gr01;Dbxref=GeneID:24572235;Name=ACI58_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=ACI58_gr01
+NC_027237.1	RefSeq	rRNA	1102	2671	.	+	.	ID=rna-ACI58_gr01;Parent=gene-ACI58_gr01;Dbxref=GeneID:24572235;gbkey=rRNA;locus_tag=ACI58_gr01;product=16S ribosomal RNA
+NC_027237.1	RefSeq	exon	1102	2671	.	+	.	ID=exon-ACI58_gr01-1;Parent=rna-ACI58_gr01;Dbxref=GeneID:24572235;gbkey=rRNA;locus_tag=ACI58_gr01;product=16S ribosomal RNA
+NC_027237.1	RefSeq	gene	2672	2746	.	+	.	ID=gene-ACI58_gt03;Dbxref=GeneID:24572236;Name=ACI58_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt03
+NC_027237.1	RefSeq	tRNA	2672	2746	.	+	.	ID=rna-ACI58_gt03;Parent=gene-ACI58_gt03;Dbxref=GeneID:24572236;gbkey=tRNA;locus_tag=ACI58_gt03;product=tRNA-Leu
+NC_027237.1	RefSeq	exon	2672	2746	.	+	.	ID=exon-ACI58_gt03-1;Parent=rna-ACI58_gt03;Dbxref=GeneID:24572236;gbkey=tRNA;locus_tag=ACI58_gt03;product=tRNA-Leu
+NC_027237.1	RefSeq	gene	2751	3705	.	+	.	ID=gene-ACI58_gp13;Dbxref=GeneID:24572237;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=ACI58_gp13
+NC_027237.1	RefSeq	CDS	2751	3705	.	+	0	ID=cds-YP_009144139.1;Parent=gene-ACI58_gp13;Dbxref=GenBank:YP_009144139.1,GeneID:24572237;Name=YP_009144139.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=ACI58_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009144139.1;transl_except=(pos:3705%2Caa:TERM);transl_table=2
+NC_027237.1	RefSeq	gene	3706	3774	.	+	.	ID=gene-ACI58_gt04;Dbxref=GeneID:24572219;Name=ACI58_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt04
+NC_027237.1	RefSeq	tRNA	3706	3774	.	+	.	ID=rna-ACI58_gt04;Parent=gene-ACI58_gt04;Dbxref=GeneID:24572219;gbkey=tRNA;locus_tag=ACI58_gt04;product=tRNA-Ile
+NC_027237.1	RefSeq	exon	3706	3774	.	+	.	ID=exon-ACI58_gt04-1;Parent=rna-ACI58_gt04;Dbxref=GeneID:24572219;gbkey=tRNA;locus_tag=ACI58_gt04;product=tRNA-Ile
+NC_027237.1	RefSeq	gene	3773	3845	.	-	.	ID=gene-ACI58_gt05;Dbxref=GeneID:24572238;Name=ACI58_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt05
+NC_027237.1	RefSeq	tRNA	3773	3845	.	-	.	ID=rna-ACI58_gt05;Parent=gene-ACI58_gt05;Dbxref=GeneID:24572238;gbkey=tRNA;locus_tag=ACI58_gt05;product=tRNA-Gln
+NC_027237.1	RefSeq	exon	3773	3845	.	-	.	ID=exon-ACI58_gt05-1;Parent=rna-ACI58_gt05;Dbxref=GeneID:24572238;gbkey=tRNA;locus_tag=ACI58_gt05;product=tRNA-Gln
+NC_027237.1	RefSeq	gene	3846	3914	.	+	.	ID=gene-ACI58_gt06;Dbxref=GeneID:24572239;Name=ACI58_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt06
+NC_027237.1	RefSeq	tRNA	3846	3914	.	+	.	ID=rna-ACI58_gt06;Parent=gene-ACI58_gt06;Dbxref=GeneID:24572239;gbkey=tRNA;locus_tag=ACI58_gt06;product=tRNA-Met
+NC_027237.1	RefSeq	exon	3846	3914	.	+	.	ID=exon-ACI58_gt06-1;Parent=rna-ACI58_gt06;Dbxref=GeneID:24572239;gbkey=tRNA;locus_tag=ACI58_gt06;product=tRNA-Met
+NC_027237.1	RefSeq	gene	3915	4956	.	+	.	ID=gene-ACI58_gp12;Dbxref=GeneID:24572240;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=ACI58_gp12
+NC_027237.1	RefSeq	CDS	3915	4956	.	+	0	ID=cds-YP_009144140.1;Parent=gene-ACI58_gp12;Dbxref=GenBank:YP_009144140.1,GeneID:24572240;Name=YP_009144140.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=ACI58_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009144140.1;transl_except=(pos:4956%2Caa:TERM);transl_table=2
+NC_027237.1	RefSeq	gene	4957	5022	.	+	.	ID=gene-ACI58_gt07;Dbxref=GeneID:24572220;Name=ACI58_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt07
+NC_027237.1	RefSeq	tRNA	4957	5022	.	+	.	ID=rna-ACI58_gt07;Parent=gene-ACI58_gt07;Dbxref=GeneID:24572220;gbkey=tRNA;locus_tag=ACI58_gt07;product=tRNA-Trp
+NC_027237.1	RefSeq	exon	4957	5022	.	+	.	ID=exon-ACI58_gt07-1;Parent=rna-ACI58_gt07;Dbxref=GeneID:24572220;gbkey=tRNA;locus_tag=ACI58_gt07;product=tRNA-Trp
+NC_027237.1	RefSeq	gene	5030	5098	.	-	.	ID=gene-ACI58_gt08;Dbxref=GeneID:24572241;Name=ACI58_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt08
+NC_027237.1	RefSeq	tRNA	5030	5098	.	-	.	ID=rna-ACI58_gt08;Parent=gene-ACI58_gt08;Dbxref=GeneID:24572241;gbkey=tRNA;locus_tag=ACI58_gt08;product=tRNA-Ala
+NC_027237.1	RefSeq	exon	5030	5098	.	-	.	ID=exon-ACI58_gt08-1;Parent=rna-ACI58_gt08;Dbxref=GeneID:24572241;gbkey=tRNA;locus_tag=ACI58_gt08;product=tRNA-Ala
+NC_027237.1	RefSeq	gene	5099	5171	.	-	.	ID=gene-ACI58_gt09;Dbxref=GeneID:24572242;Name=ACI58_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt09
+NC_027237.1	RefSeq	tRNA	5099	5171	.	-	.	ID=rna-ACI58_gt09;Parent=gene-ACI58_gt09;Dbxref=GeneID:24572242;gbkey=tRNA;locus_tag=ACI58_gt09;product=tRNA-Asn
+NC_027237.1	RefSeq	exon	5099	5171	.	-	.	ID=exon-ACI58_gt09-1;Parent=rna-ACI58_gt09;Dbxref=GeneID:24572242;gbkey=tRNA;locus_tag=ACI58_gt09;product=tRNA-Asn
+NC_027237.1	RefSeq	origin_of_replication	5171	5206	.	+	.	ID=id-NC_027237.1:5171..5206;gbkey=rep_origin
+NC_027237.1	RefSeq	gene	5204	5269	.	-	.	ID=gene-ACI58_gt10;Dbxref=GeneID:24572243;Name=ACI58_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt10
+NC_027237.1	RefSeq	tRNA	5204	5269	.	-	.	ID=rna-ACI58_gt10;Parent=gene-ACI58_gt10;Dbxref=GeneID:24572243;gbkey=tRNA;locus_tag=ACI58_gt10;product=tRNA-Cys
+NC_027237.1	RefSeq	exon	5204	5269	.	-	.	ID=exon-ACI58_gt10-1;Parent=rna-ACI58_gt10;Dbxref=GeneID:24572243;gbkey=tRNA;locus_tag=ACI58_gt10;product=tRNA-Cys
+NC_027237.1	RefSeq	gene	5270	5337	.	-	.	ID=gene-ACI58_gt11;Dbxref=GeneID:24572244;Name=ACI58_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt11
+NC_027237.1	RefSeq	tRNA	5270	5337	.	-	.	ID=rna-ACI58_gt11;Parent=gene-ACI58_gt11;Dbxref=GeneID:24572244;gbkey=tRNA;locus_tag=ACI58_gt11;product=tRNA-Tyr
+NC_027237.1	RefSeq	exon	5270	5337	.	-	.	ID=exon-ACI58_gt11-1;Parent=rna-ACI58_gt11;Dbxref=GeneID:24572244;gbkey=tRNA;locus_tag=ACI58_gt11;product=tRNA-Tyr
+NC_027237.1	RefSeq	gene	5339	6883	.	+	.	ID=gene-ACI58_gp11;Dbxref=GeneID:24572245;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=ACI58_gp11
+NC_027237.1	RefSeq	CDS	5339	6883	.	+	0	ID=cds-YP_009144141.1;Parent=gene-ACI58_gp11;Dbxref=GenBank:YP_009144141.1,GeneID:24572245;Name=YP_009144141.1;gbkey=CDS;gene=COX1;locus_tag=ACI58_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009144141.1;transl_table=2
+NC_027237.1	RefSeq	gene	6887	6955	.	-	.	ID=gene-ACI58_gt12;Dbxref=GeneID:24572221;Name=ACI58_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt12
+NC_027237.1	RefSeq	tRNA	6887	6955	.	-	.	ID=rna-ACI58_gt12;Parent=gene-ACI58_gt12;Dbxref=GeneID:24572221;gbkey=tRNA;locus_tag=ACI58_gt12;product=tRNA-Ser
+NC_027237.1	RefSeq	exon	6887	6955	.	-	.	ID=exon-ACI58_gt12-1;Parent=rna-ACI58_gt12;Dbxref=GeneID:24572221;gbkey=tRNA;locus_tag=ACI58_gt12;product=tRNA-Ser
+NC_027237.1	RefSeq	gene	6963	7029	.	+	.	ID=gene-ACI58_gt13;Dbxref=GeneID:24572246;Name=ACI58_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt13
+NC_027237.1	RefSeq	tRNA	6963	7029	.	+	.	ID=rna-ACI58_gt13;Parent=gene-ACI58_gt13;Dbxref=GeneID:24572246;gbkey=tRNA;locus_tag=ACI58_gt13;product=tRNA-Asp
+NC_027237.1	RefSeq	exon	6963	7029	.	+	.	ID=exon-ACI58_gt13-1;Parent=rna-ACI58_gt13;Dbxref=GeneID:24572246;gbkey=tRNA;locus_tag=ACI58_gt13;product=tRNA-Asp
+NC_027237.1	RefSeq	gene	7030	7713	.	+	.	ID=gene-ACI58_gp10;Dbxref=GeneID:24572247;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=ACI58_gp10
+NC_027237.1	RefSeq	CDS	7030	7713	.	+	0	ID=cds-YP_009144142.1;Parent=gene-ACI58_gp10;Dbxref=GenBank:YP_009144142.1,GeneID:24572247;Name=YP_009144142.1;gbkey=CDS;gene=COX2;locus_tag=ACI58_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009144142.1;transl_table=2
+NC_027237.1	RefSeq	gene	7717	7782	.	+	.	ID=gene-ACI58_gt14;Dbxref=GeneID:24572222;Name=ACI58_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt14
+NC_027237.1	RefSeq	tRNA	7717	7782	.	+	.	ID=rna-ACI58_gt14;Parent=gene-ACI58_gt14;Dbxref=GeneID:24572222;gbkey=tRNA;locus_tag=ACI58_gt14;product=tRNA-Lys
+NC_027237.1	RefSeq	exon	7717	7782	.	+	.	ID=exon-ACI58_gt14-1;Parent=rna-ACI58_gt14;Dbxref=GeneID:24572222;gbkey=tRNA;locus_tag=ACI58_gt14;product=tRNA-Lys
+NC_027237.1	RefSeq	gene	7784	7987	.	+	.	ID=gene-ACI58_gp09;Dbxref=GeneID:24572248;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=ACI58_gp09
+NC_027237.1	RefSeq	CDS	7784	7987	.	+	0	ID=cds-YP_009144143.1;Parent=gene-ACI58_gp09;Dbxref=GenBank:YP_009144143.1,GeneID:24572248;Name=YP_009144143.1;gbkey=CDS;gene=ATP8;locus_tag=ACI58_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009144143.1;transl_table=2
+NC_027237.1	RefSeq	gene	7945	8625	.	+	.	ID=gene-ACI58_gp08;Dbxref=GeneID:24572223;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=ACI58_gp08
+NC_027237.1	RefSeq	CDS	7945	8625	.	+	0	ID=cds-YP_009144144.1;Parent=gene-ACI58_gp08;Dbxref=GenBank:YP_009144144.1,GeneID:24572223;Name=YP_009144144.1;gbkey=CDS;gene=ATP6;locus_tag=ACI58_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009144144.1;transl_table=2
+NC_027237.1	RefSeq	gene	8625	9408	.	+	.	ID=gene-ACI58_gp07;Dbxref=GeneID:24572224;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=ACI58_gp07
+NC_027237.1	RefSeq	CDS	8625	9408	.	+	0	ID=cds-YP_009144145.1;Parent=gene-ACI58_gp07;Dbxref=GenBank:YP_009144145.1,GeneID:24572224;Name=YP_009144145.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=ACI58_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009144145.1;transl_except=(pos:9408%2Caa:TERM);transl_table=2
+NC_027237.1	RefSeq	gene	9409	9477	.	+	.	ID=gene-ACI58_gt15;Dbxref=GeneID:24572225;Name=ACI58_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt15
+NC_027237.1	RefSeq	tRNA	9409	9477	.	+	.	ID=rna-ACI58_gt15;Parent=gene-ACI58_gt15;Dbxref=GeneID:24572225;gbkey=tRNA;locus_tag=ACI58_gt15;product=tRNA-Gly
+NC_027237.1	RefSeq	exon	9409	9477	.	+	.	ID=exon-ACI58_gt15-1;Parent=rna-ACI58_gt15;Dbxref=GeneID:24572225;gbkey=tRNA;locus_tag=ACI58_gt15;product=tRNA-Gly
+NC_027237.1	RefSeq	gene	9478	9825	.	+	.	ID=gene-ACI58_gp06;Dbxref=GeneID:24572249;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=ACI58_gp06
+NC_027237.1	RefSeq	CDS	9478	9825	.	+	0	ID=cds-YP_009144146.1;Parent=gene-ACI58_gp06;Dbxref=GenBank:YP_009144146.1,GeneID:24572249;Name=YP_009144146.1;gbkey=CDS;gene=ND3;locus_tag=ACI58_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009144146.1;transl_table=2
+NC_027237.1	RefSeq	gene	9826	9894	.	+	.	ID=gene-ACI58_gt16;Dbxref=GeneID:24572226;Name=ACI58_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt16
+NC_027237.1	RefSeq	tRNA	9826	9894	.	+	.	ID=rna-ACI58_gt16;Parent=gene-ACI58_gt16;Dbxref=GeneID:24572226;gbkey=tRNA;locus_tag=ACI58_gt16;product=tRNA-Arg
+NC_027237.1	RefSeq	exon	9826	9894	.	+	.	ID=exon-ACI58_gt16-1;Parent=rna-ACI58_gt16;Dbxref=GeneID:24572226;gbkey=tRNA;locus_tag=ACI58_gt16;product=tRNA-Arg
+NC_027237.1	RefSeq	gene	9896	10192	.	+	.	ID=gene-ACI58_gp05;Dbxref=GeneID:24572250;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=ACI58_gp05
+NC_027237.1	RefSeq	CDS	9896	10192	.	+	0	ID=cds-YP_009144147.1;Parent=gene-ACI58_gp05;Dbxref=GenBank:YP_009144147.1,GeneID:24572250;Name=YP_009144147.1;gbkey=CDS;gene=ND4L;locus_tag=ACI58_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009144147.1;transl_table=2
+NC_027237.1	RefSeq	gene	10186	11563	.	+	.	ID=gene-ACI58_gp04;Dbxref=GeneID:24572227;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=ACI58_gp04
+NC_027237.1	RefSeq	CDS	10186	11563	.	+	0	ID=cds-YP_009144148.1;Parent=gene-ACI58_gp04;Dbxref=GenBank:YP_009144148.1,GeneID:24572227;Name=YP_009144148.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=ACI58_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009144148.1;transl_except=(pos:11563%2Caa:TERM);transl_table=2
+NC_027237.1	RefSeq	gene	11564	11631	.	+	.	ID=gene-ACI58_gt17;Dbxref=GeneID:24572228;Name=ACI58_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt17
+NC_027237.1	RefSeq	tRNA	11564	11631	.	+	.	ID=rna-ACI58_gt17;Parent=gene-ACI58_gt17;Dbxref=GeneID:24572228;gbkey=tRNA;locus_tag=ACI58_gt17;product=tRNA-His
+NC_027237.1	RefSeq	exon	11564	11631	.	+	.	ID=exon-ACI58_gt17-1;Parent=rna-ACI58_gt17;Dbxref=GeneID:24572228;gbkey=tRNA;locus_tag=ACI58_gt17;product=tRNA-His
+NC_027237.1	RefSeq	gene	11632	11690	.	+	.	ID=gene-ACI58_gt18;Dbxref=GeneID:24572251;Name=ACI58_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt18
+NC_027237.1	RefSeq	tRNA	11632	11690	.	+	.	ID=rna-ACI58_gt18;Parent=gene-ACI58_gt18;Dbxref=GeneID:24572251;gbkey=tRNA;locus_tag=ACI58_gt18;product=tRNA-Ser
+NC_027237.1	RefSeq	exon	11632	11690	.	+	.	ID=exon-ACI58_gt18-1;Parent=rna-ACI58_gt18;Dbxref=GeneID:24572251;gbkey=tRNA;locus_tag=ACI58_gt18;product=tRNA-Ser
+NC_027237.1	RefSeq	gene	11695	11764	.	+	.	ID=gene-ACI58_gt19;Dbxref=GeneID:24572252;Name=ACI58_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt19
+NC_027237.1	RefSeq	tRNA	11695	11764	.	+	.	ID=rna-ACI58_gt19;Parent=gene-ACI58_gt19;Dbxref=GeneID:24572252;gbkey=tRNA;locus_tag=ACI58_gt19;product=tRNA-Leu
+NC_027237.1	RefSeq	exon	11695	11764	.	+	.	ID=exon-ACI58_gt19-1;Parent=rna-ACI58_gt19;Dbxref=GeneID:24572252;gbkey=tRNA;locus_tag=ACI58_gt19;product=tRNA-Leu
+NC_027237.1	RefSeq	gene	11765	13579	.	+	.	ID=gene-ACI58_gp03;Dbxref=GeneID:24572253;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=ACI58_gp03
+NC_027237.1	RefSeq	CDS	11765	13579	.	+	0	ID=cds-YP_009144149.1;Parent=gene-ACI58_gp03;Dbxref=GenBank:YP_009144149.1,GeneID:24572253;Name=YP_009144149.1;gbkey=CDS;gene=ND5;locus_tag=ACI58_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009144149.1;transl_table=2
+NC_027237.1	RefSeq	gene	13563	14090	.	-	.	ID=gene-ACI58_gp02;Dbxref=GeneID:24572229;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=ACI58_gp02
+NC_027237.1	RefSeq	CDS	13563	14090	.	-	0	ID=cds-YP_009144150.1;Parent=gene-ACI58_gp02;Dbxref=GenBank:YP_009144150.1,GeneID:24572229;Name=YP_009144150.1;gbkey=CDS;gene=ND6;locus_tag=ACI58_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009144150.1;transl_table=2
+NC_027237.1	RefSeq	gene	14091	14159	.	-	.	ID=gene-ACI58_gt20;Dbxref=GeneID:24572230;Name=ACI58_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt20
+NC_027237.1	RefSeq	tRNA	14091	14159	.	-	.	ID=rna-ACI58_gt20;Parent=gene-ACI58_gt20;Dbxref=GeneID:24572230;gbkey=tRNA;locus_tag=ACI58_gt20;product=tRNA-Glu
+NC_027237.1	RefSeq	exon	14091	14159	.	-	.	ID=exon-ACI58_gt20-1;Parent=rna-ACI58_gt20;Dbxref=GeneID:24572230;gbkey=tRNA;locus_tag=ACI58_gt20;product=tRNA-Glu
+NC_027237.1	RefSeq	gene	14165	15304	.	+	.	ID=gene-ACI58_gp01;Dbxref=GeneID:24572254;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=ACI58_gp01
+NC_027237.1	RefSeq	CDS	14165	15304	.	+	0	ID=cds-YP_009144151.1;Parent=gene-ACI58_gp01;Dbxref=GenBank:YP_009144151.1,GeneID:24572254;Name=YP_009144151.1;gbkey=CDS;gene=CYTB;locus_tag=ACI58_gp01;product=cytochrome b;protein_id=YP_009144151.1;transl_table=2
+NC_027237.1	RefSeq	gene	15305	15373	.	+	.	ID=gene-ACI58_gt21;Dbxref=GeneID:24572231;Name=ACI58_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt21
+NC_027237.1	RefSeq	tRNA	15305	15373	.	+	.	ID=rna-ACI58_gt21;Parent=gene-ACI58_gt21;Dbxref=GeneID:24572231;gbkey=tRNA;locus_tag=ACI58_gt21;product=tRNA-Thr
+NC_027237.1	RefSeq	exon	15305	15373	.	+	.	ID=exon-ACI58_gt21-1;Parent=rna-ACI58_gt21;Dbxref=GeneID:24572231;gbkey=tRNA;locus_tag=ACI58_gt21;product=tRNA-Thr
+NC_027237.1	RefSeq	gene	15377	15445	.	-	.	ID=gene-ACI58_gt22;Dbxref=GeneID:24572255;Name=ACI58_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=ACI58_gt22
+NC_027237.1	RefSeq	tRNA	15377	15445	.	-	.	ID=rna-ACI58_gt22;Parent=gene-ACI58_gt22;Dbxref=GeneID:24572255;gbkey=tRNA;locus_tag=ACI58_gt22;product=tRNA-Pro
+NC_027237.1	RefSeq	exon	15377	15445	.	-	.	ID=exon-ACI58_gt22-1;Parent=rna-ACI58_gt22;Dbxref=GeneID:24572255;gbkey=tRNA;locus_tag=ACI58_gt22;product=tRNA-Pro
+NC_027237.1	RefSeq	D_loop	15446	17478	.	+	.	ID=id-NC_027237.1:15446..17478;gbkey=D-loop
+

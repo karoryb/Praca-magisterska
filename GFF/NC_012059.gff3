@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_012059.1 1 16388
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9739
+NC_012059.1	RefSeq	region	1	16388	.	+	.	ID=NC_012059.1:1..16388;Dbxref=taxon:9739;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_012059.1	RefSeq	gene	1	72	.	+	.	ID=gene-KEG93_t01;Dbxref=GeneID:64988158;Name=KEG93_t01;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t01
+NC_012059.1	RefSeq	tRNA	1	72	.	+	.	ID=rna-KEG93_t01;Parent=gene-KEG93_t01;Dbxref=GeneID:64988158;gbkey=tRNA;locus_tag=KEG93_t01;product=tRNA-Phe
+NC_012059.1	RefSeq	exon	1	72	.	+	.	ID=exon-KEG93_t01-1;Parent=rna-KEG93_t01;Dbxref=GeneID:64988158;gbkey=tRNA;locus_tag=KEG93_t01;product=tRNA-Phe
+NC_012059.1	RefSeq	gene	73	1046	.	+	.	ID=gene-KEG93_r02;Dbxref=GeneID:64988144;Name=KEG93_r02;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEG93_r02
+NC_012059.1	RefSeq	rRNA	73	1046	.	+	.	ID=rna-KEG93_r02;Parent=gene-KEG93_r02;Dbxref=GeneID:64988144;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KEG93_r02;product=12S ribosomal RNA
+NC_012059.1	RefSeq	exon	73	1046	.	+	.	ID=exon-KEG93_r02-1;Parent=rna-KEG93_r02;Dbxref=GeneID:64988144;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=KEG93_r02;product=12S ribosomal RNA
+NC_012059.1	RefSeq	gene	1047	1113	.	+	.	ID=gene-KEG93_t02;Dbxref=GeneID:64988145;Name=KEG93_t02;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t02
+NC_012059.1	RefSeq	tRNA	1047	1113	.	+	.	ID=rna-KEG93_t02;Parent=gene-KEG93_t02;Dbxref=GeneID:64988145;gbkey=tRNA;locus_tag=KEG93_t02;product=tRNA-Val
+NC_012059.1	RefSeq	exon	1047	1113	.	+	.	ID=exon-KEG93_t02-1;Parent=rna-KEG93_t02;Dbxref=GeneID:64988145;gbkey=tRNA;locus_tag=KEG93_t02;product=tRNA-Val
+NC_012059.1	RefSeq	gene	1114	2690	.	+	.	ID=gene-KEG93_r01;Dbxref=GeneID:64988146;Name=KEG93_r01;gbkey=Gene;gene_biotype=rRNA;locus_tag=KEG93_r01
+NC_012059.1	RefSeq	rRNA	1114	2690	.	+	.	ID=rna-KEG93_r01;Parent=gene-KEG93_r01;Dbxref=GeneID:64988146;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KEG93_r01;product=16S ribosomal RNA
+NC_012059.1	RefSeq	exon	1114	2690	.	+	.	ID=exon-KEG93_r01-1;Parent=rna-KEG93_r01;Dbxref=GeneID:64988146;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=KEG93_r01;product=16S ribosomal RNA
+NC_012059.1	RefSeq	gene	2691	2765	.	+	.	ID=gene-KEG93_t03;Dbxref=GeneID:64988147;Name=KEG93_t03;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t03
+NC_012059.1	RefSeq	tRNA	2691	2765	.	+	.	ID=rna-KEG93_t03;Parent=gene-KEG93_t03;Dbxref=GeneID:64988147;gbkey=tRNA;locus_tag=KEG93_t03;product=tRNA-Leu
+NC_012059.1	RefSeq	exon	2691	2765	.	+	.	ID=exon-KEG93_t03-1;Parent=rna-KEG93_t03;Dbxref=GeneID:64988147;gbkey=tRNA;locus_tag=KEG93_t03;product=tRNA-Leu
+NC_012059.1	RefSeq	gene	2767	3723	.	+	.	ID=gene-KEG93_p13;Dbxref=GeneID:7412059;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=KEG93_p13
+NC_012059.1	RefSeq	CDS	2767	3723	.	+	0	ID=cds-YP_002587060.1;Parent=gene-KEG93_p13;Dbxref=GenBank:YP_002587060.1,GeneID:7412059;Name=YP_002587060.1;gbkey=CDS;gene=ND1;locus_tag=KEG93_p13;product=NADH dehydrogenase subunit 1;protein_id=YP_002587060.1;transl_table=2
+NC_012059.1	RefSeq	gene	3728	3796	.	+	.	ID=gene-KEG93_t04;Dbxref=GeneID:64988135;Name=KEG93_t04;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t04
+NC_012059.1	RefSeq	tRNA	3728	3796	.	+	.	ID=rna-KEG93_t04;Parent=gene-KEG93_t04;Dbxref=GeneID:64988135;gbkey=tRNA;locus_tag=KEG93_t04;product=tRNA-Ile
+NC_012059.1	RefSeq	exon	3728	3796	.	+	.	ID=exon-KEG93_t04-1;Parent=rna-KEG93_t04;Dbxref=GeneID:64988135;gbkey=tRNA;locus_tag=KEG93_t04;product=tRNA-Ile
+NC_012059.1	RefSeq	gene	3794	3866	.	-	.	ID=gene-KEG93_t05;Dbxref=GeneID:64988148;Name=KEG93_t05;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t05
+NC_012059.1	RefSeq	tRNA	3794	3866	.	-	.	ID=rna-KEG93_t05;Parent=gene-KEG93_t05;Dbxref=GeneID:64988148;gbkey=tRNA;locus_tag=KEG93_t05;product=tRNA-Gln
+NC_012059.1	RefSeq	exon	3794	3866	.	-	.	ID=exon-KEG93_t05-1;Parent=rna-KEG93_t05;Dbxref=GeneID:64988148;gbkey=tRNA;locus_tag=KEG93_t05;product=tRNA-Gln
+NC_012059.1	RefSeq	gene	3868	3936	.	+	.	ID=gene-KEG93_t06;Dbxref=GeneID:64988149;Name=KEG93_t06;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t06
+NC_012059.1	RefSeq	tRNA	3868	3936	.	+	.	ID=rna-KEG93_t06;Parent=gene-KEG93_t06;Dbxref=GeneID:64988149;gbkey=tRNA;locus_tag=KEG93_t06;product=tRNA-Met
+NC_012059.1	RefSeq	exon	3868	3936	.	+	.	ID=exon-KEG93_t06-1;Parent=rna-KEG93_t06;Dbxref=GeneID:64988149;gbkey=tRNA;locus_tag=KEG93_t06;product=tRNA-Met
+NC_012059.1	RefSeq	gene	3937	4978	.	+	.	ID=gene-KEG93_p12;Dbxref=GeneID:7412058;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=KEG93_p12
+NC_012059.1	RefSeq	CDS	3937	4978	.	+	0	ID=cds-YP_002587061.1;Parent=gene-KEG93_p12;Dbxref=GenBank:YP_002587061.1,GeneID:7412058;Name=YP_002587061.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=KEG93_p12;product=NADH dehydrogenase subunit 2;protein_id=YP_002587061.1;transl_except=(pos:4978%2Caa:TERM);transl_table=2
+NC_012059.1	RefSeq	gene	4979	5047	.	+	.	ID=gene-KEG93_t07;Dbxref=GeneID:64988136;Name=KEG93_t07;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t07
+NC_012059.1	RefSeq	tRNA	4979	5047	.	+	.	ID=rna-KEG93_t07;Parent=gene-KEG93_t07;Dbxref=GeneID:64988136;gbkey=tRNA;locus_tag=KEG93_t07;product=tRNA-Trp
+NC_012059.1	RefSeq	exon	4979	5047	.	+	.	ID=exon-KEG93_t07-1;Parent=rna-KEG93_t07;Dbxref=GeneID:64988136;gbkey=tRNA;locus_tag=KEG93_t07;product=tRNA-Trp
+NC_012059.1	RefSeq	gene	5053	5121	.	-	.	ID=gene-KEG93_t08;Dbxref=GeneID:64988150;Name=KEG93_t08;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t08
+NC_012059.1	RefSeq	tRNA	5053	5121	.	-	.	ID=rna-KEG93_t08;Parent=gene-KEG93_t08;Dbxref=GeneID:64988150;gbkey=tRNA;locus_tag=KEG93_t08;product=tRNA-Ala
+NC_012059.1	RefSeq	exon	5053	5121	.	-	.	ID=exon-KEG93_t08-1;Parent=rna-KEG93_t08;Dbxref=GeneID:64988150;gbkey=tRNA;locus_tag=KEG93_t08;product=tRNA-Ala
+NC_012059.1	RefSeq	gene	5122	5196	.	-	.	ID=gene-KEG93_t09;Dbxref=GeneID:64988151;Name=KEG93_t09;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t09
+NC_012059.1	RefSeq	tRNA	5122	5196	.	-	.	ID=rna-KEG93_t09;Parent=gene-KEG93_t09;Dbxref=GeneID:64988151;gbkey=tRNA;locus_tag=KEG93_t09;product=tRNA-Asn
+NC_012059.1	RefSeq	exon	5122	5196	.	-	.	ID=exon-KEG93_t09-1;Parent=rna-KEG93_t09;Dbxref=GeneID:64988151;gbkey=tRNA;locus_tag=KEG93_t09;product=tRNA-Asn
+NC_012059.1	RefSeq	origin_of_replication	5197	5231	.	+	.	ID=id-NC_012059.1:5197..5231;direction=LEFT;gbkey=rep_origin
+NC_012059.1	RefSeq	gene	5229	5295	.	-	.	ID=gene-KEG93_t10;Dbxref=GeneID:64988152;Name=KEG93_t10;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t10
+NC_012059.1	RefSeq	tRNA	5229	5295	.	-	.	ID=rna-KEG93_t10;Parent=gene-KEG93_t10;Dbxref=GeneID:64988152;gbkey=tRNA;locus_tag=KEG93_t10;product=tRNA-Cys
+NC_012059.1	RefSeq	exon	5229	5295	.	-	.	ID=exon-KEG93_t10-1;Parent=rna-KEG93_t10;Dbxref=GeneID:64988152;gbkey=tRNA;locus_tag=KEG93_t10;product=tRNA-Cys
+NC_012059.1	RefSeq	gene	5296	5361	.	-	.	ID=gene-KEG93_t11;Dbxref=GeneID:64988153;Name=KEG93_t11;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t11
+NC_012059.1	RefSeq	tRNA	5296	5361	.	-	.	ID=rna-KEG93_t11;Parent=gene-KEG93_t11;Dbxref=GeneID:64988153;gbkey=tRNA;locus_tag=KEG93_t11;product=tRNA-Tyr
+NC_012059.1	RefSeq	exon	5296	5361	.	-	.	ID=exon-KEG93_t11-1;Parent=rna-KEG93_t11;Dbxref=GeneID:64988153;gbkey=tRNA;locus_tag=KEG93_t11;product=tRNA-Tyr
+NC_012059.1	RefSeq	gene	5363	6913	.	+	.	ID=gene-KEG93_p11;Dbxref=GeneID:7412047;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=KEG93_p11
+NC_012059.1	RefSeq	CDS	5363	6913	.	+	0	ID=cds-YP_002587062.1;Parent=gene-KEG93_p11;Dbxref=GenBank:YP_002587062.1,GeneID:7412047;Name=YP_002587062.1;gbkey=CDS;gene=COX1;locus_tag=KEG93_p11;product=cytochrome c oxidase subunit I;protein_id=YP_002587062.1;transl_table=2
+NC_012059.1	RefSeq	gene	6909	6977	.	-	.	ID=gene-KEG93_t12;Dbxref=GeneID:64988137;Name=KEG93_t12;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t12
+NC_012059.1	RefSeq	tRNA	6909	6977	.	-	.	ID=rna-KEG93_t12;Parent=gene-KEG93_t12;Dbxref=GeneID:64988137;gbkey=tRNA;locus_tag=KEG93_t12;product=tRNA-Ser
+NC_012059.1	RefSeq	exon	6909	6977	.	-	.	ID=exon-KEG93_t12-1;Parent=rna-KEG93_t12;Dbxref=GeneID:64988137;gbkey=tRNA;locus_tag=KEG93_t12;product=tRNA-Ser
+NC_012059.1	RefSeq	gene	6985	7052	.	+	.	ID=gene-KEG93_t13;Dbxref=GeneID:64988154;Name=KEG93_t13;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t13
+NC_012059.1	RefSeq	tRNA	6985	7052	.	+	.	ID=rna-KEG93_t13;Parent=gene-KEG93_t13;Dbxref=GeneID:64988154;gbkey=tRNA;locus_tag=KEG93_t13;product=tRNA-Asp
+NC_012059.1	RefSeq	exon	6985	7052	.	+	.	ID=exon-KEG93_t13-1;Parent=rna-KEG93_t13;Dbxref=GeneID:64988154;gbkey=tRNA;locus_tag=KEG93_t13;product=tRNA-Asp
+NC_012059.1	RefSeq	gene	7053	7736	.	+	.	ID=gene-KEG93_p10;Dbxref=GeneID:7412048;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=KEG93_p10
+NC_012059.1	RefSeq	CDS	7053	7736	.	+	0	ID=cds-YP_002587063.1;Parent=gene-KEG93_p10;Dbxref=GenBank:YP_002587063.1,GeneID:7412048;Name=YP_002587063.1;gbkey=CDS;gene=COX2;locus_tag=KEG93_p10;product=cytochrome c oxidase subunit II;protein_id=YP_002587063.1;transl_table=2
+NC_012059.1	RefSeq	gene	7740	7804	.	+	.	ID=gene-KEG93_t14;Dbxref=GeneID:64988138;Name=KEG93_t14;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t14
+NC_012059.1	RefSeq	tRNA	7740	7804	.	+	.	ID=rna-KEG93_t14;Parent=gene-KEG93_t14;Dbxref=GeneID:64988138;gbkey=tRNA;locus_tag=KEG93_t14;product=tRNA-Lys
+NC_012059.1	RefSeq	exon	7740	7804	.	+	.	ID=exon-KEG93_t14-1;Parent=rna-KEG93_t14;Dbxref=GeneID:64988138;gbkey=tRNA;locus_tag=KEG93_t14;product=tRNA-Lys
+NC_012059.1	RefSeq	gene	7809	8000	.	+	.	ID=gene-KEG93_p09;Dbxref=GeneID:7412049;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=KEG93_p09
+NC_012059.1	RefSeq	CDS	7809	8000	.	+	0	ID=cds-YP_002587064.1;Parent=gene-KEG93_p09;Dbxref=GenBank:YP_002587064.1,GeneID:7412049;Name=YP_002587064.1;gbkey=CDS;gene=ATP8;locus_tag=KEG93_p09;product=ATP synthase F0 subunit 8;protein_id=YP_002587064.1;transl_table=2
+NC_012059.1	RefSeq	gene	7970	8650	.	+	.	ID=gene-KEG93_p08;Dbxref=GeneID:7412050;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=KEG93_p08
+NC_012059.1	RefSeq	CDS	7970	8650	.	+	0	ID=cds-YP_002587065.1;Parent=gene-KEG93_p08;Dbxref=GenBank:YP_002587065.1,GeneID:7412050;Name=YP_002587065.1;gbkey=CDS;gene=ATP6;locus_tag=KEG93_p08;product=ATP synthase F0 subunit 6;protein_id=YP_002587065.1;transl_table=2
+NC_012059.1	RefSeq	gene	8650	9434	.	+	.	ID=gene-KEG93_p07;Dbxref=GeneID:7412051;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=KEG93_p07
+NC_012059.1	RefSeq	CDS	8650	9434	.	+	0	ID=cds-YP_002587066.1;Parent=gene-KEG93_p07;Dbxref=GenBank:YP_002587066.1,GeneID:7412051;Name=YP_002587066.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=KEG93_p07;product=cytochrome c oxidase subunit III;protein_id=YP_002587066.1;transl_except=(pos:9433..9434%2Caa:TERM);transl_table=2
+NC_012059.1	RefSeq	gene	9435	9503	.	+	.	ID=gene-KEG93_t15;Dbxref=GeneID:64988139;Name=KEG93_t15;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t15
+NC_012059.1	RefSeq	tRNA	9435	9503	.	+	.	ID=rna-KEG93_t15;Parent=gene-KEG93_t15;Dbxref=GeneID:64988139;gbkey=tRNA;locus_tag=KEG93_t15;product=tRNA-Gly
+NC_012059.1	RefSeq	exon	9435	9503	.	+	.	ID=exon-KEG93_t15-1;Parent=rna-KEG93_t15;Dbxref=GeneID:64988139;gbkey=tRNA;locus_tag=KEG93_t15;product=tRNA-Gly
+NC_012059.1	RefSeq	gene	9504	9849	.	+	.	ID=gene-KEG93_p06;Dbxref=GeneID:7412052;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=KEG93_p06
+NC_012059.1	RefSeq	CDS	9504	9849	.	+	0	ID=cds-YP_002587067.1;Parent=gene-KEG93_p06;Dbxref=GenBank:YP_002587067.1,GeneID:7412052;Name=YP_002587067.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=KEG93_p06;product=NADH dehydrogenase subunit 3;protein_id=YP_002587067.1;transl_except=(pos:9849%2Caa:TERM);transl_table=2
+NC_012059.1	RefSeq	gene	9851	9920	.	+	.	ID=gene-KEG93_t16;Dbxref=GeneID:64988140;Name=KEG93_t16;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t16
+NC_012059.1	RefSeq	tRNA	9851	9920	.	+	.	ID=rna-KEG93_t16;Parent=gene-KEG93_t16;Dbxref=GeneID:64988140;gbkey=tRNA;locus_tag=KEG93_t16;product=tRNA-Arg
+NC_012059.1	RefSeq	exon	9851	9920	.	+	.	ID=exon-KEG93_t16-1;Parent=rna-KEG93_t16;Dbxref=GeneID:64988140;gbkey=tRNA;locus_tag=KEG93_t16;product=tRNA-Arg
+NC_012059.1	RefSeq	gene	9921	10217	.	+	.	ID=gene-KEG93_p05;Dbxref=GeneID:7412053;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=KEG93_p05
+NC_012059.1	RefSeq	CDS	9921	10217	.	+	0	ID=cds-YP_002587068.1;Parent=gene-KEG93_p05;Dbxref=GenBank:YP_002587068.1,GeneID:7412053;Name=YP_002587068.1;gbkey=CDS;gene=ND4L;locus_tag=KEG93_p05;product=NADH dehydrogenase subunit 4L;protein_id=YP_002587068.1;transl_table=2
+NC_012059.1	RefSeq	gene	10211	11588	.	+	.	ID=gene-KEG93_p04;Dbxref=GeneID:7412054;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=KEG93_p04
+NC_012059.1	RefSeq	CDS	10211	11588	.	+	0	ID=cds-YP_002587069.1;Parent=gene-KEG93_p04;Dbxref=GenBank:YP_002587069.1,GeneID:7412054;Name=YP_002587069.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=KEG93_p04;product=NADH dehydrogenase subunit 4;protein_id=YP_002587069.1;transl_except=(pos:11588%2Caa:TERM);transl_table=2
+NC_012059.1	RefSeq	gene	11589	11657	.	+	.	ID=gene-KEG93_t17;Dbxref=GeneID:64988141;Name=KEG93_t17;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t17
+NC_012059.1	RefSeq	tRNA	11589	11657	.	+	.	ID=rna-KEG93_t17;Parent=gene-KEG93_t17;Dbxref=GeneID:64988141;gbkey=tRNA;locus_tag=KEG93_t17;product=tRNA-His
+NC_012059.1	RefSeq	exon	11589	11657	.	+	.	ID=exon-KEG93_t17-1;Parent=rna-KEG93_t17;Dbxref=GeneID:64988141;gbkey=tRNA;locus_tag=KEG93_t17;product=tRNA-His
+NC_012059.1	RefSeq	gene	11658	11718	.	+	.	ID=gene-KEG93_t18;Dbxref=GeneID:64988155;Name=KEG93_t18;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t18
+NC_012059.1	RefSeq	tRNA	11658	11718	.	+	.	ID=rna-KEG93_t18;Parent=gene-KEG93_t18;Dbxref=GeneID:64988155;gbkey=tRNA;locus_tag=KEG93_t18;product=tRNA-Ser
+NC_012059.1	RefSeq	exon	11658	11718	.	+	.	ID=exon-KEG93_t18-1;Parent=rna-KEG93_t18;Dbxref=GeneID:64988155;gbkey=tRNA;locus_tag=KEG93_t18;product=tRNA-Ser
+NC_012059.1	RefSeq	gene	11720	11789	.	+	.	ID=gene-KEG93_t19;Dbxref=GeneID:64988156;Name=KEG93_t19;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t19
+NC_012059.1	RefSeq	tRNA	11720	11789	.	+	.	ID=rna-KEG93_t19;Parent=gene-KEG93_t19;Dbxref=GeneID:64988156;gbkey=tRNA;locus_tag=KEG93_t19;product=tRNA-Leu
+NC_012059.1	RefSeq	exon	11720	11789	.	+	.	ID=exon-KEG93_t19-1;Parent=rna-KEG93_t19;Dbxref=GeneID:64988156;gbkey=tRNA;locus_tag=KEG93_t19;product=tRNA-Leu
+NC_012059.1	RefSeq	gene	11790	13610	.	+	.	ID=gene-KEG93_p03;Dbxref=GeneID:7412055;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=KEG93_p03
+NC_012059.1	RefSeq	CDS	11790	13610	.	+	0	ID=cds-YP_002587070.1;Parent=gene-KEG93_p03;Dbxref=GenBank:YP_002587070.1,GeneID:7412055;Name=YP_002587070.1;gbkey=CDS;gene=ND5;locus_tag=KEG93_p03;product=NADH dehydrogenase subunit 5;protein_id=YP_002587070.1;transl_table=2
+NC_012059.1	RefSeq	gene	13594	14121	.	-	.	ID=gene-KEG93_p02;Dbxref=GeneID:7412056;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=KEG93_p02
+NC_012059.1	RefSeq	CDS	13594	14121	.	-	0	ID=cds-YP_002587071.1;Parent=gene-KEG93_p02;Dbxref=GenBank:YP_002587071.1,GeneID:7412056;Name=YP_002587071.1;gbkey=CDS;gene=ND6;locus_tag=KEG93_p02;product=NADH dehydrogenase subunit 6;protein_id=YP_002587071.1;transl_table=2
+NC_012059.1	RefSeq	tRNA	14122	14190	.	-	.	ID=rna-NC_012059.1:14122..14190;gbkey=tRNA;product=tRNA-Glu
+NC_012059.1	RefSeq	exon	14122	14190	.	-	.	ID=exon-NC_012059.1:14122..14190-1;Parent=rna-NC_012059.1:14122..14190;gbkey=tRNA;product=tRNA-Glu
+NC_012059.1	RefSeq	gene	14122	14190	.	+	.	ID=gene-KEG93_t20;Dbxref=GeneID:64988142;Name=KEG93_t20;gbkey=Gene;gene_biotype=other;locus_tag=KEG93_t20
+NC_012059.1	RefSeq	gene	14195	15334	.	+	.	ID=gene-KEG93_p01;Dbxref=GeneID:7412057;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=KEG93_p01
+NC_012059.1	RefSeq	CDS	14195	15334	.	+	0	ID=cds-YP_002587072.1;Parent=gene-KEG93_p01;Dbxref=GenBank:YP_002587072.1,GeneID:7412057;Name=YP_002587072.1;gbkey=CDS;gene=CYTB;locus_tag=KEG93_p01;product=cytochrome b;protein_id=YP_002587072.1;transl_table=2
+NC_012059.1	RefSeq	gene	15335	15405	.	+	.	ID=gene-KEG93_t21;Dbxref=GeneID:64988143;Name=KEG93_t21;gbkey=Gene;gene_biotype=tRNA;locus_tag=KEG93_t21
+NC_012059.1	RefSeq	tRNA	15335	15405	.	+	.	ID=rna-KEG93_t21;Parent=gene-KEG93_t21;Dbxref=GeneID:64988143;gbkey=tRNA;locus_tag=KEG93_t21;product=tRNA-Thr
+NC_012059.1	RefSeq	exon	15335	15405	.	+	.	ID=exon-KEG93_t21-1;Parent=rna-KEG93_t21;Dbxref=GeneID:64988143;gbkey=tRNA;locus_tag=KEG93_t21;product=tRNA-Thr
+NC_012059.1	RefSeq	tRNA	15405	15471	.	-	.	ID=rna-NC_012059.1:15405..15471;gbkey=tRNA;product=tRNA-Pro
+NC_012059.1	RefSeq	exon	15405	15471	.	-	.	ID=exon-NC_012059.1:15405..15471-1;Parent=rna-NC_012059.1:15405..15471;gbkey=tRNA;product=tRNA-Pro
+NC_012059.1	RefSeq	gene	15405	15471	.	+	.	ID=gene-KEG93_t22;Dbxref=GeneID:64988157;Name=KEG93_t22;gbkey=Gene;gene_biotype=other;locus_tag=KEG93_t22
+NC_012059.1	RefSeq	D_loop	15472	16388	.	+	.	ID=id-NC_012059.1:15472..16388;gbkey=D-loop
+

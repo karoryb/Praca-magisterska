@@ -1,0 +1,83 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MW257216.1 1 16624
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9689
+MW257216.1	Genbank	region	1	16624	.	+	.	ID=MW257216.1:1..16624;Dbxref=taxon:9689;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+MW257216.1	Genbank	tRNA	1	72	.	+	.	ID=rna-MW257216.1:1..72;gbkey=tRNA;product=tRNA-Phe
+MW257216.1	Genbank	exon	1	72	.	+	.	ID=exon-MW257216.1:1..72-1;Parent=rna-MW257216.1:1..72;gbkey=tRNA;product=tRNA-Phe
+MW257216.1	Genbank	rRNA	73	1034	.	+	.	ID=rna-MW257216.1:73..1034;gbkey=rRNA;product=12S ribosomal RNA
+MW257216.1	Genbank	exon	73	1034	.	+	.	ID=exon-MW257216.1:73..1034-1;Parent=rna-MW257216.1:73..1034;gbkey=rRNA;product=12S ribosomal RNA
+MW257216.1	Genbank	tRNA	1035	1103	.	+	.	ID=rna-MW257216.1:1035..1103;gbkey=tRNA;product=tRNA-Val
+MW257216.1	Genbank	exon	1035	1103	.	+	.	ID=exon-MW257216.1:1035..1103-1;Parent=rna-MW257216.1:1035..1103;gbkey=tRNA;product=tRNA-Val
+MW257216.1	Genbank	rRNA	1104	2677	.	+	.	ID=rna-MW257216.1:1104..2677;gbkey=rRNA;product=16S ribosomal RNA
+MW257216.1	Genbank	exon	1104	2677	.	+	.	ID=exon-MW257216.1:1104..2677-1;Parent=rna-MW257216.1:1104..2677;gbkey=rRNA;product=16S ribosomal RNA
+MW257216.1	Genbank	tRNA	2678	2752	.	+	.	ID=rna-MW257216.1:2678..2752;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+MW257216.1	Genbank	exon	2678	2752	.	+	.	ID=exon-MW257216.1:2678..2752-1;Parent=rna-MW257216.1:2678..2752;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+MW257216.1	Genbank	gene	2755	3710	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	2755	3710	.	+	0	ID=cds-QQW47725.1;Parent=gene-ND1;Dbxref=NCBI_GP:QQW47725.1;Name=QQW47725.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=QQW47725.1;transl_except=(pos:3709..3710%2Caa:TERM);transl_table=2
+MW257216.1	Genbank	tRNA	3711	3779	.	+	.	ID=rna-MW257216.1:3711..3779;gbkey=tRNA;product=tRNA-Ile
+MW257216.1	Genbank	exon	3711	3779	.	+	.	ID=exon-MW257216.1:3711..3779-1;Parent=rna-MW257216.1:3711..3779;gbkey=tRNA;product=tRNA-Ile
+MW257216.1	Genbank	tRNA	3777	3850	.	-	.	ID=rna-MW257216.1:3777..3850;gbkey=tRNA;product=tRNA-Gln
+MW257216.1	Genbank	exon	3777	3850	.	-	.	ID=exon-MW257216.1:3777..3850-1;Parent=rna-MW257216.1:3777..3850;gbkey=tRNA;product=tRNA-Gln
+MW257216.1	Genbank	tRNA	3852	3920	.	+	.	ID=rna-MW257216.1:3852..3920;gbkey=tRNA;product=tRNA-Met
+MW257216.1	Genbank	exon	3852	3920	.	+	.	ID=exon-MW257216.1:3852..3920-1;Parent=rna-MW257216.1:3852..3920;gbkey=tRNA;product=tRNA-Met
+MW257216.1	Genbank	gene	3921	4962	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	3921	4962	.	+	0	ID=cds-QQW47726.1;Parent=gene-ND2;Dbxref=NCBI_GP:QQW47726.1;Name=QQW47726.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=QQW47726.1;transl_except=(pos:4962%2Caa:TERM);transl_table=2
+MW257216.1	Genbank	tRNA	4963	5031	.	+	.	ID=rna-MW257216.1:4963..5031;gbkey=tRNA;product=tRNA-Trp
+MW257216.1	Genbank	exon	4963	5031	.	+	.	ID=exon-MW257216.1:4963..5031-1;Parent=rna-MW257216.1:4963..5031;gbkey=tRNA;product=tRNA-Trp
+MW257216.1	Genbank	tRNA	5047	5115	.	-	.	ID=rna-MW257216.1:5047..5115;gbkey=tRNA;product=tRNA-Ala
+MW257216.1	Genbank	exon	5047	5115	.	-	.	ID=exon-MW257216.1:5047..5115-1;Parent=rna-MW257216.1:5047..5115;gbkey=tRNA;product=tRNA-Ala
+MW257216.1	Genbank	tRNA	5117	5189	.	-	.	ID=rna-MW257216.1:5117..5189;gbkey=tRNA;product=tRNA-Asn
+MW257216.1	Genbank	exon	5117	5189	.	-	.	ID=exon-MW257216.1:5117..5189-1;Parent=rna-MW257216.1:5117..5189;gbkey=tRNA;product=tRNA-Asn
+MW257216.1	Genbank	origin_of_replication	5190	5225	.	+	.	ID=id-MW257216.1:5190..5225;Note=origin of L-strand replication;gbkey=rep_origin
+MW257216.1	Genbank	tRNA	5223	5286	.	-	.	ID=rna-MW257216.1:5223..5286;gbkey=tRNA;product=tRNA-Cys
+MW257216.1	Genbank	exon	5223	5286	.	-	.	ID=exon-MW257216.1:5223..5286-1;Parent=rna-MW257216.1:5223..5286;gbkey=tRNA;product=tRNA-Cys
+MW257216.1	Genbank	tRNA	5288	5353	.	-	.	ID=rna-MW257216.1:5288..5353;gbkey=tRNA;product=tRNA-Tyr
+MW257216.1	Genbank	exon	5288	5353	.	-	.	ID=exon-MW257216.1:5288..5353-1;Parent=rna-MW257216.1:5288..5353;gbkey=tRNA;product=tRNA-Tyr
+MW257216.1	Genbank	gene	5355	6899	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	5355	6899	.	+	0	ID=cds-QQW47727.1;Parent=gene-COX1;Dbxref=NCBI_GP:QQW47727.1;Name=QQW47727.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=QQW47727.1;transl_table=2
+MW257216.1	Genbank	tRNA	6897	6965	.	-	.	ID=rna-MW257216.1:6897..6965;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+MW257216.1	Genbank	exon	6897	6965	.	-	.	ID=exon-MW257216.1:6897..6965-1;Parent=rna-MW257216.1:6897..6965;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+MW257216.1	Genbank	tRNA	6972	7040	.	+	.	ID=rna-MW257216.1:6972..7040;gbkey=tRNA;product=tRNA-Asp
+MW257216.1	Genbank	exon	6972	7040	.	+	.	ID=exon-MW257216.1:6972..7040-1;Parent=rna-MW257216.1:6972..7040;gbkey=tRNA;product=tRNA-Asp
+MW257216.1	Genbank	gene	7041	7724	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	7041	7724	.	+	0	ID=cds-QQW47728.1;Parent=gene-COX2;Dbxref=NCBI_GP:QQW47728.1;Name=QQW47728.1;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=QQW47728.1;transl_table=2
+MW257216.1	Genbank	tRNA	7728	7795	.	+	.	ID=rna-MW257216.1:7728..7795;gbkey=tRNA;product=tRNA-Lys
+MW257216.1	Genbank	exon	7728	7795	.	+	.	ID=exon-MW257216.1:7728..7795-1;Parent=rna-MW257216.1:7728..7795;gbkey=tRNA;product=tRNA-Lys
+MW257216.1	Genbank	gene	7797	8000	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	7797	8000	.	+	0	ID=cds-QQW47729.1;Parent=gene-ATP8;Dbxref=NCBI_GP:QQW47729.1;Name=QQW47729.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=QQW47729.1;transl_table=2
+MW257216.1	Genbank	gene	7958	8638	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	7958	8638	.	+	0	ID=cds-QQW47730.1;Parent=gene-ATP6;Dbxref=NCBI_GP:QQW47730.1;Name=QQW47730.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=QQW47730.1;transl_table=2
+MW257216.1	Genbank	gene	8638	9421	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	8638	9421	.	+	0	ID=cds-QQW47731.1;Parent=gene-COX3;Dbxref=NCBI_GP:QQW47731.1;Name=QQW47731.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=QQW47731.1;transl_except=(pos:9421%2Caa:TERM);transl_table=2
+MW257216.1	Genbank	tRNA	9422	9490	.	+	.	ID=rna-MW257216.1:9422..9490;gbkey=tRNA;product=tRNA-Gly
+MW257216.1	Genbank	exon	9422	9490	.	+	.	ID=exon-MW257216.1:9422..9490-1;Parent=rna-MW257216.1:9422..9490;gbkey=tRNA;product=tRNA-Gly
+MW257216.1	Genbank	gene	9491	9836	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	9491	9836	.	+	0	ID=cds-QQW47732.1;Parent=gene-ND3;Dbxref=NCBI_GP:QQW47732.1;Name=QQW47732.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=QQW47732.1;transl_except=(pos:9836%2Caa:TERM);transl_table=2
+MW257216.1	Genbank	tRNA	9838	9906	.	+	.	ID=rna-MW257216.1:9838..9906;gbkey=tRNA;product=tRNA-Arg
+MW257216.1	Genbank	exon	9838	9906	.	+	.	ID=exon-MW257216.1:9838..9906-1;Parent=rna-MW257216.1:9838..9906;gbkey=tRNA;product=tRNA-Arg
+MW257216.1	Genbank	gene	9907	10203	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	9907	10203	.	+	0	ID=cds-QQW47733.1;Parent=gene-ND4L;Dbxref=NCBI_GP:QQW47733.1;Name=QQW47733.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=QQW47733.1;transl_table=2
+MW257216.1	Genbank	gene	10197	11574	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	10197	11574	.	+	0	ID=cds-QQW47734.1;Parent=gene-ND4;Dbxref=NCBI_GP:QQW47734.1;Name=QQW47734.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=QQW47734.1;transl_except=(pos:11574%2Caa:TERM);transl_table=2
+MW257216.1	Genbank	tRNA	11575	11643	.	+	.	ID=rna-MW257216.1:11575..11643;gbkey=tRNA;product=tRNA-His
+MW257216.1	Genbank	exon	11575	11643	.	+	.	ID=exon-MW257216.1:11575..11643-1;Parent=rna-MW257216.1:11575..11643;gbkey=tRNA;product=tRNA-His
+MW257216.1	Genbank	tRNA	11644	11702	.	+	.	ID=rna-MW257216.1:11644..11702;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+MW257216.1	Genbank	exon	11644	11702	.	+	.	ID=exon-MW257216.1:11644..11702-1;Parent=rna-MW257216.1:11644..11702;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+MW257216.1	Genbank	tRNA	11703	11772	.	+	.	ID=rna-MW257216.1:11703..11772;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+MW257216.1	Genbank	exon	11703	11772	.	+	.	ID=exon-MW257216.1:11703..11772-1;Parent=rna-MW257216.1:11703..11772;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+MW257216.1	Genbank	gene	11773	13593	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	11773	13593	.	+	0	ID=cds-QQW47735.1;Parent=gene-ND5;Dbxref=NCBI_GP:QQW47735.1;Name=QQW47735.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=QQW47735.1;transl_table=2
+MW257216.1	Genbank	gene	13577	14104	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	13577	14104	.	-	0	ID=cds-QQW47736.1;Parent=gene-ND6;Dbxref=NCBI_GP:QQW47736.1;Name=QQW47736.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=QQW47736.1;transl_table=2
+MW257216.1	Genbank	tRNA	14105	14173	.	-	.	ID=rna-MW257216.1:14105..14173;gbkey=tRNA;product=tRNA-Glu
+MW257216.1	Genbank	exon	14105	14173	.	-	.	ID=exon-MW257216.1:14105..14173-1;Parent=rna-MW257216.1:14105..14173;gbkey=tRNA;product=tRNA-Glu
+MW257216.1	Genbank	gene	14177	15316	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+MW257216.1	Genbank	CDS	14177	15316	.	+	0	ID=cds-QQW47737.1;Parent=gene-CYTB;Dbxref=NCBI_GP:QQW47737.1;Name=QQW47737.1;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=QQW47737.1;transl_table=2
+MW257216.1	Genbank	tRNA	15317	15386	.	+	.	ID=rna-MW257216.1:15317..15386;gbkey=tRNA;product=tRNA-Thr
+MW257216.1	Genbank	exon	15317	15386	.	+	.	ID=exon-MW257216.1:15317..15386-1;Parent=rna-MW257216.1:15317..15386;gbkey=tRNA;product=tRNA-Thr
+MW257216.1	Genbank	tRNA	15387	15453	.	-	.	ID=rna-MW257216.1:15387..15453;gbkey=tRNA;product=tRNA-Pro
+MW257216.1	Genbank	exon	15387	15453	.	-	.	ID=exon-MW257216.1:15387..15453-1;Parent=rna-MW257216.1:15387..15453;gbkey=tRNA;product=tRNA-Pro
+MW257216.1	Genbank	D_loop	15456	16624	.	+	.	ID=id-MW257216.1:15456..16624;Note=control region;gbkey=D-loop
+

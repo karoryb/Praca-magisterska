@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_031802.1 1 16246
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3122392
+NC_031802.1	RefSeq	region	1	16246	.	+	.	ID=NC_031802.1:1..16246;Dbxref=taxon:3122392;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;old-name=Cricetulus migratorius
+NC_031802.1	RefSeq	gene	1	66	.	+	.	ID=gene-BOP70_gt01;Dbxref=GeneID:30213808;Name=BOP70_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt01
+NC_031802.1	RefSeq	tRNA	1	66	.	+	.	ID=rna-BOP70_gt01;Parent=gene-BOP70_gt01;Dbxref=GeneID:30213808;gbkey=tRNA;locus_tag=BOP70_gt01;product=tRNA-Phe
+NC_031802.1	RefSeq	exon	1	66	.	+	.	ID=exon-BOP70_gt01-1;Parent=rna-BOP70_gt01;Dbxref=GeneID:30213808;gbkey=tRNA;locus_tag=BOP70_gt01;product=tRNA-Phe
+NC_031802.1	RefSeq	gene	68	1018	.	+	.	ID=gene-BOP70_gr02;Dbxref=GeneID:30213821;Name=BOP70_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=BOP70_gr02
+NC_031802.1	RefSeq	rRNA	68	1018	.	+	.	ID=rna-BOP70_gr02;Parent=gene-BOP70_gr02;Dbxref=GeneID:30213821;gbkey=rRNA;locus_tag=BOP70_gr02;product=12S ribosomal RNA
+NC_031802.1	RefSeq	exon	68	1018	.	+	.	ID=exon-BOP70_gr02-1;Parent=rna-BOP70_gr02;Dbxref=GeneID:30213821;gbkey=rRNA;locus_tag=BOP70_gr02;product=12S ribosomal RNA
+NC_031802.1	RefSeq	gene	1020	1089	.	+	.	ID=gene-BOP70_gt02;Dbxref=GeneID:30213822;Name=BOP70_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt02
+NC_031802.1	RefSeq	tRNA	1020	1089	.	+	.	ID=rna-BOP70_gt02;Parent=gene-BOP70_gt02;Dbxref=GeneID:30213822;gbkey=tRNA;locus_tag=BOP70_gt02;product=tRNA-Val
+NC_031802.1	RefSeq	exon	1020	1089	.	+	.	ID=exon-BOP70_gt02-1;Parent=rna-BOP70_gt02;Dbxref=GeneID:30213822;gbkey=tRNA;locus_tag=BOP70_gt02;product=tRNA-Val
+NC_031802.1	RefSeq	gene	1092	2653	.	+	.	ID=gene-BOP70_gr01;Dbxref=GeneID:30213823;Name=BOP70_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=BOP70_gr01
+NC_031802.1	RefSeq	rRNA	1092	2653	.	+	.	ID=rna-BOP70_gr01;Parent=gene-BOP70_gr01;Dbxref=GeneID:30213823;gbkey=rRNA;locus_tag=BOP70_gr01;product=16S ribosomal RNA
+NC_031802.1	RefSeq	exon	1092	2653	.	+	.	ID=exon-BOP70_gr01-1;Parent=rna-BOP70_gr01;Dbxref=GeneID:30213823;gbkey=rRNA;locus_tag=BOP70_gr01;product=16S ribosomal RNA
+NC_031802.1	RefSeq	gene	2655	2729	.	+	.	ID=gene-BOP70_gt03;Dbxref=GeneID:30213824;Name=BOP70_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt03
+NC_031802.1	RefSeq	tRNA	2655	2729	.	+	.	ID=rna-BOP70_gt03;Parent=gene-BOP70_gt03;Dbxref=GeneID:30213824;gbkey=tRNA;locus_tag=BOP70_gt03;product=tRNA-Leu
+NC_031802.1	RefSeq	exon	2655	2729	.	+	.	ID=exon-BOP70_gt03-1;Parent=rna-BOP70_gt03;Dbxref=GeneID:30213824;gbkey=tRNA;locus_tag=BOP70_gt03;product=tRNA-Leu
+NC_031802.1	RefSeq	gene	2730	3684	.	+	.	ID=gene-BOP70_gp13;Dbxref=GeneID:30213825;Name=BOP70_gp13;description=ND1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp13
+NC_031802.1	RefSeq	CDS	2730	3684	.	+	0	ID=cds-YP_009316248.1;Parent=gene-BOP70_gp13;Dbxref=GenBank:YP_009316248.1,GeneID:30213825;Name=YP_009316248.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;locus_tag=BOP70_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009316248.1;transl_except=(pos:3684%2Caa:TERM);transl_table=2
+NC_031802.1	RefSeq	gene	3685	3753	.	+	.	ID=gene-BOP70_gt04;Dbxref=GeneID:30213809;Name=BOP70_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt04
+NC_031802.1	RefSeq	tRNA	3685	3753	.	+	.	ID=rna-BOP70_gt04;Parent=gene-BOP70_gt04;Dbxref=GeneID:30213809;gbkey=tRNA;locus_tag=BOP70_gt04;product=tRNA-Ile
+NC_031802.1	RefSeq	exon	3685	3753	.	+	.	ID=exon-BOP70_gt04-1;Parent=rna-BOP70_gt04;Dbxref=GeneID:30213809;gbkey=tRNA;locus_tag=BOP70_gt04;product=tRNA-Ile
+NC_031802.1	RefSeq	gene	3751	3825	.	-	.	ID=gene-BOP70_gt05;Dbxref=GeneID:30213826;Name=BOP70_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt05
+NC_031802.1	RefSeq	tRNA	3751	3825	.	-	.	ID=rna-BOP70_gt05;Parent=gene-BOP70_gt05;Dbxref=GeneID:30213826;gbkey=tRNA;locus_tag=BOP70_gt05;product=tRNA-Gln
+NC_031802.1	RefSeq	exon	3751	3825	.	-	.	ID=exon-BOP70_gt05-1;Parent=rna-BOP70_gt05;Dbxref=GeneID:30213826;gbkey=tRNA;locus_tag=BOP70_gt05;product=tRNA-Gln
+NC_031802.1	RefSeq	gene	3826	3894	.	+	.	ID=gene-BOP70_gt06;Dbxref=GeneID:30213827;Name=BOP70_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt06
+NC_031802.1	RefSeq	tRNA	3826	3894	.	+	.	ID=rna-BOP70_gt06;Parent=gene-BOP70_gt06;Dbxref=GeneID:30213827;gbkey=tRNA;locus_tag=BOP70_gt06;product=tRNA-Met
+NC_031802.1	RefSeq	exon	3826	3894	.	+	.	ID=exon-BOP70_gt06-1;Parent=rna-BOP70_gt06;Dbxref=GeneID:30213827;gbkey=tRNA;locus_tag=BOP70_gt06;product=tRNA-Met
+NC_031802.1	RefSeq	gene	3895	4927	.	+	.	ID=gene-BOP70_gp12;Dbxref=GeneID:30213828;Name=BOP70_gp12;description=ND2;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp12
+NC_031802.1	RefSeq	CDS	3895	4927	.	+	0	ID=cds-YP_009316249.1;Parent=gene-BOP70_gp12;Dbxref=GenBank:YP_009316249.1,GeneID:30213828;Name=YP_009316249.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;locus_tag=BOP70_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009316249.1;transl_except=(pos:4927%2Caa:TERM);transl_table=2
+NC_031802.1	RefSeq	gene	4928	4993	.	+	.	ID=gene-BOP70_gt07;Dbxref=GeneID:30213810;Name=BOP70_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt07
+NC_031802.1	RefSeq	tRNA	4928	4993	.	+	.	ID=rna-BOP70_gt07;Parent=gene-BOP70_gt07;Dbxref=GeneID:30213810;gbkey=tRNA;locus_tag=BOP70_gt07;product=tRNA-Trp
+NC_031802.1	RefSeq	exon	4928	4993	.	+	.	ID=exon-BOP70_gt07-1;Parent=rna-BOP70_gt07;Dbxref=GeneID:30213810;gbkey=tRNA;locus_tag=BOP70_gt07;product=tRNA-Trp
+NC_031802.1	RefSeq	gene	4996	5065	.	-	.	ID=gene-BOP70_gt08;Dbxref=GeneID:30213829;Name=BOP70_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt08
+NC_031802.1	RefSeq	tRNA	4996	5065	.	-	.	ID=rna-BOP70_gt08;Parent=gene-BOP70_gt08;Dbxref=GeneID:30213829;gbkey=tRNA;locus_tag=BOP70_gt08;product=tRNA-Ala
+NC_031802.1	RefSeq	exon	4996	5065	.	-	.	ID=exon-BOP70_gt08-1;Parent=rna-BOP70_gt08;Dbxref=GeneID:30213829;gbkey=tRNA;locus_tag=BOP70_gt08;product=tRNA-Ala
+NC_031802.1	RefSeq	gene	5068	5138	.	-	.	ID=gene-BOP70_gt09;Dbxref=GeneID:30213830;Name=BOP70_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt09
+NC_031802.1	RefSeq	tRNA	5068	5138	.	-	.	ID=rna-BOP70_gt09;Parent=gene-BOP70_gt09;Dbxref=GeneID:30213830;gbkey=tRNA;locus_tag=BOP70_gt09;product=tRNA-Asn
+NC_031802.1	RefSeq	exon	5068	5138	.	-	.	ID=exon-BOP70_gt09-1;Parent=rna-BOP70_gt09;Dbxref=GeneID:30213830;gbkey=tRNA;locus_tag=BOP70_gt09;product=tRNA-Asn
+NC_031802.1	RefSeq	gene	5170	5237	.	+	.	ID=gene-BOP70_gt10;Dbxref=GeneID:30213831;Name=BOP70_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt10
+NC_031802.1	RefSeq	tRNA	5170	5237	.	+	.	ID=rna-BOP70_gt10;Parent=gene-BOP70_gt10;Dbxref=GeneID:30213831;gbkey=tRNA;locus_tag=BOP70_gt10;product=tRNA-Cys
+NC_031802.1	RefSeq	exon	5170	5237	.	+	.	ID=exon-BOP70_gt10-1;Parent=rna-BOP70_gt10;Dbxref=GeneID:30213831;gbkey=tRNA;locus_tag=BOP70_gt10;product=tRNA-Cys
+NC_031802.1	RefSeq	gene	5237	5303	.	-	.	ID=gene-BOP70_gt11;Dbxref=GeneID:30213832;Name=BOP70_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt11
+NC_031802.1	RefSeq	tRNA	5237	5303	.	-	.	ID=rna-BOP70_gt11;Parent=gene-BOP70_gt11;Dbxref=GeneID:30213832;gbkey=tRNA;locus_tag=BOP70_gt11;product=tRNA-Tyr
+NC_031802.1	RefSeq	exon	5237	5303	.	-	.	ID=exon-BOP70_gt11-1;Parent=rna-BOP70_gt11;Dbxref=GeneID:30213832;gbkey=tRNA;locus_tag=BOP70_gt11;product=tRNA-Tyr
+NC_031802.1	RefSeq	gene	5305	6849	.	+	.	ID=gene-BOP70_gp11;Dbxref=GeneID:30213833;Name=BOP70_gp11;description=COX1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp11
+NC_031802.1	RefSeq	CDS	5305	6849	.	+	0	ID=cds-YP_009316250.1;Parent=gene-BOP70_gp11;Dbxref=GenBank:YP_009316250.1,GeneID:30213833;Name=YP_009316250.1;gbkey=CDS;locus_tag=BOP70_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009316250.1;transl_table=2
+NC_031802.1	RefSeq	gene	6847	6915	.	-	.	ID=gene-BOP70_gt12;Dbxref=GeneID:30213811;Name=BOP70_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt12
+NC_031802.1	RefSeq	tRNA	6847	6915	.	-	.	ID=rna-BOP70_gt12;Parent=gene-BOP70_gt12;Dbxref=GeneID:30213811;gbkey=tRNA;locus_tag=BOP70_gt12;product=tRNA-Ser
+NC_031802.1	RefSeq	exon	6847	6915	.	-	.	ID=exon-BOP70_gt12-1;Parent=rna-BOP70_gt12;Dbxref=GeneID:30213811;gbkey=tRNA;locus_tag=BOP70_gt12;product=tRNA-Ser
+NC_031802.1	RefSeq	gene	6919	6988	.	+	.	ID=gene-BOP70_gt13;Dbxref=GeneID:30213834;Name=BOP70_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt13
+NC_031802.1	RefSeq	tRNA	6919	6988	.	+	.	ID=rna-BOP70_gt13;Parent=gene-BOP70_gt13;Dbxref=GeneID:30213834;gbkey=tRNA;locus_tag=BOP70_gt13;product=tRNA-Asp
+NC_031802.1	RefSeq	exon	6919	6988	.	+	.	ID=exon-BOP70_gt13-1;Parent=rna-BOP70_gt13;Dbxref=GeneID:30213834;gbkey=tRNA;locus_tag=BOP70_gt13;product=tRNA-Asp
+NC_031802.1	RefSeq	gene	6988	7669	.	+	.	ID=gene-BOP70_gp10;Dbxref=GeneID:30213835;Name=BOP70_gp10;description=COX2;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp10
+NC_031802.1	RefSeq	CDS	6988	7669	.	+	0	ID=cds-YP_009316251.1;Parent=gene-BOP70_gp10;Dbxref=GenBank:YP_009316251.1,GeneID:30213835;Name=YP_009316251.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;locus_tag=BOP70_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009316251.1;transl_except=(pos:7669%2Caa:TERM);transl_table=2
+NC_031802.1	RefSeq	gene	7675	7738	.	+	.	ID=gene-BOP70_gt14;Dbxref=GeneID:30213812;Name=BOP70_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt14
+NC_031802.1	RefSeq	tRNA	7675	7738	.	+	.	ID=rna-BOP70_gt14;Parent=gene-BOP70_gt14;Dbxref=GeneID:30213812;gbkey=tRNA;locus_tag=BOP70_gt14;product=tRNA-Lys
+NC_031802.1	RefSeq	exon	7675	7738	.	+	.	ID=exon-BOP70_gt14-1;Parent=rna-BOP70_gt14;Dbxref=GeneID:30213812;gbkey=tRNA;locus_tag=BOP70_gt14;product=tRNA-Lys
+NC_031802.1	RefSeq	gene	7740	7943	.	+	.	ID=gene-BOP70_gp09;Dbxref=GeneID:30213836;Name=BOP70_gp09;description=ATP8;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp09
+NC_031802.1	RefSeq	CDS	7740	7943	.	+	0	ID=cds-YP_009316252.1;Parent=gene-BOP70_gp09;Dbxref=GenBank:YP_009316252.1,GeneID:30213836;Name=YP_009316252.1;gbkey=CDS;locus_tag=BOP70_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009316252.1;transl_table=2
+NC_031802.1	RefSeq	gene	7901	8581	.	+	.	ID=gene-BOP70_gp08;Dbxref=GeneID:30213813;Name=BOP70_gp08;description=ATP6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp08
+NC_031802.1	RefSeq	CDS	7901	8581	.	+	0	ID=cds-YP_009316253.1;Parent=gene-BOP70_gp08;Dbxref=GenBank:YP_009316253.1,GeneID:30213813;Name=YP_009316253.1;gbkey=CDS;locus_tag=BOP70_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009316253.1;transl_table=2
+NC_031802.1	RefSeq	gene	8581	9364	.	+	.	ID=gene-BOP70_gp07;Dbxref=GeneID:30213814;Name=BOP70_gp07;description=COX3;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp07
+NC_031802.1	RefSeq	CDS	8581	9364	.	+	0	ID=cds-YP_009316254.1;Parent=gene-BOP70_gp07;Dbxref=GenBank:YP_009316254.1,GeneID:30213814;Name=YP_009316254.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;locus_tag=BOP70_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009316254.1;transl_except=(pos:9364%2Caa:TERM);transl_table=2
+NC_031802.1	RefSeq	gene	9365	9433	.	+	.	ID=gene-BOP70_gt15;Dbxref=GeneID:30213815;Name=BOP70_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt15
+NC_031802.1	RefSeq	tRNA	9365	9433	.	+	.	ID=rna-BOP70_gt15;Parent=gene-BOP70_gt15;Dbxref=GeneID:30213815;gbkey=tRNA;locus_tag=BOP70_gt15;product=tRNA-Gly
+NC_031802.1	RefSeq	exon	9365	9433	.	+	.	ID=exon-BOP70_gt15-1;Parent=rna-BOP70_gt15;Dbxref=GeneID:30213815;gbkey=tRNA;locus_tag=BOP70_gt15;product=tRNA-Gly
+NC_031802.1	RefSeq	gene	9434	9781	.	+	.	ID=gene-BOP70_gp06;Dbxref=GeneID:30213837;Name=BOP70_gp06;description=ND3;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp06
+NC_031802.1	RefSeq	CDS	9434	9781	.	+	0	ID=cds-YP_009316255.1;Parent=gene-BOP70_gp06;Dbxref=GenBank:YP_009316255.1,GeneID:30213837;Name=YP_009316255.1;gbkey=CDS;locus_tag=BOP70_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009316255.1;transl_table=2
+NC_031802.1	RefSeq	gene	9785	9851	.	+	.	ID=gene-BOP70_gt16;Dbxref=GeneID:30213816;Name=BOP70_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt16
+NC_031802.1	RefSeq	tRNA	9785	9851	.	+	.	ID=rna-BOP70_gt16;Parent=gene-BOP70_gt16;Dbxref=GeneID:30213816;gbkey=tRNA;locus_tag=BOP70_gt16;product=tRNA-Arg
+NC_031802.1	RefSeq	exon	9785	9851	.	+	.	ID=exon-BOP70_gt16-1;Parent=rna-BOP70_gt16;Dbxref=GeneID:30213816;gbkey=tRNA;locus_tag=BOP70_gt16;product=tRNA-Arg
+NC_031802.1	RefSeq	gene	9853	10140	.	+	.	ID=gene-BOP70_gp05;Dbxref=GeneID:30213838;Name=BOP70_gp05;description=ND4L;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp05
+NC_031802.1	RefSeq	CDS	9853	10140	.	+	0	ID=cds-YP_009316256.1;Parent=gene-BOP70_gp05;Dbxref=GenBank:YP_009316256.1,GeneID:30213838;Name=YP_009316256.1;gbkey=CDS;locus_tag=BOP70_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009316256.1;transl_table=2
+NC_031802.1	RefSeq	gene	10134	11511	.	+	.	ID=gene-BOP70_gp04;Dbxref=GeneID:30213807;Name=BOP70_gp04;description=ND4;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp04
+NC_031802.1	RefSeq	CDS	10134	11511	.	+	0	ID=cds-YP_009316257.1;Parent=gene-BOP70_gp04;Dbxref=GenBank:YP_009316257.1,GeneID:30213807;Name=YP_009316257.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;locus_tag=BOP70_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009316257.1;transl_except=(pos:11511%2Caa:TERM);transl_table=2
+NC_031802.1	RefSeq	gene	11512	11578	.	+	.	ID=gene-BOP70_gt17;Dbxref=GeneID:30213817;Name=BOP70_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt17
+NC_031802.1	RefSeq	tRNA	11512	11578	.	+	.	ID=rna-BOP70_gt17;Parent=gene-BOP70_gt17;Dbxref=GeneID:30213817;gbkey=tRNA;locus_tag=BOP70_gt17;product=tRNA-His
+NC_031802.1	RefSeq	exon	11512	11578	.	+	.	ID=exon-BOP70_gt17-1;Parent=rna-BOP70_gt17;Dbxref=GeneID:30213817;gbkey=tRNA;locus_tag=BOP70_gt17;product=tRNA-His
+NC_031802.1	RefSeq	gene	11577	11627	.	+	.	ID=gene-BOP70_gt18;Dbxref=GeneID:30213839;Name=BOP70_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt18
+NC_031802.1	RefSeq	tRNA	11577	11627	.	+	.	ID=rna-BOP70_gt18;Parent=gene-BOP70_gt18;Dbxref=GeneID:30213839;gbkey=tRNA;locus_tag=BOP70_gt18;product=tRNA-Ser
+NC_031802.1	RefSeq	exon	11577	11627	.	+	.	ID=exon-BOP70_gt18-1;Parent=rna-BOP70_gt18;Dbxref=GeneID:30213839;gbkey=tRNA;locus_tag=BOP70_gt18;product=tRNA-Ser
+NC_031802.1	RefSeq	gene	11637	11706	.	+	.	ID=gene-BOP70_gt19;Dbxref=GeneID:30213840;Name=BOP70_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt19
+NC_031802.1	RefSeq	tRNA	11637	11706	.	+	.	ID=rna-BOP70_gt19;Parent=gene-BOP70_gt19;Dbxref=GeneID:30213840;gbkey=tRNA;locus_tag=BOP70_gt19;product=tRNA-Leu
+NC_031802.1	RefSeq	exon	11637	11706	.	+	.	ID=exon-BOP70_gt19-1;Parent=rna-BOP70_gt19;Dbxref=GeneID:30213840;gbkey=tRNA;locus_tag=BOP70_gt19;product=tRNA-Leu
+NC_031802.1	RefSeq	gene	11707	13527	.	+	.	ID=gene-BOP70_gp03;Dbxref=GeneID:30213841;Name=BOP70_gp03;description=ND5;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp03
+NC_031802.1	RefSeq	CDS	11707	13527	.	+	0	ID=cds-YP_009316258.1;Parent=gene-BOP70_gp03;Dbxref=GenBank:YP_009316258.1,GeneID:30213841;Name=YP_009316258.1;gbkey=CDS;locus_tag=BOP70_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009316258.1;transl_table=2
+NC_031802.1	RefSeq	gene	13511	14035	.	-	.	ID=gene-BOP70_gp02;Dbxref=GeneID:30213818;Name=BOP70_gp02;description=ND6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp02
+NC_031802.1	RefSeq	CDS	13511	14035	.	-	0	ID=cds-YP_009316259.1;Parent=gene-BOP70_gp02;Dbxref=GenBank:YP_009316259.1,GeneID:30213818;Name=YP_009316259.1;gbkey=CDS;locus_tag=BOP70_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009316259.1;transl_table=2
+NC_031802.1	RefSeq	gene	14036	14104	.	-	.	ID=gene-BOP70_gt20;Dbxref=GeneID:30213819;Name=BOP70_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt20
+NC_031802.1	RefSeq	tRNA	14036	14104	.	-	.	ID=rna-BOP70_gt20;Parent=gene-BOP70_gt20;Dbxref=GeneID:30213819;gbkey=tRNA;locus_tag=BOP70_gt20;product=tRNA-Glu
+NC_031802.1	RefSeq	exon	14036	14104	.	-	.	ID=exon-BOP70_gt20-1;Parent=rna-BOP70_gt20;Dbxref=GeneID:30213819;gbkey=tRNA;locus_tag=BOP70_gt20;product=tRNA-Glu
+NC_031802.1	RefSeq	gene	14109	15251	.	+	.	ID=gene-BOP70_gp01;Dbxref=GeneID:30213842;Name=BOP70_gp01;description=CYTB;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BOP70_gp01
+NC_031802.1	RefSeq	CDS	14109	15251	.	+	0	ID=cds-YP_009316260.1;Parent=gene-BOP70_gp01;Dbxref=GenBank:YP_009316260.1,GeneID:30213842;Name=YP_009316260.1;gbkey=CDS;locus_tag=BOP70_gp01;product=cytochrome b;protein_id=YP_009316260.1;transl_table=2
+NC_031802.1	RefSeq	gene	15253	15316	.	+	.	ID=gene-BOP70_gt21;Dbxref=GeneID:30213820;Name=BOP70_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt21
+NC_031802.1	RefSeq	tRNA	15253	15316	.	+	.	ID=rna-BOP70_gt21;Parent=gene-BOP70_gt21;Dbxref=GeneID:30213820;gbkey=tRNA;locus_tag=BOP70_gt21;product=tRNA-Thr
+NC_031802.1	RefSeq	exon	15253	15316	.	+	.	ID=exon-BOP70_gt21-1;Parent=rna-BOP70_gt21;Dbxref=GeneID:30213820;gbkey=tRNA;locus_tag=BOP70_gt21;product=tRNA-Thr
+NC_031802.1	RefSeq	gene	15320	15383	.	-	.	ID=gene-BOP70_gt22;Dbxref=GeneID:30213843;Name=BOP70_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=BOP70_gt22
+NC_031802.1	RefSeq	tRNA	15320	15383	.	-	.	ID=rna-BOP70_gt22;Parent=gene-BOP70_gt22;Dbxref=GeneID:30213843;gbkey=tRNA;locus_tag=BOP70_gt22;product=tRNA-Pro
+NC_031802.1	RefSeq	exon	15320	15383	.	-	.	ID=exon-BOP70_gt22-1;Parent=rna-BOP70_gt22;Dbxref=GeneID:30213843;gbkey=tRNA;locus_tag=BOP70_gt22;product=tRNA-Pro
+NC_031802.1	RefSeq	D_loop	15384	16246	.	+	.	ID=id-NC_031802.1:15384..16246;gbkey=D-loop
+

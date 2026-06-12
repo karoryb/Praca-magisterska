@@ -1,0 +1,82 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_014047.1 1 16516
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9590
+NC_014047.1	RefSeq	region	1	16516	.	+	.	ID=NC_014047.1:1..16516;Dbxref=taxon:9590;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_014047.1	RefSeq	tRNA	1	70	.	+	.	ID=rna-NC_014047.1:1..70;gbkey=tRNA;product=tRNA-Phe
+NC_014047.1	RefSeq	exon	1	70	.	+	.	ID=exon-NC_014047.1:1..70-1;Parent=rna-NC_014047.1:1..70;gbkey=tRNA;product=tRNA-Phe
+NC_014047.1	RefSeq	rRNA	71	1022	.	+	.	ID=rna-NC_014047.1:71..1022;Note=12S ribosomal RNA;gbkey=rRNA;product=s-rRNA
+NC_014047.1	RefSeq	exon	71	1022	.	+	.	ID=exon-NC_014047.1:71..1022-1;Parent=rna-NC_014047.1:71..1022;Note=12S ribosomal RNA;gbkey=rRNA;product=s-rRNA
+NC_014047.1	RefSeq	tRNA	1023	1091	.	+	.	ID=rna-NC_014047.1:1023..1091;gbkey=tRNA;product=tRNA-Val
+NC_014047.1	RefSeq	exon	1023	1091	.	+	.	ID=exon-NC_014047.1:1023..1091-1;Parent=rna-NC_014047.1:1023..1091;gbkey=tRNA;product=tRNA-Val
+NC_014047.1	RefSeq	rRNA	1092	2651	.	+	.	ID=rna-NC_014047.1:1092..2651;Note=16S ribosomal RNA;gbkey=rRNA;product=l-rRNA
+NC_014047.1	RefSeq	exon	1092	2651	.	+	.	ID=exon-NC_014047.1:1092..2651-1;Parent=rna-NC_014047.1:1092..2651;Note=16S ribosomal RNA;gbkey=rRNA;product=l-rRNA
+NC_014047.1	RefSeq	tRNA	2652	2726	.	+	.	ID=rna-NC_014047.1:2652..2726;gbkey=tRNA;product=tRNA-Leu
+NC_014047.1	RefSeq	exon	2652	2726	.	+	.	ID=exon-NC_014047.1:2652..2726-1;Parent=rna-NC_014047.1:2652..2726;gbkey=tRNA;product=tRNA-Leu
+NC_014047.1	RefSeq	gene	2729	3684	.	+	.	ID=gene-ND1;Dbxref=GeneID:9072789;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	2729	3684	.	+	0	ID=cds-YP_003587305.1;Parent=gene-ND1;Dbxref=GenBank:YP_003587305.1,GeneID:9072789;Name=YP_003587305.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=YP_003587305.1;transl_except=(pos:3683..3684%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	3685	3753	.	+	.	ID=rna-NC_014047.1:3685..3753;gbkey=tRNA;product=tRNA-Ile
+NC_014047.1	RefSeq	exon	3685	3753	.	+	.	ID=exon-NC_014047.1:3685..3753-1;Parent=rna-NC_014047.1:3685..3753;gbkey=tRNA;product=tRNA-Ile
+NC_014047.1	RefSeq	tRNA	3751	3822	.	-	.	ID=rna-NC_014047.1:3751..3822;gbkey=tRNA;product=tRNA-Gln
+NC_014047.1	RefSeq	exon	3751	3822	.	-	.	ID=exon-NC_014047.1:3751..3822-1;Parent=rna-NC_014047.1:3751..3822;gbkey=tRNA;product=tRNA-Gln
+NC_014047.1	RefSeq	tRNA	3823	3890	.	+	.	ID=rna-NC_014047.1:3823..3890;gbkey=tRNA;product=tRNA-Met
+NC_014047.1	RefSeq	exon	3823	3890	.	+	.	ID=exon-NC_014047.1:3823..3890-1;Parent=rna-NC_014047.1:3823..3890;gbkey=tRNA;product=tRNA-Met
+NC_014047.1	RefSeq	gene	3891	4933	.	+	.	ID=gene-ND2;Dbxref=GeneID:9072795;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	3891	4933	.	+	0	ID=cds-YP_003587306.1;Parent=gene-ND2;Dbxref=GenBank:YP_003587306.1,GeneID:9072795;Name=YP_003587306.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=YP_003587306.1;transl_except=(pos:4932..4933%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	4934	5001	.	+	.	ID=rna-NC_014047.1:4934..5001;gbkey=tRNA;product=tRNA-Trp
+NC_014047.1	RefSeq	exon	4934	5001	.	+	.	ID=exon-NC_014047.1:4934..5001-1;Parent=rna-NC_014047.1:4934..5001;gbkey=tRNA;product=tRNA-Trp
+NC_014047.1	RefSeq	tRNA	5011	5079	.	-	.	ID=rna-NC_014047.1:5011..5079;gbkey=tRNA;product=tRNA-Ala
+NC_014047.1	RefSeq	exon	5011	5079	.	-	.	ID=exon-NC_014047.1:5011..5079-1;Parent=rna-NC_014047.1:5011..5079;gbkey=tRNA;product=tRNA-Ala
+NC_014047.1	RefSeq	tRNA	5081	5154	.	-	.	ID=rna-NC_014047.1:5081..5154;gbkey=tRNA;product=tRNA-Asn
+NC_014047.1	RefSeq	exon	5081	5154	.	-	.	ID=exon-NC_014047.1:5081..5154-1;Parent=rna-NC_014047.1:5081..5154;gbkey=tRNA;product=tRNA-Asn
+NC_014047.1	RefSeq	tRNA	5186	5252	.	-	.	ID=rna-NC_014047.1:5186..5252;gbkey=tRNA;product=tRNA-Cys
+NC_014047.1	RefSeq	exon	5186	5252	.	-	.	ID=exon-NC_014047.1:5186..5252-1;Parent=rna-NC_014047.1:5186..5252;gbkey=tRNA;product=tRNA-Cys
+NC_014047.1	RefSeq	tRNA	5252	5317	.	-	.	ID=rna-NC_014047.1:5252..5317;gbkey=tRNA;product=tRNA-Tyr
+NC_014047.1	RefSeq	exon	5252	5317	.	-	.	ID=exon-NC_014047.1:5252..5317-1;Parent=rna-NC_014047.1:5252..5317;gbkey=tRNA;product=tRNA-Tyr
+NC_014047.1	RefSeq	gene	5329	6870	.	+	.	ID=gene-COX1;Dbxref=GeneID:9072796;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI
+NC_014047.1	RefSeq	CDS	5329	6870	.	+	0	ID=cds-YP_003587307.1;Parent=gene-COX1;Dbxref=GenBank:YP_003587307.1,GeneID:9072796;Name=YP_003587307.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=YP_003587307.1;transl_table=2
+NC_014047.1	RefSeq	tRNA	6871	6939	.	-	.	ID=rna-NC_014047.1:6871..6939;gbkey=tRNA;product=tRNA-Ser
+NC_014047.1	RefSeq	exon	6871	6939	.	-	.	ID=exon-NC_014047.1:6871..6939-1;Parent=rna-NC_014047.1:6871..6939;gbkey=tRNA;product=tRNA-Ser
+NC_014047.1	RefSeq	tRNA	6943	7011	.	+	.	ID=rna-NC_014047.1:6943..7011;gbkey=tRNA;product=tRNA-Asp
+NC_014047.1	RefSeq	exon	6943	7011	.	+	.	ID=exon-NC_014047.1:6943..7011-1;Parent=rna-NC_014047.1:6943..7011;gbkey=tRNA;product=tRNA-Asp
+NC_014047.1	RefSeq	gene	7012	7695	.	+	.	ID=gene-COX2;Dbxref=GeneID:9072792;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII
+NC_014047.1	RefSeq	CDS	7012	7695	.	+	0	ID=cds-YP_003587308.1;Parent=gene-COX2;Dbxref=GenBank:YP_003587308.1,GeneID:9072792;Name=YP_003587308.1;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=YP_003587308.1;transl_table=2
+NC_014047.1	RefSeq	tRNA	7722	7791	.	+	.	ID=rna-NC_014047.1:7722..7791;gbkey=tRNA;product=tRNA-Lys
+NC_014047.1	RefSeq	exon	7722	7791	.	+	.	ID=exon-NC_014047.1:7722..7791-1;Parent=rna-NC_014047.1:7722..7791;gbkey=tRNA;product=tRNA-Lys
+NC_014047.1	RefSeq	gene	7793	7999	.	+	.	ID=gene-ATP8;Dbxref=GeneID:9072793;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	7793	7999	.	+	0	ID=cds-YP_003587309.1;Parent=gene-ATP8;Dbxref=GenBank:YP_003587309.1,GeneID:9072793;Name=YP_003587309.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=YP_003587309.1;transl_table=2
+NC_014047.1	RefSeq	gene	7954	8634	.	+	.	ID=gene-ATP6;Dbxref=GeneID:9072791;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	7954	8634	.	+	0	ID=cds-YP_003587310.1;Parent=gene-ATP6;Dbxref=GenBank:YP_003587310.1,GeneID:9072791;Name=YP_003587310.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=YP_003587310.1;transl_table=2
+NC_014047.1	RefSeq	gene	8634	9417	.	+	.	ID=gene-COX3;Dbxref=GeneID:9072790;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII
+NC_014047.1	RefSeq	CDS	8634	9417	.	+	0	ID=cds-YP_003587311.1;Parent=gene-COX3;Dbxref=GenBank:YP_003587311.1,GeneID:9072790;Name=YP_003587311.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA.;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=YP_003587311.1;transl_except=(pos:9417%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	9418	9485	.	+	.	ID=rna-NC_014047.1:9418..9485;gbkey=tRNA;product=tRNA-Gly
+NC_014047.1	RefSeq	exon	9418	9485	.	+	.	ID=exon-NC_014047.1:9418..9485-1;Parent=rna-NC_014047.1:9418..9485;gbkey=tRNA;product=tRNA-Gly
+NC_014047.1	RefSeq	gene	9486	9831	.	+	.	ID=gene-ND3;Dbxref=GeneID:9072794;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	9486	9831	.	+	0	ID=cds-YP_003587312.1;Parent=gene-ND3;Dbxref=GenBank:YP_003587312.1,GeneID:9072794;Name=YP_003587312.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA.;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=YP_003587312.1;transl_except=(pos:9831%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	9832	9897	.	+	.	ID=rna-NC_014047.1:9832..9897;gbkey=tRNA;product=tRNA-Arg
+NC_014047.1	RefSeq	exon	9832	9897	.	+	.	ID=exon-NC_014047.1:9832..9897-1;Parent=rna-NC_014047.1:9832..9897;gbkey=tRNA;product=tRNA-Arg
+NC_014047.1	RefSeq	gene	9898	10194	.	+	.	ID=gene-ND4L;Dbxref=GeneID:9072797;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	9898	10194	.	+	0	ID=cds-YP_003587313.1;Parent=gene-ND4L;Dbxref=GenBank:YP_003587313.1,GeneID:9072797;Name=YP_003587313.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=YP_003587313.1;transl_table=2
+NC_014047.1	RefSeq	gene	10188	11565	.	+	.	ID=gene-ND4;Dbxref=GeneID:9072799;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	10188	11565	.	+	0	ID=cds-YP_003587314.1;Parent=gene-ND4;Dbxref=GenBank:YP_003587314.1,GeneID:9072799;Name=YP_003587314.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA.;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=YP_003587314.1;transl_except=(pos:11565%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	11566	11634	.	+	.	ID=rna-NC_014047.1:11566..11634;gbkey=tRNA;product=tRNA-His
+NC_014047.1	RefSeq	exon	11566	11634	.	+	.	ID=exon-NC_014047.1:11566..11634-1;Parent=rna-NC_014047.1:11566..11634;gbkey=tRNA;product=tRNA-His
+NC_014047.1	RefSeq	tRNA	11635	11693	.	+	.	ID=rna-NC_014047.1:11635..11693;gbkey=tRNA;product=tRNA-Ser
+NC_014047.1	RefSeq	exon	11635	11693	.	+	.	ID=exon-NC_014047.1:11635..11693-1;Parent=rna-NC_014047.1:11635..11693;gbkey=tRNA;product=tRNA-Ser
+NC_014047.1	RefSeq	tRNA	11694	11764	.	+	.	ID=rna-NC_014047.1:11694..11764;gbkey=tRNA;product=tRNA-Leu
+NC_014047.1	RefSeq	exon	11694	11764	.	+	.	ID=exon-NC_014047.1:11694..11764-1;Parent=rna-NC_014047.1:11694..11764;gbkey=tRNA;product=tRNA-Leu
+NC_014047.1	RefSeq	gene	11771	13576	.	+	.	ID=gene-ND5;Dbxref=GeneID:9072798;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	11771	13576	.	+	0	ID=cds-YP_003587315.1;Parent=gene-ND5;Dbxref=GenBank:YP_003587315.1,GeneID:9072798;Name=YP_003587315.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=YP_003587315.1;transl_table=2
+NC_014047.1	RefSeq	gene	13577	14101	.	-	.	ID=gene-ND6;Dbxref=GeneID:9072800;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	13577	14101	.	-	0	ID=cds-YP_003587316.1;Parent=gene-ND6;Dbxref=GenBank:YP_003587316.1,GeneID:9072800;Name=YP_003587316.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=YP_003587316.1;transl_table=2
+NC_014047.1	RefSeq	tRNA	14102	14170	.	-	.	ID=rna-NC_014047.1:14102..14170;gbkey=tRNA;product=tRNA-Glu
+NC_014047.1	RefSeq	exon	14102	14170	.	-	.	ID=exon-NC_014047.1:14102..14170-1;Parent=rna-NC_014047.1:14102..14170;gbkey=tRNA;product=tRNA-Glu
+NC_014047.1	RefSeq	gene	14175	15315	.	+	.	ID=gene-CYTB;Dbxref=GeneID:9072801;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+NC_014047.1	RefSeq	CDS	14175	15315	.	+	0	ID=cds-YP_003587317.1;Parent=gene-CYTB;Dbxref=GenBank:YP_003587317.1,GeneID:9072801;Name=YP_003587317.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA.;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=YP_003587317.1;transl_except=(pos:15315%2Caa:TERM);transl_table=2
+NC_014047.1	RefSeq	tRNA	15316	15381	.	+	.	ID=rna-NC_014047.1:15316..15381;gbkey=tRNA;product=tRNA-Thr
+NC_014047.1	RefSeq	exon	15316	15381	.	+	.	ID=exon-NC_014047.1:15316..15381-1;Parent=rna-NC_014047.1:15316..15381;gbkey=tRNA;product=tRNA-Thr
+NC_014047.1	RefSeq	tRNA	15384	15451	.	-	.	ID=rna-NC_014047.1:15384..15451;gbkey=tRNA;product=tRNA-Pro
+NC_014047.1	RefSeq	exon	15384	15451	.	-	.	ID=exon-NC_014047.1:15384..15451-1;Parent=rna-NC_014047.1:15384..15451;gbkey=tRNA;product=tRNA-Pro
+NC_014047.1	RefSeq	D_loop	15452	16516	.	+	.	ID=id-NC_014047.1:15452..16516;gbkey=D-loop
+

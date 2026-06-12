@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_034314.1 1 16389
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=504099
+NC_034314.1	RefSeq	region	1	16389	.	+	.	ID=NC_034314.1:1..16389;Dbxref=taxon:504099;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_034314.1	RefSeq	gene	1	69	.	+	.	ID=gene-B9D65_mgt01;Dbxref=GeneID:32230650;Name=B9D65_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt01
+NC_034314.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-B9D65_mgt01;Parent=gene-B9D65_mgt01;Dbxref=GeneID:32230650;gbkey=tRNA;locus_tag=B9D65_mgt01;product=tRNA-Phe
+NC_034314.1	RefSeq	exon	1	69	.	+	.	ID=exon-B9D65_mgt01-1;Parent=rna-B9D65_mgt01;Dbxref=GeneID:32230650;gbkey=tRNA;locus_tag=B9D65_mgt01;product=tRNA-Phe
+NC_034314.1	RefSeq	gene	70	1020	.	+	.	ID=gene-B9D65_mgr02;Dbxref=GeneID:32230651;Name=B9D65_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=B9D65_mgr02
+NC_034314.1	RefSeq	rRNA	70	1020	.	+	.	ID=rna-B9D65_mgr02;Parent=gene-B9D65_mgr02;Dbxref=GeneID:32230651;gbkey=rRNA;locus_tag=B9D65_mgr02;product=12S ribosomal RNA
+NC_034314.1	RefSeq	exon	70	1020	.	+	.	ID=exon-B9D65_mgr02-1;Parent=rna-B9D65_mgr02;Dbxref=GeneID:32230651;gbkey=rRNA;locus_tag=B9D65_mgr02;product=12S ribosomal RNA
+NC_034314.1	RefSeq	gene	1021	1087	.	+	.	ID=gene-B9D65_mgt02;Dbxref=GeneID:32230652;Name=B9D65_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt02
+NC_034314.1	RefSeq	tRNA	1021	1087	.	+	.	ID=rna-B9D65_mgt02;Parent=gene-B9D65_mgt02;Dbxref=GeneID:32230652;gbkey=tRNA;locus_tag=B9D65_mgt02;product=tRNA-Val
+NC_034314.1	RefSeq	exon	1021	1087	.	+	.	ID=exon-B9D65_mgt02-1;Parent=rna-B9D65_mgt02;Dbxref=GeneID:32230652;gbkey=tRNA;locus_tag=B9D65_mgt02;product=tRNA-Val
+NC_034314.1	RefSeq	gene	1088	2657	.	+	.	ID=gene-B9D65_mgr01;Dbxref=GeneID:32230653;Name=B9D65_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=B9D65_mgr01
+NC_034314.1	RefSeq	rRNA	1088	2657	.	+	.	ID=rna-B9D65_mgr01;Parent=gene-B9D65_mgr01;Dbxref=GeneID:32230653;gbkey=rRNA;locus_tag=B9D65_mgr01;product=16S ribosomal RNA
+NC_034314.1	RefSeq	exon	1088	2657	.	+	.	ID=exon-B9D65_mgr01-1;Parent=rna-B9D65_mgr01;Dbxref=GeneID:32230653;gbkey=rRNA;locus_tag=B9D65_mgr01;product=16S ribosomal RNA
+NC_034314.1	RefSeq	gene	2660	2734	.	+	.	ID=gene-B9D65_mgt03;Dbxref=GeneID:32230654;Name=B9D65_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt03
+NC_034314.1	RefSeq	tRNA	2660	2734	.	+	.	ID=rna-B9D65_mgt03;Parent=gene-B9D65_mgt03;Dbxref=GeneID:32230654;gbkey=tRNA;locus_tag=B9D65_mgt03;product=tRNA-Leu
+NC_034314.1	RefSeq	exon	2660	2734	.	+	.	ID=exon-B9D65_mgt03-1;Parent=rna-B9D65_mgt03;Dbxref=GeneID:32230654;gbkey=tRNA;locus_tag=B9D65_mgt03;product=tRNA-Leu
+NC_034314.1	RefSeq	gene	2735	3689	.	+	.	ID=gene-B9D65_mgp13;Dbxref=GeneID:32230655;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=B9D65_mgp13
+NC_034314.1	RefSeq	CDS	2735	3689	.	+	0	ID=cds-YP_009354371.1;Parent=gene-B9D65_mgp13;Dbxref=GenBank:YP_009354371.1,GeneID:32230655;Name=YP_009354371.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=B9D65_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009354371.1;transl_except=(pos:3689%2Caa:TERM);transl_table=2
+NC_034314.1	RefSeq	gene	3690	3757	.	+	.	ID=gene-B9D65_mgt04;Dbxref=GeneID:32230637;Name=B9D65_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt04
+NC_034314.1	RefSeq	tRNA	3690	3757	.	+	.	ID=rna-B9D65_mgt04;Parent=gene-B9D65_mgt04;Dbxref=GeneID:32230637;gbkey=tRNA;locus_tag=B9D65_mgt04;product=tRNA-Ile
+NC_034314.1	RefSeq	exon	3690	3757	.	+	.	ID=exon-B9D65_mgt04-1;Parent=rna-B9D65_mgt04;Dbxref=GeneID:32230637;gbkey=tRNA;locus_tag=B9D65_mgt04;product=tRNA-Ile
+NC_034314.1	RefSeq	gene	3755	3826	.	-	.	ID=gene-B9D65_mgt05;Dbxref=GeneID:32230656;Name=B9D65_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt05
+NC_034314.1	RefSeq	tRNA	3755	3826	.	-	.	ID=rna-B9D65_mgt05;Parent=gene-B9D65_mgt05;Dbxref=GeneID:32230656;gbkey=tRNA;locus_tag=B9D65_mgt05;product=tRNA-Gln
+NC_034314.1	RefSeq	exon	3755	3826	.	-	.	ID=exon-B9D65_mgt05-1;Parent=rna-B9D65_mgt05;Dbxref=GeneID:32230656;gbkey=tRNA;locus_tag=B9D65_mgt05;product=tRNA-Gln
+NC_034314.1	RefSeq	gene	3838	3906	.	+	.	ID=gene-B9D65_mgt06;Dbxref=GeneID:32230657;Name=B9D65_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt06
+NC_034314.1	RefSeq	tRNA	3838	3906	.	+	.	ID=rna-B9D65_mgt06;Parent=gene-B9D65_mgt06;Dbxref=GeneID:32230657;gbkey=tRNA;locus_tag=B9D65_mgt06;product=tRNA-Met
+NC_034314.1	RefSeq	exon	3838	3906	.	+	.	ID=exon-B9D65_mgt06-1;Parent=rna-B9D65_mgt06;Dbxref=GeneID:32230657;gbkey=tRNA;locus_tag=B9D65_mgt06;product=tRNA-Met
+NC_034314.1	RefSeq	gene	3910	4946	.	+	.	ID=gene-B9D65_mgp12;Dbxref=GeneID:32230658;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=B9D65_mgp12
+NC_034314.1	RefSeq	CDS	3910	4946	.	+	0	ID=cds-YP_009354372.1;Parent=gene-B9D65_mgp12;Dbxref=GenBank:YP_009354372.1,GeneID:32230658;Name=YP_009354372.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=B9D65_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009354372.1;transl_except=(pos:4945..4946%2Caa:TERM);transl_table=2
+NC_034314.1	RefSeq	gene	4947	5011	.	+	.	ID=gene-B9D65_mgt07;Dbxref=GeneID:32230638;Name=B9D65_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt07
+NC_034314.1	RefSeq	tRNA	4947	5011	.	+	.	ID=rna-B9D65_mgt07;Parent=gene-B9D65_mgt07;Dbxref=GeneID:32230638;gbkey=tRNA;locus_tag=B9D65_mgt07;product=tRNA-Trp
+NC_034314.1	RefSeq	exon	4947	5011	.	+	.	ID=exon-B9D65_mgt07-1;Parent=rna-B9D65_mgt07;Dbxref=GeneID:32230638;gbkey=tRNA;locus_tag=B9D65_mgt07;product=tRNA-Trp
+NC_034314.1	RefSeq	gene	5014	5082	.	-	.	ID=gene-B9D65_mgt08;Dbxref=GeneID:32230659;Name=B9D65_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt08
+NC_034314.1	RefSeq	tRNA	5014	5082	.	-	.	ID=rna-B9D65_mgt08;Parent=gene-B9D65_mgt08;Dbxref=GeneID:32230659;gbkey=tRNA;locus_tag=B9D65_mgt08;product=tRNA-Ala
+NC_034314.1	RefSeq	exon	5014	5082	.	-	.	ID=exon-B9D65_mgt08-1;Parent=rna-B9D65_mgt08;Dbxref=GeneID:32230659;gbkey=tRNA;locus_tag=B9D65_mgt08;product=tRNA-Ala
+NC_034314.1	RefSeq	gene	5088	5158	.	-	.	ID=gene-B9D65_mgt09;Dbxref=GeneID:32230660;Name=B9D65_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt09
+NC_034314.1	RefSeq	tRNA	5088	5158	.	-	.	ID=rna-B9D65_mgt09;Parent=gene-B9D65_mgt09;Dbxref=GeneID:32230660;gbkey=tRNA;locus_tag=B9D65_mgt09;product=tRNA-Asn
+NC_034314.1	RefSeq	exon	5088	5158	.	-	.	ID=exon-B9D65_mgt09-1;Parent=rna-B9D65_mgt09;Dbxref=GeneID:32230660;gbkey=tRNA;locus_tag=B9D65_mgt09;product=tRNA-Asn
+NC_034314.1	RefSeq	gene	5189	5255	.	-	.	ID=gene-B9D65_mgt10;Dbxref=GeneID:32230661;Name=B9D65_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt10
+NC_034314.1	RefSeq	tRNA	5189	5255	.	-	.	ID=rna-B9D65_mgt10;Parent=gene-B9D65_mgt10;Dbxref=GeneID:32230661;gbkey=tRNA;locus_tag=B9D65_mgt10;product=tRNA-Cys
+NC_034314.1	RefSeq	exon	5189	5255	.	-	.	ID=exon-B9D65_mgt10-1;Parent=rna-B9D65_mgt10;Dbxref=GeneID:32230661;gbkey=tRNA;locus_tag=B9D65_mgt10;product=tRNA-Cys
+NC_034314.1	RefSeq	gene	5276	5343	.	-	.	ID=gene-B9D65_mgt11;Dbxref=GeneID:32230662;Name=B9D65_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt11
+NC_034314.1	RefSeq	tRNA	5276	5343	.	-	.	ID=rna-B9D65_mgt11;Parent=gene-B9D65_mgt11;Dbxref=GeneID:32230662;gbkey=tRNA;locus_tag=B9D65_mgt11;product=tRNA-Tyr
+NC_034314.1	RefSeq	exon	5276	5343	.	-	.	ID=exon-B9D65_mgt11-1;Parent=rna-B9D65_mgt11;Dbxref=GeneID:32230662;gbkey=tRNA;locus_tag=B9D65_mgt11;product=tRNA-Tyr
+NC_034314.1	RefSeq	gene	5345	6889	.	+	.	ID=gene-B9D65_mgp11;Dbxref=GeneID:32230663;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=B9D65_mgp11
+NC_034314.1	RefSeq	CDS	5345	6889	.	+	0	ID=cds-YP_009354373.1;Parent=gene-B9D65_mgp11;Dbxref=GenBank:YP_009354373.1,GeneID:32230663;Name=YP_009354373.1;gbkey=CDS;gene=COX1;locus_tag=B9D65_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_009354373.1;transl_table=2
+NC_034314.1	RefSeq	gene	6887	6955	.	-	.	ID=gene-B9D65_mgt12;Dbxref=GeneID:32230639;Name=B9D65_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt12
+NC_034314.1	RefSeq	tRNA	6887	6955	.	-	.	ID=rna-B9D65_mgt12;Parent=gene-B9D65_mgt12;Dbxref=GeneID:32230639;gbkey=tRNA;locus_tag=B9D65_mgt12;product=tRNA-Ser
+NC_034314.1	RefSeq	exon	6887	6955	.	-	.	ID=exon-B9D65_mgt12-1;Parent=rna-B9D65_mgt12;Dbxref=GeneID:32230639;gbkey=tRNA;locus_tag=B9D65_mgt12;product=tRNA-Ser
+NC_034314.1	RefSeq	gene	6959	7027	.	+	.	ID=gene-B9D65_mgt13;Dbxref=GeneID:32230664;Name=B9D65_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt13
+NC_034314.1	RefSeq	tRNA	6959	7027	.	+	.	ID=rna-B9D65_mgt13;Parent=gene-B9D65_mgt13;Dbxref=GeneID:32230664;gbkey=tRNA;locus_tag=B9D65_mgt13;product=tRNA-Asp
+NC_034314.1	RefSeq	exon	6959	7027	.	+	.	ID=exon-B9D65_mgt13-1;Parent=rna-B9D65_mgt13;Dbxref=GeneID:32230664;gbkey=tRNA;locus_tag=B9D65_mgt13;product=tRNA-Asp
+NC_034314.1	RefSeq	gene	7029	7715	.	+	.	ID=gene-B9D65_mgp10;Dbxref=GeneID:32230665;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=B9D65_mgp10
+NC_034314.1	RefSeq	CDS	7029	7715	.	+	0	ID=cds-YP_009354374.1;Parent=gene-B9D65_mgp10;Dbxref=GenBank:YP_009354374.1,GeneID:32230665;Name=YP_009354374.1;gbkey=CDS;gene=COX2;locus_tag=B9D65_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_009354374.1;transl_table=2
+NC_034314.1	RefSeq	gene	7716	7780	.	+	.	ID=gene-B9D65_mgt14;Dbxref=GeneID:32230640;Name=B9D65_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt14
+NC_034314.1	RefSeq	tRNA	7716	7780	.	+	.	ID=rna-B9D65_mgt14;Parent=gene-B9D65_mgt14;Dbxref=GeneID:32230640;gbkey=tRNA;locus_tag=B9D65_mgt14;product=tRNA-Lys
+NC_034314.1	RefSeq	exon	7716	7780	.	+	.	ID=exon-B9D65_mgt14-1;Parent=rna-B9D65_mgt14;Dbxref=GeneID:32230640;gbkey=tRNA;locus_tag=B9D65_mgt14;product=tRNA-Lys
+NC_034314.1	RefSeq	gene	7783	7986	.	+	.	ID=gene-B9D65_mgp09;Dbxref=GeneID:32230666;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=B9D65_mgp09
+NC_034314.1	RefSeq	CDS	7783	7986	.	+	0	ID=cds-YP_009354375.1;Parent=gene-B9D65_mgp09;Dbxref=GenBank:YP_009354375.1,GeneID:32230666;Name=YP_009354375.1;gbkey=CDS;gene=ATP8;locus_tag=B9D65_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_009354375.1;transl_table=2
+NC_034314.1	RefSeq	gene	7944	8624	.	+	.	ID=gene-B9D65_mgp08;Dbxref=GeneID:32230641;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=B9D65_mgp08
+NC_034314.1	RefSeq	CDS	7944	8624	.	+	0	ID=cds-YP_009354376.1;Parent=gene-B9D65_mgp08;Dbxref=GenBank:YP_009354376.1,GeneID:32230641;Name=YP_009354376.1;gbkey=CDS;gene=ATP6;locus_tag=B9D65_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_009354376.1;transl_table=2
+NC_034314.1	RefSeq	gene	8624	9407	.	+	.	ID=gene-B9D65_mgp07;Dbxref=GeneID:32230642;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=B9D65_mgp07
+NC_034314.1	RefSeq	CDS	8624	9407	.	+	0	ID=cds-YP_009354377.1;Parent=gene-B9D65_mgp07;Dbxref=GenBank:YP_009354377.1,GeneID:32230642;Name=YP_009354377.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=B9D65_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_009354377.1;transl_except=(pos:9407%2Caa:TERM);transl_table=2
+NC_034314.1	RefSeq	gene	9408	9475	.	+	.	ID=gene-B9D65_mgt15;Dbxref=GeneID:32230643;Name=B9D65_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt15
+NC_034314.1	RefSeq	tRNA	9408	9475	.	+	.	ID=rna-B9D65_mgt15;Parent=gene-B9D65_mgt15;Dbxref=GeneID:32230643;gbkey=tRNA;locus_tag=B9D65_mgt15;product=tRNA-Gly
+NC_034314.1	RefSeq	exon	9408	9475	.	+	.	ID=exon-B9D65_mgt15-1;Parent=rna-B9D65_mgt15;Dbxref=GeneID:32230643;gbkey=tRNA;locus_tag=B9D65_mgt15;product=tRNA-Gly
+NC_034314.1	RefSeq	gene	9476	9823	.	+	.	ID=gene-B9D65_mgp06;Dbxref=GeneID:32230667;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=B9D65_mgp06
+NC_034314.1	RefSeq	CDS	9476	9823	.	+	0	ID=cds-YP_009354378.1;Parent=gene-B9D65_mgp06;Dbxref=GenBank:YP_009354378.1,GeneID:32230667;Name=YP_009354378.1;gbkey=CDS;gene=ND3;locus_tag=B9D65_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009354378.1;transl_table=2
+NC_034314.1	RefSeq	gene	9828	9895	.	+	.	ID=gene-B9D65_mgt16;Dbxref=GeneID:32230644;Name=B9D65_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt16
+NC_034314.1	RefSeq	tRNA	9828	9895	.	+	.	ID=rna-B9D65_mgt16;Parent=gene-B9D65_mgt16;Dbxref=GeneID:32230644;gbkey=tRNA;locus_tag=B9D65_mgt16;product=tRNA-Arg
+NC_034314.1	RefSeq	exon	9828	9895	.	+	.	ID=exon-B9D65_mgt16-1;Parent=rna-B9D65_mgt16;Dbxref=GeneID:32230644;gbkey=tRNA;locus_tag=B9D65_mgt16;product=tRNA-Arg
+NC_034314.1	RefSeq	gene	9897	10193	.	+	.	ID=gene-B9D65_mgp05;Dbxref=GeneID:32230668;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=B9D65_mgp05
+NC_034314.1	RefSeq	CDS	9897	10193	.	+	0	ID=cds-YP_009354379.1;Parent=gene-B9D65_mgp05;Dbxref=GenBank:YP_009354379.1,GeneID:32230668;Name=YP_009354379.1;gbkey=CDS;gene=ND4L;locus_tag=B9D65_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009354379.1;transl_table=2
+NC_034314.1	RefSeq	gene	10187	11564	.	+	.	ID=gene-B9D65_mgp04;Dbxref=GeneID:32230645;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=B9D65_mgp04
+NC_034314.1	RefSeq	CDS	10187	11564	.	+	0	ID=cds-YP_009354380.1;Parent=gene-B9D65_mgp04;Dbxref=GenBank:YP_009354380.1,GeneID:32230645;Name=YP_009354380.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=B9D65_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009354380.1;transl_except=(pos:11564%2Caa:TERM);transl_table=2
+NC_034314.1	RefSeq	gene	11565	11633	.	+	.	ID=gene-B9D65_mgt17;Dbxref=GeneID:32230646;Name=B9D65_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt17
+NC_034314.1	RefSeq	tRNA	11565	11633	.	+	.	ID=rna-B9D65_mgt17;Parent=gene-B9D65_mgt17;Dbxref=GeneID:32230646;gbkey=tRNA;locus_tag=B9D65_mgt17;product=tRNA-His
+NC_034314.1	RefSeq	exon	11565	11633	.	+	.	ID=exon-B9D65_mgt17-1;Parent=rna-B9D65_mgt17;Dbxref=GeneID:32230646;gbkey=tRNA;locus_tag=B9D65_mgt17;product=tRNA-His
+NC_034314.1	RefSeq	gene	11634	11692	.	+	.	ID=gene-B9D65_mgt18;Dbxref=GeneID:32230669;Name=B9D65_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt18
+NC_034314.1	RefSeq	tRNA	11634	11692	.	+	.	ID=rna-B9D65_mgt18;Parent=gene-B9D65_mgt18;Dbxref=GeneID:32230669;gbkey=tRNA;locus_tag=B9D65_mgt18;product=tRNA-Ser
+NC_034314.1	RefSeq	exon	11634	11692	.	+	.	ID=exon-B9D65_mgt18-1;Parent=rna-B9D65_mgt18;Dbxref=GeneID:32230669;gbkey=tRNA;locus_tag=B9D65_mgt18;product=tRNA-Ser
+NC_034314.1	RefSeq	gene	11693	11761	.	+	.	ID=gene-B9D65_mgt19;Dbxref=GeneID:32230670;Name=B9D65_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt19
+NC_034314.1	RefSeq	tRNA	11693	11761	.	+	.	ID=rna-B9D65_mgt19;Parent=gene-B9D65_mgt19;Dbxref=GeneID:32230670;gbkey=tRNA;locus_tag=B9D65_mgt19;product=tRNA-Leu
+NC_034314.1	RefSeq	exon	11693	11761	.	+	.	ID=exon-B9D65_mgt19-1;Parent=rna-B9D65_mgt19;Dbxref=GeneID:32230670;gbkey=tRNA;locus_tag=B9D65_mgt19;product=tRNA-Leu
+NC_034314.1	RefSeq	gene	11762	13573	.	+	.	ID=gene-B9D65_mgp03;Dbxref=GeneID:32230671;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=B9D65_mgp03
+NC_034314.1	RefSeq	CDS	11762	13573	.	+	0	ID=cds-YP_009354381.1;Parent=gene-B9D65_mgp03;Dbxref=GenBank:YP_009354381.1,GeneID:32230671;Name=YP_009354381.1;gbkey=CDS;gene=ND5;locus_tag=B9D65_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009354381.1;transl_table=2
+NC_034314.1	RefSeq	gene	13575	14090	.	-	.	ID=gene-B9D65_mgp02;Dbxref=GeneID:32230647;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=B9D65_mgp02
+NC_034314.1	RefSeq	CDS	13575	14090	.	-	0	ID=cds-YP_009354382.1;Parent=gene-B9D65_mgp02;Dbxref=GenBank:YP_009354382.1,GeneID:32230647;Name=YP_009354382.1;gbkey=CDS;gene=ND6;locus_tag=B9D65_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009354382.1;transl_table=2
+NC_034314.1	RefSeq	gene	14092	14162	.	-	.	ID=gene-B9D65_mgt20;Dbxref=GeneID:32230648;Name=B9D65_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt20
+NC_034314.1	RefSeq	tRNA	14092	14162	.	-	.	ID=rna-B9D65_mgt20;Parent=gene-B9D65_mgt20;Dbxref=GeneID:32230648;gbkey=tRNA;locus_tag=B9D65_mgt20;product=tRNA-Glu
+NC_034314.1	RefSeq	exon	14092	14162	.	-	.	ID=exon-B9D65_mgt20-1;Parent=rna-B9D65_mgt20;Dbxref=GeneID:32230648;gbkey=tRNA;locus_tag=B9D65_mgt20;product=tRNA-Glu
+NC_034314.1	RefSeq	gene	14167	15310	.	+	.	ID=gene-B9D65_mgp01;Dbxref=GeneID:32230672;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=B9D65_mgp01
+NC_034314.1	RefSeq	CDS	14167	15310	.	+	0	ID=cds-YP_009354383.1;Parent=gene-B9D65_mgp01;Dbxref=GenBank:YP_009354383.1,GeneID:32230672;Name=YP_009354383.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=CYTB;locus_tag=B9D65_mgp01;product=cytochrome b;protein_id=YP_009354383.1;transl_except=(pos:15310%2Caa:TERM);transl_table=2
+NC_034314.1	RefSeq	gene	15311	15377	.	+	.	ID=gene-B9D65_mgt21;Dbxref=GeneID:32230649;Name=B9D65_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt21
+NC_034314.1	RefSeq	tRNA	15311	15377	.	+	.	ID=rna-B9D65_mgt21;Parent=gene-B9D65_mgt21;Dbxref=GeneID:32230649;gbkey=tRNA;locus_tag=B9D65_mgt21;product=tRNA-Thr
+NC_034314.1	RefSeq	exon	15311	15377	.	+	.	ID=exon-B9D65_mgt21-1;Parent=rna-B9D65_mgt21;Dbxref=GeneID:32230649;gbkey=tRNA;locus_tag=B9D65_mgt21;product=tRNA-Thr
+NC_034314.1	RefSeq	gene	15378	15445	.	-	.	ID=gene-B9D65_mgt22;Dbxref=GeneID:32230673;Name=B9D65_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=B9D65_mgt22
+NC_034314.1	RefSeq	tRNA	15378	15445	.	-	.	ID=rna-B9D65_mgt22;Parent=gene-B9D65_mgt22;Dbxref=GeneID:32230673;gbkey=tRNA;locus_tag=B9D65_mgt22;product=tRNA-Pro
+NC_034314.1	RefSeq	exon	15378	15445	.	-	.	ID=exon-B9D65_mgt22-1;Parent=rna-B9D65_mgt22;Dbxref=GeneID:32230673;gbkey=tRNA;locus_tag=B9D65_mgt22;product=tRNA-Pro
+NC_034314.1	RefSeq	D_loop	15446	16389	.	+	.	ID=id-NC_034314.1:15446..16389;gbkey=D-loop
+

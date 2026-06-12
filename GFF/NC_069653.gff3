@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_069653.1 1 16385
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=128432
+NC_069653.1	RefSeq	region	1	16385	.	+	.	ID=NC_069653.1:1..16385;Dbxref=taxon:128432;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_069653.1	RefSeq	gene	1	69	.	+	.	ID=gene-PKF19_mgt01;Dbxref=GeneID:77608677;Name=PKF19_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt01
+NC_069653.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-PKF19_mgt01;Parent=gene-PKF19_mgt01;Dbxref=GeneID:77608677;gbkey=tRNA;locus_tag=PKF19_mgt01;product=tRNA-Phe
+NC_069653.1	RefSeq	exon	1	69	.	+	.	ID=exon-PKF19_mgt01-1;Parent=rna-PKF19_mgt01;Dbxref=GeneID:77608677;gbkey=tRNA;locus_tag=PKF19_mgt01;product=tRNA-Phe
+NC_069653.1	RefSeq	gene	70	1015	.	+	.	ID=gene-PKF19_mgr02;Dbxref=GeneID:77608678;Name=PKF19_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=PKF19_mgr02
+NC_069653.1	RefSeq	rRNA	70	1015	.	+	.	ID=rna-PKF19_mgr02;Parent=gene-PKF19_mgr02;Dbxref=GeneID:77608678;gbkey=rRNA;locus_tag=PKF19_mgr02;product=12S ribosomal RNA
+NC_069653.1	RefSeq	exon	70	1015	.	+	.	ID=exon-PKF19_mgr02-1;Parent=rna-PKF19_mgr02;Dbxref=GeneID:77608678;gbkey=rRNA;locus_tag=PKF19_mgr02;product=12S ribosomal RNA
+NC_069653.1	RefSeq	gene	1017	1085	.	+	.	ID=gene-PKF19_mgt02;Dbxref=GeneID:77608679;Name=PKF19_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt02
+NC_069653.1	RefSeq	tRNA	1017	1085	.	+	.	ID=rna-PKF19_mgt02;Parent=gene-PKF19_mgt02;Dbxref=GeneID:77608679;gbkey=tRNA;locus_tag=PKF19_mgt02;product=tRNA-Val
+NC_069653.1	RefSeq	exon	1017	1085	.	+	.	ID=exon-PKF19_mgt02-1;Parent=rna-PKF19_mgt02;Dbxref=GeneID:77608679;gbkey=tRNA;locus_tag=PKF19_mgt02;product=tRNA-Val
+NC_069653.1	RefSeq	gene	1086	2651	.	+	.	ID=gene-PKF19_mgr01;Dbxref=GeneID:77608680;Name=PKF19_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=PKF19_mgr01
+NC_069653.1	RefSeq	rRNA	1086	2651	.	+	.	ID=rna-PKF19_mgr01;Parent=gene-PKF19_mgr01;Dbxref=GeneID:77608680;gbkey=rRNA;locus_tag=PKF19_mgr01;product=16S ribosomal RNA
+NC_069653.1	RefSeq	exon	1086	2651	.	+	.	ID=exon-PKF19_mgr01-1;Parent=rna-PKF19_mgr01;Dbxref=GeneID:77608680;gbkey=rRNA;locus_tag=PKF19_mgr01;product=16S ribosomal RNA
+NC_069653.1	RefSeq	gene	2651	2724	.	+	.	ID=gene-PKF19_mgt03;Dbxref=GeneID:77608681;Name=PKF19_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt03
+NC_069653.1	RefSeq	tRNA	2651	2724	.	+	.	ID=rna-PKF19_mgt03;Parent=gene-PKF19_mgt03;Dbxref=GeneID:77608681;codons=UUR;gbkey=tRNA;locus_tag=PKF19_mgt03;product=tRNA-Leu
+NC_069653.1	RefSeq	exon	2651	2724	.	+	.	ID=exon-PKF19_mgt03-1;Parent=rna-PKF19_mgt03;Dbxref=GeneID:77608681;codons=UUR;gbkey=tRNA;locus_tag=PKF19_mgt03;product=tRNA-Leu
+NC_069653.1	RefSeq	gene	2726	3681	.	+	.	ID=gene-PKF19_mgp13;Dbxref=GeneID:77608682;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=PKF19_mgp13
+NC_069653.1	RefSeq	CDS	2726	3681	.	+	0	ID=cds-YP_010597247.1;Parent=gene-PKF19_mgp13;Dbxref=GenBank:YP_010597247.1,GeneID:77608682;Name=YP_010597247.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=PKF19_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010597247.1;transl_except=(pos:3680..3681%2Caa:TERM);transl_table=2
+NC_069653.1	RefSeq	gene	3682	3750	.	+	.	ID=gene-PKF19_mgt04;Dbxref=GeneID:77608664;Name=PKF19_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt04
+NC_069653.1	RefSeq	tRNA	3682	3750	.	+	.	ID=rna-PKF19_mgt04;Parent=gene-PKF19_mgt04;Dbxref=GeneID:77608664;gbkey=tRNA;locus_tag=PKF19_mgt04;product=tRNA-Ile
+NC_069653.1	RefSeq	exon	3682	3750	.	+	.	ID=exon-PKF19_mgt04-1;Parent=rna-PKF19_mgt04;Dbxref=GeneID:77608664;gbkey=tRNA;locus_tag=PKF19_mgt04;product=tRNA-Ile
+NC_069653.1	RefSeq	gene	3748	3818	.	-	.	ID=gene-PKF19_mgt05;Dbxref=GeneID:77608683;Name=PKF19_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt05
+NC_069653.1	RefSeq	tRNA	3748	3818	.	-	.	ID=rna-PKF19_mgt05;Parent=gene-PKF19_mgt05;Dbxref=GeneID:77608683;gbkey=tRNA;locus_tag=PKF19_mgt05;product=tRNA-Gln
+NC_069653.1	RefSeq	exon	3748	3818	.	-	.	ID=exon-PKF19_mgt05-1;Parent=rna-PKF19_mgt05;Dbxref=GeneID:77608683;gbkey=tRNA;locus_tag=PKF19_mgt05;product=tRNA-Gln
+NC_069653.1	RefSeq	gene	3818	3886	.	+	.	ID=gene-PKF19_mgt06;Dbxref=GeneID:77608684;Name=PKF19_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt06
+NC_069653.1	RefSeq	tRNA	3818	3886	.	+	.	ID=rna-PKF19_mgt06;Parent=gene-PKF19_mgt06;Dbxref=GeneID:77608684;gbkey=tRNA;locus_tag=PKF19_mgt06;product=tRNA-Met
+NC_069653.1	RefSeq	exon	3818	3886	.	+	.	ID=exon-PKF19_mgt06-1;Parent=rna-PKF19_mgt06;Dbxref=GeneID:77608684;gbkey=tRNA;locus_tag=PKF19_mgt06;product=tRNA-Met
+NC_069653.1	RefSeq	gene	3887	4930	.	+	.	ID=gene-PKF19_mgp12;Dbxref=GeneID:77608685;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=PKF19_mgp12
+NC_069653.1	RefSeq	CDS	3887	4930	.	+	0	ID=cds-YP_010597248.1;Parent=gene-PKF19_mgp12;Dbxref=GenBank:YP_010597248.1,GeneID:77608685;Name=YP_010597248.1;gbkey=CDS;gene=ND2;locus_tag=PKF19_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010597248.1;transl_table=2
+NC_069653.1	RefSeq	gene	4932	5000	.	-	.	ID=gene-PKF19_mgt07;Dbxref=GeneID:77608665;Name=PKF19_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt07
+NC_069653.1	RefSeq	tRNA	4932	5000	.	-	.	ID=rna-PKF19_mgt07;Parent=gene-PKF19_mgt07;Dbxref=GeneID:77608665;gbkey=tRNA;locus_tag=PKF19_mgt07;product=tRNA-Ala
+NC_069653.1	RefSeq	exon	4932	5000	.	-	.	ID=exon-PKF19_mgt07-1;Parent=rna-PKF19_mgt07;Dbxref=GeneID:77608665;gbkey=tRNA;locus_tag=PKF19_mgt07;product=tRNA-Ala
+NC_069653.1	RefSeq	gene	5006	5071	.	-	.	ID=gene-PKF19_mgt08;Dbxref=GeneID:77608686;Name=PKF19_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt08
+NC_069653.1	RefSeq	tRNA	5006	5071	.	-	.	ID=rna-PKF19_mgt08;Parent=gene-PKF19_mgt08;Dbxref=GeneID:77608686;gbkey=tRNA;locus_tag=PKF19_mgt08;product=tRNA-Cys
+NC_069653.1	RefSeq	exon	5006	5071	.	-	.	ID=exon-PKF19_mgt08-1;Parent=rna-PKF19_mgt08;Dbxref=GeneID:77608686;gbkey=tRNA;locus_tag=PKF19_mgt08;product=tRNA-Cys
+NC_069653.1	RefSeq	gene	5077	5146	.	+	.	ID=gene-PKF19_mgt09;Dbxref=GeneID:77608687;Name=PKF19_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt09
+NC_069653.1	RefSeq	tRNA	5077	5146	.	+	.	ID=rna-PKF19_mgt09;Parent=gene-PKF19_mgt09;Dbxref=GeneID:77608687;gbkey=tRNA;locus_tag=PKF19_mgt09;product=tRNA-Trp
+NC_069653.1	RefSeq	exon	5077	5146	.	+	.	ID=exon-PKF19_mgt09-1;Parent=rna-PKF19_mgt09;Dbxref=GeneID:77608687;gbkey=tRNA;locus_tag=PKF19_mgt09;product=tRNA-Trp
+NC_069653.1	RefSeq	origin_of_replication	5147	5224	.	+	.	ID=id-NC_069653.1:5147..5224;Note=origin of L-strand replication;gbkey=rep_origin
+NC_069653.1	RefSeq	gene	5225	5296	.	-	.	ID=gene-PKF19_mgt10;Dbxref=GeneID:77608688;Name=PKF19_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt10
+NC_069653.1	RefSeq	tRNA	5225	5296	.	-	.	ID=rna-PKF19_mgt10;Parent=gene-PKF19_mgt10;Dbxref=GeneID:77608688;gbkey=tRNA;locus_tag=PKF19_mgt10;product=tRNA-Asn
+NC_069653.1	RefSeq	exon	5225	5296	.	-	.	ID=exon-PKF19_mgt10-1;Parent=rna-PKF19_mgt10;Dbxref=GeneID:77608688;gbkey=tRNA;locus_tag=PKF19_mgt10;product=tRNA-Asn
+NC_069653.1	RefSeq	gene	5298	5365	.	-	.	ID=gene-PKF19_mgt11;Dbxref=GeneID:77608689;Name=PKF19_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt11
+NC_069653.1	RefSeq	tRNA	5298	5365	.	-	.	ID=rna-PKF19_mgt11;Parent=gene-PKF19_mgt11;Dbxref=GeneID:77608689;gbkey=tRNA;locus_tag=PKF19_mgt11;product=tRNA-Tyr
+NC_069653.1	RefSeq	exon	5298	5365	.	-	.	ID=exon-PKF19_mgt11-1;Parent=rna-PKF19_mgt11;Dbxref=GeneID:77608689;gbkey=tRNA;locus_tag=PKF19_mgt11;product=tRNA-Tyr
+NC_069653.1	RefSeq	gene	5367	6914	.	+	.	ID=gene-PKF19_mgp11;Dbxref=GeneID:77608690;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=PKF19_mgp11
+NC_069653.1	RefSeq	CDS	5367	6914	.	+	0	ID=cds-YP_010597249.1;Parent=gene-PKF19_mgp11;Dbxref=GenBank:YP_010597249.1,GeneID:77608690;Name=YP_010597249.1;gbkey=CDS;gene=COX1;locus_tag=PKF19_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010597249.1;transl_table=2
+NC_069653.1	RefSeq	gene	6912	6980	.	-	.	ID=gene-PKF19_mgt12;Dbxref=GeneID:77608666;Name=PKF19_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt12
+NC_069653.1	RefSeq	tRNA	6912	6980	.	-	.	ID=rna-PKF19_mgt12;Parent=gene-PKF19_mgt12;Dbxref=GeneID:77608666;codons=UCN;gbkey=tRNA;locus_tag=PKF19_mgt12;product=tRNA-Ser
+NC_069653.1	RefSeq	exon	6912	6980	.	-	.	ID=exon-PKF19_mgt12-1;Parent=rna-PKF19_mgt12;Dbxref=GeneID:77608666;codons=UCN;gbkey=tRNA;locus_tag=PKF19_mgt12;product=tRNA-Ser
+NC_069653.1	RefSeq	gene	6983	7052	.	+	.	ID=gene-PKF19_mgt13;Dbxref=GeneID:77608691;Name=PKF19_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt13
+NC_069653.1	RefSeq	tRNA	6983	7052	.	+	.	ID=rna-PKF19_mgt13;Parent=gene-PKF19_mgt13;Dbxref=GeneID:77608691;gbkey=tRNA;locus_tag=PKF19_mgt13;product=tRNA-Asp
+NC_069653.1	RefSeq	exon	6983	7052	.	+	.	ID=exon-PKF19_mgt13-1;Parent=rna-PKF19_mgt13;Dbxref=GeneID:77608691;gbkey=tRNA;locus_tag=PKF19_mgt13;product=tRNA-Asp
+NC_069653.1	RefSeq	gene	7054	7735	.	+	.	ID=gene-PKF19_mgp10;Dbxref=GeneID:77608692;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=PKF19_mgp10
+NC_069653.1	RefSeq	CDS	7054	7735	.	+	0	ID=cds-YP_010597250.1;Parent=gene-PKF19_mgp10;Dbxref=GenBank:YP_010597250.1,GeneID:77608692;Name=YP_010597250.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=PKF19_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010597250.1;transl_except=(pos:7735%2Caa:TERM);transl_table=2
+NC_069653.1	RefSeq	gene	7736	7796	.	+	.	ID=gene-PKF19_mgt14;Dbxref=GeneID:77608667;Name=PKF19_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt14
+NC_069653.1	RefSeq	tRNA	7736	7796	.	+	.	ID=rna-PKF19_mgt14;Parent=gene-PKF19_mgt14;Dbxref=GeneID:77608667;gbkey=tRNA;locus_tag=PKF19_mgt14;product=tRNA-Lys
+NC_069653.1	RefSeq	exon	7736	7796	.	+	.	ID=exon-PKF19_mgt14-1;Parent=rna-PKF19_mgt14;Dbxref=GeneID:77608667;gbkey=tRNA;locus_tag=PKF19_mgt14;product=tRNA-Lys
+NC_069653.1	RefSeq	gene	7797	8006	.	+	.	ID=gene-PKF19_mgp09;Dbxref=GeneID:77608693;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=PKF19_mgp09
+NC_069653.1	RefSeq	CDS	7797	8006	.	+	0	ID=cds-YP_010597251.1;Parent=gene-PKF19_mgp09;Dbxref=GenBank:YP_010597251.1,GeneID:77608693;Name=YP_010597251.1;gbkey=CDS;gene=ATP8;locus_tag=PKF19_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010597251.1;transl_table=2
+NC_069653.1	RefSeq	gene	7961	8641	.	+	.	ID=gene-PKF19_mgp08;Dbxref=GeneID:77608668;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=PKF19_mgp08
+NC_069653.1	RefSeq	CDS	7961	8641	.	+	0	ID=cds-YP_010597252.1;Parent=gene-PKF19_mgp08;Dbxref=GenBank:YP_010597252.1,GeneID:77608668;Name=YP_010597252.1;gbkey=CDS;gene=ATP6;locus_tag=PKF19_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010597252.1;transl_table=2
+NC_069653.1	RefSeq	gene	8641	9424	.	+	.	ID=gene-PKF19_mgp07;Dbxref=GeneID:77608669;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=PKF19_mgp07
+NC_069653.1	RefSeq	CDS	8641	9424	.	+	0	ID=cds-YP_010597253.1;Parent=gene-PKF19_mgp07;Dbxref=GenBank:YP_010597253.1,GeneID:77608669;Name=YP_010597253.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=PKF19_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010597253.1;transl_except=(pos:9424%2Caa:TERM);transl_table=2
+NC_069653.1	RefSeq	gene	9425	9492	.	+	.	ID=gene-PKF19_mgt15;Dbxref=GeneID:77608670;Name=PKF19_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt15
+NC_069653.1	RefSeq	tRNA	9425	9492	.	+	.	ID=rna-PKF19_mgt15;Parent=gene-PKF19_mgt15;Dbxref=GeneID:77608670;gbkey=tRNA;locus_tag=PKF19_mgt15;product=tRNA-Gly
+NC_069653.1	RefSeq	exon	9425	9492	.	+	.	ID=exon-PKF19_mgt15-1;Parent=rna-PKF19_mgt15;Dbxref=GeneID:77608670;gbkey=tRNA;locus_tag=PKF19_mgt15;product=tRNA-Gly
+NC_069653.1	RefSeq	gene	9493	9838	.	+	.	ID=gene-PKF19_mgp06;Dbxref=GeneID:77608694;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=PKF19_mgp06
+NC_069653.1	RefSeq	CDS	9493	9838	.	+	0	ID=cds-YP_010597254.1;Parent=gene-PKF19_mgp06;Dbxref=GenBank:YP_010597254.1,GeneID:77608694;Name=YP_010597254.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=PKF19_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010597254.1;transl_except=(pos:9838%2Caa:TERM);transl_table=2
+NC_069653.1	RefSeq	gene	9839	9907	.	+	.	ID=gene-PKF19_mgt16;Dbxref=GeneID:77608671;Name=PKF19_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt16
+NC_069653.1	RefSeq	tRNA	9839	9907	.	+	.	ID=rna-PKF19_mgt16;Parent=gene-PKF19_mgt16;Dbxref=GeneID:77608671;gbkey=tRNA;locus_tag=PKF19_mgt16;product=tRNA-Arg
+NC_069653.1	RefSeq	exon	9839	9907	.	+	.	ID=exon-PKF19_mgt16-1;Parent=rna-PKF19_mgt16;Dbxref=GeneID:77608671;gbkey=tRNA;locus_tag=PKF19_mgt16;product=tRNA-Arg
+NC_069653.1	RefSeq	gene	9908	10204	.	+	.	ID=gene-PKF19_mgp05;Dbxref=GeneID:77608695;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=PKF19_mgp05
+NC_069653.1	RefSeq	CDS	9908	10204	.	+	0	ID=cds-YP_010597255.1;Parent=gene-PKF19_mgp05;Dbxref=GenBank:YP_010597255.1,GeneID:77608695;Name=YP_010597255.1;gbkey=CDS;gene=ND4L;locus_tag=PKF19_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010597255.1;transl_table=2
+NC_069653.1	RefSeq	gene	10198	11575	.	+	.	ID=gene-PKF19_mgp04;Dbxref=GeneID:77608672;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=PKF19_mgp04
+NC_069653.1	RefSeq	CDS	10198	11575	.	+	0	ID=cds-YP_010597256.1;Parent=gene-PKF19_mgp04;Dbxref=GenBank:YP_010597256.1,GeneID:77608672;Name=YP_010597256.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=PKF19_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010597256.1;transl_except=(pos:11575%2Caa:TERM);transl_table=2
+NC_069653.1	RefSeq	gene	11576	11644	.	+	.	ID=gene-PKF19_mgt17;Dbxref=GeneID:77608673;Name=PKF19_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt17
+NC_069653.1	RefSeq	tRNA	11576	11644	.	+	.	ID=rna-PKF19_mgt17;Parent=gene-PKF19_mgt17;Dbxref=GeneID:77608673;gbkey=tRNA;locus_tag=PKF19_mgt17;product=tRNA-His
+NC_069653.1	RefSeq	exon	11576	11644	.	+	.	ID=exon-PKF19_mgt17-1;Parent=rna-PKF19_mgt17;Dbxref=GeneID:77608673;gbkey=tRNA;locus_tag=PKF19_mgt17;product=tRNA-His
+NC_069653.1	RefSeq	gene	11645	11703	.	+	.	ID=gene-PKF19_mgt18;Dbxref=GeneID:77608696;Name=PKF19_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt18
+NC_069653.1	RefSeq	tRNA	11645	11703	.	+	.	ID=rna-PKF19_mgt18;Parent=gene-PKF19_mgt18;Dbxref=GeneID:77608696;codons=AGY;gbkey=tRNA;locus_tag=PKF19_mgt18;product=tRNA-Ser
+NC_069653.1	RefSeq	exon	11645	11703	.	+	.	ID=exon-PKF19_mgt18-1;Parent=rna-PKF19_mgt18;Dbxref=GeneID:77608696;codons=AGY;gbkey=tRNA;locus_tag=PKF19_mgt18;product=tRNA-Ser
+NC_069653.1	RefSeq	gene	11703	11773	.	+	.	ID=gene-PKF19_mgt19;Dbxref=GeneID:77608697;Name=PKF19_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt19
+NC_069653.1	RefSeq	tRNA	11703	11773	.	+	.	ID=rna-PKF19_mgt19;Parent=gene-PKF19_mgt19;Dbxref=GeneID:77608697;codons=CUN;gbkey=tRNA;locus_tag=PKF19_mgt19;product=tRNA-Leu
+NC_069653.1	RefSeq	exon	11703	11773	.	+	.	ID=exon-PKF19_mgt19-1;Parent=rna-PKF19_mgt19;Dbxref=GeneID:77608697;codons=CUN;gbkey=tRNA;locus_tag=PKF19_mgt19;product=tRNA-Leu
+NC_069653.1	RefSeq	gene	11774	13582	.	+	.	ID=gene-PKF19_mgp03;Dbxref=GeneID:77608698;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=PKF19_mgp03
+NC_069653.1	RefSeq	CDS	11774	13582	.	+	0	ID=cds-YP_010597257.1;Parent=gene-PKF19_mgp03;Dbxref=GenBank:YP_010597257.1,GeneID:77608698;Name=YP_010597257.1;gbkey=CDS;gene=ND5;locus_tag=PKF19_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010597257.1;transl_table=2
+NC_069653.1	RefSeq	gene	13579	14082	.	-	.	ID=gene-PKF19_mgp02;Dbxref=GeneID:77608674;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=PKF19_mgp02
+NC_069653.1	RefSeq	CDS	13579	14082	.	-	0	ID=cds-YP_010597258.1;Parent=gene-PKF19_mgp02;Dbxref=GenBank:YP_010597258.1,GeneID:77608674;Name=YP_010597258.1;gbkey=CDS;gene=ND6;locus_tag=PKF19_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010597258.1;transl_table=2
+NC_069653.1	RefSeq	gene	14083	14151	.	-	.	ID=gene-PKF19_mgt20;Dbxref=GeneID:77608675;Name=PKF19_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt20
+NC_069653.1	RefSeq	tRNA	14083	14151	.	-	.	ID=rna-PKF19_mgt20;Parent=gene-PKF19_mgt20;Dbxref=GeneID:77608675;gbkey=tRNA;locus_tag=PKF19_mgt20;product=tRNA-Glu
+NC_069653.1	RefSeq	exon	14083	14151	.	-	.	ID=exon-PKF19_mgt20-1;Parent=rna-PKF19_mgt20;Dbxref=GeneID:77608675;gbkey=tRNA;locus_tag=PKF19_mgt20;product=tRNA-Glu
+NC_069653.1	RefSeq	gene	14154	15299	.	+	.	ID=gene-PKF19_mgp01;Dbxref=GeneID:77608699;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=PKF19_mgp01
+NC_069653.1	RefSeq	CDS	14154	15299	.	+	0	ID=cds-YP_010597259.1;Parent=gene-PKF19_mgp01;Dbxref=GenBank:YP_010597259.1,GeneID:77608699;Name=YP_010597259.1;gbkey=CDS;gene=CYTB;locus_tag=PKF19_mgp01;product=cytochrome b;protein_id=YP_010597259.1;transl_table=2
+NC_069653.1	RefSeq	gene	15300	15367	.	+	.	ID=gene-PKF19_mgt21;Dbxref=GeneID:77608676;Name=PKF19_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt21
+NC_069653.1	RefSeq	tRNA	15300	15367	.	+	.	ID=rna-PKF19_mgt21;Parent=gene-PKF19_mgt21;Dbxref=GeneID:77608676;gbkey=tRNA;locus_tag=PKF19_mgt21;product=tRNA-Thr
+NC_069653.1	RefSeq	exon	15300	15367	.	+	.	ID=exon-PKF19_mgt21-1;Parent=rna-PKF19_mgt21;Dbxref=GeneID:77608676;gbkey=tRNA;locus_tag=PKF19_mgt21;product=tRNA-Thr
+NC_069653.1	RefSeq	gene	15370	15437	.	-	.	ID=gene-PKF19_mgt22;Dbxref=GeneID:77608700;Name=PKF19_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=PKF19_mgt22
+NC_069653.1	RefSeq	tRNA	15370	15437	.	-	.	ID=rna-PKF19_mgt22;Parent=gene-PKF19_mgt22;Dbxref=GeneID:77608700;gbkey=tRNA;locus_tag=PKF19_mgt22;product=tRNA-Pro
+NC_069653.1	RefSeq	exon	15370	15437	.	-	.	ID=exon-PKF19_mgt22-1;Parent=rna-PKF19_mgt22;Dbxref=GeneID:77608700;gbkey=tRNA;locus_tag=PKF19_mgt22;product=tRNA-Pro
+NC_069653.1	RefSeq	D_loop	15439	16383	.	+	.	ID=id-NC_069653.1:15439..16383;Note=control region;gbkey=D-loop
+

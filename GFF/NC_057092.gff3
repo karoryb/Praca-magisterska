@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_057092.1 1 16597
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=633651
+NC_057092.1	RefSeq	region	1	16597	.	+	.	ID=NC_057092.1:1..16597;Dbxref=taxon:633651;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_057092.1	RefSeq	sequence_feature	1	1036	.	+	.	ID=id-NC_057092.1:1..1036;Note=putative control region;gbkey=misc_feature
+NC_057092.1	RefSeq	gene	1037	1104	.	+	.	ID=gene-K4Z99_mgt01;Dbxref=GeneID:67146650;Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA;locus_tag=K4Z99_mgt01
+NC_057092.1	RefSeq	tRNA	1037	1104	.	+	.	ID=rna-K4Z99_mgt01;Parent=gene-K4Z99_mgt01;Dbxref=GeneID:67146650;gbkey=tRNA;gene=trnF(gaa);locus_tag=K4Z99_mgt01;product=tRNA-Phe
+NC_057092.1	RefSeq	exon	1037	1104	.	+	.	ID=exon-K4Z99_mgt01-1;Parent=rna-K4Z99_mgt01;Dbxref=GeneID:67146650;gbkey=tRNA;gene=trnF(gaa);locus_tag=K4Z99_mgt01;product=tRNA-Phe
+NC_057092.1	RefSeq	gene	1105	2068	.	+	.	ID=gene-K4Z99_mgr02;Dbxref=GeneID:67146629;Name=K4Z99_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=K4Z99_mgr02
+NC_057092.1	RefSeq	rRNA	1105	2068	.	+	.	ID=rna-K4Z99_mgr02;Parent=gene-K4Z99_mgr02;Dbxref=GeneID:67146629;gbkey=rRNA;locus_tag=K4Z99_mgr02;product=12S ribosomal RNA
+NC_057092.1	RefSeq	exon	1105	2068	.	+	.	ID=exon-K4Z99_mgr02-1;Parent=rna-K4Z99_mgr02;Dbxref=GeneID:67146629;gbkey=rRNA;locus_tag=K4Z99_mgr02;product=12S ribosomal RNA
+NC_057092.1	RefSeq	gene	2070	2137	.	+	.	ID=gene-K4Z99_mgt02;Dbxref=GeneID:67146651;Name=trnV(uac);gbkey=Gene;gene=trnV(uac);gene_biotype=tRNA;locus_tag=K4Z99_mgt02
+NC_057092.1	RefSeq	tRNA	2070	2137	.	+	.	ID=rna-K4Z99_mgt02;Parent=gene-K4Z99_mgt02;Dbxref=GeneID:67146651;gbkey=tRNA;gene=trnV(uac);locus_tag=K4Z99_mgt02;product=tRNA-Val
+NC_057092.1	RefSeq	exon	2070	2137	.	+	.	ID=exon-K4Z99_mgt02-1;Parent=rna-K4Z99_mgt02;Dbxref=GeneID:67146651;gbkey=tRNA;gene=trnV(uac);locus_tag=K4Z99_mgt02;product=tRNA-Val
+NC_057092.1	RefSeq	gene	2137	3707	.	+	.	ID=gene-K4Z99_mgr01;Dbxref=GeneID:67146630;Name=K4Z99_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=K4Z99_mgr01
+NC_057092.1	RefSeq	rRNA	2137	3707	.	+	.	ID=rna-K4Z99_mgr01;Parent=gene-K4Z99_mgr01;Dbxref=GeneID:67146630;gbkey=rRNA;locus_tag=K4Z99_mgr01;product=16S ribosomal RNA
+NC_057092.1	RefSeq	exon	2137	3707	.	+	.	ID=exon-K4Z99_mgr01-1;Parent=rna-K4Z99_mgr01;Dbxref=GeneID:67146630;gbkey=rRNA;locus_tag=K4Z99_mgr01;product=16S ribosomal RNA
+NC_057092.1	RefSeq	gene	3709	3783	.	+	.	ID=gene-K4Z99_mgt03;Dbxref=GeneID:67146652;Name=trnL(uaa);gbkey=Gene;gene=trnL(uaa);gene_biotype=tRNA;locus_tag=K4Z99_mgt03
+NC_057092.1	RefSeq	tRNA	3709	3783	.	+	.	ID=rna-K4Z99_mgt03;Parent=gene-K4Z99_mgt03;Dbxref=GeneID:67146652;gbkey=tRNA;gene=trnL(uaa);locus_tag=K4Z99_mgt03;product=tRNA-Leu
+NC_057092.1	RefSeq	exon	3709	3783	.	+	.	ID=exon-K4Z99_mgt03-1;Parent=rna-K4Z99_mgt03;Dbxref=GeneID:67146652;gbkey=tRNA;gene=trnL(uaa);locus_tag=K4Z99_mgt03;product=tRNA-Leu
+NC_057092.1	RefSeq	gene	3789	4744	.	+	.	ID=gene-K4Z99_mgp13;Dbxref=GeneID:67146631;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=K4Z99_mgp13
+NC_057092.1	RefSeq	CDS	3789	4744	.	+	0	ID=cds-YP_010148062.1;Parent=gene-K4Z99_mgp13;Dbxref=GenBank:YP_010148062.1,GeneID:67146631;Name=YP_010148062.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=K4Z99_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010148062.1;transl_except=(pos:4743..4744%2Caa:TERM);transl_table=2
+NC_057092.1	RefSeq	gene	4745	4813	.	+	.	ID=gene-K4Z99_mgt04;Dbxref=GeneID:67146616;Name=trnI(gau);gbkey=Gene;gene=trnI(gau);gene_biotype=tRNA;locus_tag=K4Z99_mgt04
+NC_057092.1	RefSeq	tRNA	4745	4813	.	+	.	ID=rna-K4Z99_mgt04;Parent=gene-K4Z99_mgt04;Dbxref=GeneID:67146616;gbkey=tRNA;gene=trnI(gau);locus_tag=K4Z99_mgt04;product=tRNA-Ile
+NC_057092.1	RefSeq	exon	4745	4813	.	+	.	ID=exon-K4Z99_mgt04-1;Parent=rna-K4Z99_mgt04;Dbxref=GeneID:67146616;gbkey=tRNA;gene=trnI(gau);locus_tag=K4Z99_mgt04;product=tRNA-Ile
+NC_057092.1	RefSeq	gene	4811	4884	.	-	.	ID=gene-K4Z99_mgt05;Dbxref=GeneID:67146632;Name=trnQ(uug);gbkey=Gene;gene=trnQ(uug);gene_biotype=tRNA;locus_tag=K4Z99_mgt05
+NC_057092.1	RefSeq	tRNA	4811	4884	.	-	.	ID=rna-K4Z99_mgt05;Parent=gene-K4Z99_mgt05;Dbxref=GeneID:67146632;gbkey=tRNA;gene=trnQ(uug);locus_tag=K4Z99_mgt05;product=tRNA-Gln
+NC_057092.1	RefSeq	exon	4811	4884	.	-	.	ID=exon-K4Z99_mgt05-1;Parent=rna-K4Z99_mgt05;Dbxref=GeneID:67146632;gbkey=tRNA;gene=trnQ(uug);locus_tag=K4Z99_mgt05;product=tRNA-Gln
+NC_057092.1	RefSeq	gene	4885	4953	.	+	.	ID=gene-K4Z99_mgt06;Dbxref=GeneID:67146633;Name=trnM(cau);gbkey=Gene;gene=trnM(cau);gene_biotype=tRNA;locus_tag=K4Z99_mgt06
+NC_057092.1	RefSeq	tRNA	4885	4953	.	+	.	ID=rna-K4Z99_mgt06;Parent=gene-K4Z99_mgt06;Dbxref=GeneID:67146633;gbkey=tRNA;gene=trnM(cau);locus_tag=K4Z99_mgt06;product=tRNA-Met
+NC_057092.1	RefSeq	exon	4885	4953	.	+	.	ID=exon-K4Z99_mgt06-1;Parent=rna-K4Z99_mgt06;Dbxref=GeneID:67146633;gbkey=tRNA;gene=trnM(cau);locus_tag=K4Z99_mgt06;product=tRNA-Met
+NC_057092.1	RefSeq	gene	4954	5995	.	+	.	ID=gene-K4Z99_mgp12;Dbxref=GeneID:67146634;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=K4Z99_mgp12
+NC_057092.1	RefSeq	CDS	4954	5995	.	+	0	ID=cds-YP_010148063.1;Parent=gene-K4Z99_mgp12;Dbxref=GenBank:YP_010148063.1,GeneID:67146634;Name=YP_010148063.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=K4Z99_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010148063.1;transl_except=(pos:5995%2Caa:TERM);transl_table=2
+NC_057092.1	RefSeq	gene	5996	6062	.	+	.	ID=gene-K4Z99_mgt07;Dbxref=GeneID:67146617;Name=trnW(uca);gbkey=Gene;gene=trnW(uca);gene_biotype=tRNA;locus_tag=K4Z99_mgt07
+NC_057092.1	RefSeq	tRNA	5996	6062	.	+	.	ID=rna-K4Z99_mgt07;Parent=gene-K4Z99_mgt07;Dbxref=GeneID:67146617;gbkey=tRNA;gene=trnW(uca);locus_tag=K4Z99_mgt07;product=tRNA-Trp
+NC_057092.1	RefSeq	exon	5996	6062	.	+	.	ID=exon-K4Z99_mgt07-1;Parent=rna-K4Z99_mgt07;Dbxref=GeneID:67146617;gbkey=tRNA;gene=trnW(uca);locus_tag=K4Z99_mgt07;product=tRNA-Trp
+NC_057092.1	RefSeq	gene	6068	6136	.	-	.	ID=gene-K4Z99_mgt08;Dbxref=GeneID:67146635;Name=trnA(ugc);gbkey=Gene;gene=trnA(ugc);gene_biotype=tRNA;locus_tag=K4Z99_mgt08
+NC_057092.1	RefSeq	tRNA	6068	6136	.	-	.	ID=rna-K4Z99_mgt08;Parent=gene-K4Z99_mgt08;Dbxref=GeneID:67146635;gbkey=tRNA;gene=trnA(ugc);locus_tag=K4Z99_mgt08;product=tRNA-Ala
+NC_057092.1	RefSeq	exon	6068	6136	.	-	.	ID=exon-K4Z99_mgt08-1;Parent=rna-K4Z99_mgt08;Dbxref=GeneID:67146635;gbkey=tRNA;gene=trnA(ugc);locus_tag=K4Z99_mgt08;product=tRNA-Ala
+NC_057092.1	RefSeq	gene	6137	6209	.	-	.	ID=gene-K4Z99_mgt09;Dbxref=GeneID:67146636;Name=trnN(guu);gbkey=Gene;gene=trnN(guu);gene_biotype=tRNA;locus_tag=K4Z99_mgt09
+NC_057092.1	RefSeq	tRNA	6137	6209	.	-	.	ID=rna-K4Z99_mgt09;Parent=gene-K4Z99_mgt09;Dbxref=GeneID:67146636;gbkey=tRNA;gene=trnN(guu);locus_tag=K4Z99_mgt09;product=tRNA-Asn
+NC_057092.1	RefSeq	exon	6137	6209	.	-	.	ID=exon-K4Z99_mgt09-1;Parent=rna-K4Z99_mgt09;Dbxref=GeneID:67146636;gbkey=tRNA;gene=trnN(guu);locus_tag=K4Z99_mgt09;product=tRNA-Asn
+NC_057092.1	RefSeq	gene	6242	6307	.	-	.	ID=gene-K4Z99_mgt10;Dbxref=GeneID:67146637;Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA;locus_tag=K4Z99_mgt10
+NC_057092.1	RefSeq	tRNA	6242	6307	.	-	.	ID=rna-K4Z99_mgt10;Parent=gene-K4Z99_mgt10;Dbxref=GeneID:67146637;gbkey=tRNA;gene=trnC(gca);locus_tag=K4Z99_mgt10;product=tRNA-Cys
+NC_057092.1	RefSeq	exon	6242	6307	.	-	.	ID=exon-K4Z99_mgt10-1;Parent=rna-K4Z99_mgt10;Dbxref=GeneID:67146637;gbkey=tRNA;gene=trnC(gca);locus_tag=K4Z99_mgt10;product=tRNA-Cys
+NC_057092.1	RefSeq	gene	6308	6374	.	-	.	ID=gene-K4Z99_mgt11;Dbxref=GeneID:67146638;Name=trnY(gua);gbkey=Gene;gene=trnY(gua);gene_biotype=tRNA;locus_tag=K4Z99_mgt11
+NC_057092.1	RefSeq	tRNA	6308	6374	.	-	.	ID=rna-K4Z99_mgt11;Parent=gene-K4Z99_mgt11;Dbxref=GeneID:67146638;gbkey=tRNA;gene=trnY(gua);locus_tag=K4Z99_mgt11;product=tRNA-Tyr
+NC_057092.1	RefSeq	exon	6308	6374	.	-	.	ID=exon-K4Z99_mgt11-1;Parent=rna-K4Z99_mgt11;Dbxref=GeneID:67146638;gbkey=tRNA;gene=trnY(gua);locus_tag=K4Z99_mgt11;product=tRNA-Tyr
+NC_057092.1	RefSeq	gene	6376	7920	.	+	.	ID=gene-K4Z99_mgp11;Dbxref=GeneID:67146639;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=K4Z99_mgp11
+NC_057092.1	RefSeq	CDS	6376	7920	.	+	0	ID=cds-YP_010148064.1;Parent=gene-K4Z99_mgp11;Dbxref=GenBank:YP_010148064.1,GeneID:67146639;Name=YP_010148064.1;gbkey=CDS;gene=COX1;locus_tag=K4Z99_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010148064.1;transl_table=2
+NC_057092.1	RefSeq	gene	7934	8002	.	-	.	ID=gene-K4Z99_mgt12;Dbxref=GeneID:67146618;Name=trnS(uga);gbkey=Gene;gene=trnS(uga);gene_biotype=tRNA;locus_tag=K4Z99_mgt12
+NC_057092.1	RefSeq	tRNA	7934	8002	.	-	.	ID=rna-K4Z99_mgt12;Parent=gene-K4Z99_mgt12;Dbxref=GeneID:67146618;gbkey=tRNA;gene=trnS(uga);locus_tag=K4Z99_mgt12;product=tRNA-Ser
+NC_057092.1	RefSeq	exon	7934	8002	.	-	.	ID=exon-K4Z99_mgt12-1;Parent=rna-K4Z99_mgt12;Dbxref=GeneID:67146618;gbkey=tRNA;gene=trnS(uga);locus_tag=K4Z99_mgt12;product=tRNA-Ser
+NC_057092.1	RefSeq	gene	8010	8076	.	+	.	ID=gene-K4Z99_mgt13;Dbxref=GeneID:67146640;Name=trnD(guc);gbkey=Gene;gene=trnD(guc);gene_biotype=tRNA;locus_tag=K4Z99_mgt13
+NC_057092.1	RefSeq	tRNA	8010	8076	.	+	.	ID=rna-K4Z99_mgt13;Parent=gene-K4Z99_mgt13;Dbxref=GeneID:67146640;gbkey=tRNA;gene=trnD(guc);locus_tag=K4Z99_mgt13;product=tRNA-Asp
+NC_057092.1	RefSeq	exon	8010	8076	.	+	.	ID=exon-K4Z99_mgt13-1;Parent=rna-K4Z99_mgt13;Dbxref=GeneID:67146640;gbkey=tRNA;gene=trnD(guc);locus_tag=K4Z99_mgt13;product=tRNA-Asp
+NC_057092.1	RefSeq	gene	8077	8760	.	+	.	ID=gene-K4Z99_mgp10;Dbxref=GeneID:67146641;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=K4Z99_mgp10
+NC_057092.1	RefSeq	CDS	8077	8760	.	+	0	ID=cds-YP_010148065.1;Parent=gene-K4Z99_mgp10;Dbxref=GenBank:YP_010148065.1,GeneID:67146641;Name=YP_010148065.1;gbkey=CDS;gene=COX2;locus_tag=K4Z99_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010148065.1;transl_table=2
+NC_057092.1	RefSeq	gene	8764	8830	.	+	.	ID=gene-K4Z99_mgt14;Dbxref=GeneID:67146619;Name=trnK(uuu);gbkey=Gene;gene=trnK(uuu);gene_biotype=tRNA;locus_tag=K4Z99_mgt14
+NC_057092.1	RefSeq	tRNA	8764	8830	.	+	.	ID=rna-K4Z99_mgt14;Parent=gene-K4Z99_mgt14;Dbxref=GeneID:67146619;gbkey=tRNA;gene=trnK(uuu);locus_tag=K4Z99_mgt14;product=tRNA-Lys
+NC_057092.1	RefSeq	exon	8764	8830	.	+	.	ID=exon-K4Z99_mgt14-1;Parent=rna-K4Z99_mgt14;Dbxref=GeneID:67146619;gbkey=tRNA;gene=trnK(uuu);locus_tag=K4Z99_mgt14;product=tRNA-Lys
+NC_057092.1	RefSeq	gene	8832	9035	.	+	.	ID=gene-K4Z99_mgp09;Dbxref=GeneID:67146642;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=K4Z99_mgp09
+NC_057092.1	RefSeq	CDS	8832	9035	.	+	0	ID=cds-YP_010148066.1;Parent=gene-K4Z99_mgp09;Dbxref=GenBank:YP_010148066.1,GeneID:67146642;Name=YP_010148066.1;gbkey=CDS;gene=ATP8;locus_tag=K4Z99_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010148066.1;transl_table=2
+NC_057092.1	RefSeq	gene	8993	9673	.	+	.	ID=gene-K4Z99_mgp08;Dbxref=GeneID:67146620;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=K4Z99_mgp08
+NC_057092.1	RefSeq	CDS	8993	9673	.	+	0	ID=cds-YP_010148067.1;Parent=gene-K4Z99_mgp08;Dbxref=GenBank:YP_010148067.1,GeneID:67146620;Name=YP_010148067.1;gbkey=CDS;gene=ATP6;locus_tag=K4Z99_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010148067.1;transl_table=2
+NC_057092.1	RefSeq	gene	9673	10456	.	+	.	ID=gene-K4Z99_mgp07;Dbxref=GeneID:67146621;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=K4Z99_mgp07
+NC_057092.1	RefSeq	CDS	9673	10456	.	+	0	ID=cds-YP_010148068.1;Parent=gene-K4Z99_mgp07;Dbxref=GenBank:YP_010148068.1,GeneID:67146621;Name=YP_010148068.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=K4Z99_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010148068.1;transl_except=(pos:10456%2Caa:TERM);transl_table=2
+NC_057092.1	RefSeq	gene	10457	10525	.	+	.	ID=gene-K4Z99_mgt15;Dbxref=GeneID:67146622;Name=trnG(ucc);gbkey=Gene;gene=trnG(ucc);gene_biotype=tRNA;locus_tag=K4Z99_mgt15
+NC_057092.1	RefSeq	tRNA	10457	10525	.	+	.	ID=rna-K4Z99_mgt15;Parent=gene-K4Z99_mgt15;Dbxref=GeneID:67146622;gbkey=tRNA;gene=trnG(ucc);locus_tag=K4Z99_mgt15;product=tRNA-Gly
+NC_057092.1	RefSeq	exon	10457	10525	.	+	.	ID=exon-K4Z99_mgt15-1;Parent=rna-K4Z99_mgt15;Dbxref=GeneID:67146622;gbkey=tRNA;gene=trnG(ucc);locus_tag=K4Z99_mgt15;product=tRNA-Gly
+NC_057092.1	RefSeq	gene	10526	10872	.	+	.	ID=gene-K4Z99_mgp06;Dbxref=GeneID:67146643;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=K4Z99_mgp06
+NC_057092.1	RefSeq	CDS	10526	10872	.	+	0	ID=cds-YP_010148069.1;Parent=gene-K4Z99_mgp06;Dbxref=GenBank:YP_010148069.1,GeneID:67146643;Name=YP_010148069.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=K4Z99_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010148069.1;transl_except=(pos:10871..10872%2Caa:TERM);transl_table=2
+NC_057092.1	RefSeq	gene	10873	10941	.	+	.	ID=gene-K4Z99_mgt16;Dbxref=GeneID:67146623;Name=trnR(ucg);gbkey=Gene;gene=trnR(ucg);gene_biotype=tRNA;locus_tag=K4Z99_mgt16
+NC_057092.1	RefSeq	tRNA	10873	10941	.	+	.	ID=rna-K4Z99_mgt16;Parent=gene-K4Z99_mgt16;Dbxref=GeneID:67146623;gbkey=tRNA;gene=trnR(ucg);locus_tag=K4Z99_mgt16;product=tRNA-Arg
+NC_057092.1	RefSeq	exon	10873	10941	.	+	.	ID=exon-K4Z99_mgt16-1;Parent=rna-K4Z99_mgt16;Dbxref=GeneID:67146623;gbkey=tRNA;gene=trnR(ucg);locus_tag=K4Z99_mgt16;product=tRNA-Arg
+NC_057092.1	RefSeq	gene	10943	11239	.	+	.	ID=gene-K4Z99_mgp05;Dbxref=GeneID:67146644;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=K4Z99_mgp05
+NC_057092.1	RefSeq	CDS	10943	11239	.	+	0	ID=cds-YP_010148070.1;Parent=gene-K4Z99_mgp05;Dbxref=GenBank:YP_010148070.1,GeneID:67146644;Name=YP_010148070.1;gbkey=CDS;gene=ND4L;locus_tag=K4Z99_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010148070.1;transl_table=2
+NC_057092.1	RefSeq	gene	11233	12610	.	+	.	ID=gene-K4Z99_mgp04;Dbxref=GeneID:67146624;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=K4Z99_mgp04
+NC_057092.1	RefSeq	CDS	11233	12610	.	+	0	ID=cds-YP_010148071.1;Parent=gene-K4Z99_mgp04;Dbxref=GenBank:YP_010148071.1,GeneID:67146624;Name=YP_010148071.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=K4Z99_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010148071.1;transl_except=(pos:12610%2Caa:TERM);transl_table=2
+NC_057092.1	RefSeq	gene	12611	12679	.	+	.	ID=gene-K4Z99_mgt17;Dbxref=GeneID:67146625;Name=trnH(gug);gbkey=Gene;gene=trnH(gug);gene_biotype=tRNA;locus_tag=K4Z99_mgt17
+NC_057092.1	RefSeq	tRNA	12611	12679	.	+	.	ID=rna-K4Z99_mgt17;Parent=gene-K4Z99_mgt17;Dbxref=GeneID:67146625;gbkey=tRNA;gene=trnH(gug);locus_tag=K4Z99_mgt17;product=tRNA-His
+NC_057092.1	RefSeq	exon	12611	12679	.	+	.	ID=exon-K4Z99_mgt17-1;Parent=rna-K4Z99_mgt17;Dbxref=GeneID:67146625;gbkey=tRNA;gene=trnH(gug);locus_tag=K4Z99_mgt17;product=tRNA-His
+NC_057092.1	RefSeq	gene	12680	12738	.	+	.	ID=gene-K4Z99_mgt18;Dbxref=GeneID:67146645;Name=trnS(gcu);gbkey=Gene;gene=trnS(gcu);gene_biotype=tRNA;locus_tag=K4Z99_mgt18
+NC_057092.1	RefSeq	tRNA	12680	12738	.	+	.	ID=rna-K4Z99_mgt18;Parent=gene-K4Z99_mgt18;Dbxref=GeneID:67146645;gbkey=tRNA;gene=trnS(gcu);locus_tag=K4Z99_mgt18;product=tRNA-Ser
+NC_057092.1	RefSeq	exon	12680	12738	.	+	.	ID=exon-K4Z99_mgt18-1;Parent=rna-K4Z99_mgt18;Dbxref=GeneID:67146645;gbkey=tRNA;gene=trnS(gcu);locus_tag=K4Z99_mgt18;product=tRNA-Ser
+NC_057092.1	RefSeq	gene	12739	12808	.	+	.	ID=gene-K4Z99_mgt19;Dbxref=GeneID:67146646;Name=trnL(uag);gbkey=Gene;gene=trnL(uag);gene_biotype=tRNA;locus_tag=K4Z99_mgt19
+NC_057092.1	RefSeq	tRNA	12739	12808	.	+	.	ID=rna-K4Z99_mgt19;Parent=gene-K4Z99_mgt19;Dbxref=GeneID:67146646;gbkey=tRNA;gene=trnL(uag);locus_tag=K4Z99_mgt19;product=tRNA-Leu
+NC_057092.1	RefSeq	exon	12739	12808	.	+	.	ID=exon-K4Z99_mgt19-1;Parent=rna-K4Z99_mgt19;Dbxref=GeneID:67146646;gbkey=tRNA;gene=trnL(uag);locus_tag=K4Z99_mgt19;product=tRNA-Leu
+NC_057092.1	RefSeq	gene	12809	14620	.	+	.	ID=gene-K4Z99_mgp03;Dbxref=GeneID:67146647;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=K4Z99_mgp03
+NC_057092.1	RefSeq	CDS	12809	14620	.	+	0	ID=cds-YP_010148072.1;Parent=gene-K4Z99_mgp03;Dbxref=GenBank:YP_010148072.1,GeneID:67146647;Name=YP_010148072.1;gbkey=CDS;gene=ND5;locus_tag=K4Z99_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010148072.1;transl_table=2
+NC_057092.1	RefSeq	gene	14604	15131	.	-	.	ID=gene-K4Z99_mgp02;Dbxref=GeneID:67146626;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=K4Z99_mgp02
+NC_057092.1	RefSeq	CDS	14604	15131	.	-	0	ID=cds-YP_010148073.1;Parent=gene-K4Z99_mgp02;Dbxref=GenBank:YP_010148073.1,GeneID:67146626;Name=YP_010148073.1;gbkey=CDS;gene=ND6;locus_tag=K4Z99_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010148073.1;transl_table=2
+NC_057092.1	RefSeq	gene	15132	15200	.	-	.	ID=gene-K4Z99_mgt20;Dbxref=GeneID:67146627;Name=trnE(uuc);gbkey=Gene;gene=trnE(uuc);gene_biotype=tRNA;locus_tag=K4Z99_mgt20
+NC_057092.1	RefSeq	tRNA	15132	15200	.	-	.	ID=rna-K4Z99_mgt20;Parent=gene-K4Z99_mgt20;Dbxref=GeneID:67146627;gbkey=tRNA;gene=trnE(uuc);locus_tag=K4Z99_mgt20;product=tRNA-Glu
+NC_057092.1	RefSeq	exon	15132	15200	.	-	.	ID=exon-K4Z99_mgt20-1;Parent=rna-K4Z99_mgt20;Dbxref=GeneID:67146627;gbkey=tRNA;gene=trnE(uuc);locus_tag=K4Z99_mgt20;product=tRNA-Glu
+NC_057092.1	RefSeq	gene	15207	16346	.	+	.	ID=gene-K4Z99_mgp01;Dbxref=GeneID:67146648;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=K4Z99_mgp01
+NC_057092.1	RefSeq	CDS	15207	16346	.	+	0	ID=cds-YP_010148074.1;Parent=gene-K4Z99_mgp01;Dbxref=GenBank:YP_010148074.1,GeneID:67146648;Name=YP_010148074.1;gbkey=CDS;gene=CYTB;locus_tag=K4Z99_mgp01;product=cytochrome b;protein_id=YP_010148074.1;transl_table=2
+NC_057092.1	RefSeq	gene	16347	16416	.	+	.	ID=gene-K4Z99_mgt21;Dbxref=GeneID:67146628;Name=trnT(ugu);gbkey=Gene;gene=trnT(ugu);gene_biotype=tRNA;locus_tag=K4Z99_mgt21
+NC_057092.1	RefSeq	tRNA	16347	16416	.	+	.	ID=rna-K4Z99_mgt21;Parent=gene-K4Z99_mgt21;Dbxref=GeneID:67146628;gbkey=tRNA;gene=trnT(ugu);locus_tag=K4Z99_mgt21;product=tRNA-Thr
+NC_057092.1	RefSeq	exon	16347	16416	.	+	.	ID=exon-K4Z99_mgt21-1;Parent=rna-K4Z99_mgt21;Dbxref=GeneID:67146628;gbkey=tRNA;gene=trnT(ugu);locus_tag=K4Z99_mgt21;product=tRNA-Thr
+NC_057092.1	RefSeq	gene	16416	16481	.	-	.	ID=gene-K4Z99_mgt22;Dbxref=GeneID:67146649;Name=trnP(ugg);gbkey=Gene;gene=trnP(ugg);gene_biotype=tRNA;locus_tag=K4Z99_mgt22
+NC_057092.1	RefSeq	tRNA	16416	16481	.	-	.	ID=rna-K4Z99_mgt22;Parent=gene-K4Z99_mgt22;Dbxref=GeneID:67146649;gbkey=tRNA;gene=trnP(ugg);locus_tag=K4Z99_mgt22;product=tRNA-Pro
+NC_057092.1	RefSeq	exon	16416	16481	.	-	.	ID=exon-K4Z99_mgt22-1;Parent=rna-K4Z99_mgt22;Dbxref=GeneID:67146649;gbkey=tRNA;gene=trnP(ugg);locus_tag=K4Z99_mgt22;product=tRNA-Pro
+

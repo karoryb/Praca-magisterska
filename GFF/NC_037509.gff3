@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_037509.1 1 16592
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=48139
+NC_037509.1	RefSeq	region	1	16592	.	+	.	ID=NC_037509.1:1..16592;Dbxref=taxon:48139;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_037509.1	RefSeq	gene	1	70	.	+	.	ID=gene-DDI58_mgt01;Dbxref=GeneID:36495537;Name=DDI58_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt01
+NC_037509.1	RefSeq	tRNA	1	70	.	+	.	ID=rna-DDI58_mgt01;Parent=gene-DDI58_mgt01;Dbxref=GeneID:36495537;gbkey=tRNA;locus_tag=DDI58_mgt01;product=tRNA-Phe
+NC_037509.1	RefSeq	exon	1	70	.	+	.	ID=exon-DDI58_mgt01-1;Parent=rna-DDI58_mgt01;Dbxref=GeneID:36495537;gbkey=tRNA;locus_tag=DDI58_mgt01;product=tRNA-Phe
+NC_037509.1	RefSeq	gene	71	1021	.	+	.	ID=gene-DDI58_mgr02;Dbxref=GeneID:36495538;Name=DDI58_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=DDI58_mgr02
+NC_037509.1	RefSeq	rRNA	71	1021	.	+	.	ID=rna-DDI58_mgr02;Parent=gene-DDI58_mgr02;Dbxref=GeneID:36495538;gbkey=rRNA;locus_tag=DDI58_mgr02;product=12S ribosomal RNA
+NC_037509.1	RefSeq	exon	71	1021	.	+	.	ID=exon-DDI58_mgr02-1;Parent=rna-DDI58_mgr02;Dbxref=GeneID:36495538;gbkey=rRNA;locus_tag=DDI58_mgr02;product=12S ribosomal RNA
+NC_037509.1	RefSeq	gene	1022	1087	.	+	.	ID=gene-DDI58_mgt02;Dbxref=GeneID:36495539;Name=DDI58_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt02
+NC_037509.1	RefSeq	tRNA	1022	1087	.	+	.	ID=rna-DDI58_mgt02;Parent=gene-DDI58_mgt02;Dbxref=GeneID:36495539;gbkey=tRNA;locus_tag=DDI58_mgt02;product=tRNA-Val
+NC_037509.1	RefSeq	exon	1022	1087	.	+	.	ID=exon-DDI58_mgt02-1;Parent=rna-DDI58_mgt02;Dbxref=GeneID:36495539;gbkey=tRNA;locus_tag=DDI58_mgt02;product=tRNA-Val
+NC_037509.1	RefSeq	gene	1088	2661	.	+	.	ID=gene-DDI58_mgr01;Dbxref=GeneID:36495540;Name=DDI58_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=DDI58_mgr01
+NC_037509.1	RefSeq	rRNA	1088	2661	.	+	.	ID=rna-DDI58_mgr01;Parent=gene-DDI58_mgr01;Dbxref=GeneID:36495540;gbkey=rRNA;locus_tag=DDI58_mgr01;product=16S ribosomal RNA
+NC_037509.1	RefSeq	exon	1088	2661	.	+	.	ID=exon-DDI58_mgr01-1;Parent=rna-DDI58_mgr01;Dbxref=GeneID:36495540;gbkey=rRNA;locus_tag=DDI58_mgr01;product=16S ribosomal RNA
+NC_037509.1	RefSeq	gene	2663	2737	.	+	.	ID=gene-DDI58_mgt03;Dbxref=GeneID:36495541;Name=DDI58_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt03
+NC_037509.1	RefSeq	tRNA	2663	2737	.	+	.	ID=rna-DDI58_mgt03;Parent=gene-DDI58_mgt03;Dbxref=GeneID:36495541;codons=UUR;gbkey=tRNA;locus_tag=DDI58_mgt03;product=tRNA-Leu
+NC_037509.1	RefSeq	exon	2663	2737	.	+	.	ID=exon-DDI58_mgt03-1;Parent=rna-DDI58_mgt03;Dbxref=GeneID:36495541;codons=UUR;gbkey=tRNA;locus_tag=DDI58_mgt03;product=tRNA-Leu
+NC_037509.1	RefSeq	gene	2738	3692	.	+	.	ID=gene-DDI58_mgp13;Dbxref=GeneID:36495542;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=DDI58_mgp13
+NC_037509.1	RefSeq	CDS	2738	3692	.	+	0	ID=cds-YP_009479742.1;Parent=gene-DDI58_mgp13;Dbxref=GenBank:YP_009479742.1,GeneID:36495542;Name=YP_009479742.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=DDI58_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009479742.1;transl_except=(pos:3692%2Caa:TERM);transl_table=2
+NC_037509.1	RefSeq	gene	3693	3761	.	+	.	ID=gene-DDI58_mgt04;Dbxref=GeneID:36495524;Name=DDI58_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt04
+NC_037509.1	RefSeq	tRNA	3693	3761	.	+	.	ID=rna-DDI58_mgt04;Parent=gene-DDI58_mgt04;Dbxref=GeneID:36495524;gbkey=tRNA;locus_tag=DDI58_mgt04;product=tRNA-Ile
+NC_037509.1	RefSeq	exon	3693	3761	.	+	.	ID=exon-DDI58_mgt04-1;Parent=rna-DDI58_mgt04;Dbxref=GeneID:36495524;gbkey=tRNA;locus_tag=DDI58_mgt04;product=tRNA-Ile
+NC_037509.1	RefSeq	gene	3759	3830	.	-	.	ID=gene-DDI58_mgt05;Dbxref=GeneID:36495543;Name=DDI58_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt05
+NC_037509.1	RefSeq	tRNA	3759	3830	.	-	.	ID=rna-DDI58_mgt05;Parent=gene-DDI58_mgt05;Dbxref=GeneID:36495543;gbkey=tRNA;locus_tag=DDI58_mgt05;product=tRNA-Gln
+NC_037509.1	RefSeq	exon	3759	3830	.	-	.	ID=exon-DDI58_mgt05-1;Parent=rna-DDI58_mgt05;Dbxref=GeneID:36495543;gbkey=tRNA;locus_tag=DDI58_mgt05;product=tRNA-Gln
+NC_037509.1	RefSeq	gene	3842	3910	.	+	.	ID=gene-DDI58_mgt06;Dbxref=GeneID:36495544;Name=DDI58_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt06
+NC_037509.1	RefSeq	tRNA	3842	3910	.	+	.	ID=rna-DDI58_mgt06;Parent=gene-DDI58_mgt06;Dbxref=GeneID:36495544;gbkey=tRNA;locus_tag=DDI58_mgt06;product=tRNA-Met
+NC_037509.1	RefSeq	exon	3842	3910	.	+	.	ID=exon-DDI58_mgt06-1;Parent=rna-DDI58_mgt06;Dbxref=GeneID:36495544;gbkey=tRNA;locus_tag=DDI58_mgt06;product=tRNA-Met
+NC_037509.1	RefSeq	gene	3912	4948	.	+	.	ID=gene-DDI58_mgp12;Dbxref=GeneID:36495545;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=DDI58_mgp12
+NC_037509.1	RefSeq	CDS	3912	4948	.	+	0	ID=cds-YP_009479743.1;Parent=gene-DDI58_mgp12;Dbxref=GenBank:YP_009479743.1,GeneID:36495545;Name=YP_009479743.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=DDI58_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009479743.1;transl_except=(pos:4947..4948%2Caa:TERM);transl_table=2
+NC_037509.1	RefSeq	gene	4949	5013	.	+	.	ID=gene-DDI58_mgt07;Dbxref=GeneID:36495525;Name=DDI58_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt07
+NC_037509.1	RefSeq	tRNA	4949	5013	.	+	.	ID=rna-DDI58_mgt07;Parent=gene-DDI58_mgt07;Dbxref=GeneID:36495525;gbkey=tRNA;locus_tag=DDI58_mgt07;product=tRNA-Trp
+NC_037509.1	RefSeq	exon	4949	5013	.	+	.	ID=exon-DDI58_mgt07-1;Parent=rna-DDI58_mgt07;Dbxref=GeneID:36495525;gbkey=tRNA;locus_tag=DDI58_mgt07;product=tRNA-Trp
+NC_037509.1	RefSeq	gene	5016	5084	.	-	.	ID=gene-DDI58_mgt08;Dbxref=GeneID:36495546;Name=DDI58_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt08
+NC_037509.1	RefSeq	tRNA	5016	5084	.	-	.	ID=rna-DDI58_mgt08;Parent=gene-DDI58_mgt08;Dbxref=GeneID:36495546;gbkey=tRNA;locus_tag=DDI58_mgt08;product=tRNA-Ala
+NC_037509.1	RefSeq	exon	5016	5084	.	-	.	ID=exon-DDI58_mgt08-1;Parent=rna-DDI58_mgt08;Dbxref=GeneID:36495546;gbkey=tRNA;locus_tag=DDI58_mgt08;product=tRNA-Ala
+NC_037509.1	RefSeq	gene	5091	5160	.	-	.	ID=gene-DDI58_mgt09;Dbxref=GeneID:36495547;Name=DDI58_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt09
+NC_037509.1	RefSeq	tRNA	5091	5160	.	-	.	ID=rna-DDI58_mgt09;Parent=gene-DDI58_mgt09;Dbxref=GeneID:36495547;gbkey=tRNA;locus_tag=DDI58_mgt09;product=tRNA-Asn
+NC_037509.1	RefSeq	exon	5091	5160	.	-	.	ID=exon-DDI58_mgt09-1;Parent=rna-DDI58_mgt09;Dbxref=GeneID:36495547;gbkey=tRNA;locus_tag=DDI58_mgt09;product=tRNA-Asn
+NC_037509.1	RefSeq	origin_of_replication	5161	5194	.	-	.	ID=id-NC_037509.1:5161..5194;gbkey=rep_origin
+NC_037509.1	RefSeq	gene	5192	5258	.	-	.	ID=gene-DDI58_mgt10;Dbxref=GeneID:36495548;Name=DDI58_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt10
+NC_037509.1	RefSeq	tRNA	5192	5258	.	-	.	ID=rna-DDI58_mgt10;Parent=gene-DDI58_mgt10;Dbxref=GeneID:36495548;gbkey=tRNA;locus_tag=DDI58_mgt10;product=tRNA-Cys
+NC_037509.1	RefSeq	exon	5192	5258	.	-	.	ID=exon-DDI58_mgt10-1;Parent=rna-DDI58_mgt10;Dbxref=GeneID:36495548;gbkey=tRNA;locus_tag=DDI58_mgt10;product=tRNA-Cys
+NC_037509.1	RefSeq	gene	5259	5325	.	+	.	ID=gene-DDI58_mgt11;Dbxref=GeneID:36495549;Name=DDI58_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt11
+NC_037509.1	RefSeq	tRNA	5259	5325	.	+	.	ID=rna-DDI58_mgt11;Parent=gene-DDI58_mgt11;Dbxref=GeneID:36495549;gbkey=tRNA;locus_tag=DDI58_mgt11;product=tRNA-Tyr
+NC_037509.1	RefSeq	exon	5259	5325	.	+	.	ID=exon-DDI58_mgt11-1;Parent=rna-DDI58_mgt11;Dbxref=GeneID:36495549;gbkey=tRNA;locus_tag=DDI58_mgt11;product=tRNA-Tyr
+NC_037509.1	RefSeq	gene	5327	6871	.	+	.	ID=gene-DDI58_mgp11;Dbxref=GeneID:36495550;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=DDI58_mgp11
+NC_037509.1	RefSeq	CDS	5327	6871	.	+	0	ID=cds-YP_009479744.1;Parent=gene-DDI58_mgp11;Dbxref=GenBank:YP_009479744.1,GeneID:36495550;Name=YP_009479744.1;gbkey=CDS;gene=COX1;locus_tag=DDI58_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_009479744.1;transl_table=2
+NC_037509.1	RefSeq	gene	6869	6937	.	-	.	ID=gene-DDI58_mgt12;Dbxref=GeneID:36495526;Name=DDI58_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt12
+NC_037509.1	RefSeq	tRNA	6869	6937	.	-	.	ID=rna-DDI58_mgt12;Parent=gene-DDI58_mgt12;Dbxref=GeneID:36495526;codons=UCN;gbkey=tRNA;locus_tag=DDI58_mgt12;product=tRNA-Ser
+NC_037509.1	RefSeq	exon	6869	6937	.	-	.	ID=exon-DDI58_mgt12-1;Parent=rna-DDI58_mgt12;Dbxref=GeneID:36495526;codons=UCN;gbkey=tRNA;locus_tag=DDI58_mgt12;product=tRNA-Ser
+NC_037509.1	RefSeq	gene	6941	7010	.	+	.	ID=gene-DDI58_mgt13;Dbxref=GeneID:36495551;Name=DDI58_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt13
+NC_037509.1	RefSeq	tRNA	6941	7010	.	+	.	ID=rna-DDI58_mgt13;Parent=gene-DDI58_mgt13;Dbxref=GeneID:36495551;gbkey=tRNA;locus_tag=DDI58_mgt13;product=tRNA-Asp
+NC_037509.1	RefSeq	exon	6941	7010	.	+	.	ID=exon-DDI58_mgt13-1;Parent=rna-DDI58_mgt13;Dbxref=GeneID:36495551;gbkey=tRNA;locus_tag=DDI58_mgt13;product=tRNA-Asp
+NC_037509.1	RefSeq	gene	7011	7694	.	+	.	ID=gene-DDI58_mgp10;Dbxref=GeneID:36495552;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=DDI58_mgp10
+NC_037509.1	RefSeq	CDS	7011	7694	.	+	0	ID=cds-YP_009479745.1;Parent=gene-DDI58_mgp10;Dbxref=GenBank:YP_009479745.1,GeneID:36495552;Name=YP_009479745.1;gbkey=CDS;gene=COX2;locus_tag=DDI58_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_009479745.1;transl_table=2
+NC_037509.1	RefSeq	gene	7697	7763	.	+	.	ID=gene-DDI58_mgt14;Dbxref=GeneID:36495527;Name=DDI58_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt14
+NC_037509.1	RefSeq	tRNA	7697	7763	.	+	.	ID=rna-DDI58_mgt14;Parent=gene-DDI58_mgt14;Dbxref=GeneID:36495527;gbkey=tRNA;locus_tag=DDI58_mgt14;product=tRNA-Lys
+NC_037509.1	RefSeq	exon	7697	7763	.	+	.	ID=exon-DDI58_mgt14-1;Parent=rna-DDI58_mgt14;Dbxref=GeneID:36495527;gbkey=tRNA;locus_tag=DDI58_mgt14;product=tRNA-Lys
+NC_037509.1	RefSeq	gene	7765	7968	.	+	.	ID=gene-DDI58_mgp09;Dbxref=GeneID:36495553;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=DDI58_mgp09
+NC_037509.1	RefSeq	CDS	7765	7968	.	+	0	ID=cds-YP_009479746.1;Parent=gene-DDI58_mgp09;Dbxref=GenBank:YP_009479746.1,GeneID:36495553;Name=YP_009479746.1;gbkey=CDS;gene=ATP8;locus_tag=DDI58_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_009479746.1;transl_table=2
+NC_037509.1	RefSeq	gene	7926	8606	.	+	.	ID=gene-DDI58_mgp08;Dbxref=GeneID:36495528;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=DDI58_mgp08
+NC_037509.1	RefSeq	CDS	7926	8606	.	+	0	ID=cds-YP_009479747.1;Parent=gene-DDI58_mgp08;Dbxref=GenBank:YP_009479747.1,GeneID:36495528;Name=YP_009479747.1;gbkey=CDS;gene=ATP6;locus_tag=DDI58_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_009479747.1;transl_table=2
+NC_037509.1	RefSeq	gene	8606	9389	.	+	.	ID=gene-DDI58_mgp07;Dbxref=GeneID:36495529;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=DDI58_mgp07
+NC_037509.1	RefSeq	CDS	8606	9389	.	+	0	ID=cds-YP_009479748.1;Parent=gene-DDI58_mgp07;Dbxref=GenBank:YP_009479748.1,GeneID:36495529;Name=YP_009479748.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=DDI58_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_009479748.1;transl_except=(pos:9389%2Caa:TERM);transl_table=2
+NC_037509.1	RefSeq	gene	9390	9458	.	+	.	ID=gene-DDI58_mgt15;Dbxref=GeneID:36495530;Name=DDI58_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt15
+NC_037509.1	RefSeq	tRNA	9390	9458	.	+	.	ID=rna-DDI58_mgt15;Parent=gene-DDI58_mgt15;Dbxref=GeneID:36495530;gbkey=tRNA;locus_tag=DDI58_mgt15;product=tRNA-Gly
+NC_037509.1	RefSeq	exon	9390	9458	.	+	.	ID=exon-DDI58_mgt15-1;Parent=rna-DDI58_mgt15;Dbxref=GeneID:36495530;gbkey=tRNA;locus_tag=DDI58_mgt15;product=tRNA-Gly
+NC_037509.1	RefSeq	gene	9459	9806	.	+	.	ID=gene-DDI58_mgp06;Dbxref=GeneID:36495554;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=DDI58_mgp06
+NC_037509.1	RefSeq	CDS	9459	9806	.	+	0	ID=cds-YP_009479749.1;Parent=gene-DDI58_mgp06;Dbxref=GenBank:YP_009479749.1,GeneID:36495554;Name=YP_009479749.1;gbkey=CDS;gene=ND3;locus_tag=DDI58_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009479749.1;transl_table=2
+NC_037509.1	RefSeq	gene	9811	9878	.	+	.	ID=gene-DDI58_mgt16;Dbxref=GeneID:36495531;Name=DDI58_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt16
+NC_037509.1	RefSeq	tRNA	9811	9878	.	+	.	ID=rna-DDI58_mgt16;Parent=gene-DDI58_mgt16;Dbxref=GeneID:36495531;gbkey=tRNA;locus_tag=DDI58_mgt16;product=tRNA-Arg
+NC_037509.1	RefSeq	exon	9811	9878	.	+	.	ID=exon-DDI58_mgt16-1;Parent=rna-DDI58_mgt16;Dbxref=GeneID:36495531;gbkey=tRNA;locus_tag=DDI58_mgt16;product=tRNA-Arg
+NC_037509.1	RefSeq	gene	9880	10176	.	+	.	ID=gene-DDI58_mgp05;Dbxref=GeneID:36495555;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=DDI58_mgp05
+NC_037509.1	RefSeq	CDS	9880	10176	.	+	0	ID=cds-YP_009479750.1;Parent=gene-DDI58_mgp05;Dbxref=GenBank:YP_009479750.1,GeneID:36495555;Name=YP_009479750.1;gbkey=CDS;gene=ND4L;locus_tag=DDI58_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009479750.1;transl_table=2
+NC_037509.1	RefSeq	gene	10170	11547	.	+	.	ID=gene-DDI58_mgp04;Dbxref=GeneID:36495532;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=DDI58_mgp04
+NC_037509.1	RefSeq	CDS	10170	11547	.	+	0	ID=cds-YP_009479751.1;Parent=gene-DDI58_mgp04;Dbxref=GenBank:YP_009479751.1,GeneID:36495532;Name=YP_009479751.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=DDI58_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009479751.1;transl_except=(pos:11547%2Caa:TERM);transl_table=2
+NC_037509.1	RefSeq	gene	11548	11617	.	+	.	ID=gene-DDI58_mgt17;Dbxref=GeneID:36495533;Name=DDI58_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt17
+NC_037509.1	RefSeq	tRNA	11548	11617	.	+	.	ID=rna-DDI58_mgt17;Parent=gene-DDI58_mgt17;Dbxref=GeneID:36495533;gbkey=tRNA;locus_tag=DDI58_mgt17;product=tRNA-His
+NC_037509.1	RefSeq	exon	11548	11617	.	+	.	ID=exon-DDI58_mgt17-1;Parent=rna-DDI58_mgt17;Dbxref=GeneID:36495533;gbkey=tRNA;locus_tag=DDI58_mgt17;product=tRNA-His
+NC_037509.1	RefSeq	gene	11618	11676	.	+	.	ID=gene-DDI58_mgt18;Dbxref=GeneID:36495556;Name=DDI58_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt18
+NC_037509.1	RefSeq	tRNA	11618	11676	.	+	.	ID=rna-DDI58_mgt18;Parent=gene-DDI58_mgt18;Dbxref=GeneID:36495556;codons=AGY;gbkey=tRNA;locus_tag=DDI58_mgt18;product=tRNA-Ser
+NC_037509.1	RefSeq	exon	11618	11676	.	+	.	ID=exon-DDI58_mgt18-1;Parent=rna-DDI58_mgt18;Dbxref=GeneID:36495556;codons=AGY;gbkey=tRNA;locus_tag=DDI58_mgt18;product=tRNA-Ser
+NC_037509.1	RefSeq	gene	11677	11744	.	+	.	ID=gene-DDI58_mgt19;Dbxref=GeneID:36495557;Name=DDI58_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt19
+NC_037509.1	RefSeq	tRNA	11677	11744	.	+	.	ID=rna-DDI58_mgt19;Parent=gene-DDI58_mgt19;Dbxref=GeneID:36495557;codons=CUN;gbkey=tRNA;locus_tag=DDI58_mgt19;product=tRNA-Leu
+NC_037509.1	RefSeq	exon	11677	11744	.	+	.	ID=exon-DDI58_mgt19-1;Parent=rna-DDI58_mgt19;Dbxref=GeneID:36495557;codons=CUN;gbkey=tRNA;locus_tag=DDI58_mgt19;product=tRNA-Leu
+NC_037509.1	RefSeq	gene	11745	13556	.	+	.	ID=gene-DDI58_mgp03;Dbxref=GeneID:36495558;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=DDI58_mgp03
+NC_037509.1	RefSeq	CDS	11745	13556	.	+	0	ID=cds-YP_009479752.1;Parent=gene-DDI58_mgp03;Dbxref=GenBank:YP_009479752.1,GeneID:36495558;Name=YP_009479752.1;gbkey=CDS;gene=ND5;locus_tag=DDI58_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009479752.1;transl_table=2
+NC_037509.1	RefSeq	gene	13559	14077	.	-	.	ID=gene-DDI58_mgp02;Dbxref=GeneID:36495534;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=DDI58_mgp02
+NC_037509.1	RefSeq	CDS	13559	14077	.	-	0	ID=cds-YP_009479753.1;Parent=gene-DDI58_mgp02;Dbxref=GenBank:YP_009479753.1,GeneID:36495534;Name=YP_009479753.1;gbkey=CDS;gene=ND6;locus_tag=DDI58_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009479753.1;transl_table=2
+NC_037509.1	RefSeq	gene	14078	14146	.	-	.	ID=gene-DDI58_mgt20;Dbxref=GeneID:36495535;Name=DDI58_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt20
+NC_037509.1	RefSeq	tRNA	14078	14146	.	-	.	ID=rna-DDI58_mgt20;Parent=gene-DDI58_mgt20;Dbxref=GeneID:36495535;gbkey=tRNA;locus_tag=DDI58_mgt20;product=tRNA-Glu
+NC_037509.1	RefSeq	exon	14078	14146	.	-	.	ID=exon-DDI58_mgt20-1;Parent=rna-DDI58_mgt20;Dbxref=GeneID:36495535;gbkey=tRNA;locus_tag=DDI58_mgt20;product=tRNA-Glu
+NC_037509.1	RefSeq	gene	14151	15294	.	+	.	ID=gene-DDI58_mgp01;Dbxref=GeneID:36495559;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=DDI58_mgp01
+NC_037509.1	RefSeq	CDS	14151	15294	.	+	0	ID=cds-YP_009479754.1;Parent=gene-DDI58_mgp01;Dbxref=GenBank:YP_009479754.1,GeneID:36495559;Name=YP_009479754.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=CYTB;locus_tag=DDI58_mgp01;product=cytochrome b;protein_id=YP_009479754.1;transl_except=(pos:15294%2Caa:TERM);transl_table=2
+NC_037509.1	RefSeq	gene	15295	15378	.	+	.	ID=gene-DDI58_mgt21;Dbxref=GeneID:36495536;Name=DDI58_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt21
+NC_037509.1	RefSeq	tRNA	15295	15378	.	+	.	ID=rna-DDI58_mgt21;Parent=gene-DDI58_mgt21;Dbxref=GeneID:36495536;gbkey=tRNA;locus_tag=DDI58_mgt21;product=tRNA-Thr
+NC_037509.1	RefSeq	exon	15295	15378	.	+	.	ID=exon-DDI58_mgt21-1;Parent=rna-DDI58_mgt21;Dbxref=GeneID:36495536;gbkey=tRNA;locus_tag=DDI58_mgt21;product=tRNA-Thr
+NC_037509.1	RefSeq	gene	15360	15430	.	-	.	ID=gene-DDI58_mgt22;Dbxref=GeneID:36495560;Name=DDI58_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=DDI58_mgt22
+NC_037509.1	RefSeq	tRNA	15360	15430	.	-	.	ID=rna-DDI58_mgt22;Parent=gene-DDI58_mgt22;Dbxref=GeneID:36495560;gbkey=tRNA;locus_tag=DDI58_mgt22;product=tRNA-Pro
+NC_037509.1	RefSeq	exon	15360	15430	.	-	.	ID=exon-DDI58_mgt22-1;Parent=rna-DDI58_mgt22;Dbxref=GeneID:36495560;gbkey=tRNA;locus_tag=DDI58_mgt22;product=tRNA-Pro
+NC_037509.1	RefSeq	D_loop	15430	16354	.	+	.	ID=id-NC_037509.1:15430..16354;gbkey=D-loop
+

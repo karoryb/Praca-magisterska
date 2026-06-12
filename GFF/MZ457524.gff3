@@ -1,0 +1,104 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MZ457524.1 1 16621
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1964258
+MZ457524.1	Genbank	region	1	16621	.	+	.	ID=MZ457524.1:1..16621;Dbxref=taxon:1964258;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+MZ457524.1	Genbank	gene	378	449	.	+	.	ID=gene-trnF(gaa);Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	378	449	.	+	.	ID=rna-trnF(gaa);Parent=gene-trnF(gaa);gbkey=tRNA;gene=trnF(gaa);product=tRNA-Phe
+MZ457524.1	Genbank	exon	378	449	.	+	.	ID=exon-trnF(gaa)-1;Parent=rna-trnF(gaa);gbkey=tRNA;gene=trnF(gaa);product=tRNA-Phe
+MZ457524.1	Genbank	rRNA	450	1412	.	+	.	ID=rna-MZ457524.1:450..1412;gbkey=rRNA;product=12S ribosomal RNA
+MZ457524.1	Genbank	exon	450	1412	.	+	.	ID=exon-MZ457524.1:450..1412-1;Parent=rna-MZ457524.1:450..1412;gbkey=rRNA;product=12S ribosomal RNA
+MZ457524.1	Genbank	gene	1413	1480	.	+	.	ID=gene-trnV(uac);Name=trnV(uac);gbkey=Gene;gene=trnV(uac);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	1413	1480	.	+	.	ID=rna-trnV(uac);Parent=gene-trnV(uac);gbkey=tRNA;gene=trnV(uac);product=tRNA-Val
+MZ457524.1	Genbank	exon	1413	1480	.	+	.	ID=exon-trnV(uac)-1;Parent=rna-trnV(uac);gbkey=tRNA;gene=trnV(uac);product=tRNA-Val
+MZ457524.1	Genbank	rRNA	1481	3048	.	+	.	ID=rna-MZ457524.1:1481..3048;gbkey=rRNA;product=16S ribosomal RNA
+MZ457524.1	Genbank	exon	1481	3048	.	+	.	ID=exon-MZ457524.1:1481..3048-1;Parent=rna-MZ457524.1:1481..3048;gbkey=rRNA;product=16S ribosomal RNA
+MZ457524.1	Genbank	gene	3053	3127	.	+	.	ID=gene-trnL(uaa);Name=trnL(uaa);gbkey=Gene;gene=trnL(uaa);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	3053	3127	.	+	.	ID=rna-trnL(uaa);Parent=gene-trnL(uaa);gbkey=tRNA;gene=trnL(uaa);product=tRNA-Leu
+MZ457524.1	Genbank	exon	3053	3127	.	+	.	ID=exon-trnL(uaa)-1;Parent=rna-trnL(uaa);gbkey=tRNA;gene=trnL(uaa);product=tRNA-Leu
+MZ457524.1	Genbank	gene	3134	4089	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	3134	4089	.	+	0	ID=cds-QXJ42655.1;Parent=gene-ND1;Dbxref=NCBI_GP:QXJ42655.1;Name=QXJ42655.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=QXJ42655.1;transl_except=(pos:4088..4089%2Caa:TERM);transl_table=2
+MZ457524.1	Genbank	gene	4090	4158	.	+	.	ID=gene-trnI(gau);Name=trnI(gau);gbkey=Gene;gene=trnI(gau);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	4090	4158	.	+	.	ID=rna-trnI(gau);Parent=gene-trnI(gau);gbkey=tRNA;gene=trnI(gau);product=tRNA-Ile
+MZ457524.1	Genbank	exon	4090	4158	.	+	.	ID=exon-trnI(gau)-1;Parent=rna-trnI(gau);gbkey=tRNA;gene=trnI(gau);product=tRNA-Ile
+MZ457524.1	Genbank	gene	4156	4229	.	-	.	ID=gene-trnQ;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	4156	4229	.	-	.	ID=rna-trnQ;Parent=gene-trnQ;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+MZ457524.1	Genbank	exon	4156	4229	.	-	.	ID=exon-trnQ-1;Parent=rna-trnQ;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+MZ457524.1	Genbank	gene	4230	4298	.	+	.	ID=gene-trnM(cau);Name=trnM(cau);gbkey=Gene;gene=trnM(cau);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	4230	4298	.	+	.	ID=rna-trnM(cau);Parent=gene-trnM(cau);gbkey=tRNA;gene=trnM(cau);product=tRNA-Met
+MZ457524.1	Genbank	exon	4230	4298	.	+	.	ID=exon-trnM(cau)-1;Parent=rna-trnM(cau);gbkey=tRNA;gene=trnM(cau);product=tRNA-Met
+MZ457524.1	Genbank	gene	4299	5340	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	4299	5340	.	+	0	ID=cds-QXJ42656.1;Parent=gene-ND2;Dbxref=NCBI_GP:QXJ42656.1;Name=QXJ42656.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=QXJ42656.1;transl_except=(pos:5340%2Caa:TERM);transl_table=2
+MZ457524.1	Genbank	gene	5341	5407	.	+	.	ID=gene-trnW(uca);Name=trnW(uca);gbkey=Gene;gene=trnW(uca);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	5341	5407	.	+	.	ID=rna-trnW(uca);Parent=gene-trnW(uca);gbkey=tRNA;gene=trnW(uca);product=tRNA-Trp
+MZ457524.1	Genbank	exon	5341	5407	.	+	.	ID=exon-trnW(uca)-1;Parent=rna-trnW(uca);gbkey=tRNA;gene=trnW(uca);product=tRNA-Trp
+MZ457524.1	Genbank	gene	5412	5480	.	-	.	ID=gene-trnA(ugc);Name=trnA(ugc);gbkey=Gene;gene=trnA(ugc);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	5412	5480	.	-	.	ID=rna-trnA(ugc);Parent=gene-trnA(ugc);gbkey=tRNA;gene=trnA(ugc);product=tRNA-Ala
+MZ457524.1	Genbank	exon	5412	5480	.	-	.	ID=exon-trnA(ugc)-1;Parent=rna-trnA(ugc);gbkey=tRNA;gene=trnA(ugc);product=tRNA-Ala
+MZ457524.1	Genbank	gene	5485	5557	.	-	.	ID=gene-trnN(guu);Name=trnN(guu);gbkey=Gene;gene=trnN(guu);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	5485	5557	.	-	.	ID=rna-trnN(guu);Parent=gene-trnN(guu);gbkey=tRNA;gene=trnN(guu);product=tRNA-Asn
+MZ457524.1	Genbank	exon	5485	5557	.	-	.	ID=exon-trnN(guu)-1;Parent=rna-trnN(guu);gbkey=tRNA;gene=trnN(guu);product=tRNA-Asn
+MZ457524.1	Genbank	gene	5591	5657	.	-	.	ID=gene-trnC(gca);Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	5591	5657	.	-	.	ID=rna-trnC(gca);Parent=gene-trnC(gca);gbkey=tRNA;gene=trnC(gca);product=tRNA-Cys
+MZ457524.1	Genbank	exon	5591	5657	.	-	.	ID=exon-trnC(gca)-1;Parent=rna-trnC(gca);gbkey=tRNA;gene=trnC(gca);product=tRNA-Cys
+MZ457524.1	Genbank	gene	5658	5724	.	-	.	ID=gene-trnY(gua);Name=trnY(gua);gbkey=Gene;gene=trnY(gua);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	5658	5724	.	-	.	ID=rna-trnY(gua);Parent=gene-trnY(gua);gbkey=tRNA;gene=trnY(gua);product=tRNA-Tyr
+MZ457524.1	Genbank	exon	5658	5724	.	-	.	ID=exon-trnY(gua)-1;Parent=rna-trnY(gua);gbkey=tRNA;gene=trnY(gua);product=tRNA-Tyr
+MZ457524.1	Genbank	gene	5726	7270	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	5726	7270	.	+	0	ID=cds-QXJ42657.1;Parent=gene-COX1;Dbxref=NCBI_GP:QXJ42657.1;Name=QXJ42657.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=QXJ42657.1;transl_table=2
+MZ457524.1	Genbank	gene	7274	7342	.	-	.	ID=gene-trnS(uga);Name=trnS(uga);gbkey=Gene;gene=trnS(uga);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	7274	7342	.	-	.	ID=rna-trnS(uga);Parent=gene-trnS(uga);gbkey=tRNA;gene=trnS(uga);product=tRNA-Ser
+MZ457524.1	Genbank	exon	7274	7342	.	-	.	ID=exon-trnS(uga)-1;Parent=rna-trnS(uga);gbkey=tRNA;gene=trnS(uga);product=tRNA-Ser
+MZ457524.1	Genbank	gene	7350	7416	.	+	.	ID=gene-trnD(guc);Name=trnD(guc);gbkey=Gene;gene=trnD(guc);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	7350	7416	.	+	.	ID=rna-trnD(guc);Parent=gene-trnD(guc);gbkey=tRNA;gene=trnD(guc);product=tRNA-Asp
+MZ457524.1	Genbank	exon	7350	7416	.	+	.	ID=exon-trnD(guc)-1;Parent=rna-trnD(guc);gbkey=tRNA;gene=trnD(guc);product=tRNA-Asp
+MZ457524.1	Genbank	gene	7417	8097	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	7417	8097	.	+	0	ID=cds-QXJ42658.1;Parent=gene-COX2;Dbxref=NCBI_GP:QXJ42658.1;Name=QXJ42658.1;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=QXJ42658.1;transl_table=2
+MZ457524.1	Genbank	gene	8101	8168	.	+	.	ID=gene-trnK(uuu);Name=trnK(uuu);gbkey=Gene;gene=trnK(uuu);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	8101	8168	.	+	.	ID=rna-trnK(uuu);Parent=gene-trnK(uuu);gbkey=tRNA;gene=trnK(uuu);product=tRNA-Lys
+MZ457524.1	Genbank	exon	8101	8168	.	+	.	ID=exon-trnK(uuu)-1;Parent=rna-trnK(uuu);gbkey=tRNA;gene=trnK(uuu);product=tRNA-Lys
+MZ457524.1	Genbank	gene	8170	8373	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	8170	8373	.	+	0	ID=cds-QXJ42659.1;Parent=gene-ATP8;Dbxref=NCBI_GP:QXJ42659.1;Name=QXJ42659.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=QXJ42659.1;transl_table=2
+MZ457524.1	Genbank	gene	8331	9011	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	8331	9011	.	+	0	ID=cds-QXJ42660.1;Parent=gene-ATP6;Dbxref=NCBI_GP:QXJ42660.1;Name=QXJ42660.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=QXJ42660.1;transl_table=2
+MZ457524.1	Genbank	gene	9011	9794	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	9011	9794	.	+	0	ID=cds-QXJ42661.1;Parent=gene-COX3;Dbxref=NCBI_GP:QXJ42661.1;Name=QXJ42661.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=QXJ42661.1;transl_except=(pos:9794%2Caa:TERM);transl_table=2
+MZ457524.1	Genbank	gene	9795	9862	.	+	.	ID=gene-trnG(ucc);Name=trnG(ucc);gbkey=Gene;gene=trnG(ucc);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	9795	9862	.	+	.	ID=rna-trnG(ucc);Parent=gene-trnG(ucc);gbkey=tRNA;gene=trnG(ucc);product=tRNA-Gly
+MZ457524.1	Genbank	exon	9795	9862	.	+	.	ID=exon-trnG(ucc)-1;Parent=rna-trnG(ucc);gbkey=tRNA;gene=trnG(ucc);product=tRNA-Gly
+MZ457524.1	Genbank	gene	9863	10209	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	9863	10209	.	+	0	ID=cds-QXJ42662.1;Parent=gene-ND3;Dbxref=NCBI_GP:QXJ42662.1;Name=QXJ42662.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=QXJ42662.1;transl_except=(pos:10208..10209%2Caa:TERM);transl_table=2
+MZ457524.1	Genbank	gene	10210	10278	.	+	.	ID=gene-trnR(ucg);Name=trnR(ucg);gbkey=Gene;gene=trnR(ucg);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	10210	10278	.	+	.	ID=rna-trnR(ucg);Parent=gene-trnR(ucg);gbkey=tRNA;gene=trnR(ucg);product=tRNA-Arg
+MZ457524.1	Genbank	exon	10210	10278	.	+	.	ID=exon-trnR(ucg)-1;Parent=rna-trnR(ucg);gbkey=tRNA;gene=trnR(ucg);product=tRNA-Arg
+MZ457524.1	Genbank	gene	10280	10576	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	10280	10576	.	+	0	ID=cds-QXJ42663.1;Parent=gene-ND4L;Dbxref=NCBI_GP:QXJ42663.1;Name=QXJ42663.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=QXJ42663.1;transl_table=2
+MZ457524.1	Genbank	gene	10570	11947	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	10570	11947	.	+	0	ID=cds-QXJ42664.1;Parent=gene-ND4;Dbxref=NCBI_GP:QXJ42664.1;Name=QXJ42664.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=QXJ42664.1;transl_except=(pos:11947%2Caa:TERM);transl_table=2
+MZ457524.1	Genbank	gene	11948	12015	.	+	.	ID=gene-trnH(gug);Name=trnH(gug);gbkey=Gene;gene=trnH(gug);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	11948	12015	.	+	.	ID=rna-trnH(gug);Parent=gene-trnH(gug);gbkey=tRNA;gene=trnH(gug);product=tRNA-His
+MZ457524.1	Genbank	exon	11948	12015	.	+	.	ID=exon-trnH(gug)-1;Parent=rna-trnH(gug);gbkey=tRNA;gene=trnH(gug);product=tRNA-His
+MZ457524.1	Genbank	gene	12016	12074	.	+	.	ID=gene-trnS(gcu);Name=trnS(gcu);gbkey=Gene;gene=trnS(gcu);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	12016	12074	.	+	.	ID=rna-trnS(gcu);Parent=gene-trnS(gcu);gbkey=tRNA;gene=trnS(gcu);product=tRNA-Ser
+MZ457524.1	Genbank	exon	12016	12074	.	+	.	ID=exon-trnS(gcu)-1;Parent=rna-trnS(gcu);gbkey=tRNA;gene=trnS(gcu);product=tRNA-Ser
+MZ457524.1	Genbank	gene	12078	12147	.	+	.	ID=gene-trnL(uag);Name=trnL(uag);gbkey=Gene;gene=trnL(uag);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	12078	12147	.	+	.	ID=rna-trnL(uag);Parent=gene-trnL(uag);gbkey=tRNA;gene=trnL(uag);product=tRNA-Leu
+MZ457524.1	Genbank	exon	12078	12147	.	+	.	ID=exon-trnL(uag)-1;Parent=rna-trnL(uag);gbkey=tRNA;gene=trnL(uag);product=tRNA-Leu
+MZ457524.1	Genbank	gene	12148	13968	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	12148	13968	.	+	0	ID=cds-QXJ42665.1;Parent=gene-ND5;Dbxref=NCBI_GP:QXJ42665.1;Name=QXJ42665.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=QXJ42665.1;transl_table=2
+MZ457524.1	Genbank	gene	13952	14479	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	13952	14479	.	-	0	ID=cds-QXJ42666.1;Parent=gene-ND6;Dbxref=NCBI_GP:QXJ42666.1;Name=QXJ42666.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=QXJ42666.1;transl_table=2
+MZ457524.1	Genbank	gene	14480	14548	.	-	.	ID=gene-trnE(uuc);Name=trnE(uuc);gbkey=Gene;gene=trnE(uuc);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	14480	14548	.	-	.	ID=rna-trnE(uuc);Parent=gene-trnE(uuc);gbkey=tRNA;gene=trnE(uuc);product=tRNA-Glu
+MZ457524.1	Genbank	exon	14480	14548	.	-	.	ID=exon-trnE(uuc)-1;Parent=rna-trnE(uuc);gbkey=tRNA;gene=trnE(uuc);product=tRNA-Glu
+MZ457524.1	Genbank	gene	14554	15693	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+MZ457524.1	Genbank	CDS	14554	15693	.	+	0	ID=cds-QXJ42667.1;Parent=gene-CYTB;Dbxref=NCBI_GP:QXJ42667.1;Name=QXJ42667.1;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=QXJ42667.1;transl_table=2
+MZ457524.1	Genbank	gene	15694	15763	.	+	.	ID=gene-trnT(ugu);Name=trnT(ugu);gbkey=Gene;gene=trnT(ugu);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	15694	15763	.	+	.	ID=rna-trnT(ugu);Parent=gene-trnT(ugu);gbkey=tRNA;gene=trnT(ugu);product=tRNA-Thr
+MZ457524.1	Genbank	exon	15694	15763	.	+	.	ID=exon-trnT(ugu)-1;Parent=rna-trnT(ugu);gbkey=tRNA;gene=trnT(ugu);product=tRNA-Thr
+MZ457524.1	Genbank	gene	15763	15830	.	-	.	ID=gene-trnP(ugg);Name=trnP(ugg);gbkey=Gene;gene=trnP(ugg);gene_biotype=tRNA
+MZ457524.1	Genbank	tRNA	15763	15830	.	-	.	ID=rna-trnP(ugg);Parent=gene-trnP(ugg);gbkey=tRNA;gene=trnP(ugg);product=tRNA-Pro
+MZ457524.1	Genbank	exon	15763	15830	.	-	.	ID=exon-trnP(ugg)-1;Parent=rna-trnP(ugg);gbkey=tRNA;gene=trnP(ugg);product=tRNA-Pro
+MZ457524.1	Genbank	sequence_feature	15831	16621	.	+	.	ID=id-MZ457524.1:15831..16621;Note=putative control region;gbkey=misc_feature
+

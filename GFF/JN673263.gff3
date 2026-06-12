@@ -1,0 +1,83 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JN673263.1 1 16028
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=99490
+JN673263.1	Genbank	region	1	16028	.	+	.	ID=JN673263.1:1..16028;Dbxref=taxon:99490;Is_circular=true;Name=MT;collected-by=Nicholas J. Georgiadis;collection-date=18-Jan-1992;country=Central African Republic: Dzanga Sangha;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;note=stored at Laboratory of Genomic Diversity%2C National Cancer Institute%2C Frederick%2C Maryland.;sex=female;specimen-voucher=Lcy-DS1534;tissue-type=skin biopsy
+JN673263.1	Genbank	tRNA	1	71	.	+	.	ID=rna-JN673263.1:1..71;gbkey=tRNA;product=tRNA-Phe
+JN673263.1	Genbank	exon	1	71	.	+	.	ID=exon-JN673263.1:1..71-1;Parent=rna-JN673263.1:1..71;gbkey=tRNA;product=tRNA-Phe
+JN673263.1	Genbank	rRNA	72	1031	.	+	.	ID=rna-JN673263.1:72..1031;gbkey=rRNA;product=12S ribosomal RNA
+JN673263.1	Genbank	exon	72	1031	.	+	.	ID=exon-JN673263.1:72..1031-1;Parent=rna-JN673263.1:72..1031;gbkey=rRNA;product=12S ribosomal RNA
+JN673263.1	Genbank	tRNA	1033	1100	.	+	.	ID=rna-JN673263.1:1033..1100;gbkey=tRNA;product=tRNA-Val
+JN673263.1	Genbank	exon	1033	1100	.	+	.	ID=exon-JN673263.1:1033..1100-1;Parent=rna-JN673263.1:1033..1100;gbkey=tRNA;product=tRNA-Val
+JN673263.1	Genbank	rRNA	1101	2664	.	+	.	ID=rna-JN673263.1:1101..2664;gbkey=rRNA;product=16S ribosomal RNA
+JN673263.1	Genbank	exon	1101	2664	.	+	.	ID=exon-JN673263.1:1101..2664-1;Parent=rna-JN673263.1:1101..2664;gbkey=rRNA;product=16S ribosomal RNA
+JN673263.1	Genbank	tRNA	2665	2739	.	+	.	ID=rna-JN673263.1:2665..2739;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+JN673263.1	Genbank	exon	2665	2739	.	+	.	ID=exon-JN673263.1:2665..2739-1;Parent=rna-JN673263.1:2665..2739;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+JN673263.1	Genbank	gene	2740	3696	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	2740	3696	.	+	0	ID=cds-AEQ59288.1;Parent=gene-ND1;Dbxref=NCBI_GP:AEQ59288.1;Name=AEQ59288.1;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=AEQ59288.1;transl_table=2
+JN673263.1	Genbank	tRNA	3695	3763	.	-	.	ID=rna-JN673263.1:3695..3763;gbkey=tRNA;product=tRNA-Ile
+JN673263.1	Genbank	exon	3695	3763	.	-	.	ID=exon-JN673263.1:3695..3763-1;Parent=rna-JN673263.1:3695..3763;gbkey=tRNA;product=tRNA-Ile
+JN673263.1	Genbank	tRNA	3761	3832	.	+	.	ID=rna-JN673263.1:3761..3832;gbkey=tRNA;product=tRNA-Gln
+JN673263.1	Genbank	exon	3761	3832	.	+	.	ID=exon-JN673263.1:3761..3832-1;Parent=rna-JN673263.1:3761..3832;gbkey=tRNA;product=tRNA-Gln
+JN673263.1	Genbank	tRNA	3835	3904	.	+	.	ID=rna-JN673263.1:3835..3904;gbkey=tRNA;product=tRNA-Met
+JN673263.1	Genbank	exon	3835	3904	.	+	.	ID=exon-JN673263.1:3835..3904-1;Parent=rna-JN673263.1:3835..3904;gbkey=tRNA;product=tRNA-Met
+JN673263.1	Genbank	gene	3905	4946	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	3905	4946	.	+	0	ID=cds-AEQ59289.1;Parent=gene-ND2;Dbxref=NCBI_GP:AEQ59289.1;Name=AEQ59289.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=AEQ59289.1;transl_except=(pos:4946%2Caa:TERM);transl_table=2
+JN673263.1	Genbank	tRNA	4947	5014	.	+	.	ID=rna-JN673263.1:4947..5014;gbkey=tRNA;product=tRNA-Trp
+JN673263.1	Genbank	exon	4947	5014	.	+	.	ID=exon-JN673263.1:4947..5014-1;Parent=rna-JN673263.1:4947..5014;gbkey=tRNA;product=tRNA-Trp
+JN673263.1	Genbank	tRNA	5019	5086	.	-	.	ID=rna-JN673263.1:5019..5086;gbkey=tRNA;product=tRNA-Ala
+JN673263.1	Genbank	exon	5019	5086	.	-	.	ID=exon-JN673263.1:5019..5086-1;Parent=rna-JN673263.1:5019..5086;gbkey=tRNA;product=tRNA-Ala
+JN673263.1	Genbank	tRNA	5087	5160	.	-	.	ID=rna-JN673263.1:5087..5160;gbkey=tRNA;product=tRNA-Asn
+JN673263.1	Genbank	exon	5087	5160	.	-	.	ID=exon-JN673263.1:5087..5160-1;Parent=rna-JN673263.1:5087..5160;gbkey=tRNA;product=tRNA-Asn
+JN673263.1	Genbank	origin_of_replication	5161	5200	.	-	.	ID=id-JN673263.1:5161..5200;direction=LEFT;gbkey=rep_origin
+JN673263.1	Genbank	tRNA	5199	5263	.	-	.	ID=rna-JN673263.1:5199..5263;gbkey=tRNA;product=tRNA-Cys
+JN673263.1	Genbank	exon	5199	5263	.	-	.	ID=exon-JN673263.1:5199..5263-1;Parent=rna-JN673263.1:5199..5263;gbkey=tRNA;product=tRNA-Cys
+JN673263.1	Genbank	tRNA	5264	5327	.	-	.	ID=rna-JN673263.1:5264..5327;gbkey=tRNA;product=tRNA-Tyr
+JN673263.1	Genbank	exon	5264	5327	.	-	.	ID=exon-JN673263.1:5264..5327-1;Parent=rna-JN673263.1:5264..5327;gbkey=tRNA;product=tRNA-Tyr
+JN673263.1	Genbank	gene	5329	6876	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	5329	6876	.	+	0	ID=cds-AEQ59290.1;Parent=gene-COX1;Dbxref=NCBI_GP:AEQ59290.1;Name=AEQ59290.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=AEQ59290.1;transl_table=2
+JN673263.1	Genbank	tRNA	6872	6940	.	-	.	ID=rna-JN673263.1:6872..6940;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+JN673263.1	Genbank	exon	6872	6940	.	-	.	ID=exon-JN673263.1:6872..6940-1;Parent=rna-JN673263.1:6872..6940;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+JN673263.1	Genbank	tRNA	6950	7018	.	+	.	ID=rna-JN673263.1:6950..7018;gbkey=tRNA;product=tRNA-Asp
+JN673263.1	Genbank	exon	6950	7018	.	+	.	ID=exon-JN673263.1:6950..7018-1;Parent=rna-JN673263.1:6950..7018;gbkey=tRNA;product=tRNA-Asp
+JN673263.1	Genbank	gene	7019	7702	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	7019	7702	.	+	0	ID=cds-AEQ59291.1;Parent=gene-COX2;Dbxref=NCBI_GP:AEQ59291.1;Name=AEQ59291.1;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=AEQ59291.1;transl_table=2
+JN673263.1	Genbank	tRNA	7704	7771	.	+	.	ID=rna-JN673263.1:7704..7771;gbkey=tRNA;product=tRNA-Lys
+JN673263.1	Genbank	exon	7704	7771	.	+	.	ID=exon-JN673263.1:7704..7771-1;Parent=rna-JN673263.1:7704..7771;gbkey=tRNA;product=tRNA-Lys
+JN673263.1	Genbank	gene	7772	7972	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	7772	7972	.	+	0	ID=cds-AEQ59292.1;Parent=gene-ATP8;Dbxref=NCBI_GP:AEQ59292.1;Name=AEQ59292.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=AEQ59292.1;transl_table=2
+JN673263.1	Genbank	gene	7933	8601	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	7933	8601	.	+	0	ID=cds-AEQ59293.1;Parent=gene-ATP6;Dbxref=NCBI_GP:AEQ59293.1;Name=AEQ59293.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=AEQ59293.1;transl_table=2
+JN673263.1	Genbank	gene	8601	9384	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	8601	9384	.	+	0	ID=cds-AEQ59294.1;Parent=gene-COX3;Dbxref=NCBI_GP:AEQ59294.1;Name=AEQ59294.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=AEQ59294.1;transl_except=(pos:9384%2Caa:TERM);transl_table=2
+JN673263.1	Genbank	tRNA	9385	9454	.	+	.	ID=rna-JN673263.1:9385..9454;gbkey=tRNA;product=tRNA-Gly
+JN673263.1	Genbank	exon	9385	9454	.	+	.	ID=exon-JN673263.1:9385..9454-1;Parent=rna-JN673263.1:9385..9454;gbkey=tRNA;product=tRNA-Gly
+JN673263.1	Genbank	gene	9455	9801	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	9455	9801	.	+	0	ID=cds-AEQ59295.1;Parent=gene-ND3;Dbxref=NCBI_GP:AEQ59295.1;Name=AEQ59295.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=AEQ59295.1;transl_except=(pos:9800..9801%2Caa:TERM);transl_table=2
+JN673263.1	Genbank	tRNA	9802	9868	.	+	.	ID=rna-JN673263.1:9802..9868;gbkey=tRNA;product=tRNA-Arg
+JN673263.1	Genbank	exon	9802	9868	.	+	.	ID=exon-JN673263.1:9802..9868-1;Parent=rna-JN673263.1:9802..9868;gbkey=tRNA;product=tRNA-Arg
+JN673263.1	Genbank	gene	9871	10167	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	9871	10167	.	+	0	ID=cds-AEQ59296.1;Parent=gene-ND4L;Dbxref=NCBI_GP:AEQ59296.1;Name=AEQ59296.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=AEQ59296.1;transl_table=2
+JN673263.1	Genbank	gene	10161	11538	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	10161	11538	.	+	0	ID=cds-AEQ59297.1;Parent=gene-ND4;Dbxref=NCBI_GP:AEQ59297.1;Name=AEQ59297.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=AEQ59297.1;transl_except=(pos:11538%2Caa:TERM);transl_table=2
+JN673263.1	Genbank	tRNA	11539	11607	.	+	.	ID=rna-JN673263.1:11539..11607;gbkey=tRNA;product=tRNA-His
+JN673263.1	Genbank	exon	11539	11607	.	+	.	ID=exon-JN673263.1:11539..11607-1;Parent=rna-JN673263.1:11539..11607;gbkey=tRNA;product=tRNA-His
+JN673263.1	Genbank	tRNA	11608	11666	.	+	.	ID=rna-JN673263.1:11608..11666;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+JN673263.1	Genbank	exon	11608	11666	.	+	.	ID=exon-JN673263.1:11608..11666-1;Parent=rna-JN673263.1:11608..11666;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+JN673263.1	Genbank	tRNA	11667	11736	.	+	.	ID=rna-JN673263.1:11667..11736;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+JN673263.1	Genbank	exon	11667	11736	.	+	.	ID=exon-JN673263.1:11667..11736-1;Parent=rna-JN673263.1:11667..11736;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+JN673263.1	Genbank	gene	11737	13548	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	11737	13548	.	+	0	ID=cds-AEQ59298.1;Parent=gene-ND5;Dbxref=NCBI_GP:AEQ59298.1;Name=AEQ59298.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=AEQ59298.1;transl_table=2
+JN673263.1	Genbank	gene	13542	14069	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	13542	14069	.	-	0	ID=cds-AEQ59299.1;Parent=gene-ND6;Dbxref=NCBI_GP:AEQ59299.1;Name=AEQ59299.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=AEQ59299.1;transl_table=2
+JN673263.1	Genbank	tRNA	14070	14137	.	-	.	ID=rna-JN673263.1:14070..14137;gbkey=tRNA;product=tRNA-Glu
+JN673263.1	Genbank	exon	14070	14137	.	-	.	ID=exon-JN673263.1:14070..14137-1;Parent=rna-JN673263.1:14070..14137;gbkey=tRNA;product=tRNA-Glu
+JN673263.1	Genbank	gene	14148	15284	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+JN673263.1	Genbank	CDS	14148	15284	.	+	0	ID=cds-AEQ59300.1;Parent=gene-CYTB;Dbxref=NCBI_GP:AEQ59300.1;Name=AEQ59300.1;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=AEQ59300.1;transl_table=2
+JN673263.1	Genbank	tRNA	15285	15350	.	+	.	ID=rna-JN673263.1:15285..15350;gbkey=tRNA;product=tRNA-Thr
+JN673263.1	Genbank	exon	15285	15350	.	+	.	ID=exon-JN673263.1:15285..15350-1;Parent=rna-JN673263.1:15285..15350;gbkey=tRNA;product=tRNA-Thr
+JN673263.1	Genbank	tRNA	15351	15418	.	-	.	ID=rna-JN673263.1:15351..15418;gbkey=tRNA;product=tRNA-Pro
+JN673263.1	Genbank	exon	15351	15418	.	-	.	ID=exon-JN673263.1:15351..15418-1;Parent=rna-JN673263.1:15351..15418;gbkey=tRNA;product=tRNA-Pro
+JN673263.1	Genbank	D_loop	15419	16028	.	+	.	ID=id-JN673263.1:15419..16028;gbkey=D-loop
+

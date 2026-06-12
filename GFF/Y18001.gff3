@@ -1,0 +1,95 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region Y18001.1 1 16521
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9557
+Y18001.1	EMBL	region	1	16521	.	+	.	ID=Y18001.1:1..16521;Dbxref=taxon:9557;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+Y18001.1	EMBL	gene	1	72	.	+	.	ID=gene-tRNA-Phe;Name=tRNA-Phe;gbkey=Gene;gene=tRNA-Phe;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	1	72	.	+	.	ID=rna-tRNA-Phe;Parent=gene-tRNA-Phe;gbkey=tRNA;gene=tRNA-Phe;product=tRNA-Phe
+Y18001.1	EMBL	exon	1	72	.	+	.	ID=exon-tRNA-Phe-1;Parent=rna-tRNA-Phe;gbkey=tRNA;gene=tRNA-Phe;product=tRNA-Phe
+Y18001.1	EMBL	gene	73	1019	.	+	.	ID=gene-12S rRNA;Name=12S rRNA;gbkey=Gene;gene=12S rRNA;gene_biotype=rRNA
+Y18001.1	EMBL	rRNA	73	1019	.	+	.	ID=rna-12S rRNA;Parent=gene-12S rRNA;gbkey=rRNA;gene=12S rRNA;product=12S ribosomal RNA
+Y18001.1	EMBL	exon	73	1019	.	+	.	ID=exon-12S rRNA-1;Parent=rna-12S rRNA;gbkey=rRNA;gene=12S rRNA;product=12S ribosomal RNA
+Y18001.1	EMBL	gene	1020	1087	.	+	.	ID=gene-tRNA-Val;Name=tRNA-Val;gbkey=Gene;gene=tRNA-Val;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	1020	1087	.	+	.	ID=rna-tRNA-Val;Parent=gene-tRNA-Val;gbkey=tRNA;gene=tRNA-Val;product=tRNA-Val
+Y18001.1	EMBL	exon	1020	1087	.	+	.	ID=exon-tRNA-Val-1;Parent=rna-tRNA-Val;gbkey=tRNA;gene=tRNA-Val;product=tRNA-Val
+Y18001.1	EMBL	gene	1088	2657	.	+	.	ID=gene-16S rRNA;Name=16S rRNA;gbkey=Gene;gene=16S rRNA;gene_biotype=rRNA
+Y18001.1	EMBL	rRNA	1088	2657	.	+	.	ID=rna-16S rRNA;Parent=gene-16S rRNA;gbkey=rRNA;gene=16S rRNA;product=16S ribosomal RNA
+Y18001.1	EMBL	exon	1088	2657	.	+	.	ID=exon-16S rRNA-1;Parent=rna-16S rRNA;gbkey=rRNA;gene=16S rRNA;product=16S ribosomal RNA
+Y18001.1	EMBL	gene	2658	2732	.	+	.	ID=gene-tRNA-Leu(UUR);Name=tRNA-Leu(UUR);gbkey=Gene;gene=tRNA-Leu(UUR);gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	2658	2732	.	+	.	ID=rna-tRNA-Leu(UUR);Parent=gene-tRNA-Leu(UUR);gbkey=tRNA;gene=tRNA-Leu(UUR);product=tRNA-Leu
+Y18001.1	EMBL	exon	2658	2732	.	+	.	ID=exon-tRNA-Leu(UUR)-1;Parent=rna-tRNA-Leu(UUR);gbkey=tRNA;gene=tRNA-Leu(UUR);product=tRNA-Leu
+Y18001.1	EMBL	CDS	2735	3689	.	+	0	ID=cds-CAA76994.1;Dbxref=GOA:Q9ZXY4,InterPro:IPR001694,InterPro:IPR018086,UniProtKB/Swiss-Prot:Q9ZXY4,NCBI_GP:CAA76994.1;Name=CAA76994.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=3689,.;gbkey=CDS;partial=true;product=NADH dehydrogenase subunit 1;protein_id=CAA76994.1;transl_table=2
+Y18001.1	EMBL	gene	3690	3758	.	+	.	ID=gene-tRNA-Ile;Name=tRNA-Ile;gbkey=Gene;gene=tRNA-Ile;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	3690	3758	.	+	.	ID=rna-tRNA-Ile;Parent=gene-tRNA-Ile;gbkey=tRNA;gene=tRNA-Ile;product=tRNA-Ile
+Y18001.1	EMBL	exon	3690	3758	.	+	.	ID=exon-tRNA-Ile-1;Parent=rna-tRNA-Ile;gbkey=tRNA;gene=tRNA-Ile;product=tRNA-Ile
+Y18001.1	EMBL	gene	3756	3827	.	-	.	ID=gene-tRNA-Gln;Name=tRNA-Gln;gbkey=Gene;gene=tRNA-Gln;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	3756	3827	.	-	.	ID=rna-tRNA-Gln;Parent=gene-tRNA-Gln;gbkey=tRNA;gene=tRNA-Gln;product=tRNA-Gln
+Y18001.1	EMBL	exon	3756	3827	.	-	.	ID=exon-tRNA-Gln-1;Parent=rna-tRNA-Gln;gbkey=tRNA;gene=tRNA-Gln;product=tRNA-Gln
+Y18001.1	EMBL	gene	3829	3896	.	+	.	ID=gene-tRNA-Met;Name=tRNA-Met;gbkey=Gene;gene=tRNA-Met;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	3829	3896	.	+	.	ID=rna-tRNA-Met;Parent=gene-tRNA-Met;gbkey=tRNA;gene=tRNA-Met;product=tRNA-Met
+Y18001.1	EMBL	exon	3829	3896	.	+	.	ID=exon-tRNA-Met-1;Parent=rna-tRNA-Met;gbkey=tRNA;gene=tRNA-Met;product=tRNA-Met
+Y18001.1	EMBL	CDS	3897	4941	.	+	0	ID=cds-CAA76995.1;Dbxref=GOA:Q9ZXY3,InterPro:IPR001750,InterPro:IPR003917,InterPro:IPR010933,UniProtKB/Swiss-Prot:Q9ZXY3,NCBI_GP:CAA76995.1;Name=CAA76995.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=4941,.;gbkey=CDS;partial=true;product=NADH dehydrogenase subunit 2;protein_id=CAA76995.1;transl_table=2
+Y18001.1	EMBL	gene	4942	5008	.	+	.	ID=gene-tRNA-Trp;Name=tRNA-Trp;gbkey=Gene;gene=tRNA-Trp;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	4942	5008	.	+	.	ID=rna-tRNA-Trp;Parent=gene-tRNA-Trp;gbkey=tRNA;gene=tRNA-Trp;product=tRNA-Trp
+Y18001.1	EMBL	exon	4942	5008	.	+	.	ID=exon-tRNA-Trp-1;Parent=rna-tRNA-Trp;gbkey=tRNA;gene=tRNA-Trp;product=tRNA-Trp
+Y18001.1	EMBL	gene	5016	5084	.	-	.	ID=gene-tRNA-Ala;Name=tRNA-Ala;gbkey=Gene;gene=tRNA-Ala;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	5016	5084	.	-	.	ID=rna-tRNA-Ala;Parent=gene-tRNA-Ala;gbkey=tRNA;gene=tRNA-Ala;product=tRNA-Ala
+Y18001.1	EMBL	exon	5016	5084	.	-	.	ID=exon-tRNA-Ala-1;Parent=rna-tRNA-Ala;gbkey=tRNA;gene=tRNA-Ala;product=tRNA-Ala
+Y18001.1	EMBL	gene	5086	5158	.	-	.	ID=gene-tRNA-Asn;Name=tRNA-Asn;gbkey=Gene;gene=tRNA-Asn;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	5086	5158	.	-	.	ID=rna-tRNA-Asn;Parent=gene-tRNA-Asn;gbkey=tRNA;gene=tRNA-Asn;product=tRNA-Asn
+Y18001.1	EMBL	exon	5086	5158	.	-	.	ID=exon-tRNA-Asn-1;Parent=rna-tRNA-Asn;gbkey=tRNA;gene=tRNA-Asn;product=tRNA-Asn
+Y18001.1	EMBL	origin_of_replication	5159	5192	.	+	.	ID=id-Y18001.1:5159..5192;Note=ori-L;gbkey=rep_origin
+Y18001.1	EMBL	gene	5190	5257	.	-	.	ID=gene-tRNA-Cys;Name=tRNA-Cys;gbkey=Gene;gene=tRNA-Cys;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	5190	5257	.	-	.	ID=rna-tRNA-Cys;Parent=gene-tRNA-Cys;gbkey=tRNA;gene=tRNA-Cys;product=tRNA-Cys
+Y18001.1	EMBL	exon	5190	5257	.	-	.	ID=exon-tRNA-Cys-1;Parent=rna-tRNA-Cys;gbkey=tRNA;gene=tRNA-Cys;product=tRNA-Cys
+Y18001.1	EMBL	gene	5257	5322	.	-	.	ID=gene-tRNA-Tyr;Name=tRNA-Tyr;gbkey=Gene;gene=tRNA-Tyr;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	5257	5322	.	-	.	ID=rna-tRNA-Tyr;Parent=gene-tRNA-Tyr;gbkey=tRNA;gene=tRNA-Tyr;product=tRNA-Tyr
+Y18001.1	EMBL	exon	5257	5322	.	-	.	ID=exon-tRNA-Tyr-1;Parent=rna-tRNA-Tyr;gbkey=tRNA;gene=tRNA-Tyr;product=tRNA-Tyr
+Y18001.1	EMBL	CDS	5336	6877	.	+	0	ID=cds-CAA76996.1;Dbxref=GOA:Q9ZXY2,InterPro:IPR000883,UniProtKB/Swiss-Prot:Q9ZXY2,NCBI_GP:CAA76996.1;Name=CAA76996.1;gbkey=CDS;product=cytochrome c oxidase subunit I;protein_id=CAA76996.1;transl_table=2
+Y18001.1	EMBL	gene	6878	6945	.	-	.	ID=gene-tRNA-Ser(UCN);Name=tRNA-Ser(UCN);gbkey=Gene;gene=tRNA-Ser(UCN);gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	6878	6945	.	-	.	ID=rna-tRNA-Ser(UCN);Parent=gene-tRNA-Ser(UCN);gbkey=tRNA;gene=tRNA-Ser(UCN);product=tRNA-Ser
+Y18001.1	EMBL	exon	6878	6945	.	-	.	ID=exon-tRNA-Ser(UCN)-1;Parent=rna-tRNA-Ser(UCN);gbkey=tRNA;gene=tRNA-Ser(UCN);product=tRNA-Ser
+Y18001.1	EMBL	gene	6949	7016	.	+	.	ID=gene-tRNA-Asp;Name=tRNA-Asp;gbkey=Gene;gene=tRNA-Asp;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	6949	7016	.	+	.	ID=rna-tRNA-Asp;Parent=gene-tRNA-Asp;gbkey=tRNA;gene=tRNA-Asp;product=tRNA-Asp
+Y18001.1	EMBL	exon	6949	7016	.	+	.	ID=exon-tRNA-Asp-1;Parent=rna-tRNA-Asp;gbkey=tRNA;gene=tRNA-Asp;product=tRNA-Asp
+Y18001.1	EMBL	CDS	7018	7701	.	+	0	ID=cds-CAA76997.1;Dbxref=GOA:P68298,InterPro:IPR001505,InterPro:IPR002429,InterPro:IPR008972,InterPro:IPR011759,InterPro:IPR014222,InterPro:IPR015964,UniProtKB/Swiss-Prot:P68298,NCBI_GP:CAA76997.1;Name=CAA76997.1;gbkey=CDS;product=cytochrome c oxidase subunit II;protein_id=CAA76997.1;transl_table=2
+Y18001.1	EMBL	gene	7724	7788	.	+	.	ID=gene-tRNA-Lys;Name=tRNA-Lys;gbkey=Gene;gene=tRNA-Lys;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	7724	7788	.	+	.	ID=rna-tRNA-Lys;Parent=gene-tRNA-Lys;gbkey=tRNA;gene=tRNA-Lys;product=tRNA-Lys
+Y18001.1	EMBL	exon	7724	7788	.	+	.	ID=exon-tRNA-Lys-1;Parent=rna-tRNA-Lys;gbkey=tRNA;gene=tRNA-Lys;product=tRNA-Lys
+Y18001.1	EMBL	CDS	7790	7996	.	+	0	ID=cds-CAA76998.1;Dbxref=GOA:Q9ZXY0,InterPro:IPR001421,UniProtKB/Swiss-Prot:Q9ZXY0,NCBI_GP:CAA76998.1;Name=CAA76998.1;gbkey=CDS;product=ATPase subunit 8;protein_id=CAA76998.1;transl_table=2
+Y18001.1	EMBL	CDS	7951	8630	.	+	0	ID=cds-CAA76999.1;Dbxref=GOA:Q9ZXX9,InterPro:IPR000568,InterPro:IPR023011,UniProtKB/Swiss-Prot:Q9ZXX9,NCBI_GP:CAA76999.1;Name=CAA76999.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=8630,.;gbkey=CDS;partial=true;product=ATPase subunit 6;protein_id=CAA76999.1;transl_table=2
+Y18001.1	EMBL	CDS	8631	9414	.	+	0	ID=cds-CAA77000.1;Dbxref=GOA:Q9ZXX8,InterPro:IPR000298,InterPro:IPR013833,UniProtKB/Swiss-Prot:Q9ZXX8,NCBI_GP:CAA77000.1;Name=CAA77000.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=9414,.;gbkey=CDS;partial=true;product=cytochrome c oxidase subunit III;protein_id=CAA77000.1;transl_table=2
+Y18001.1	EMBL	gene	9415	9482	.	+	.	ID=gene-tRNA-Gly;Name=tRNA-Gly;gbkey=Gene;gene=tRNA-Gly;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	9415	9482	.	+	.	ID=rna-tRNA-Gly;Parent=gene-tRNA-Gly;gbkey=tRNA;gene=tRNA-Gly;product=tRNA-Gly
+Y18001.1	EMBL	exon	9415	9482	.	+	.	ID=exon-tRNA-Gly-1;Parent=rna-tRNA-Gly;gbkey=tRNA;gene=tRNA-Gly;product=tRNA-Gly
+Y18001.1	EMBL	gene	9483	9827	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+Y18001.1	EMBL	CDS	9483	9827	.	+	0	ID=cds-CAA77001.1;Parent=gene-ND3;Dbxref=GOA:Q9ZXX7,InterPro:IPR000440,UniProtKB/Swiss-Prot:Q9ZXX7,NCBI_GP:CAA77001.1;Name=CAA77001.1;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=CAA77001.1;transl_table=2
+Y18001.1	EMBL	gene	9829	9893	.	+	.	ID=gene-tRNA-Arg;Name=tRNA-Arg;gbkey=Gene;gene=tRNA-Arg;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	9829	9893	.	+	.	ID=rna-tRNA-Arg;Parent=gene-tRNA-Arg;gbkey=tRNA;gene=tRNA-Arg;product=tRNA-Arg
+Y18001.1	EMBL	exon	9829	9893	.	+	.	ID=exon-tRNA-Arg-1;Parent=rna-tRNA-Arg;gbkey=tRNA;gene=tRNA-Arg;product=tRNA-Arg
+Y18001.1	EMBL	CDS	9894	10190	.	+	0	ID=cds-CAA77002.1;Dbxref=GOA:Q9ZXX6,InterPro:IPR001133,UniProtKB/Swiss-Prot:Q9ZXX6,NCBI_GP:CAA77002.1;Name=CAA77002.1;gbkey=CDS;product=NADH dehydrogenase subunit 4L;protein_id=CAA77002.1;transl_table=2
+Y18001.1	EMBL	CDS	10184	11561	.	+	0	ID=cds-CAA77003.1;Dbxref=GOA:Q9T4X5,InterPro:IPR000260,InterPro:IPR001750,InterPro:IPR003918,InterPro:IPR010227,UniProtKB/TrEMBL:Q9T4X5,NCBI_GP:CAA77003.1;Name=CAA77003.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=11561,.;gbkey=CDS;partial=true;product=NADH dehydrogenase subunit 4;protein_id=CAA77003.1;transl_table=2
+Y18001.1	EMBL	gene	11562	11630	.	+	.	ID=gene-tRNA-His;Name=tRNA-His;gbkey=Gene;gene=tRNA-His;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	11562	11630	.	+	.	ID=rna-tRNA-His;Parent=gene-tRNA-His;gbkey=tRNA;gene=tRNA-His;product=tRNA-His
+Y18001.1	EMBL	exon	11562	11630	.	+	.	ID=exon-tRNA-His-1;Parent=rna-tRNA-His;gbkey=tRNA;gene=tRNA-His;product=tRNA-His
+Y18001.1	EMBL	gene	11631	11689	.	+	.	ID=gene-tRNA-Ser(AGY);Name=tRNA-Ser(AGY);gbkey=Gene;gene=tRNA-Ser(AGY);gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	11631	11689	.	+	.	ID=rna-tRNA-Ser(AGY);Parent=gene-tRNA-Ser(AGY);gbkey=tRNA;gene=tRNA-Ser(AGY);product=tRNA-Ser
+Y18001.1	EMBL	exon	11631	11689	.	+	.	ID=exon-tRNA-Ser(AGY)-1;Parent=rna-tRNA-Ser(AGY);gbkey=tRNA;gene=tRNA-Ser(AGY);product=tRNA-Ser
+Y18001.1	EMBL	gene	11690	11760	.	+	.	ID=gene-tRNA-Leu(CUN);Name=tRNA-Leu(CUN);gbkey=Gene;gene=tRNA-Leu(CUN);gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	11690	11760	.	+	.	ID=rna-tRNA-Leu(CUN);Parent=gene-tRNA-Leu(CUN);gbkey=tRNA;gene=tRNA-Leu(CUN);product=tRNA-Leu
+Y18001.1	EMBL	exon	11690	11760	.	+	.	ID=exon-tRNA-Leu(CUN)-1;Parent=rna-tRNA-Leu(CUN);gbkey=tRNA;gene=tRNA-Leu(CUN);product=tRNA-Leu
+Y18001.1	EMBL	CDS	11761	13572	.	+	0	ID=cds-CAA77004.1;Dbxref=GOA:Q95885,InterPro:IPR001516,InterPro:IPR001750,InterPro:IPR003945,InterPro:IPR010934,InterPro:IPR018393,UniProtKB/Swiss-Prot:Q95885,NCBI_GP:CAA77004.1;Name=CAA77004.1;gbkey=CDS;product=NADH dehydrogenase subunit 5;protein_id=CAA77004.1;transl_table=2
+Y18001.1	EMBL	CDS	13573	14097	.	-	0	ID=cds-CAA77005.1;Dbxref=GOA:Q9ZXX5,InterPro:IPR001457,UniProtKB/Swiss-Prot:Q9ZXX5,NCBI_GP:CAA77005.1;Name=CAA77005.1;gbkey=CDS;product=NADH dehydrogenase subunit 6;protein_id=CAA77005.1;transl_table=2
+Y18001.1	EMBL	gene	14098	14166	.	-	.	ID=gene-tRNA-Glu;Name=tRNA-Glu;gbkey=Gene;gene=tRNA-Glu;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	14098	14166	.	-	.	ID=rna-tRNA-Glu;Parent=gene-tRNA-Glu;gbkey=tRNA;gene=tRNA-Glu;product=tRNA-Glu
+Y18001.1	EMBL	exon	14098	14166	.	-	.	ID=exon-tRNA-Glu-1;Parent=rna-tRNA-Glu;gbkey=tRNA;gene=tRNA-Glu;product=tRNA-Glu
+Y18001.1	EMBL	CDS	14172	15311	.	+	0	ID=cds-CAA77006.1;Dbxref=GOA:Q9T4X4,InterPro:IPR005797,InterPro:IPR005798,InterPro:IPR016174,InterPro:IPR016175,UniProtKB/TrEMBL:Q9T4X4,NCBI_GP:CAA77006.1;Name=CAA77006.1;Note=incomplete stop codon%3B gene terminated by posttranscriptional polyadenylation;end_range=15311,.;gbkey=CDS;partial=true;product=cytochrome b;protein_id=CAA77006.1;transl_table=2
+Y18001.1	EMBL	gene	15312	15376	.	+	.	ID=gene-tRNA-Thr;Name=tRNA-Thr;gbkey=Gene;gene=tRNA-Thr;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	15312	15376	.	+	.	ID=rna-tRNA-Thr;Parent=gene-tRNA-Thr;gbkey=tRNA;gene=tRNA-Thr;product=tRNA-Thr
+Y18001.1	EMBL	exon	15312	15376	.	+	.	ID=exon-tRNA-Thr-1;Parent=rna-tRNA-Thr;gbkey=tRNA;gene=tRNA-Thr;product=tRNA-Thr
+Y18001.1	EMBL	gene	15378	15445	.	-	.	ID=gene-tRNA-Pro;Name=tRNA-Pro;gbkey=Gene;gene=tRNA-Pro;gene_biotype=tRNA
+Y18001.1	EMBL	tRNA	15378	15445	.	-	.	ID=rna-tRNA-Pro;Parent=gene-tRNA-Pro;gbkey=tRNA;gene=tRNA-Pro;product=tRNA-Pro
+Y18001.1	EMBL	exon	15378	15445	.	-	.	ID=exon-tRNA-Pro-1;Parent=rna-tRNA-Pro;gbkey=tRNA;gene=tRNA-Pro;product=tRNA-Pro
+Y18001.1	EMBL	sequence_feature	15446	16521	.	+	.	ID=id-Y18001.1:15446..16521;Note=control region;gbkey=misc_feature
+

@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_019588.1 1 16387
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=103592
+NC_019588.1	RefSeq	region	1	16387	.	+	.	ID=NC_019588.1:1..16387;Dbxref=taxon:103592;Is_circular=true;Name=MT;country=USA: E. Pacific;gbkey=Src;genome=mitochondrion;isolate=35;mol_type=genomic DNA;specimen-voucher=SWFSC:18135
+NC_019588.1	RefSeq	gene	1	72	.	+	.	ID=gene-F656_mgt01;Dbxref=GeneID:79569121;Name=F656_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt01
+NC_019588.1	RefSeq	tRNA	1	72	.	+	.	ID=rna-F656_mgt01;Parent=gene-F656_mgt01;Dbxref=GeneID:79569121;gbkey=tRNA;locus_tag=F656_mgt01;product=tRNA-Phe
+NC_019588.1	RefSeq	exon	1	72	.	+	.	ID=exon-F656_mgt01-1;Parent=rna-F656_mgt01;Dbxref=GeneID:79569121;gbkey=tRNA;locus_tag=F656_mgt01;product=tRNA-Phe
+NC_019588.1	RefSeq	gene	73	1046	.	+	.	ID=gene-F656_mgr02;Dbxref=GeneID:79569107;Name=F656_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=F656_mgr02
+NC_019588.1	RefSeq	rRNA	73	1046	.	+	.	ID=rna-F656_mgr02;Parent=gene-F656_mgr02;Dbxref=GeneID:79569107;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F656_mgr02;product=s-rRNA
+NC_019588.1	RefSeq	exon	73	1046	.	+	.	ID=exon-F656_mgr02-1;Parent=rna-F656_mgr02;Dbxref=GeneID:79569107;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F656_mgr02;product=s-rRNA
+NC_019588.1	RefSeq	gene	1047	1113	.	+	.	ID=gene-F656_mgt02;Dbxref=GeneID:79569108;Name=F656_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt02
+NC_019588.1	RefSeq	tRNA	1047	1113	.	+	.	ID=rna-F656_mgt02;Parent=gene-F656_mgt02;Dbxref=GeneID:79569108;gbkey=tRNA;locus_tag=F656_mgt02;product=tRNA-Val
+NC_019588.1	RefSeq	exon	1047	1113	.	+	.	ID=exon-F656_mgt02-1;Parent=rna-F656_mgt02;Dbxref=GeneID:79569108;gbkey=tRNA;locus_tag=F656_mgt02;product=tRNA-Val
+NC_019588.1	RefSeq	gene	1114	2694	.	+	.	ID=gene-F656_mgr01;Dbxref=GeneID:79569109;Name=F656_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=F656_mgr01
+NC_019588.1	RefSeq	rRNA	1114	2694	.	+	.	ID=rna-F656_mgr01;Parent=gene-F656_mgr01;Dbxref=GeneID:79569109;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F656_mgr01;product=l-rRNA
+NC_019588.1	RefSeq	exon	1114	2694	.	+	.	ID=exon-F656_mgr01-1;Parent=rna-F656_mgr01;Dbxref=GeneID:79569109;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F656_mgr01;product=l-rRNA
+NC_019588.1	RefSeq	gene	2695	2770	.	+	.	ID=gene-F656_mgt03;Dbxref=GeneID:79569110;Name=F656_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt03
+NC_019588.1	RefSeq	tRNA	2695	2770	.	+	.	ID=rna-F656_mgt03;Parent=gene-F656_mgt03;Dbxref=GeneID:79569110;gbkey=tRNA;locus_tag=F656_mgt03;product=tRNA-Leu
+NC_019588.1	RefSeq	exon	2695	2770	.	+	.	ID=exon-F656_mgt03-1;Parent=rna-F656_mgt03;Dbxref=GeneID:79569110;gbkey=tRNA;locus_tag=F656_mgt03;product=tRNA-Leu
+NC_019588.1	RefSeq	gene	2771	3727	.	+	.	ID=gene-F656_mgp13;Dbxref=GeneID:14048462;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=F656_mgp13
+NC_019588.1	RefSeq	CDS	2771	3727	.	+	0	ID=cds-YP_007025008.1;Parent=gene-F656_mgp13;Dbxref=GenBank:YP_007025008.1,GeneID:14048462;Name=YP_007025008.1;gbkey=CDS;gene=ND1;locus_tag=F656_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_007025008.1;transl_table=2
+NC_019588.1	RefSeq	gene	3732	3800	.	+	.	ID=gene-F656_mgt04;Dbxref=GeneID:79569098;Name=F656_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt04
+NC_019588.1	RefSeq	tRNA	3732	3800	.	+	.	ID=rna-F656_mgt04;Parent=gene-F656_mgt04;Dbxref=GeneID:79569098;gbkey=tRNA;locus_tag=F656_mgt04;product=tRNA-Ile
+NC_019588.1	RefSeq	exon	3732	3800	.	+	.	ID=exon-F656_mgt04-1;Parent=rna-F656_mgt04;Dbxref=GeneID:79569098;gbkey=tRNA;locus_tag=F656_mgt04;product=tRNA-Ile
+NC_019588.1	RefSeq	gene	3798	3870	.	+	.	ID=gene-F656_mgt05;Dbxref=GeneID:79569111;Name=F656_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt05
+NC_019588.1	RefSeq	tRNA	3798	3870	.	+	.	ID=rna-F656_mgt05;Parent=gene-F656_mgt05;Dbxref=GeneID:79569111;gbkey=tRNA;locus_tag=F656_mgt05;product=tRNA-Gln
+NC_019588.1	RefSeq	exon	3798	3870	.	+	.	ID=exon-F656_mgt05-1;Parent=rna-F656_mgt05;Dbxref=GeneID:79569111;gbkey=tRNA;locus_tag=F656_mgt05;product=tRNA-Gln
+NC_019588.1	RefSeq	gene	3872	3940	.	+	.	ID=gene-F656_mgt06;Dbxref=GeneID:79569112;Name=F656_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt06
+NC_019588.1	RefSeq	tRNA	3872	3940	.	+	.	ID=rna-F656_mgt06;Parent=gene-F656_mgt06;Dbxref=GeneID:79569112;gbkey=tRNA;locus_tag=F656_mgt06;product=tRNA-Met
+NC_019588.1	RefSeq	exon	3872	3940	.	+	.	ID=exon-F656_mgt06-1;Parent=rna-F656_mgt06;Dbxref=GeneID:79569112;gbkey=tRNA;locus_tag=F656_mgt06;product=tRNA-Met
+NC_019588.1	RefSeq	gene	3941	4982	.	+	.	ID=gene-F656_mgp12;Dbxref=GeneID:14048450;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=F656_mgp12
+NC_019588.1	RefSeq	CDS	3941	4982	.	+	0	ID=cds-YP_007025009.1;Parent=gene-F656_mgp12;Dbxref=GenBank:YP_007025009.1,GeneID:14048450;Name=YP_007025009.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=F656_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_007025009.1;transl_except=(pos:4982%2Caa:TERM);transl_table=2
+NC_019588.1	RefSeq	gene	4983	5051	.	+	.	ID=gene-F656_mgt07;Dbxref=GeneID:79569099;Name=F656_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt07
+NC_019588.1	RefSeq	tRNA	4983	5051	.	+	.	ID=rna-F656_mgt07;Parent=gene-F656_mgt07;Dbxref=GeneID:79569099;gbkey=tRNA;locus_tag=F656_mgt07;product=tRNA-Trp
+NC_019588.1	RefSeq	exon	4983	5051	.	+	.	ID=exon-F656_mgt07-1;Parent=rna-F656_mgt07;Dbxref=GeneID:79569099;gbkey=tRNA;locus_tag=F656_mgt07;product=tRNA-Trp
+NC_019588.1	RefSeq	gene	5057	5125	.	-	.	ID=gene-F656_mgt08;Dbxref=GeneID:79569113;Name=F656_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt08
+NC_019588.1	RefSeq	tRNA	5057	5125	.	-	.	ID=rna-F656_mgt08;Parent=gene-F656_mgt08;Dbxref=GeneID:79569113;gbkey=tRNA;locus_tag=F656_mgt08;product=tRNA-Ala
+NC_019588.1	RefSeq	exon	5057	5125	.	-	.	ID=exon-F656_mgt08-1;Parent=rna-F656_mgt08;Dbxref=GeneID:79569113;gbkey=tRNA;locus_tag=F656_mgt08;product=tRNA-Ala
+NC_019588.1	RefSeq	gene	5127	5201	.	-	.	ID=gene-F656_mgt09;Dbxref=GeneID:79569114;Name=F656_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt09
+NC_019588.1	RefSeq	tRNA	5127	5201	.	-	.	ID=rna-F656_mgt09;Parent=gene-F656_mgt09;Dbxref=GeneID:79569114;gbkey=tRNA;locus_tag=F656_mgt09;product=tRNA-Asn
+NC_019588.1	RefSeq	exon	5127	5201	.	-	.	ID=exon-F656_mgt09-1;Parent=rna-F656_mgt09;Dbxref=GeneID:79569114;gbkey=tRNA;locus_tag=F656_mgt09;product=tRNA-Asn
+NC_019588.1	RefSeq	gene	5234	5300	.	-	.	ID=gene-F656_mgt10;Dbxref=GeneID:79569115;Name=F656_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt10
+NC_019588.1	RefSeq	tRNA	5234	5300	.	-	.	ID=rna-F656_mgt10;Parent=gene-F656_mgt10;Dbxref=GeneID:79569115;gbkey=tRNA;locus_tag=F656_mgt10;product=tRNA-Cys
+NC_019588.1	RefSeq	exon	5234	5300	.	-	.	ID=exon-F656_mgt10-1;Parent=rna-F656_mgt10;Dbxref=GeneID:79569115;gbkey=tRNA;locus_tag=F656_mgt10;product=tRNA-Cys
+NC_019588.1	RefSeq	gene	5301	5366	.	-	.	ID=gene-F656_mgt11;Dbxref=GeneID:79569116;Name=F656_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt11
+NC_019588.1	RefSeq	tRNA	5301	5366	.	-	.	ID=rna-F656_mgt11;Parent=gene-F656_mgt11;Dbxref=GeneID:79569116;gbkey=tRNA;locus_tag=F656_mgt11;product=tRNA-Tyr
+NC_019588.1	RefSeq	exon	5301	5366	.	-	.	ID=exon-F656_mgt11-1;Parent=rna-F656_mgt11;Dbxref=GeneID:79569116;gbkey=tRNA;locus_tag=F656_mgt11;product=tRNA-Tyr
+NC_019588.1	RefSeq	gene	5367	6917	.	+	.	ID=gene-F656_mgp11;Dbxref=GeneID:14048451;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=F656_mgp11
+NC_019588.1	RefSeq	CDS	5367	6917	.	+	0	ID=cds-YP_007025010.1;Parent=gene-F656_mgp11;Dbxref=GenBank:YP_007025010.1,GeneID:14048451;Name=YP_007025010.1;gbkey=CDS;gene=COX1;locus_tag=F656_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_007025010.1;transl_table=2
+NC_019588.1	RefSeq	gene	6913	6981	.	-	.	ID=gene-F656_mgt12;Dbxref=GeneID:79569100;Name=F656_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt12
+NC_019588.1	RefSeq	tRNA	6913	6981	.	-	.	ID=rna-F656_mgt12;Parent=gene-F656_mgt12;Dbxref=GeneID:79569100;gbkey=tRNA;locus_tag=F656_mgt12;product=tRNA-Ser
+NC_019588.1	RefSeq	exon	6913	6981	.	-	.	ID=exon-F656_mgt12-1;Parent=rna-F656_mgt12;Dbxref=GeneID:79569100;gbkey=tRNA;locus_tag=F656_mgt12;product=tRNA-Ser
+NC_019588.1	RefSeq	gene	6989	7056	.	+	.	ID=gene-F656_mgt13;Dbxref=GeneID:79569117;Name=F656_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt13
+NC_019588.1	RefSeq	tRNA	6989	7056	.	+	.	ID=rna-F656_mgt13;Parent=gene-F656_mgt13;Dbxref=GeneID:79569117;gbkey=tRNA;locus_tag=F656_mgt13;product=tRNA-Asp
+NC_019588.1	RefSeq	exon	6989	7056	.	+	.	ID=exon-F656_mgt13-1;Parent=rna-F656_mgt13;Dbxref=GeneID:79569117;gbkey=tRNA;locus_tag=F656_mgt13;product=tRNA-Asp
+NC_019588.1	RefSeq	gene	7057	7740	.	+	.	ID=gene-F656_mgp10;Dbxref=GeneID:14048452;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=F656_mgp10
+NC_019588.1	RefSeq	CDS	7057	7740	.	+	0	ID=cds-YP_007025011.1;Parent=gene-F656_mgp10;Dbxref=GenBank:YP_007025011.1,GeneID:14048452;Name=YP_007025011.1;gbkey=CDS;gene=COX2;locus_tag=F656_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_007025011.1;transl_table=2
+NC_019588.1	RefSeq	gene	7744	7811	.	+	.	ID=gene-F656_mgt14;Dbxref=GeneID:79569101;Name=F656_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt14
+NC_019588.1	RefSeq	tRNA	7744	7811	.	+	.	ID=rna-F656_mgt14;Parent=gene-F656_mgt14;Dbxref=GeneID:79569101;gbkey=tRNA;locus_tag=F656_mgt14;product=tRNA-Lys
+NC_019588.1	RefSeq	exon	7744	7811	.	+	.	ID=exon-F656_mgt14-1;Parent=rna-F656_mgt14;Dbxref=GeneID:79569101;gbkey=tRNA;locus_tag=F656_mgt14;product=tRNA-Lys
+NC_019588.1	RefSeq	gene	7813	8004	.	+	.	ID=gene-F656_mgp09;Dbxref=GeneID:14048453;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=F656_mgp09
+NC_019588.1	RefSeq	CDS	7813	8004	.	+	0	ID=cds-YP_007025012.1;Parent=gene-F656_mgp09;Dbxref=GenBank:YP_007025012.1,GeneID:14048453;Name=YP_007025012.1;gbkey=CDS;gene=ATP8;locus_tag=F656_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_007025012.1;transl_table=2
+NC_019588.1	RefSeq	gene	7974	8654	.	+	.	ID=gene-F656_mgp08;Dbxref=GeneID:14048454;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=F656_mgp08
+NC_019588.1	RefSeq	CDS	7974	8654	.	+	0	ID=cds-YP_007025013.1;Parent=gene-F656_mgp08;Dbxref=GenBank:YP_007025013.1,GeneID:14048454;Name=YP_007025013.1;gbkey=CDS;gene=ATP6;locus_tag=F656_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_007025013.1;transl_table=2
+NC_019588.1	RefSeq	gene	8654	9438	.	+	.	ID=gene-F656_mgp07;Dbxref=GeneID:14048455;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=F656_mgp07
+NC_019588.1	RefSeq	CDS	8654	9438	.	+	0	ID=cds-YP_007025014.1;Parent=gene-F656_mgp07;Dbxref=GenBank:YP_007025014.1,GeneID:14048455;Name=YP_007025014.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=F656_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_007025014.1;transl_except=(pos:9437..9438%2Caa:TERM);transl_table=2
+NC_019588.1	RefSeq	gene	9439	9507	.	+	.	ID=gene-F656_mgt15;Dbxref=GeneID:79569102;Name=F656_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt15
+NC_019588.1	RefSeq	tRNA	9439	9507	.	+	.	ID=rna-F656_mgt15;Parent=gene-F656_mgt15;Dbxref=GeneID:79569102;gbkey=tRNA;locus_tag=F656_mgt15;product=tRNA-Gly
+NC_019588.1	RefSeq	exon	9439	9507	.	+	.	ID=exon-F656_mgt15-1;Parent=rna-F656_mgt15;Dbxref=GeneID:79569102;gbkey=tRNA;locus_tag=F656_mgt15;product=tRNA-Gly
+NC_019588.1	RefSeq	gene	9508	9854	.	+	.	ID=gene-F656_mgp06;Dbxref=GeneID:14048456;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=F656_mgp06
+NC_019588.1	RefSeq	CDS	9508	9854	.	+	0	ID=cds-YP_007025015.1;Parent=gene-F656_mgp06;Dbxref=GenBank:YP_007025015.1,GeneID:14048456;Name=YP_007025015.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=F656_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_007025015.1;transl_except=(pos:9853..9854%2Caa:TERM);transl_table=2
+NC_019588.1	RefSeq	gene	9855	9924	.	+	.	ID=gene-F656_mgt16;Dbxref=GeneID:79569103;Name=F656_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt16
+NC_019588.1	RefSeq	tRNA	9855	9924	.	+	.	ID=rna-F656_mgt16;Parent=gene-F656_mgt16;Dbxref=GeneID:79569103;gbkey=tRNA;locus_tag=F656_mgt16;product=tRNA-Arg
+NC_019588.1	RefSeq	exon	9855	9924	.	+	.	ID=exon-F656_mgt16-1;Parent=rna-F656_mgt16;Dbxref=GeneID:79569103;gbkey=tRNA;locus_tag=F656_mgt16;product=tRNA-Arg
+NC_019588.1	RefSeq	gene	9925	10221	.	+	.	ID=gene-F656_mgp05;Dbxref=GeneID:14048457;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=F656_mgp05
+NC_019588.1	RefSeq	CDS	9925	10221	.	+	0	ID=cds-YP_007025016.1;Parent=gene-F656_mgp05;Dbxref=GenBank:YP_007025016.1,GeneID:14048457;Name=YP_007025016.1;gbkey=CDS;gene=ND4L;locus_tag=F656_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_007025016.1;transl_table=2
+NC_019588.1	RefSeq	gene	10215	11592	.	+	.	ID=gene-F656_mgp04;Dbxref=GeneID:14048458;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=F656_mgp04
+NC_019588.1	RefSeq	CDS	10215	11592	.	+	0	ID=cds-YP_007025017.1;Parent=gene-F656_mgp04;Dbxref=GenBank:YP_007025017.1,GeneID:14048458;Name=YP_007025017.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=F656_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_007025017.1;transl_except=(pos:11592%2Caa:TERM);transl_table=2
+NC_019588.1	RefSeq	gene	11593	11662	.	+	.	ID=gene-F656_mgt17;Dbxref=GeneID:79569104;Name=F656_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt17
+NC_019588.1	RefSeq	tRNA	11593	11662	.	+	.	ID=rna-F656_mgt17;Parent=gene-F656_mgt17;Dbxref=GeneID:79569104;gbkey=tRNA;locus_tag=F656_mgt17;product=tRNA-His
+NC_019588.1	RefSeq	exon	11593	11662	.	+	.	ID=exon-F656_mgt17-1;Parent=rna-F656_mgt17;Dbxref=GeneID:79569104;gbkey=tRNA;locus_tag=F656_mgt17;product=tRNA-His
+NC_019588.1	RefSeq	gene	11663	11724	.	+	.	ID=gene-F656_mgt18;Dbxref=GeneID:79569118;Name=F656_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt18
+NC_019588.1	RefSeq	tRNA	11663	11724	.	+	.	ID=rna-F656_mgt18;Parent=gene-F656_mgt18;Dbxref=GeneID:79569118;gbkey=tRNA;locus_tag=F656_mgt18;product=tRNA-Ser
+NC_019588.1	RefSeq	exon	11663	11724	.	+	.	ID=exon-F656_mgt18-1;Parent=rna-F656_mgt18;Dbxref=GeneID:79569118;gbkey=tRNA;locus_tag=F656_mgt18;product=tRNA-Ser
+NC_019588.1	RefSeq	gene	11725	11794	.	+	.	ID=gene-F656_mgt19;Dbxref=GeneID:79569119;Name=F656_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt19
+NC_019588.1	RefSeq	tRNA	11725	11794	.	+	.	ID=rna-F656_mgt19;Parent=gene-F656_mgt19;Dbxref=GeneID:79569119;gbkey=tRNA;locus_tag=F656_mgt19;product=tRNA-Leu
+NC_019588.1	RefSeq	exon	11725	11794	.	+	.	ID=exon-F656_mgt19-1;Parent=rna-F656_mgt19;Dbxref=GeneID:79569119;gbkey=tRNA;locus_tag=F656_mgt19;product=tRNA-Leu
+NC_019588.1	RefSeq	gene	11795	13615	.	+	.	ID=gene-F656_mgp03;Dbxref=GeneID:14048459;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=F656_mgp03
+NC_019588.1	RefSeq	CDS	11795	13615	.	+	0	ID=cds-YP_007025018.1;Parent=gene-F656_mgp03;Dbxref=GenBank:YP_007025018.1,GeneID:14048459;Name=YP_007025018.1;gbkey=CDS;gene=ND5;locus_tag=F656_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_007025018.1;transl_table=2
+NC_019588.1	RefSeq	gene	13599	14126	.	-	.	ID=gene-F656_mgp02;Dbxref=GeneID:14048460;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=F656_mgp02
+NC_019588.1	RefSeq	CDS	13599	14126	.	-	0	ID=cds-YP_007025019.1;Parent=gene-F656_mgp02;Dbxref=GenBank:YP_007025019.1,GeneID:14048460;Name=YP_007025019.1;gbkey=CDS;gene=ND6;locus_tag=F656_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_007025019.1;transl_table=2
+NC_019588.1	RefSeq	gene	14127	14195	.	-	.	ID=gene-F656_mgt20;Dbxref=GeneID:79569105;Name=F656_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt20
+NC_019588.1	RefSeq	tRNA	14127	14195	.	-	.	ID=rna-F656_mgt20;Parent=gene-F656_mgt20;Dbxref=GeneID:79569105;gbkey=tRNA;locus_tag=F656_mgt20;product=tRNA-Glu
+NC_019588.1	RefSeq	exon	14127	14195	.	-	.	ID=exon-F656_mgt20-1;Parent=rna-F656_mgt20;Dbxref=GeneID:79569105;gbkey=tRNA;locus_tag=F656_mgt20;product=tRNA-Glu
+NC_019588.1	RefSeq	gene	14200	15339	.	+	.	ID=gene-F656_mgp01;Dbxref=GeneID:14048461;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=F656_mgp01
+NC_019588.1	RefSeq	CDS	14200	15339	.	+	0	ID=cds-YP_007025020.1;Parent=gene-F656_mgp01;Dbxref=GenBank:YP_007025020.1,GeneID:14048461;Name=YP_007025020.1;gbkey=CDS;gene=CYTB;locus_tag=F656_mgp01;product=cytochrome b;protein_id=YP_007025020.1;transl_table=2
+NC_019588.1	RefSeq	gene	15340	15409	.	+	.	ID=gene-F656_mgt21;Dbxref=GeneID:79569106;Name=F656_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt21
+NC_019588.1	RefSeq	tRNA	15340	15409	.	+	.	ID=rna-F656_mgt21;Parent=gene-F656_mgt21;Dbxref=GeneID:79569106;gbkey=tRNA;locus_tag=F656_mgt21;product=tRNA-Thr
+NC_019588.1	RefSeq	exon	15340	15409	.	+	.	ID=exon-F656_mgt21-1;Parent=rna-F656_mgt21;Dbxref=GeneID:79569106;gbkey=tRNA;locus_tag=F656_mgt21;product=tRNA-Thr
+NC_019588.1	RefSeq	gene	15410	15475	.	-	.	ID=gene-F656_mgt22;Dbxref=GeneID:79569120;Name=F656_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=F656_mgt22
+NC_019588.1	RefSeq	tRNA	15410	15475	.	-	.	ID=rna-F656_mgt22;Parent=gene-F656_mgt22;Dbxref=GeneID:79569120;gbkey=tRNA;locus_tag=F656_mgt22;product=tRNA-Pro
+NC_019588.1	RefSeq	exon	15410	15475	.	-	.	ID=exon-F656_mgt22-1;Parent=rna-F656_mgt22;Dbxref=GeneID:79569120;gbkey=tRNA;locus_tag=F656_mgt22;product=tRNA-Pro
+NC_019588.1	RefSeq	D_loop	15476	16385	.	+	.	ID=id-NC_019588.1:15476..16385;gbkey=D-loop
+

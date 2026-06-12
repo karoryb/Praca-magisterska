@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_027083.1 1 17046
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=13125
+NC_027083.1	RefSeq	region	1	17046	.	+	.	ID=NC_027083.1:1..17046;Dbxref=taxon:13125;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_027083.1	RefSeq	gene	880	949	.	+	.	ID=gene-AA835_gt01;Dbxref=GeneID:24285810;Name=AA835_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt01
+NC_027083.1	RefSeq	tRNA	880	949	.	+	.	ID=rna-AA835_gt01;Parent=gene-AA835_gt01;Dbxref=GeneID:24285810;gbkey=tRNA;locus_tag=AA835_gt01;product=tRNA-Phe
+NC_027083.1	RefSeq	exon	880	949	.	+	.	ID=exon-AA835_gt01-1;Parent=rna-AA835_gt01;Dbxref=GeneID:24285810;gbkey=tRNA;locus_tag=AA835_gt01;product=tRNA-Phe
+NC_027083.1	RefSeq	gene	950	1911	.	+	.	ID=gene-AA835_gr02;Dbxref=GeneID:24285811;Name=AA835_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=AA835_gr02
+NC_027083.1	RefSeq	rRNA	950	1911	.	+	.	ID=rna-AA835_gr02;Parent=gene-AA835_gr02;Dbxref=GeneID:24285811;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=AA835_gr02;product=12S ribosomal RNA
+NC_027083.1	RefSeq	exon	950	1911	.	+	.	ID=exon-AA835_gr02-1;Parent=rna-AA835_gr02;Dbxref=GeneID:24285811;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=AA835_gr02;product=12S ribosomal RNA
+NC_027083.1	RefSeq	gene	1912	1979	.	+	.	ID=gene-AA835_gt02;Dbxref=GeneID:24285812;Name=AA835_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt02
+NC_027083.1	RefSeq	tRNA	1912	1979	.	+	.	ID=rna-AA835_gt02;Parent=gene-AA835_gt02;Dbxref=GeneID:24285812;gbkey=tRNA;locus_tag=AA835_gt02;product=tRNA-Val
+NC_027083.1	RefSeq	exon	1912	1979	.	+	.	ID=exon-AA835_gt02-1;Parent=rna-AA835_gt02;Dbxref=GeneID:24285812;gbkey=tRNA;locus_tag=AA835_gt02;product=tRNA-Val
+NC_027083.1	RefSeq	gene	1980	3556	.	+	.	ID=gene-AA835_gr01;Dbxref=GeneID:24285813;Name=AA835_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=AA835_gr01
+NC_027083.1	RefSeq	rRNA	1980	3556	.	+	.	ID=rna-AA835_gr01;Parent=gene-AA835_gr01;Dbxref=GeneID:24285813;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=AA835_gr01;product=16S ribosomal RNA
+NC_027083.1	RefSeq	exon	1980	3556	.	+	.	ID=exon-AA835_gr01-1;Parent=rna-AA835_gr01;Dbxref=GeneID:24285813;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=AA835_gr01;product=16S ribosomal RNA
+NC_027083.1	RefSeq	gene	3557	3631	.	+	.	ID=gene-AA835_gt03;Dbxref=GeneID:24285814;Name=AA835_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt03
+NC_027083.1	RefSeq	tRNA	3557	3631	.	+	.	ID=rna-AA835_gt03;Parent=gene-AA835_gt03;Dbxref=GeneID:24285814;codons=UUR;gbkey=tRNA;locus_tag=AA835_gt03;product=tRNA-Leu
+NC_027083.1	RefSeq	exon	3557	3631	.	+	.	ID=exon-AA835_gt03-1;Parent=rna-AA835_gt03;Dbxref=GeneID:24285814;codons=UUR;gbkey=tRNA;locus_tag=AA835_gt03;product=tRNA-Leu
+NC_027083.1	RefSeq	gene	3634	4589	.	+	.	ID=gene-AA835_gp13;Dbxref=GeneID:24285815;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=AA835_gp13
+NC_027083.1	RefSeq	CDS	3634	4589	.	+	0	ID=cds-YP_009138990.1;Parent=gene-AA835_gp13;Dbxref=GenBank:YP_009138990.1,GeneID:24285815;Name=YP_009138990.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=AA835_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009138990.1;transl_except=(pos:4588..4589%2Caa:TERM);transl_table=2
+NC_027083.1	RefSeq	gene	4590	4658	.	+	.	ID=gene-AA835_gt04;Dbxref=GeneID:24285797;Name=AA835_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt04
+NC_027083.1	RefSeq	tRNA	4590	4658	.	+	.	ID=rna-AA835_gt04;Parent=gene-AA835_gt04;Dbxref=GeneID:24285797;gbkey=tRNA;locus_tag=AA835_gt04;product=tRNA-Ile
+NC_027083.1	RefSeq	exon	4590	4658	.	+	.	ID=exon-AA835_gt04-1;Parent=rna-AA835_gt04;Dbxref=GeneID:24285797;gbkey=tRNA;locus_tag=AA835_gt04;product=tRNA-Ile
+NC_027083.1	RefSeq	gene	4656	4729	.	-	.	ID=gene-AA835_gt05;Dbxref=GeneID:24285816;Name=AA835_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt05
+NC_027083.1	RefSeq	tRNA	4656	4729	.	-	.	ID=rna-AA835_gt05;Parent=gene-AA835_gt05;Dbxref=GeneID:24285816;gbkey=tRNA;locus_tag=AA835_gt05;product=tRNA-Gln
+NC_027083.1	RefSeq	exon	4656	4729	.	-	.	ID=exon-AA835_gt05-1;Parent=rna-AA835_gt05;Dbxref=GeneID:24285816;gbkey=tRNA;locus_tag=AA835_gt05;product=tRNA-Gln
+NC_027083.1	RefSeq	gene	4731	4799	.	+	.	ID=gene-AA835_gt06;Dbxref=GeneID:24285817;Name=AA835_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt06
+NC_027083.1	RefSeq	tRNA	4731	4799	.	+	.	ID=rna-AA835_gt06;Parent=gene-AA835_gt06;Dbxref=GeneID:24285817;gbkey=tRNA;locus_tag=AA835_gt06;product=tRNA-Met
+NC_027083.1	RefSeq	exon	4731	4799	.	+	.	ID=exon-AA835_gt06-1;Parent=rna-AA835_gt06;Dbxref=GeneID:24285817;gbkey=tRNA;locus_tag=AA835_gt06;product=tRNA-Met
+NC_027083.1	RefSeq	gene	4800	5841	.	+	.	ID=gene-AA835_gp12;Dbxref=GeneID:24285818;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=AA835_gp12
+NC_027083.1	RefSeq	CDS	4800	5841	.	+	0	ID=cds-YP_009138991.1;Parent=gene-AA835_gp12;Dbxref=GenBank:YP_009138991.1,GeneID:24285818;Name=YP_009138991.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=AA835_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009138991.1;transl_except=(pos:5841%2Caa:TERM);transl_table=2
+NC_027083.1	RefSeq	gene	5842	5909	.	+	.	ID=gene-AA835_gt07;Dbxref=GeneID:24285798;Name=AA835_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt07
+NC_027083.1	RefSeq	tRNA	5842	5909	.	+	.	ID=rna-AA835_gt07;Parent=gene-AA835_gt07;Dbxref=GeneID:24285798;gbkey=tRNA;locus_tag=AA835_gt07;product=tRNA-Trp
+NC_027083.1	RefSeq	exon	5842	5909	.	+	.	ID=exon-AA835_gt07-1;Parent=rna-AA835_gt07;Dbxref=GeneID:24285798;gbkey=tRNA;locus_tag=AA835_gt07;product=tRNA-Trp
+NC_027083.1	RefSeq	gene	5925	5993	.	-	.	ID=gene-AA835_gt08;Dbxref=GeneID:24285819;Name=AA835_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt08
+NC_027083.1	RefSeq	tRNA	5925	5993	.	-	.	ID=rna-AA835_gt08;Parent=gene-AA835_gt08;Dbxref=GeneID:24285819;gbkey=tRNA;locus_tag=AA835_gt08;product=tRNA-Ala
+NC_027083.1	RefSeq	exon	5925	5993	.	-	.	ID=exon-AA835_gt08-1;Parent=rna-AA835_gt08;Dbxref=GeneID:24285819;gbkey=tRNA;locus_tag=AA835_gt08;product=tRNA-Ala
+NC_027083.1	RefSeq	gene	5995	6067	.	-	.	ID=gene-AA835_gt09;Dbxref=GeneID:24285820;Name=AA835_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt09
+NC_027083.1	RefSeq	tRNA	5995	6067	.	-	.	ID=rna-AA835_gt09;Parent=gene-AA835_gt09;Dbxref=GeneID:24285820;gbkey=tRNA;locus_tag=AA835_gt09;product=tRNA-Asn
+NC_027083.1	RefSeq	exon	5995	6067	.	-	.	ID=exon-AA835_gt09-1;Parent=rna-AA835_gt09;Dbxref=GeneID:24285820;gbkey=tRNA;locus_tag=AA835_gt09;product=tRNA-Asn
+NC_027083.1	RefSeq	origin_of_replication	6068	6099	.	+	.	ID=id-NC_027083.1:6068..6099;Note=origin of L-strand replication%3B OLR;gbkey=rep_origin
+NC_027083.1	RefSeq	gene	6100	6165	.	-	.	ID=gene-AA835_gt10;Dbxref=GeneID:24285821;Name=AA835_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt10
+NC_027083.1	RefSeq	tRNA	6100	6165	.	-	.	ID=rna-AA835_gt10;Parent=gene-AA835_gt10;Dbxref=GeneID:24285821;gbkey=tRNA;locus_tag=AA835_gt10;product=tRNA-Cys
+NC_027083.1	RefSeq	exon	6100	6165	.	-	.	ID=exon-AA835_gt10-1;Parent=rna-AA835_gt10;Dbxref=GeneID:24285821;gbkey=tRNA;locus_tag=AA835_gt10;product=tRNA-Cys
+NC_027083.1	RefSeq	gene	6166	6232	.	-	.	ID=gene-AA835_gt11;Dbxref=GeneID:24285822;Name=AA835_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt11
+NC_027083.1	RefSeq	tRNA	6166	6232	.	-	.	ID=rna-AA835_gt11;Parent=gene-AA835_gt11;Dbxref=GeneID:24285822;gbkey=tRNA;locus_tag=AA835_gt11;product=tRNA-Tyr
+NC_027083.1	RefSeq	exon	6166	6232	.	-	.	ID=exon-AA835_gt11-1;Parent=rna-AA835_gt11;Dbxref=GeneID:24285822;gbkey=tRNA;locus_tag=AA835_gt11;product=tRNA-Tyr
+NC_027083.1	RefSeq	gene	6234	7778	.	+	.	ID=gene-AA835_gp11;Dbxref=GeneID:24285823;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=AA835_gp11
+NC_027083.1	RefSeq	CDS	6234	7778	.	+	0	ID=cds-YP_009138992.1;Parent=gene-AA835_gp11;Dbxref=GenBank:YP_009138992.1,GeneID:24285823;Name=YP_009138992.1;gbkey=CDS;gene=COX1;locus_tag=AA835_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009138992.1;transl_table=2
+NC_027083.1	RefSeq	gene	7777	7846	.	-	.	ID=gene-AA835_gt12;Dbxref=GeneID:24285799;Name=AA835_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt12
+NC_027083.1	RefSeq	tRNA	7777	7846	.	-	.	ID=rna-AA835_gt12;Parent=gene-AA835_gt12;Dbxref=GeneID:24285799;codons=UCN;gbkey=tRNA;locus_tag=AA835_gt12;product=tRNA-Ser
+NC_027083.1	RefSeq	exon	7777	7846	.	-	.	ID=exon-AA835_gt12-1;Parent=rna-AA835_gt12;Dbxref=GeneID:24285799;codons=UCN;gbkey=tRNA;locus_tag=AA835_gt12;product=tRNA-Ser
+NC_027083.1	RefSeq	gene	7851	7919	.	+	.	ID=gene-AA835_gt13;Dbxref=GeneID:24285824;Name=AA835_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt13
+NC_027083.1	RefSeq	tRNA	7851	7919	.	+	.	ID=rna-AA835_gt13;Parent=gene-AA835_gt13;Dbxref=GeneID:24285824;gbkey=tRNA;locus_tag=AA835_gt13;product=tRNA-Asp
+NC_027083.1	RefSeq	exon	7851	7919	.	+	.	ID=exon-AA835_gt13-1;Parent=rna-AA835_gt13;Dbxref=GeneID:24285824;gbkey=tRNA;locus_tag=AA835_gt13;product=tRNA-Asp
+NC_027083.1	RefSeq	gene	7920	8603	.	+	.	ID=gene-AA835_gp10;Dbxref=GeneID:24285825;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=AA835_gp10
+NC_027083.1	RefSeq	CDS	7920	8603	.	+	0	ID=cds-YP_009138993.1;Parent=gene-AA835_gp10;Dbxref=GenBank:YP_009138993.1,GeneID:24285825;Name=YP_009138993.1;gbkey=CDS;gene=COX2;locus_tag=AA835_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009138993.1;transl_table=2
+NC_027083.1	RefSeq	gene	8607	8674	.	+	.	ID=gene-AA835_gt14;Dbxref=GeneID:24285800;Name=AA835_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt14
+NC_027083.1	RefSeq	tRNA	8607	8674	.	+	.	ID=rna-AA835_gt14;Parent=gene-AA835_gt14;Dbxref=GeneID:24285800;gbkey=tRNA;locus_tag=AA835_gt14;product=tRNA-Lys
+NC_027083.1	RefSeq	exon	8607	8674	.	+	.	ID=exon-AA835_gt14-1;Parent=rna-AA835_gt14;Dbxref=GeneID:24285800;gbkey=tRNA;locus_tag=AA835_gt14;product=tRNA-Lys
+NC_027083.1	RefSeq	gene	8676	8879	.	+	.	ID=gene-AA835_gp09;Dbxref=GeneID:24285826;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=AA835_gp09
+NC_027083.1	RefSeq	CDS	8676	8879	.	+	0	ID=cds-YP_009138994.1;Parent=gene-AA835_gp09;Dbxref=GenBank:YP_009138994.1,GeneID:24285826;Name=YP_009138994.1;gbkey=CDS;gene=ATP8;locus_tag=AA835_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009138994.1;transl_table=2
+NC_027083.1	RefSeq	gene	8837	9517	.	+	.	ID=gene-AA835_gp08;Dbxref=GeneID:24285801;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=AA835_gp08
+NC_027083.1	RefSeq	CDS	8837	9517	.	+	0	ID=cds-YP_009138995.1;Parent=gene-AA835_gp08;Dbxref=GenBank:YP_009138995.1,GeneID:24285801;Name=YP_009138995.1;gbkey=CDS;gene=ATP6;locus_tag=AA835_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009138995.1;transl_table=2
+NC_027083.1	RefSeq	gene	9517	10300	.	+	.	ID=gene-AA835_gp07;Dbxref=GeneID:24285802;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=AA835_gp07
+NC_027083.1	RefSeq	CDS	9517	10300	.	+	0	ID=cds-YP_009138996.1;Parent=gene-AA835_gp07;Dbxref=GenBank:YP_009138996.1,GeneID:24285802;Name=YP_009138996.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=AA835_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009138996.1;transl_except=(pos:10300%2Caa:TERM);transl_table=2
+NC_027083.1	RefSeq	gene	10301	10369	.	+	.	ID=gene-AA835_gt15;Dbxref=GeneID:24285803;Name=AA835_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt15
+NC_027083.1	RefSeq	tRNA	10301	10369	.	+	.	ID=rna-AA835_gt15;Parent=gene-AA835_gt15;Dbxref=GeneID:24285803;gbkey=tRNA;locus_tag=AA835_gt15;product=tRNA-Gly
+NC_027083.1	RefSeq	exon	10301	10369	.	+	.	ID=exon-AA835_gt15-1;Parent=rna-AA835_gt15;Dbxref=GeneID:24285803;gbkey=tRNA;locus_tag=AA835_gt15;product=tRNA-Gly
+NC_027083.1	RefSeq	gene	10370	10716	.	+	.	ID=gene-AA835_gp06;Dbxref=GeneID:24285827;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=AA835_gp06
+NC_027083.1	RefSeq	CDS	10370	10716	.	+	0	ID=cds-YP_009138997.1;Parent=gene-AA835_gp06;Dbxref=GenBank:YP_009138997.1,GeneID:24285827;Name=YP_009138997.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=AA835_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009138997.1;transl_except=(pos:10715..10716%2Caa:TERM);transl_table=2
+NC_027083.1	RefSeq	gene	10717	10785	.	+	.	ID=gene-AA835_gt16;Dbxref=GeneID:24285804;Name=AA835_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt16
+NC_027083.1	RefSeq	tRNA	10717	10785	.	+	.	ID=rna-AA835_gt16;Parent=gene-AA835_gt16;Dbxref=GeneID:24285804;gbkey=tRNA;locus_tag=AA835_gt16;product=tRNA-Arg
+NC_027083.1	RefSeq	exon	10717	10785	.	+	.	ID=exon-AA835_gt16-1;Parent=rna-AA835_gt16;Dbxref=GeneID:24285804;gbkey=tRNA;locus_tag=AA835_gt16;product=tRNA-Arg
+NC_027083.1	RefSeq	gene	10786	11082	.	+	.	ID=gene-AA835_gp05;Dbxref=GeneID:24285828;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=AA835_gp05
+NC_027083.1	RefSeq	CDS	10786	11082	.	+	0	ID=cds-YP_009138998.1;Parent=gene-AA835_gp05;Dbxref=GenBank:YP_009138998.1,GeneID:24285828;Name=YP_009138998.1;gbkey=CDS;gene=ND4L;locus_tag=AA835_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009138998.1;transl_table=2
+NC_027083.1	RefSeq	gene	11076	12453	.	+	.	ID=gene-AA835_gp04;Dbxref=GeneID:24285805;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=AA835_gp04
+NC_027083.1	RefSeq	CDS	11076	12453	.	+	0	ID=cds-YP_009138999.1;Parent=gene-AA835_gp04;Dbxref=GenBank:YP_009138999.1,GeneID:24285805;Name=YP_009138999.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=AA835_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009138999.1;transl_except=(pos:12453%2Caa:TERM);transl_table=2
+NC_027083.1	RefSeq	gene	12454	12522	.	+	.	ID=gene-AA835_gt17;Dbxref=GeneID:24285806;Name=AA835_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt17
+NC_027083.1	RefSeq	tRNA	12454	12522	.	+	.	ID=rna-AA835_gt17;Parent=gene-AA835_gt17;Dbxref=GeneID:24285806;gbkey=tRNA;locus_tag=AA835_gt17;product=tRNA-His
+NC_027083.1	RefSeq	exon	12454	12522	.	+	.	ID=exon-AA835_gt17-1;Parent=rna-AA835_gt17;Dbxref=GeneID:24285806;gbkey=tRNA;locus_tag=AA835_gt17;product=tRNA-His
+NC_027083.1	RefSeq	gene	12523	12581	.	+	.	ID=gene-AA835_gt18;Dbxref=GeneID:24285829;Name=AA835_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt18
+NC_027083.1	RefSeq	tRNA	12523	12581	.	+	.	ID=rna-AA835_gt18;Parent=gene-AA835_gt18;Dbxref=GeneID:24285829;codons=AGY;gbkey=tRNA;locus_tag=AA835_gt18;product=tRNA-Ser
+NC_027083.1	RefSeq	exon	12523	12581	.	+	.	ID=exon-AA835_gt18-1;Parent=rna-AA835_gt18;Dbxref=GeneID:24285829;codons=AGY;gbkey=tRNA;locus_tag=AA835_gt18;product=tRNA-Ser
+NC_027083.1	RefSeq	gene	12582	12651	.	+	.	ID=gene-AA835_gt19;Dbxref=GeneID:24285830;Name=AA835_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt19
+NC_027083.1	RefSeq	tRNA	12582	12651	.	+	.	ID=rna-AA835_gt19;Parent=gene-AA835_gt19;Dbxref=GeneID:24285830;codons=CUN;gbkey=tRNA;locus_tag=AA835_gt19;product=tRNA-Leu
+NC_027083.1	RefSeq	exon	12582	12651	.	+	.	ID=exon-AA835_gt19-1;Parent=rna-AA835_gt19;Dbxref=GeneID:24285830;codons=CUN;gbkey=tRNA;locus_tag=AA835_gt19;product=tRNA-Leu
+NC_027083.1	RefSeq	gene	12652	14472	.	+	.	ID=gene-AA835_gp03;Dbxref=GeneID:24285831;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=AA835_gp03
+NC_027083.1	RefSeq	CDS	12652	14472	.	+	0	ID=cds-YP_009139000.1;Parent=gene-AA835_gp03;Dbxref=GenBank:YP_009139000.1,GeneID:24285831;Name=YP_009139000.1;gbkey=CDS;gene=ND5;locus_tag=AA835_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009139000.1;transl_table=2
+NC_027083.1	RefSeq	gene	14456	14983	.	-	.	ID=gene-AA835_gp02;Dbxref=GeneID:24285807;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=AA835_gp02
+NC_027083.1	RefSeq	CDS	14456	14983	.	-	0	ID=cds-YP_009139001.1;Parent=gene-AA835_gp02;Dbxref=GenBank:YP_009139001.1,GeneID:24285807;Name=YP_009139001.1;gbkey=CDS;gene=ND6;locus_tag=AA835_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009139001.1;transl_table=2
+NC_027083.1	RefSeq	gene	14984	15052	.	-	.	ID=gene-AA835_gt20;Dbxref=GeneID:24285808;Name=AA835_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt20
+NC_027083.1	RefSeq	tRNA	14984	15052	.	-	.	ID=rna-AA835_gt20;Parent=gene-AA835_gt20;Dbxref=GeneID:24285808;gbkey=tRNA;locus_tag=AA835_gt20;product=tRNA-Glu
+NC_027083.1	RefSeq	exon	14984	15052	.	-	.	ID=exon-AA835_gt20-1;Parent=rna-AA835_gt20;Dbxref=GeneID:24285808;gbkey=tRNA;locus_tag=AA835_gt20;product=tRNA-Glu
+NC_027083.1	RefSeq	gene	15056	16195	.	+	.	ID=gene-AA835_gp01;Dbxref=GeneID:24285832;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=AA835_gp01
+NC_027083.1	RefSeq	CDS	15056	16195	.	+	0	ID=cds-YP_009139002.1;Parent=gene-AA835_gp01;Dbxref=GenBank:YP_009139002.1,GeneID:24285832;Name=YP_009139002.1;gbkey=CDS;gene=CYTB;locus_tag=AA835_gp01;product=cytochrome b;protein_id=YP_009139002.1;transl_table=2
+NC_027083.1	RefSeq	gene	16196	16263	.	+	.	ID=gene-AA835_gt21;Dbxref=GeneID:24285809;Name=AA835_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt21
+NC_027083.1	RefSeq	tRNA	16196	16263	.	+	.	ID=rna-AA835_gt21;Parent=gene-AA835_gt21;Dbxref=GeneID:24285809;gbkey=tRNA;locus_tag=AA835_gt21;product=tRNA-Thr
+NC_027083.1	RefSeq	exon	16196	16263	.	+	.	ID=exon-AA835_gt21-1;Parent=rna-AA835_gt21;Dbxref=GeneID:24285809;gbkey=tRNA;locus_tag=AA835_gt21;product=tRNA-Thr
+NC_027083.1	RefSeq	gene	16264	16330	.	-	.	ID=gene-AA835_gt22;Dbxref=GeneID:24285833;Name=AA835_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=AA835_gt22
+NC_027083.1	RefSeq	tRNA	16264	16330	.	-	.	ID=rna-AA835_gt22;Parent=gene-AA835_gt22;Dbxref=GeneID:24285833;gbkey=tRNA;locus_tag=AA835_gt22;product=tRNA-Pro
+NC_027083.1	RefSeq	exon	16264	16330	.	-	.	ID=exon-AA835_gt22-1;Parent=rna-AA835_gt22;Dbxref=GeneID:24285833;gbkey=tRNA;locus_tag=AA835_gt22;product=tRNA-Pro
+NC_027083.1	RefSeq	sequence_feature	16331	17925	.	+	.	ID=id-NC_027083.1:1..17046;Note=control region%3B CR;gbkey=misc_feature
+

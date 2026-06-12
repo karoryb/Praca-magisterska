@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_029849.1 1 17038
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=59463
+NC_029849.1	RefSeq	region	1	17038	.	+	.	ID=NC_029849.1:1..17038;Dbxref=taxon:59463;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_029849.1	RefSeq	gene	1	68	.	+	.	ID=gene-A4331_gt01;Dbxref=GeneID:27214804;Name=A4331_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt01
+NC_029849.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-A4331_gt01;Parent=gene-A4331_gt01;Dbxref=GeneID:27214804;gbkey=tRNA;locus_tag=A4331_gt01;product=tRNA-Phe
+NC_029849.1	RefSeq	exon	1	68	.	+	.	ID=exon-A4331_gt01-1;Parent=rna-A4331_gt01;Dbxref=GeneID:27214804;gbkey=tRNA;locus_tag=A4331_gt01;product=tRNA-Phe
+NC_029849.1	RefSeq	gene	69	1036	.	+	.	ID=gene-A4331_gr02;Dbxref=GeneID:27214805;Name=A4331_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=A4331_gr02
+NC_029849.1	RefSeq	rRNA	69	1036	.	+	.	ID=rna-A4331_gr02;Parent=gene-A4331_gr02;Dbxref=GeneID:27214805;gbkey=rRNA;locus_tag=A4331_gr02;product=12S ribosomal RNA
+NC_029849.1	RefSeq	exon	69	1036	.	+	.	ID=exon-A4331_gr02-1;Parent=rna-A4331_gr02;Dbxref=GeneID:27214805;gbkey=rRNA;locus_tag=A4331_gr02;product=12S ribosomal RNA
+NC_029849.1	RefSeq	gene	1037	1104	.	+	.	ID=gene-A4331_gt02;Dbxref=GeneID:27214806;Name=A4331_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt02
+NC_029849.1	RefSeq	tRNA	1037	1104	.	+	.	ID=rna-A4331_gt02;Parent=gene-A4331_gt02;Dbxref=GeneID:27214806;gbkey=tRNA;locus_tag=A4331_gt02;product=tRNA-Val
+NC_029849.1	RefSeq	exon	1037	1104	.	+	.	ID=exon-A4331_gt02-1;Parent=rna-A4331_gt02;Dbxref=GeneID:27214806;gbkey=tRNA;locus_tag=A4331_gt02;product=tRNA-Val
+NC_029849.1	RefSeq	gene	1105	2672	.	+	.	ID=gene-A4331_gr01;Dbxref=GeneID:27214807;Name=A4331_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=A4331_gr01
+NC_029849.1	RefSeq	rRNA	1105	2672	.	+	.	ID=rna-A4331_gr01;Parent=gene-A4331_gr01;Dbxref=GeneID:27214807;gbkey=rRNA;locus_tag=A4331_gr01;product=16S ribosomal RNA
+NC_029849.1	RefSeq	exon	1105	2672	.	+	.	ID=exon-A4331_gr01-1;Parent=rna-A4331_gr01;Dbxref=GeneID:27214807;gbkey=rRNA;locus_tag=A4331_gr01;product=16S ribosomal RNA
+NC_029849.1	RefSeq	gene	2673	2747	.	+	.	ID=gene-A4331_gt03;Dbxref=GeneID:27214808;Name=A4331_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt03
+NC_029849.1	RefSeq	tRNA	2673	2747	.	+	.	ID=rna-A4331_gt03;Parent=gene-A4331_gt03;Dbxref=GeneID:27214808;gbkey=tRNA;locus_tag=A4331_gt03;product=tRNA-Leu
+NC_029849.1	RefSeq	exon	2673	2747	.	+	.	ID=exon-A4331_gt03-1;Parent=rna-A4331_gt03;Dbxref=GeneID:27214808;gbkey=tRNA;locus_tag=A4331_gt03;product=tRNA-Leu
+NC_029849.1	RefSeq	gene	2756	3711	.	+	.	ID=gene-A4331_gp13;Dbxref=GeneID:27214809;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=A4331_gp13
+NC_029849.1	RefSeq	CDS	2756	3711	.	+	0	ID=cds-YP_009243533.1;Parent=gene-A4331_gp13;Dbxref=GenBank:YP_009243533.1,GeneID:27214809;Name=YP_009243533.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=A4331_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009243533.1;transl_except=(pos:3710..3711%2Caa:TERM);transl_table=2
+NC_029849.1	RefSeq	gene	3712	3780	.	+	.	ID=gene-A4331_gt04;Dbxref=GeneID:27214791;Name=A4331_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt04
+NC_029849.1	RefSeq	tRNA	3712	3780	.	+	.	ID=rna-A4331_gt04;Parent=gene-A4331_gt04;Dbxref=GeneID:27214791;gbkey=tRNA;locus_tag=A4331_gt04;product=tRNA-Ile
+NC_029849.1	RefSeq	exon	3712	3780	.	+	.	ID=exon-A4331_gt04-1;Parent=rna-A4331_gt04;Dbxref=GeneID:27214791;gbkey=tRNA;locus_tag=A4331_gt04;product=tRNA-Ile
+NC_029849.1	RefSeq	gene	3778	3851	.	-	.	ID=gene-A4331_gt05;Dbxref=GeneID:27214810;Name=A4331_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt05
+NC_029849.1	RefSeq	tRNA	3778	3851	.	-	.	ID=rna-A4331_gt05;Parent=gene-A4331_gt05;Dbxref=GeneID:27214810;gbkey=tRNA;locus_tag=A4331_gt05;product=tRNA-Gln
+NC_029849.1	RefSeq	exon	3778	3851	.	-	.	ID=exon-A4331_gt05-1;Parent=rna-A4331_gt05;Dbxref=GeneID:27214810;gbkey=tRNA;locus_tag=A4331_gt05;product=tRNA-Gln
+NC_029849.1	RefSeq	gene	3852	3920	.	+	.	ID=gene-A4331_gt06;Dbxref=GeneID:27214811;Name=A4331_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt06
+NC_029849.1	RefSeq	tRNA	3852	3920	.	+	.	ID=rna-A4331_gt06;Parent=gene-A4331_gt06;Dbxref=GeneID:27214811;gbkey=tRNA;locus_tag=A4331_gt06;product=tRNA-Met
+NC_029849.1	RefSeq	exon	3852	3920	.	+	.	ID=exon-A4331_gt06-1;Parent=rna-A4331_gt06;Dbxref=GeneID:27214811;gbkey=tRNA;locus_tag=A4331_gt06;product=tRNA-Met
+NC_029849.1	RefSeq	gene	3921	4962	.	+	.	ID=gene-A4331_gp12;Dbxref=GeneID:27214812;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=A4331_gp12
+NC_029849.1	RefSeq	CDS	3921	4962	.	+	0	ID=cds-YP_009243534.1;Parent=gene-A4331_gp12;Dbxref=GenBank:YP_009243534.1,GeneID:27214812;Name=YP_009243534.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=A4331_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009243534.1;transl_except=(pos:4962%2Caa:TERM);transl_table=2
+NC_029849.1	RefSeq	gene	4963	5029	.	+	.	ID=gene-A4331_gt07;Dbxref=GeneID:27214792;Name=A4331_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt07
+NC_029849.1	RefSeq	tRNA	4963	5029	.	+	.	ID=rna-A4331_gt07;Parent=gene-A4331_gt07;Dbxref=GeneID:27214792;gbkey=tRNA;locus_tag=A4331_gt07;product=tRNA-Trp
+NC_029849.1	RefSeq	exon	4963	5029	.	+	.	ID=exon-A4331_gt07-1;Parent=rna-A4331_gt07;Dbxref=GeneID:27214792;gbkey=tRNA;locus_tag=A4331_gt07;product=tRNA-Trp
+NC_029849.1	RefSeq	gene	5034	5102	.	-	.	ID=gene-A4331_gt08;Dbxref=GeneID:27214813;Name=A4331_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt08
+NC_029849.1	RefSeq	tRNA	5034	5102	.	-	.	ID=rna-A4331_gt08;Parent=gene-A4331_gt08;Dbxref=GeneID:27214813;gbkey=tRNA;locus_tag=A4331_gt08;product=tRNA-Ala
+NC_029849.1	RefSeq	exon	5034	5102	.	-	.	ID=exon-A4331_gt08-1;Parent=rna-A4331_gt08;Dbxref=GeneID:27214813;gbkey=tRNA;locus_tag=A4331_gt08;product=tRNA-Ala
+NC_029849.1	RefSeq	gene	5104	5176	.	-	.	ID=gene-A4331_gt09;Dbxref=GeneID:27214814;Name=A4331_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt09
+NC_029849.1	RefSeq	tRNA	5104	5176	.	-	.	ID=rna-A4331_gt09;Parent=gene-A4331_gt09;Dbxref=GeneID:27214814;gbkey=tRNA;locus_tag=A4331_gt09;product=tRNA-Asn
+NC_029849.1	RefSeq	exon	5104	5176	.	-	.	ID=exon-A4331_gt09-1;Parent=rna-A4331_gt09;Dbxref=GeneID:27214814;gbkey=tRNA;locus_tag=A4331_gt09;product=tRNA-Asn
+NC_029849.1	RefSeq	origin_of_replication	5177	5211	.	+	.	ID=id-NC_029849.1:5177..5211;gbkey=rep_origin
+NC_029849.1	RefSeq	gene	5209	5274	.	-	.	ID=gene-A4331_gt10;Dbxref=GeneID:27214815;Name=A4331_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt10
+NC_029849.1	RefSeq	tRNA	5209	5274	.	-	.	ID=rna-A4331_gt10;Parent=gene-A4331_gt10;Dbxref=GeneID:27214815;gbkey=tRNA;locus_tag=A4331_gt10;product=tRNA-Cys
+NC_029849.1	RefSeq	exon	5209	5274	.	-	.	ID=exon-A4331_gt10-1;Parent=rna-A4331_gt10;Dbxref=GeneID:27214815;gbkey=tRNA;locus_tag=A4331_gt10;product=tRNA-Cys
+NC_029849.1	RefSeq	gene	5275	5342	.	-	.	ID=gene-A4331_gt11;Dbxref=GeneID:27214816;Name=A4331_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt11
+NC_029849.1	RefSeq	tRNA	5275	5342	.	-	.	ID=rna-A4331_gt11;Parent=gene-A4331_gt11;Dbxref=GeneID:27214816;gbkey=tRNA;locus_tag=A4331_gt11;product=tRNA-Tyr
+NC_029849.1	RefSeq	exon	5275	5342	.	-	.	ID=exon-A4331_gt11-1;Parent=rna-A4331_gt11;Dbxref=GeneID:27214816;gbkey=tRNA;locus_tag=A4331_gt11;product=tRNA-Tyr
+NC_029849.1	RefSeq	gene	5344	6888	.	+	.	ID=gene-A4331_gp11;Dbxref=GeneID:27214817;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=A4331_gp11
+NC_029849.1	RefSeq	CDS	5344	6888	.	+	0	ID=cds-YP_009243535.1;Parent=gene-A4331_gp11;Dbxref=GenBank:YP_009243535.1,GeneID:27214817;Name=YP_009243535.1;gbkey=CDS;gene=COX1;locus_tag=A4331_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009243535.1;transl_table=2
+NC_029849.1	RefSeq	gene	6902	6971	.	-	.	ID=gene-A4331_gt12;Dbxref=GeneID:27214793;Name=A4331_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt12
+NC_029849.1	RefSeq	tRNA	6902	6971	.	-	.	ID=rna-A4331_gt12;Parent=gene-A4331_gt12;Dbxref=GeneID:27214793;gbkey=tRNA;locus_tag=A4331_gt12;product=tRNA-Ser
+NC_029849.1	RefSeq	exon	6902	6971	.	-	.	ID=exon-A4331_gt12-1;Parent=rna-A4331_gt12;Dbxref=GeneID:27214793;gbkey=tRNA;locus_tag=A4331_gt12;product=tRNA-Ser
+NC_029849.1	RefSeq	gene	6979	7045	.	+	.	ID=gene-A4331_gt13;Dbxref=GeneID:27214818;Name=A4331_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt13
+NC_029849.1	RefSeq	tRNA	6979	7045	.	+	.	ID=rna-A4331_gt13;Parent=gene-A4331_gt13;Dbxref=GeneID:27214818;gbkey=tRNA;locus_tag=A4331_gt13;product=tRNA-Asp
+NC_029849.1	RefSeq	exon	6979	7045	.	+	.	ID=exon-A4331_gt13-1;Parent=rna-A4331_gt13;Dbxref=GeneID:27214818;gbkey=tRNA;locus_tag=A4331_gt13;product=tRNA-Asp
+NC_029849.1	RefSeq	gene	7046	7729	.	+	.	ID=gene-A4331_gp10;Dbxref=GeneID:27214819;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=A4331_gp10
+NC_029849.1	RefSeq	CDS	7046	7729	.	+	0	ID=cds-YP_009243536.1;Parent=gene-A4331_gp10;Dbxref=GenBank:YP_009243536.1,GeneID:27214819;Name=YP_009243536.1;gbkey=CDS;gene=COX2;locus_tag=A4331_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009243536.1;transl_table=2
+NC_029849.1	RefSeq	gene	7733	7799	.	+	.	ID=gene-A4331_gt14;Dbxref=GeneID:27214794;Name=A4331_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt14
+NC_029849.1	RefSeq	tRNA	7733	7799	.	+	.	ID=rna-A4331_gt14;Parent=gene-A4331_gt14;Dbxref=GeneID:27214794;gbkey=tRNA;locus_tag=A4331_gt14;product=tRNA-Lys
+NC_029849.1	RefSeq	exon	7733	7799	.	+	.	ID=exon-A4331_gt14-1;Parent=rna-A4331_gt14;Dbxref=GeneID:27214794;gbkey=tRNA;locus_tag=A4331_gt14;product=tRNA-Lys
+NC_029849.1	RefSeq	gene	7801	8004	.	+	.	ID=gene-A4331_gp09;Dbxref=GeneID:27214820;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=A4331_gp09
+NC_029849.1	RefSeq	CDS	7801	8004	.	+	0	ID=cds-YP_009243537.1;Parent=gene-A4331_gp09;Dbxref=GenBank:YP_009243537.1,GeneID:27214820;Name=YP_009243537.1;gbkey=CDS;gene=ATP8;locus_tag=A4331_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009243537.1;transl_table=2
+NC_029849.1	RefSeq	gene	7962	8642	.	+	.	ID=gene-A4331_gp08;Dbxref=GeneID:27214795;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=A4331_gp08
+NC_029849.1	RefSeq	CDS	7962	8642	.	+	0	ID=cds-YP_009243538.1;Parent=gene-A4331_gp08;Dbxref=GenBank:YP_009243538.1,GeneID:27214795;Name=YP_009243538.1;gbkey=CDS;gene=ATP6;locus_tag=A4331_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009243538.1;transl_table=2
+NC_029849.1	RefSeq	gene	8642	9425	.	+	.	ID=gene-A4331_gp07;Dbxref=GeneID:27214796;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=A4331_gp07
+NC_029849.1	RefSeq	CDS	8642	9425	.	+	0	ID=cds-YP_009243539.1;Parent=gene-A4331_gp07;Dbxref=GenBank:YP_009243539.1,GeneID:27214796;Name=YP_009243539.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=A4331_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009243539.1;transl_except=(pos:9425%2Caa:TERM);transl_table=2
+NC_029849.1	RefSeq	gene	9426	9494	.	+	.	ID=gene-A4331_gt15;Dbxref=GeneID:27214797;Name=A4331_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt15
+NC_029849.1	RefSeq	tRNA	9426	9494	.	+	.	ID=rna-A4331_gt15;Parent=gene-A4331_gt15;Dbxref=GeneID:27214797;gbkey=tRNA;locus_tag=A4331_gt15;product=tRNA-Gly
+NC_029849.1	RefSeq	exon	9426	9494	.	+	.	ID=exon-A4331_gt15-1;Parent=rna-A4331_gt15;Dbxref=GeneID:27214797;gbkey=tRNA;locus_tag=A4331_gt15;product=tRNA-Gly
+NC_029849.1	RefSeq	gene	9495	9841	.	+	.	ID=gene-A4331_gp06;Dbxref=GeneID:27214821;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=A4331_gp06
+NC_029849.1	RefSeq	CDS	9495	9841	.	+	0	ID=cds-YP_009243540.1;Parent=gene-A4331_gp06;Dbxref=GenBank:YP_009243540.1,GeneID:27214821;Name=YP_009243540.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=A4331_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009243540.1;transl_except=(pos:9840..9841%2Caa:TERM);transl_table=2
+NC_029849.1	RefSeq	gene	9842	9910	.	+	.	ID=gene-A4331_gt16;Dbxref=GeneID:27214798;Name=A4331_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt16
+NC_029849.1	RefSeq	tRNA	9842	9910	.	+	.	ID=rna-A4331_gt16;Parent=gene-A4331_gt16;Dbxref=GeneID:27214798;gbkey=tRNA;locus_tag=A4331_gt16;product=tRNA-Arg
+NC_029849.1	RefSeq	exon	9842	9910	.	+	.	ID=exon-A4331_gt16-1;Parent=rna-A4331_gt16;Dbxref=GeneID:27214798;gbkey=tRNA;locus_tag=A4331_gt16;product=tRNA-Arg
+NC_029849.1	RefSeq	gene	9912	10208	.	+	.	ID=gene-A4331_gp05;Dbxref=GeneID:27214822;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=A4331_gp05
+NC_029849.1	RefSeq	CDS	9912	10208	.	+	0	ID=cds-YP_009243541.1;Parent=gene-A4331_gp05;Dbxref=GenBank:YP_009243541.1,GeneID:27214822;Name=YP_009243541.1;gbkey=CDS;gene=ND4L;locus_tag=A4331_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009243541.1;transl_table=2
+NC_029849.1	RefSeq	gene	10202	11579	.	+	.	ID=gene-A4331_gp04;Dbxref=GeneID:27214799;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=A4331_gp04
+NC_029849.1	RefSeq	CDS	10202	11579	.	+	0	ID=cds-YP_009243542.1;Parent=gene-A4331_gp04;Dbxref=GenBank:YP_009243542.1,GeneID:27214799;Name=YP_009243542.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=A4331_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009243542.1;transl_except=(pos:11579%2Caa:TERM);transl_table=2
+NC_029849.1	RefSeq	gene	11580	11647	.	+	.	ID=gene-A4331_gt17;Dbxref=GeneID:27214800;Name=A4331_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt17
+NC_029849.1	RefSeq	tRNA	11580	11647	.	+	.	ID=rna-A4331_gt17;Parent=gene-A4331_gt17;Dbxref=GeneID:27214800;gbkey=tRNA;locus_tag=A4331_gt17;product=tRNA-His
+NC_029849.1	RefSeq	exon	11580	11647	.	+	.	ID=exon-A4331_gt17-1;Parent=rna-A4331_gt17;Dbxref=GeneID:27214800;gbkey=tRNA;locus_tag=A4331_gt17;product=tRNA-His
+NC_029849.1	RefSeq	gene	11648	11706	.	+	.	ID=gene-A4331_gt18;Dbxref=GeneID:27214823;Name=A4331_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt18
+NC_029849.1	RefSeq	tRNA	11648	11706	.	+	.	ID=rna-A4331_gt18;Parent=gene-A4331_gt18;Dbxref=GeneID:27214823;gbkey=tRNA;locus_tag=A4331_gt18;product=tRNA-Ser
+NC_029849.1	RefSeq	exon	11648	11706	.	+	.	ID=exon-A4331_gt18-1;Parent=rna-A4331_gt18;Dbxref=GeneID:27214823;gbkey=tRNA;locus_tag=A4331_gt18;product=tRNA-Ser
+NC_029849.1	RefSeq	gene	11707	11776	.	+	.	ID=gene-A4331_gt19;Dbxref=GeneID:27214824;Name=A4331_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt19
+NC_029849.1	RefSeq	tRNA	11707	11776	.	+	.	ID=rna-A4331_gt19;Parent=gene-A4331_gt19;Dbxref=GeneID:27214824;gbkey=tRNA;locus_tag=A4331_gt19;product=tRNA-Leu
+NC_029849.1	RefSeq	exon	11707	11776	.	+	.	ID=exon-A4331_gt19-1;Parent=rna-A4331_gt19;Dbxref=GeneID:27214824;gbkey=tRNA;locus_tag=A4331_gt19;product=tRNA-Leu
+NC_029849.1	RefSeq	gene	11777	13585	.	+	.	ID=gene-A4331_gp03;Dbxref=GeneID:27214825;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=A4331_gp03
+NC_029849.1	RefSeq	CDS	11777	13585	.	+	0	ID=cds-YP_009243543.1;Parent=gene-A4331_gp03;Dbxref=GenBank:YP_009243543.1,GeneID:27214825;Name=YP_009243543.1;gbkey=CDS;gene=ND5;locus_tag=A4331_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009243543.1;transl_table=2
+NC_029849.1	RefSeq	gene	13569	14096	.	-	.	ID=gene-A4331_gp02;Dbxref=GeneID:27214801;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=A4331_gp02
+NC_029849.1	RefSeq	CDS	13569	14096	.	-	0	ID=cds-YP_009243544.1;Parent=gene-A4331_gp02;Dbxref=GenBank:YP_009243544.1,GeneID:27214801;Name=YP_009243544.1;gbkey=CDS;gene=ND6;locus_tag=A4331_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009243544.1;transl_table=2
+NC_029849.1	RefSeq	gene	14097	14165	.	+	.	ID=gene-A4331_gt20;Dbxref=GeneID:27214802;Name=A4331_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt20
+NC_029849.1	RefSeq	tRNA	14097	14165	.	+	.	ID=rna-A4331_gt20;Parent=gene-A4331_gt20;Dbxref=GeneID:27214802;gbkey=tRNA;locus_tag=A4331_gt20;product=tRNA-Glu
+NC_029849.1	RefSeq	exon	14097	14165	.	+	.	ID=exon-A4331_gt20-1;Parent=rna-A4331_gt20;Dbxref=GeneID:27214802;gbkey=tRNA;locus_tag=A4331_gt20;product=tRNA-Glu
+NC_029849.1	RefSeq	gene	14171	15310	.	+	.	ID=gene-A4331_gp01;Dbxref=GeneID:27214826;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=A4331_gp01
+NC_029849.1	RefSeq	CDS	14171	15310	.	+	0	ID=cds-YP_009243545.1;Parent=gene-A4331_gp01;Dbxref=GenBank:YP_009243545.1,GeneID:27214826;Name=YP_009243545.1;gbkey=CDS;gene=CYTB;locus_tag=A4331_gp01;product=cytochrome b;protein_id=YP_009243545.1;transl_table=2
+NC_029849.1	RefSeq	gene	15311	15380	.	+	.	ID=gene-A4331_gt21;Dbxref=GeneID:27214803;Name=A4331_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt21
+NC_029849.1	RefSeq	tRNA	15311	15380	.	+	.	ID=rna-A4331_gt21;Parent=gene-A4331_gt21;Dbxref=GeneID:27214803;gbkey=tRNA;locus_tag=A4331_gt21;product=tRNA-Thr
+NC_029849.1	RefSeq	exon	15311	15380	.	+	.	ID=exon-A4331_gt21-1;Parent=rna-A4331_gt21;Dbxref=GeneID:27214803;gbkey=tRNA;locus_tag=A4331_gt21;product=tRNA-Thr
+NC_029849.1	RefSeq	gene	15380	15445	.	-	.	ID=gene-A4331_gt22;Dbxref=GeneID:27214827;Name=A4331_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=A4331_gt22
+NC_029849.1	RefSeq	tRNA	15380	15445	.	-	.	ID=rna-A4331_gt22;Parent=gene-A4331_gt22;Dbxref=GeneID:27214827;gbkey=tRNA;locus_tag=A4331_gt22;product=tRNA-Pro
+NC_029849.1	RefSeq	exon	15380	15445	.	-	.	ID=exon-A4331_gt22-1;Parent=rna-A4331_gt22;Dbxref=GeneID:27214827;gbkey=tRNA;locus_tag=A4331_gt22;product=tRNA-Pro
+NC_029849.1	RefSeq	D_loop	15446	17038	.	+	.	ID=id-NC_029849.1:15446..17038;gbkey=D-loop
+

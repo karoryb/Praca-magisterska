@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_019577.1 1 16392
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82174
+NC_019577.1	RefSeq	region	1	16392	.	+	.	ID=NC_019577.1:1..16392;Dbxref=taxon:82174;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_019577.1	RefSeq	gene	1	72	.	+	.	ID=gene-F741_mgt01;Dbxref=GeneID:79568996;Name=F741_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt01
+NC_019577.1	RefSeq	tRNA	1	72	.	+	.	ID=rna-F741_mgt01;Parent=gene-F741_mgt01;Dbxref=GeneID:79568996;gbkey=tRNA;locus_tag=F741_mgt01;product=tRNA-Phe
+NC_019577.1	RefSeq	exon	1	72	.	+	.	ID=exon-F741_mgt01-1;Parent=rna-F741_mgt01;Dbxref=GeneID:79568996;gbkey=tRNA;locus_tag=F741_mgt01;product=tRNA-Phe
+NC_019577.1	RefSeq	gene	73	1046	.	+	.	ID=gene-F741_mgr02;Dbxref=GeneID:79568982;Name=F741_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=F741_mgr02
+NC_019577.1	RefSeq	rRNA	73	1046	.	+	.	ID=rna-F741_mgr02;Parent=gene-F741_mgr02;Dbxref=GeneID:79568982;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F741_mgr02;product=s-rRNA
+NC_019577.1	RefSeq	exon	73	1046	.	+	.	ID=exon-F741_mgr02-1;Parent=rna-F741_mgr02;Dbxref=GeneID:79568982;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F741_mgr02;product=s-rRNA
+NC_019577.1	RefSeq	gene	1047	1113	.	+	.	ID=gene-F741_mgt02;Dbxref=GeneID:79568983;Name=F741_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt02
+NC_019577.1	RefSeq	tRNA	1047	1113	.	+	.	ID=rna-F741_mgt02;Parent=gene-F741_mgt02;Dbxref=GeneID:79568983;gbkey=tRNA;locus_tag=F741_mgt02;product=tRNA-Val
+NC_019577.1	RefSeq	exon	1047	1113	.	+	.	ID=exon-F741_mgt02-1;Parent=rna-F741_mgt02;Dbxref=GeneID:79568983;gbkey=tRNA;locus_tag=F741_mgt02;product=tRNA-Val
+NC_019577.1	RefSeq	gene	1114	2692	.	+	.	ID=gene-F741_mgr01;Dbxref=GeneID:79568984;Name=F741_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=F741_mgr01
+NC_019577.1	RefSeq	rRNA	1114	2692	.	+	.	ID=rna-F741_mgr01;Parent=gene-F741_mgr01;Dbxref=GeneID:79568984;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F741_mgr01;product=l-rRNA
+NC_019577.1	RefSeq	exon	1114	2692	.	+	.	ID=exon-F741_mgr01-1;Parent=rna-F741_mgr01;Dbxref=GeneID:79568984;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F741_mgr01;product=l-rRNA
+NC_019577.1	RefSeq	gene	2693	2768	.	+	.	ID=gene-F741_mgt03;Dbxref=GeneID:79568985;Name=F741_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt03
+NC_019577.1	RefSeq	tRNA	2693	2768	.	+	.	ID=rna-F741_mgt03;Parent=gene-F741_mgt03;Dbxref=GeneID:79568985;gbkey=tRNA;locus_tag=F741_mgt03;product=tRNA-Leu
+NC_019577.1	RefSeq	exon	2693	2768	.	+	.	ID=exon-F741_mgt03-1;Parent=rna-F741_mgt03;Dbxref=GeneID:79568985;gbkey=tRNA;locus_tag=F741_mgt03;product=tRNA-Leu
+NC_019577.1	RefSeq	gene	2769	3725	.	+	.	ID=gene-F741_mgp13;Dbxref=GeneID:14048308;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=F741_mgp13
+NC_019577.1	RefSeq	CDS	2769	3725	.	+	0	ID=cds-YP_007024865.1;Parent=gene-F741_mgp13;Dbxref=GenBank:YP_007024865.1,GeneID:14048308;Name=YP_007024865.1;gbkey=CDS;gene=ND1;locus_tag=F741_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_007024865.1;transl_table=2
+NC_019577.1	RefSeq	gene	3730	3798	.	+	.	ID=gene-F741_mgt04;Dbxref=GeneID:79568973;Name=F741_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt04
+NC_019577.1	RefSeq	tRNA	3730	3798	.	+	.	ID=rna-F741_mgt04;Parent=gene-F741_mgt04;Dbxref=GeneID:79568973;gbkey=tRNA;locus_tag=F741_mgt04;product=tRNA-Ile
+NC_019577.1	RefSeq	exon	3730	3798	.	+	.	ID=exon-F741_mgt04-1;Parent=rna-F741_mgt04;Dbxref=GeneID:79568973;gbkey=tRNA;locus_tag=F741_mgt04;product=tRNA-Ile
+NC_019577.1	RefSeq	gene	3796	3868	.	-	.	ID=gene-F741_mgt05;Dbxref=GeneID:79568986;Name=F741_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt05
+NC_019577.1	RefSeq	tRNA	3796	3868	.	-	.	ID=rna-F741_mgt05;Parent=gene-F741_mgt05;Dbxref=GeneID:79568986;gbkey=tRNA;locus_tag=F741_mgt05;product=tRNA-Gln
+NC_019577.1	RefSeq	exon	3796	3868	.	-	.	ID=exon-F741_mgt05-1;Parent=rna-F741_mgt05;Dbxref=GeneID:79568986;gbkey=tRNA;locus_tag=F741_mgt05;product=tRNA-Gln
+NC_019577.1	RefSeq	gene	3870	3938	.	+	.	ID=gene-F741_mgt06;Dbxref=GeneID:79568987;Name=F741_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt06
+NC_019577.1	RefSeq	tRNA	3870	3938	.	+	.	ID=rna-F741_mgt06;Parent=gene-F741_mgt06;Dbxref=GeneID:79568987;gbkey=tRNA;locus_tag=F741_mgt06;product=tRNA-Met
+NC_019577.1	RefSeq	exon	3870	3938	.	+	.	ID=exon-F741_mgt06-1;Parent=rna-F741_mgt06;Dbxref=GeneID:79568987;gbkey=tRNA;locus_tag=F741_mgt06;product=tRNA-Met
+NC_019577.1	RefSeq	gene	3939	4980	.	+	.	ID=gene-F741_mgp12;Dbxref=GeneID:14048296;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=F741_mgp12
+NC_019577.1	RefSeq	CDS	3939	4980	.	+	0	ID=cds-YP_007024866.1;Parent=gene-F741_mgp12;Dbxref=GenBank:YP_007024866.1,GeneID:14048296;Name=YP_007024866.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=F741_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_007024866.1;transl_except=(pos:4980%2Caa:TERM);transl_table=2
+NC_019577.1	RefSeq	gene	4981	5049	.	+	.	ID=gene-F741_mgt07;Dbxref=GeneID:79568974;Name=F741_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt07
+NC_019577.1	RefSeq	tRNA	4981	5049	.	+	.	ID=rna-F741_mgt07;Parent=gene-F741_mgt07;Dbxref=GeneID:79568974;gbkey=tRNA;locus_tag=F741_mgt07;product=tRNA-Trp
+NC_019577.1	RefSeq	exon	4981	5049	.	+	.	ID=exon-F741_mgt07-1;Parent=rna-F741_mgt07;Dbxref=GeneID:79568974;gbkey=tRNA;locus_tag=F741_mgt07;product=tRNA-Trp
+NC_019577.1	RefSeq	gene	5055	5123	.	-	.	ID=gene-F741_mgt08;Dbxref=GeneID:79568988;Name=F741_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt08
+NC_019577.1	RefSeq	tRNA	5055	5123	.	-	.	ID=rna-F741_mgt08;Parent=gene-F741_mgt08;Dbxref=GeneID:79568988;gbkey=tRNA;locus_tag=F741_mgt08;product=tRNA-Ala
+NC_019577.1	RefSeq	exon	5055	5123	.	-	.	ID=exon-F741_mgt08-1;Parent=rna-F741_mgt08;Dbxref=GeneID:79568988;gbkey=tRNA;locus_tag=F741_mgt08;product=tRNA-Ala
+NC_019577.1	RefSeq	gene	5125	5198	.	-	.	ID=gene-F741_mgt09;Dbxref=GeneID:79568989;Name=F741_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt09
+NC_019577.1	RefSeq	tRNA	5125	5198	.	-	.	ID=rna-F741_mgt09;Parent=gene-F741_mgt09;Dbxref=GeneID:79568989;gbkey=tRNA;locus_tag=F741_mgt09;product=tRNA-Asn
+NC_019577.1	RefSeq	exon	5125	5198	.	-	.	ID=exon-F741_mgt09-1;Parent=rna-F741_mgt09;Dbxref=GeneID:79568989;gbkey=tRNA;locus_tag=F741_mgt09;product=tRNA-Asn
+NC_019577.1	RefSeq	gene	5231	5297	.	-	.	ID=gene-F741_mgt10;Dbxref=GeneID:79568990;Name=F741_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt10
+NC_019577.1	RefSeq	tRNA	5231	5297	.	-	.	ID=rna-F741_mgt10;Parent=gene-F741_mgt10;Dbxref=GeneID:79568990;gbkey=tRNA;locus_tag=F741_mgt10;product=tRNA-Cys
+NC_019577.1	RefSeq	exon	5231	5297	.	-	.	ID=exon-F741_mgt10-1;Parent=rna-F741_mgt10;Dbxref=GeneID:79568990;gbkey=tRNA;locus_tag=F741_mgt10;product=tRNA-Cys
+NC_019577.1	RefSeq	gene	5298	5363	.	-	.	ID=gene-F741_mgt11;Dbxref=GeneID:79568991;Name=F741_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt11
+NC_019577.1	RefSeq	tRNA	5298	5363	.	-	.	ID=rna-F741_mgt11;Parent=gene-F741_mgt11;Dbxref=GeneID:79568991;gbkey=tRNA;locus_tag=F741_mgt11;product=tRNA-Tyr
+NC_019577.1	RefSeq	exon	5298	5363	.	-	.	ID=exon-F741_mgt11-1;Parent=rna-F741_mgt11;Dbxref=GeneID:79568991;gbkey=tRNA;locus_tag=F741_mgt11;product=tRNA-Tyr
+NC_019577.1	RefSeq	gene	5365	6915	.	+	.	ID=gene-F741_mgp11;Dbxref=GeneID:14048297;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=F741_mgp11
+NC_019577.1	RefSeq	CDS	5365	6915	.	+	0	ID=cds-YP_007024867.1;Parent=gene-F741_mgp11;Dbxref=GenBank:YP_007024867.1,GeneID:14048297;Name=YP_007024867.1;gbkey=CDS;gene=COX1;locus_tag=F741_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_007024867.1;transl_table=2
+NC_019577.1	RefSeq	gene	6911	6979	.	-	.	ID=gene-F741_mgt12;Dbxref=GeneID:79568975;Name=F741_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt12
+NC_019577.1	RefSeq	tRNA	6911	6979	.	-	.	ID=rna-F741_mgt12;Parent=gene-F741_mgt12;Dbxref=GeneID:79568975;gbkey=tRNA;locus_tag=F741_mgt12;product=tRNA-Ser
+NC_019577.1	RefSeq	exon	6911	6979	.	-	.	ID=exon-F741_mgt12-1;Parent=rna-F741_mgt12;Dbxref=GeneID:79568975;gbkey=tRNA;locus_tag=F741_mgt12;product=tRNA-Ser
+NC_019577.1	RefSeq	gene	6987	7054	.	+	.	ID=gene-F741_mgt13;Dbxref=GeneID:79568992;Name=F741_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt13
+NC_019577.1	RefSeq	tRNA	6987	7054	.	+	.	ID=rna-F741_mgt13;Parent=gene-F741_mgt13;Dbxref=GeneID:79568992;gbkey=tRNA;locus_tag=F741_mgt13;product=tRNA-Asp
+NC_019577.1	RefSeq	exon	6987	7054	.	+	.	ID=exon-F741_mgt13-1;Parent=rna-F741_mgt13;Dbxref=GeneID:79568992;gbkey=tRNA;locus_tag=F741_mgt13;product=tRNA-Asp
+NC_019577.1	RefSeq	gene	7055	7738	.	+	.	ID=gene-F741_mgp10;Dbxref=GeneID:14048298;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=F741_mgp10
+NC_019577.1	RefSeq	CDS	7055	7738	.	+	0	ID=cds-YP_007024868.1;Parent=gene-F741_mgp10;Dbxref=GenBank:YP_007024868.1,GeneID:14048298;Name=YP_007024868.1;gbkey=CDS;gene=COX2;locus_tag=F741_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_007024868.1;transl_table=2
+NC_019577.1	RefSeq	gene	7742	7809	.	+	.	ID=gene-F741_mgt14;Dbxref=GeneID:79568976;Name=F741_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt14
+NC_019577.1	RefSeq	tRNA	7742	7809	.	+	.	ID=rna-F741_mgt14;Parent=gene-F741_mgt14;Dbxref=GeneID:79568976;gbkey=tRNA;locus_tag=F741_mgt14;product=tRNA-Lys
+NC_019577.1	RefSeq	exon	7742	7809	.	+	.	ID=exon-F741_mgt14-1;Parent=rna-F741_mgt14;Dbxref=GeneID:79568976;gbkey=tRNA;locus_tag=F741_mgt14;product=tRNA-Lys
+NC_019577.1	RefSeq	gene	7811	8002	.	+	.	ID=gene-F741_mgp09;Dbxref=GeneID:14048299;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=F741_mgp09
+NC_019577.1	RefSeq	CDS	7811	8002	.	+	0	ID=cds-YP_007024869.1;Parent=gene-F741_mgp09;Dbxref=GenBank:YP_007024869.1,GeneID:14048299;Name=YP_007024869.1;gbkey=CDS;gene=ATP8;locus_tag=F741_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_007024869.1;transl_table=2
+NC_019577.1	RefSeq	gene	7972	8655	.	+	.	ID=gene-F741_mgp08;Dbxref=GeneID:14048300;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=F741_mgp08
+NC_019577.1	RefSeq	CDS	7972	8655	.	+	0	ID=cds-YP_007024870.1;Parent=gene-F741_mgp08;Dbxref=GenBank:YP_007024870.1,GeneID:14048300;Name=YP_007024870.1;gbkey=CDS;gene=ATP6;locus_tag=F741_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_007024870.1;transl_table=2
+NC_019577.1	RefSeq	gene	8655	9439	.	+	.	ID=gene-F741_mgp07;Dbxref=GeneID:14048301;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=F741_mgp07
+NC_019577.1	RefSeq	CDS	8655	9439	.	+	0	ID=cds-YP_007024871.1;Parent=gene-F741_mgp07;Dbxref=GenBank:YP_007024871.1,GeneID:14048301;Name=YP_007024871.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=F741_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_007024871.1;transl_except=(pos:9438..9439%2Caa:TERM);transl_table=2
+NC_019577.1	RefSeq	gene	9440	9508	.	+	.	ID=gene-F741_mgt15;Dbxref=GeneID:79568977;Name=F741_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt15
+NC_019577.1	RefSeq	tRNA	9440	9508	.	+	.	ID=rna-F741_mgt15;Parent=gene-F741_mgt15;Dbxref=GeneID:79568977;gbkey=tRNA;locus_tag=F741_mgt15;product=tRNA-Gly
+NC_019577.1	RefSeq	exon	9440	9508	.	+	.	ID=exon-F741_mgt15-1;Parent=rna-F741_mgt15;Dbxref=GeneID:79568977;gbkey=tRNA;locus_tag=F741_mgt15;product=tRNA-Gly
+NC_019577.1	RefSeq	gene	9509	9854	.	+	.	ID=gene-F741_mgp06;Dbxref=GeneID:14048302;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=F741_mgp06
+NC_019577.1	RefSeq	CDS	9509	9854	.	+	0	ID=cds-YP_007024872.1;Parent=gene-F741_mgp06;Dbxref=GenBank:YP_007024872.1,GeneID:14048302;Name=YP_007024872.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=F741_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_007024872.1;transl_except=(pos:9854%2Caa:TERM);transl_table=2
+NC_019577.1	RefSeq	gene	9856	9925	.	+	.	ID=gene-F741_mgt16;Dbxref=GeneID:79568978;Name=F741_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt16
+NC_019577.1	RefSeq	tRNA	9856	9925	.	+	.	ID=rna-F741_mgt16;Parent=gene-F741_mgt16;Dbxref=GeneID:79568978;gbkey=tRNA;locus_tag=F741_mgt16;product=tRNA-Arg
+NC_019577.1	RefSeq	exon	9856	9925	.	+	.	ID=exon-F741_mgt16-1;Parent=rna-F741_mgt16;Dbxref=GeneID:79568978;gbkey=tRNA;locus_tag=F741_mgt16;product=tRNA-Arg
+NC_019577.1	RefSeq	gene	9926	10222	.	+	.	ID=gene-F741_mgp05;Dbxref=GeneID:14048303;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=F741_mgp05
+NC_019577.1	RefSeq	CDS	9926	10222	.	+	0	ID=cds-YP_007024873.1;Parent=gene-F741_mgp05;Dbxref=GenBank:YP_007024873.1,GeneID:14048303;Name=YP_007024873.1;gbkey=CDS;gene=ND4L;locus_tag=F741_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_007024873.1;transl_table=2
+NC_019577.1	RefSeq	gene	10216	11593	.	+	.	ID=gene-F741_mgp04;Dbxref=GeneID:14048304;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=F741_mgp04
+NC_019577.1	RefSeq	CDS	10216	11593	.	+	0	ID=cds-YP_007024874.1;Parent=gene-F741_mgp04;Dbxref=GenBank:YP_007024874.1,GeneID:14048304;Name=YP_007024874.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=F741_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_007024874.1;transl_except=(pos:11593%2Caa:TERM);transl_table=2
+NC_019577.1	RefSeq	gene	11594	11663	.	+	.	ID=gene-F741_mgt17;Dbxref=GeneID:79568979;Name=F741_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt17
+NC_019577.1	RefSeq	tRNA	11594	11663	.	+	.	ID=rna-F741_mgt17;Parent=gene-F741_mgt17;Dbxref=GeneID:79568979;gbkey=tRNA;locus_tag=F741_mgt17;product=tRNA-His
+NC_019577.1	RefSeq	exon	11594	11663	.	+	.	ID=exon-F741_mgt17-1;Parent=rna-F741_mgt17;Dbxref=GeneID:79568979;gbkey=tRNA;locus_tag=F741_mgt17;product=tRNA-His
+NC_019577.1	RefSeq	gene	11663	11723	.	+	.	ID=gene-F741_mgt18;Dbxref=GeneID:79568993;Name=F741_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt18
+NC_019577.1	RefSeq	tRNA	11663	11723	.	+	.	ID=rna-F741_mgt18;Parent=gene-F741_mgt18;Dbxref=GeneID:79568993;gbkey=tRNA;locus_tag=F741_mgt18;product=tRNA-Ser
+NC_019577.1	RefSeq	exon	11663	11723	.	+	.	ID=exon-F741_mgt18-1;Parent=rna-F741_mgt18;Dbxref=GeneID:79568993;gbkey=tRNA;locus_tag=F741_mgt18;product=tRNA-Ser
+NC_019577.1	RefSeq	gene	11726	11795	.	+	.	ID=gene-F741_mgt19;Dbxref=GeneID:79568994;Name=F741_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt19
+NC_019577.1	RefSeq	tRNA	11726	11795	.	+	.	ID=rna-F741_mgt19;Parent=gene-F741_mgt19;Dbxref=GeneID:79568994;gbkey=tRNA;locus_tag=F741_mgt19;product=tRNA-Leu
+NC_019577.1	RefSeq	exon	11726	11795	.	+	.	ID=exon-F741_mgt19-1;Parent=rna-F741_mgt19;Dbxref=GeneID:79568994;gbkey=tRNA;locus_tag=F741_mgt19;product=tRNA-Leu
+NC_019577.1	RefSeq	gene	11796	13616	.	+	.	ID=gene-F741_mgp03;Dbxref=GeneID:14048305;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=F741_mgp03
+NC_019577.1	RefSeq	CDS	11796	13616	.	+	0	ID=cds-YP_007024875.1;Parent=gene-F741_mgp03;Dbxref=GenBank:YP_007024875.1,GeneID:14048305;Name=YP_007024875.1;gbkey=CDS;gene=ND5;locus_tag=F741_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_007024875.1;transl_table=2
+NC_019577.1	RefSeq	gene	13600	14127	.	-	.	ID=gene-F741_mgp02;Dbxref=GeneID:14048306;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=F741_mgp02
+NC_019577.1	RefSeq	CDS	13600	14127	.	-	0	ID=cds-YP_007024876.1;Parent=gene-F741_mgp02;Dbxref=GenBank:YP_007024876.1,GeneID:14048306;Name=YP_007024876.1;gbkey=CDS;gene=ND6;locus_tag=F741_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_007024876.1;transl_table=2
+NC_019577.1	RefSeq	gene	14128	14196	.	-	.	ID=gene-F741_mgt20;Dbxref=GeneID:79568980;Name=F741_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt20
+NC_019577.1	RefSeq	tRNA	14128	14196	.	-	.	ID=rna-F741_mgt20;Parent=gene-F741_mgt20;Dbxref=GeneID:79568980;gbkey=tRNA;locus_tag=F741_mgt20;product=tRNA-Glu
+NC_019577.1	RefSeq	exon	14128	14196	.	-	.	ID=exon-F741_mgt20-1;Parent=rna-F741_mgt20;Dbxref=GeneID:79568980;gbkey=tRNA;locus_tag=F741_mgt20;product=tRNA-Glu
+NC_019577.1	RefSeq	gene	14201	15340	.	+	.	ID=gene-F741_mgp01;Dbxref=GeneID:14048307;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=F741_mgp01
+NC_019577.1	RefSeq	CDS	14201	15340	.	+	0	ID=cds-YP_007024877.1;Parent=gene-F741_mgp01;Dbxref=GenBank:YP_007024877.1,GeneID:14048307;Name=YP_007024877.1;gbkey=CDS;gene=CYTB;locus_tag=F741_mgp01;product=cytochrome b;protein_id=YP_007024877.1;transl_table=2
+NC_019577.1	RefSeq	gene	15341	15410	.	+	.	ID=gene-F741_mgt21;Dbxref=GeneID:79568981;Name=F741_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt21
+NC_019577.1	RefSeq	tRNA	15341	15410	.	+	.	ID=rna-F741_mgt21;Parent=gene-F741_mgt21;Dbxref=GeneID:79568981;gbkey=tRNA;locus_tag=F741_mgt21;product=tRNA-Thr
+NC_019577.1	RefSeq	exon	15341	15410	.	+	.	ID=exon-F741_mgt21-1;Parent=rna-F741_mgt21;Dbxref=GeneID:79568981;gbkey=tRNA;locus_tag=F741_mgt21;product=tRNA-Thr
+NC_019577.1	RefSeq	gene	15410	15476	.	-	.	ID=gene-F741_mgt22;Dbxref=GeneID:79568995;Name=F741_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=F741_mgt22
+NC_019577.1	RefSeq	tRNA	15410	15476	.	-	.	ID=rna-F741_mgt22;Parent=gene-F741_mgt22;Dbxref=GeneID:79568995;gbkey=tRNA;locus_tag=F741_mgt22;product=tRNA-Pro
+NC_019577.1	RefSeq	exon	15410	15476	.	-	.	ID=exon-F741_mgt22-1;Parent=rna-F741_mgt22;Dbxref=GeneID:79568995;gbkey=tRNA;locus_tag=F741_mgt22;product=tRNA-Pro
+NC_019577.1	RefSeq	D_loop	15477	16389	.	+	.	ID=id-NC_019577.1:15477..16389;gbkey=D-loop
+

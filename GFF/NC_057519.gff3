@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_057519.1 1 17427
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=994805
+NC_057519.1	RefSeq	region	1	17427	.	+	.	ID=NC_057519.1:1..17427;Dbxref=taxon:994805;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_057519.1	RefSeq	gene	1	71	.	+	.	ID=gene-K8J89_mgt01;Dbxref=GeneID:67270660;Name=K8J89_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt01
+NC_057519.1	RefSeq	tRNA	1	71	.	+	.	ID=rna-K8J89_mgt01;Parent=gene-K8J89_mgt01;Dbxref=GeneID:67270660;anticodon=(pos:32..34);gbkey=tRNA;locus_tag=K8J89_mgt01;product=tRNA-Phe
+NC_057519.1	RefSeq	exon	1	71	.	+	.	ID=exon-K8J89_mgt01-1;Parent=rna-K8J89_mgt01;Dbxref=GeneID:67270660;anticodon=(pos:32..34);gbkey=tRNA;locus_tag=K8J89_mgt01;product=tRNA-Phe
+NC_057519.1	RefSeq	gene	73	1022	.	+	.	ID=gene-K8J89_mgr02;Dbxref=GeneID:67270661;Name=K8J89_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=K8J89_mgr02
+NC_057519.1	RefSeq	rRNA	73	1022	.	+	.	ID=rna-K8J89_mgr02;Parent=gene-K8J89_mgr02;Dbxref=GeneID:67270661;gbkey=rRNA;locus_tag=K8J89_mgr02;product=12S ribosomal RNA
+NC_057519.1	RefSeq	exon	73	1022	.	+	.	ID=exon-K8J89_mgr02-1;Parent=rna-K8J89_mgr02;Dbxref=GeneID:67270661;gbkey=rRNA;locus_tag=K8J89_mgr02;product=12S ribosomal RNA
+NC_057519.1	RefSeq	gene	1024	1095	.	+	.	ID=gene-K8J89_mgt02;Dbxref=GeneID:67270662;Name=K8J89_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt02
+NC_057519.1	RefSeq	tRNA	1024	1095	.	+	.	ID=rna-K8J89_mgt02;Parent=gene-K8J89_mgt02;Dbxref=GeneID:67270662;anticodon=(pos:1057..1059);gbkey=tRNA;locus_tag=K8J89_mgt02;product=tRNA-Val
+NC_057519.1	RefSeq	exon	1024	1095	.	+	.	ID=exon-K8J89_mgt02-1;Parent=rna-K8J89_mgt02;Dbxref=GeneID:67270662;anticodon=(pos:1057..1059);gbkey=tRNA;locus_tag=K8J89_mgt02;product=tRNA-Val
+NC_057519.1	RefSeq	gene	1096	2666	.	+	.	ID=gene-K8J89_mgr01;Dbxref=GeneID:67270663;Name=K8J89_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=K8J89_mgr01
+NC_057519.1	RefSeq	rRNA	1096	2666	.	+	.	ID=rna-K8J89_mgr01;Parent=gene-K8J89_mgr01;Dbxref=GeneID:67270663;gbkey=rRNA;locus_tag=K8J89_mgr01;product=16S ribosomal RNA
+NC_057519.1	RefSeq	exon	1096	2666	.	+	.	ID=exon-K8J89_mgr01-1;Parent=rna-K8J89_mgr01;Dbxref=GeneID:67270663;gbkey=rRNA;locus_tag=K8J89_mgr01;product=16S ribosomal RNA
+NC_057519.1	RefSeq	gene	2667	2740	.	+	.	ID=gene-K8J89_mgt03;Dbxref=GeneID:67270664;Name=K8J89_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt03
+NC_057519.1	RefSeq	tRNA	2667	2740	.	+	.	ID=rna-K8J89_mgt03;Parent=gene-K8J89_mgt03;Dbxref=GeneID:67270664;anticodon=(pos:2694..2696);codons=UUR;gbkey=tRNA;locus_tag=K8J89_mgt03;product=tRNA-Leu
+NC_057519.1	RefSeq	exon	2667	2740	.	+	.	ID=exon-K8J89_mgt03-1;Parent=rna-K8J89_mgt03;Dbxref=GeneID:67270664;anticodon=(pos:2694..2696);codons=UUR;gbkey=tRNA;locus_tag=K8J89_mgt03;product=tRNA-Leu
+NC_057519.1	RefSeq	gene	2742	3697	.	+	.	ID=gene-K8J89_mgp13;Dbxref=GeneID:67270665;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=K8J89_mgp13
+NC_057519.1	RefSeq	CDS	2742	3697	.	+	0	ID=cds-YP_010165859.1;Parent=gene-K8J89_mgp13;Dbxref=GenBank:YP_010165859.1,GeneID:67270665;Name=YP_010165859.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=K8J89_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010165859.1;transl_except=(pos:3696..3697%2Caa:TERM);transl_table=2
+NC_057519.1	RefSeq	gene	3698	3766	.	+	.	ID=gene-K8J89_mgt04;Dbxref=GeneID:67270647;Name=K8J89_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt04
+NC_057519.1	RefSeq	tRNA	3698	3766	.	+	.	ID=rna-K8J89_mgt04;Parent=gene-K8J89_mgt04;Dbxref=GeneID:67270647;anticodon=(pos:3727..3729);gbkey=tRNA;locus_tag=K8J89_mgt04;product=tRNA-Ile
+NC_057519.1	RefSeq	exon	3698	3766	.	+	.	ID=exon-K8J89_mgt04-1;Parent=rna-K8J89_mgt04;Dbxref=GeneID:67270647;anticodon=(pos:3727..3729);gbkey=tRNA;locus_tag=K8J89_mgt04;product=tRNA-Ile
+NC_057519.1	RefSeq	gene	3764	3833	.	-	.	ID=gene-K8J89_mgt05;Dbxref=GeneID:67270666;Name=K8J89_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt05
+NC_057519.1	RefSeq	tRNA	3764	3833	.	-	.	ID=rna-K8J89_mgt05;Parent=gene-K8J89_mgt05;Dbxref=GeneID:67270666;anticodon=(pos:complement(3800..3802));gbkey=tRNA;locus_tag=K8J89_mgt05;product=tRNA-Gln
+NC_057519.1	RefSeq	exon	3764	3833	.	-	.	ID=exon-K8J89_mgt05-1;Parent=rna-K8J89_mgt05;Dbxref=GeneID:67270666;anticodon=(pos:complement(3800..3802));gbkey=tRNA;locus_tag=K8J89_mgt05;product=tRNA-Gln
+NC_057519.1	RefSeq	gene	3834	3902	.	+	.	ID=gene-K8J89_mgt06;Dbxref=GeneID:67270667;Name=K8J89_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt06
+NC_057519.1	RefSeq	tRNA	3834	3902	.	+	.	ID=rna-K8J89_mgt06;Parent=gene-K8J89_mgt06;Dbxref=GeneID:67270667;anticodon=(pos:3864..3866);gbkey=tRNA;locus_tag=K8J89_mgt06;product=tRNA-Met
+NC_057519.1	RefSeq	exon	3834	3902	.	+	.	ID=exon-K8J89_mgt06-1;Parent=rna-K8J89_mgt06;Dbxref=GeneID:67270667;anticodon=(pos:3864..3866);gbkey=tRNA;locus_tag=K8J89_mgt06;product=tRNA-Met
+NC_057519.1	RefSeq	gene	3903	4946	.	+	.	ID=gene-K8J89_mgp12;Dbxref=GeneID:67270668;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=K8J89_mgp12
+NC_057519.1	RefSeq	CDS	3903	4946	.	+	0	ID=cds-YP_010165860.1;Parent=gene-K8J89_mgp12;Dbxref=GenBank:YP_010165860.1,GeneID:67270668;Name=YP_010165860.1;gbkey=CDS;gene=ND2;locus_tag=K8J89_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010165860.1;transl_table=2
+NC_057519.1	RefSeq	gene	4944	5012	.	-	.	ID=gene-K8J89_mgt07;Dbxref=GeneID:67270648;Name=K8J89_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt07
+NC_057519.1	RefSeq	tRNA	4944	5012	.	-	.	ID=rna-K8J89_mgt07;Parent=gene-K8J89_mgt07;Dbxref=GeneID:67270648;anticodon=(pos:complement(4980..4982));gbkey=tRNA;locus_tag=K8J89_mgt07;product=tRNA-Ala
+NC_057519.1	RefSeq	exon	4944	5012	.	-	.	ID=exon-K8J89_mgt07-1;Parent=rna-K8J89_mgt07;Dbxref=GeneID:67270648;anticodon=(pos:complement(4980..4982));gbkey=tRNA;locus_tag=K8J89_mgt07;product=tRNA-Ala
+NC_057519.1	RefSeq	gene	5022	5088	.	-	.	ID=gene-K8J89_mgt08;Dbxref=GeneID:67270669;Name=K8J89_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt08
+NC_057519.1	RefSeq	tRNA	5022	5088	.	-	.	ID=rna-K8J89_mgt08;Parent=gene-K8J89_mgt08;Dbxref=GeneID:67270669;anticodon=(pos:complement(5057..5059));gbkey=tRNA;locus_tag=K8J89_mgt08;product=tRNA-Cys
+NC_057519.1	RefSeq	exon	5022	5088	.	-	.	ID=exon-K8J89_mgt08-1;Parent=rna-K8J89_mgt08;Dbxref=GeneID:67270669;anticodon=(pos:complement(5057..5059));gbkey=tRNA;locus_tag=K8J89_mgt08;product=tRNA-Cys
+NC_057519.1	RefSeq	gene	5099	5170	.	+	.	ID=gene-K8J89_mgt09;Dbxref=GeneID:67270670;Name=K8J89_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt09
+NC_057519.1	RefSeq	tRNA	5099	5170	.	+	.	ID=rna-K8J89_mgt09;Parent=gene-K8J89_mgt09;Dbxref=GeneID:67270670;anticodon=(pos:5133..5135);gbkey=tRNA;locus_tag=K8J89_mgt09;product=tRNA-Trp
+NC_057519.1	RefSeq	exon	5099	5170	.	+	.	ID=exon-K8J89_mgt09-1;Parent=rna-K8J89_mgt09;Dbxref=GeneID:67270670;anticodon=(pos:5133..5135);gbkey=tRNA;locus_tag=K8J89_mgt09;product=tRNA-Trp
+NC_057519.1	RefSeq	gene	5249	5320	.	-	.	ID=gene-K8J89_mgt10;Dbxref=GeneID:67270671;Name=K8J89_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt10
+NC_057519.1	RefSeq	tRNA	5249	5320	.	-	.	ID=rna-K8J89_mgt10;Parent=gene-K8J89_mgt10;Dbxref=GeneID:67270671;anticodon=(pos:complement(5286..5288));gbkey=tRNA;locus_tag=K8J89_mgt10;product=tRNA-Asn
+NC_057519.1	RefSeq	exon	5249	5320	.	-	.	ID=exon-K8J89_mgt10-1;Parent=rna-K8J89_mgt10;Dbxref=GeneID:67270671;anticodon=(pos:complement(5286..5288));gbkey=tRNA;locus_tag=K8J89_mgt10;product=tRNA-Asn
+NC_057519.1	RefSeq	gene	5323	5390	.	+	.	ID=gene-K8J89_mgt11;Dbxref=GeneID:67270672;Name=K8J89_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt11
+NC_057519.1	RefSeq	tRNA	5323	5390	.	+	.	ID=rna-K8J89_mgt11;Parent=gene-K8J89_mgt11;Dbxref=GeneID:67270672;gbkey=tRNA;locus_tag=K8J89_mgt11;product=tRNA-Tyr
+NC_057519.1	RefSeq	exon	5323	5390	.	+	.	ID=exon-K8J89_mgt11-1;Parent=rna-K8J89_mgt11;Dbxref=GeneID:67270672;gbkey=tRNA;locus_tag=K8J89_mgt11;product=tRNA-Tyr
+NC_057519.1	RefSeq	gene	5392	6933	.	+	.	ID=gene-K8J89_mgp11;Dbxref=GeneID:67270673;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=K8J89_mgp11
+NC_057519.1	RefSeq	CDS	5392	6933	.	+	0	ID=cds-YP_010165861.1;Parent=gene-K8J89_mgp11;Dbxref=GenBank:YP_010165861.1,GeneID:67270673;Name=YP_010165861.1;gbkey=CDS;gene=COX1;locus_tag=K8J89_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010165861.1;transl_table=2
+NC_057519.1	RefSeq	gene	6935	7003	.	-	.	ID=gene-K8J89_mgt12;Dbxref=GeneID:67270649;Name=K8J89_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt12
+NC_057519.1	RefSeq	tRNA	6935	7003	.	-	.	ID=rna-K8J89_mgt12;Parent=gene-K8J89_mgt12;Dbxref=GeneID:67270649;anticodon=(pos:complement(6971..6973));codons=UCN;gbkey=tRNA;locus_tag=K8J89_mgt12;product=tRNA-Ser
+NC_057519.1	RefSeq	exon	6935	7003	.	-	.	ID=exon-K8J89_mgt12-1;Parent=rna-K8J89_mgt12;Dbxref=GeneID:67270649;anticodon=(pos:complement(6971..6973));codons=UCN;gbkey=tRNA;locus_tag=K8J89_mgt12;product=tRNA-Ser
+NC_057519.1	RefSeq	gene	7008	7077	.	+	.	ID=gene-K8J89_mgt13;Dbxref=GeneID:67270674;Name=K8J89_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt13
+NC_057519.1	RefSeq	tRNA	7008	7077	.	+	.	ID=rna-K8J89_mgt13;Parent=gene-K8J89_mgt13;Dbxref=GeneID:67270674;Note=the second nucleotide of the anticodon is edited at the RNA-level from C to U%2C restoring the normal anticodon GUC for tRNA-Asp;gbkey=tRNA;locus_tag=K8J89_mgt13;product=tRNA-Asp
+NC_057519.1	RefSeq	exon	7008	7077	.	+	.	ID=exon-K8J89_mgt13-1;Parent=rna-K8J89_mgt13;Dbxref=GeneID:67270674;Note=the second nucleotide of the anticodon is edited at the RNA-level from C to U%2C restoring the normal anticodon GUC for tRNA-Asp;gbkey=tRNA;locus_tag=K8J89_mgt13;product=tRNA-Asp
+NC_057519.1	RefSeq	gene	7080	7761	.	+	.	ID=gene-K8J89_mgp10;Dbxref=GeneID:67270675;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=K8J89_mgp10
+NC_057519.1	RefSeq	CDS	7080	7761	.	+	0	ID=cds-YP_010165862.1;Parent=gene-K8J89_mgp10;Dbxref=GenBank:YP_010165862.1,GeneID:67270675;Name=YP_010165862.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=K8J89_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010165862.1;transl_except=(pos:7761%2Caa:TERM);transl_table=2
+NC_057519.1	RefSeq	gene	7762	7820	.	+	.	ID=gene-K8J89_mgt14;Dbxref=GeneID:67270650;Name=K8J89_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt14
+NC_057519.1	RefSeq	tRNA	7762	7820	.	+	.	ID=rna-K8J89_mgt14;Parent=gene-K8J89_mgt14;Dbxref=GeneID:67270650;anticodon=(pos:7782..7784);gbkey=tRNA;locus_tag=K8J89_mgt14;product=tRNA-Lys
+NC_057519.1	RefSeq	exon	7762	7820	.	+	.	ID=exon-K8J89_mgt14-1;Parent=rna-K8J89_mgt14;Dbxref=GeneID:67270650;anticodon=(pos:7782..7784);gbkey=tRNA;locus_tag=K8J89_mgt14;product=tRNA-Lys
+NC_057519.1	RefSeq	gene	7823	8032	.	+	.	ID=gene-K8J89_mgp09;Dbxref=GeneID:67270676;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=K8J89_mgp09
+NC_057519.1	RefSeq	CDS	7823	8032	.	+	0	ID=cds-YP_010165863.1;Parent=gene-K8J89_mgp09;Dbxref=GenBank:YP_010165863.1,GeneID:67270676;Name=YP_010165863.1;gbkey=CDS;gene=ATP8;locus_tag=K8J89_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010165863.1;transl_table=2
+NC_057519.1	RefSeq	gene	7987	8667	.	+	.	ID=gene-K8J89_mgp08;Dbxref=GeneID:67270651;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=K8J89_mgp08
+NC_057519.1	RefSeq	CDS	7987	8667	.	+	0	ID=cds-YP_010165864.1;Parent=gene-K8J89_mgp08;Dbxref=GenBank:YP_010165864.1,GeneID:67270651;Name=YP_010165864.1;gbkey=CDS;gene=ATP6;locus_tag=K8J89_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010165864.1;transl_table=2
+NC_057519.1	RefSeq	gene	8667	9450	.	+	.	ID=gene-K8J89_mgp07;Dbxref=GeneID:67270652;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=K8J89_mgp07
+NC_057519.1	RefSeq	CDS	8667	9450	.	+	0	ID=cds-YP_010165865.1;Parent=gene-K8J89_mgp07;Dbxref=GenBank:YP_010165865.1,GeneID:67270652;Name=YP_010165865.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=K8J89_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010165865.1;transl_except=(pos:9450%2Caa:TERM);transl_table=2
+NC_057519.1	RefSeq	gene	9451	9518	.	+	.	ID=gene-K8J89_mgt15;Dbxref=GeneID:67270653;Name=K8J89_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt15
+NC_057519.1	RefSeq	tRNA	9451	9518	.	+	.	ID=rna-K8J89_mgt15;Parent=gene-K8J89_mgt15;Dbxref=GeneID:67270653;anticodon=(pos:9481..9483);gbkey=tRNA;locus_tag=K8J89_mgt15;product=tRNA-Gly
+NC_057519.1	RefSeq	exon	9451	9518	.	+	.	ID=exon-K8J89_mgt15-1;Parent=rna-K8J89_mgt15;Dbxref=GeneID:67270653;anticodon=(pos:9481..9483);gbkey=tRNA;locus_tag=K8J89_mgt15;product=tRNA-Gly
+NC_057519.1	RefSeq	gene	9519	9864	.	+	.	ID=gene-K8J89_mgp06;Dbxref=GeneID:67270677;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=K8J89_mgp06
+NC_057519.1	RefSeq	CDS	9519	9864	.	+	0	ID=cds-YP_010165866.1;Parent=gene-K8J89_mgp06;Dbxref=GenBank:YP_010165866.1,GeneID:67270677;Name=YP_010165866.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=K8J89_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010165866.1;transl_except=(pos:9864%2Caa:TERM);transl_table=2
+NC_057519.1	RefSeq	gene	9865	9934	.	+	.	ID=gene-K8J89_mgt16;Dbxref=GeneID:67270654;Name=K8J89_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt16
+NC_057519.1	RefSeq	tRNA	9865	9934	.	+	.	ID=rna-K8J89_mgt16;Parent=gene-K8J89_mgt16;Dbxref=GeneID:67270654;anticodon=(pos:9896..9898);gbkey=tRNA;locus_tag=K8J89_mgt16;product=tRNA-Arg
+NC_057519.1	RefSeq	exon	9865	9934	.	+	.	ID=exon-K8J89_mgt16-1;Parent=rna-K8J89_mgt16;Dbxref=GeneID:67270654;anticodon=(pos:9896..9898);gbkey=tRNA;locus_tag=K8J89_mgt16;product=tRNA-Arg
+NC_057519.1	RefSeq	gene	9935	10231	.	+	.	ID=gene-K8J89_mgp05;Dbxref=GeneID:67270678;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=K8J89_mgp05
+NC_057519.1	RefSeq	CDS	9935	10231	.	+	0	ID=cds-YP_010165867.1;Parent=gene-K8J89_mgp05;Dbxref=GenBank:YP_010165867.1,GeneID:67270678;Name=YP_010165867.1;gbkey=CDS;gene=ND4L;locus_tag=K8J89_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010165867.1;transl_table=2
+NC_057519.1	RefSeq	gene	10225	11602	.	+	.	ID=gene-K8J89_mgp04;Dbxref=GeneID:67270655;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=K8J89_mgp04
+NC_057519.1	RefSeq	CDS	10225	11602	.	+	0	ID=cds-YP_010165868.1;Parent=gene-K8J89_mgp04;Dbxref=GenBank:YP_010165868.1,GeneID:67270655;Name=YP_010165868.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=K8J89_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010165868.1;transl_except=(pos:11602%2Caa:TERM);transl_table=2
+NC_057519.1	RefSeq	gene	11603	11671	.	+	.	ID=gene-K8J89_mgt17;Dbxref=GeneID:67270656;Name=K8J89_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt17
+NC_057519.1	RefSeq	tRNA	11603	11671	.	+	.	ID=rna-K8J89_mgt17;Parent=gene-K8J89_mgt17;Dbxref=GeneID:67270656;anticodon=(pos:11633..11635);gbkey=tRNA;locus_tag=K8J89_mgt17;product=tRNA-His
+NC_057519.1	RefSeq	exon	11603	11671	.	+	.	ID=exon-K8J89_mgt17-1;Parent=rna-K8J89_mgt17;Dbxref=GeneID:67270656;anticodon=(pos:11633..11635);gbkey=tRNA;locus_tag=K8J89_mgt17;product=tRNA-His
+NC_057519.1	RefSeq	gene	11672	11727	.	+	.	ID=gene-K8J89_mgt18;Dbxref=GeneID:67270679;Name=K8J89_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt18
+NC_057519.1	RefSeq	tRNA	11672	11727	.	+	.	ID=rna-K8J89_mgt18;Parent=gene-K8J89_mgt18;Dbxref=GeneID:67270679;anticodon=(pos:11690..11692);codons=AGY;gbkey=tRNA;locus_tag=K8J89_mgt18;product=tRNA-Ser
+NC_057519.1	RefSeq	exon	11672	11727	.	+	.	ID=exon-K8J89_mgt18-1;Parent=rna-K8J89_mgt18;Dbxref=GeneID:67270679;anticodon=(pos:11690..11692);codons=AGY;gbkey=tRNA;locus_tag=K8J89_mgt18;product=tRNA-Ser
+NC_057519.1	RefSeq	gene	11729	11799	.	+	.	ID=gene-K8J89_mgt19;Dbxref=GeneID:67270680;Name=K8J89_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt19
+NC_057519.1	RefSeq	tRNA	11729	11799	.	+	.	ID=rna-K8J89_mgt19;Parent=gene-K8J89_mgt19;Dbxref=GeneID:67270680;anticodon=(pos:11761..11763);codons=CUN;gbkey=tRNA;locus_tag=K8J89_mgt19;product=tRNA-Leu
+NC_057519.1	RefSeq	exon	11729	11799	.	+	.	ID=exon-K8J89_mgt19-1;Parent=rna-K8J89_mgt19;Dbxref=GeneID:67270680;anticodon=(pos:11761..11763);codons=CUN;gbkey=tRNA;locus_tag=K8J89_mgt19;product=tRNA-Leu
+NC_057519.1	RefSeq	gene	11800	13599	.	+	.	ID=gene-K8J89_mgp03;Dbxref=GeneID:67270681;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=K8J89_mgp03
+NC_057519.1	RefSeq	CDS	11800	13599	.	+	0	ID=cds-YP_010165869.1;Parent=gene-K8J89_mgp03;Dbxref=GenBank:YP_010165869.1,GeneID:67270681;Name=YP_010165869.1;gbkey=CDS;gene=ND5;locus_tag=K8J89_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010165869.1;transl_table=2
+NC_057519.1	RefSeq	gene	13596	14102	.	-	.	ID=gene-K8J89_mgp02;Dbxref=GeneID:67270657;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=K8J89_mgp02
+NC_057519.1	RefSeq	CDS	13596	14102	.	-	0	ID=cds-YP_010165870.1;Parent=gene-K8J89_mgp02;Dbxref=GenBank:YP_010165870.1,GeneID:67270657;Name=YP_010165870.1;gbkey=CDS;gene=ND6;locus_tag=K8J89_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010165870.1;transl_table=2
+NC_057519.1	RefSeq	gene	14103	14171	.	-	.	ID=gene-K8J89_mgt20;Dbxref=GeneID:67270658;Name=K8J89_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt20
+NC_057519.1	RefSeq	tRNA	14103	14171	.	-	.	ID=rna-K8J89_mgt20;Parent=gene-K8J89_mgt20;Dbxref=GeneID:67270658;anticodon=(pos:complement(14139..14141));gbkey=tRNA;locus_tag=K8J89_mgt20;product=tRNA-Glu
+NC_057519.1	RefSeq	exon	14103	14171	.	-	.	ID=exon-K8J89_mgt20-1;Parent=rna-K8J89_mgt20;Dbxref=GeneID:67270658;anticodon=(pos:complement(14139..14141));gbkey=tRNA;locus_tag=K8J89_mgt20;product=tRNA-Glu
+NC_057519.1	RefSeq	gene	14173	15321	.	+	.	ID=gene-K8J89_mgp01;Dbxref=GeneID:67270682;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=K8J89_mgp01
+NC_057519.1	RefSeq	CDS	14173	15321	.	+	0	ID=cds-YP_010165871.1;Parent=gene-K8J89_mgp01;Dbxref=GenBank:YP_010165871.1,GeneID:67270682;Name=YP_010165871.1;gbkey=CDS;gene=CYTB;locus_tag=K8J89_mgp01;product=cytochrome b;protein_id=YP_010165871.1;transl_table=2
+NC_057519.1	RefSeq	gene	15330	15397	.	+	.	ID=gene-K8J89_mgt21;Dbxref=GeneID:67270659;Name=K8J89_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt21
+NC_057519.1	RefSeq	tRNA	15330	15397	.	+	.	ID=rna-K8J89_mgt21;Parent=gene-K8J89_mgt21;Dbxref=GeneID:67270659;anticodon=(pos:15360..15362);gbkey=tRNA;locus_tag=K8J89_mgt21;product=tRNA-Thr
+NC_057519.1	RefSeq	exon	15330	15397	.	+	.	ID=exon-K8J89_mgt21-1;Parent=rna-K8J89_mgt21;Dbxref=GeneID:67270659;anticodon=(pos:15360..15362);gbkey=tRNA;locus_tag=K8J89_mgt21;product=tRNA-Thr
+NC_057519.1	RefSeq	gene	15400	15465	.	-	.	ID=gene-K8J89_mgt22;Dbxref=GeneID:67270683;Name=K8J89_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=K8J89_mgt22
+NC_057519.1	RefSeq	tRNA	15400	15465	.	-	.	ID=rna-K8J89_mgt22;Parent=gene-K8J89_mgt22;Dbxref=GeneID:67270683;anticodon=(pos:complement(15433..15435));gbkey=tRNA;locus_tag=K8J89_mgt22;product=tRNA-Pro
+NC_057519.1	RefSeq	exon	15400	15465	.	-	.	ID=exon-K8J89_mgt22-1;Parent=rna-K8J89_mgt22;Dbxref=GeneID:67270683;anticodon=(pos:complement(15433..15435));gbkey=tRNA;locus_tag=K8J89_mgt22;product=tRNA-Pro
+NC_057519.1	RefSeq	sequence_feature	15466	17426	.	+	.	ID=id-NC_057519.1:15466..17426;Note=control region;gbkey=misc_feature
+

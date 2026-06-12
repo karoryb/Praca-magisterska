@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_067757.1 1 16669
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=68724
+NC_067757.1	RefSeq	region	1	16669	.	+	.	ID=NC_067757.1:1..16669;Dbxref=taxon:68724;Is_circular=true;Name=MT;collected-by=Osman IBIS;collection-date=26-Jul-2021;country=Turkey;gbkey=Src;genome=mitochondrion;identified-by=Osman IBIS;isolate=1886-Antalya;mol_type=genomic DNA;specimen-voucher=1886_CaAu;tissue-type=muscle
+NC_067757.1	RefSeq	gene	1	69	.	+	.	ID=gene-OOC69_mgt01;Dbxref=GeneID:76332351;Name=OOC69_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt01
+NC_067757.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-OOC69_mgt01;Parent=gene-OOC69_mgt01;Dbxref=GeneID:76332351;gbkey=tRNA;locus_tag=OOC69_mgt01;product=tRNA-Phe
+NC_067757.1	RefSeq	exon	1	69	.	+	.	ID=exon-OOC69_mgt01-1;Parent=rna-OOC69_mgt01;Dbxref=GeneID:76332351;gbkey=tRNA;locus_tag=OOC69_mgt01;product=tRNA-Phe
+NC_067757.1	RefSeq	gene	70	1023	.	+	.	ID=gene-OOC69_mgr02;Dbxref=GeneID:76332352;Name=OOC69_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=OOC69_mgr02
+NC_067757.1	RefSeq	rRNA	70	1023	.	+	.	ID=rna-OOC69_mgr02;Parent=gene-OOC69_mgr02;Dbxref=GeneID:76332352;gbkey=rRNA;locus_tag=OOC69_mgr02;product=12S ribosomal RNA
+NC_067757.1	RefSeq	exon	70	1023	.	+	.	ID=exon-OOC69_mgr02-1;Parent=rna-OOC69_mgr02;Dbxref=GeneID:76332352;gbkey=rRNA;locus_tag=OOC69_mgr02;product=12S ribosomal RNA
+NC_067757.1	RefSeq	gene	1024	1090	.	+	.	ID=gene-OOC69_mgt02;Dbxref=GeneID:76332353;Name=OOC69_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt02
+NC_067757.1	RefSeq	tRNA	1024	1090	.	+	.	ID=rna-OOC69_mgt02;Parent=gene-OOC69_mgt02;Dbxref=GeneID:76332353;gbkey=tRNA;locus_tag=OOC69_mgt02;product=tRNA-Val
+NC_067757.1	RefSeq	exon	1024	1090	.	+	.	ID=exon-OOC69_mgt02-1;Parent=rna-OOC69_mgt02;Dbxref=GeneID:76332353;gbkey=tRNA;locus_tag=OOC69_mgt02;product=tRNA-Val
+NC_067757.1	RefSeq	gene	1091	2668	.	+	.	ID=gene-OOC69_mgr01;Dbxref=GeneID:76332354;Name=OOC69_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=OOC69_mgr01
+NC_067757.1	RefSeq	rRNA	1091	2668	.	+	.	ID=rna-OOC69_mgr01;Parent=gene-OOC69_mgr01;Dbxref=GeneID:76332354;gbkey=rRNA;locus_tag=OOC69_mgr01;product=16S ribosomal RNA
+NC_067757.1	RefSeq	exon	1091	2668	.	+	.	ID=exon-OOC69_mgr01-1;Parent=rna-OOC69_mgr01;Dbxref=GeneID:76332354;gbkey=rRNA;locus_tag=OOC69_mgr01;product=16S ribosomal RNA
+NC_067757.1	RefSeq	gene	2671	2745	.	+	.	ID=gene-OOC69_mgt03;Dbxref=GeneID:76332355;Name=OOC69_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt03
+NC_067757.1	RefSeq	tRNA	2671	2745	.	+	.	ID=rna-OOC69_mgt03;Parent=gene-OOC69_mgt03;Dbxref=GeneID:76332355;codons=UUR;gbkey=tRNA;locus_tag=OOC69_mgt03;product=tRNA-Leu
+NC_067757.1	RefSeq	exon	2671	2745	.	+	.	ID=exon-OOC69_mgt03-1;Parent=rna-OOC69_mgt03;Dbxref=GeneID:76332355;codons=UUR;gbkey=tRNA;locus_tag=OOC69_mgt03;product=tRNA-Leu
+NC_067757.1	RefSeq	gene	2748	3703	.	+	.	ID=gene-OOC69_mgp13;Dbxref=GeneID:76332356;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=OOC69_mgp13
+NC_067757.1	RefSeq	CDS	2748	3703	.	+	0	ID=cds-YP_010528534.1;Parent=gene-OOC69_mgp13;Dbxref=GenBank:YP_010528534.1,GeneID:76332356;Name=YP_010528534.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=OOC69_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010528534.1;transl_except=(pos:3702..3703%2Caa:TERM);transl_table=2
+NC_067757.1	RefSeq	gene	3704	3772	.	+	.	ID=gene-OOC69_mgt04;Dbxref=GeneID:76332343;Name=OOC69_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt04
+NC_067757.1	RefSeq	tRNA	3704	3772	.	+	.	ID=rna-OOC69_mgt04;Parent=gene-OOC69_mgt04;Dbxref=GeneID:76332343;gbkey=tRNA;locus_tag=OOC69_mgt04;product=tRNA-Ile
+NC_067757.1	RefSeq	exon	3704	3772	.	+	.	ID=exon-OOC69_mgt04-1;Parent=rna-OOC69_mgt04;Dbxref=GeneID:76332343;gbkey=tRNA;locus_tag=OOC69_mgt04;product=tRNA-Ile
+NC_067757.1	RefSeq	gene	3770	3843	.	-	.	ID=gene-OOC69_mgt05;Dbxref=GeneID:76332357;Name=OOC69_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt05
+NC_067757.1	RefSeq	tRNA	3770	3843	.	-	.	ID=rna-OOC69_mgt05;Parent=gene-OOC69_mgt05;Dbxref=GeneID:76332357;gbkey=tRNA;locus_tag=OOC69_mgt05;product=tRNA-Gln
+NC_067757.1	RefSeq	exon	3770	3843	.	-	.	ID=exon-OOC69_mgt05-1;Parent=rna-OOC69_mgt05;Dbxref=GeneID:76332357;gbkey=tRNA;locus_tag=OOC69_mgt05;product=tRNA-Gln
+NC_067757.1	RefSeq	gene	3845	3914	.	+	.	ID=gene-OOC69_mgt06;Dbxref=GeneID:76332358;Name=OOC69_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt06
+NC_067757.1	RefSeq	tRNA	3845	3914	.	+	.	ID=rna-OOC69_mgt06;Parent=gene-OOC69_mgt06;Dbxref=GeneID:76332358;gbkey=tRNA;locus_tag=OOC69_mgt06;product=tRNA-Met
+NC_067757.1	RefSeq	exon	3845	3914	.	+	.	ID=exon-OOC69_mgt06-1;Parent=rna-OOC69_mgt06;Dbxref=GeneID:76332358;gbkey=tRNA;locus_tag=OOC69_mgt06;product=tRNA-Met
+NC_067757.1	RefSeq	gene	3915	4956	.	+	.	ID=gene-OOC69_mgp12;Dbxref=GeneID:76332359;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=OOC69_mgp12
+NC_067757.1	RefSeq	CDS	3915	4956	.	+	0	ID=cds-YP_010528535.1;Parent=gene-OOC69_mgp12;Dbxref=GenBank:YP_010528535.1,GeneID:76332359;Name=YP_010528535.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=OOC69_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010528535.1;transl_except=(pos:4956%2Caa:TERM);transl_table=2
+NC_067757.1	RefSeq	gene	4957	5024	.	+	.	ID=gene-OOC69_mgt07;Dbxref=GeneID:76332342;Name=OOC69_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt07
+NC_067757.1	RefSeq	tRNA	4957	5024	.	+	.	ID=rna-OOC69_mgt07;Parent=gene-OOC69_mgt07;Dbxref=GeneID:76332342;gbkey=tRNA;locus_tag=OOC69_mgt07;product=tRNA-Trp
+NC_067757.1	RefSeq	exon	4957	5024	.	+	.	ID=exon-OOC69_mgt07-1;Parent=rna-OOC69_mgt07;Dbxref=GeneID:76332342;gbkey=tRNA;locus_tag=OOC69_mgt07;product=tRNA-Trp
+NC_067757.1	RefSeq	gene	5038	5106	.	-	.	ID=gene-OOC69_mgt08;Dbxref=GeneID:76332360;Name=OOC69_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt08
+NC_067757.1	RefSeq	tRNA	5038	5106	.	-	.	ID=rna-OOC69_mgt08;Parent=gene-OOC69_mgt08;Dbxref=GeneID:76332360;gbkey=tRNA;locus_tag=OOC69_mgt08;product=tRNA-Ala
+NC_067757.1	RefSeq	exon	5038	5106	.	-	.	ID=exon-OOC69_mgt08-1;Parent=rna-OOC69_mgt08;Dbxref=GeneID:76332360;gbkey=tRNA;locus_tag=OOC69_mgt08;product=tRNA-Ala
+NC_067757.1	RefSeq	gene	5108	5179	.	-	.	ID=gene-OOC69_mgt09;Dbxref=GeneID:76332361;Name=OOC69_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt09
+NC_067757.1	RefSeq	tRNA	5108	5179	.	-	.	ID=rna-OOC69_mgt09;Parent=gene-OOC69_mgt09;Dbxref=GeneID:76332361;gbkey=tRNA;locus_tag=OOC69_mgt09;product=tRNA-Asn
+NC_067757.1	RefSeq	exon	5108	5179	.	-	.	ID=exon-OOC69_mgt09-1;Parent=rna-OOC69_mgt09;Dbxref=GeneID:76332361;gbkey=tRNA;locus_tag=OOC69_mgt09;product=tRNA-Asn
+NC_067757.1	RefSeq	origin_of_replication	5183	5214	.	+	.	ID=id-NC_067757.1:5183..5214;gbkey=rep_origin
+NC_067757.1	RefSeq	gene	5214	5280	.	-	.	ID=gene-OOC69_mgt10;Dbxref=GeneID:76332362;Name=OOC69_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt10
+NC_067757.1	RefSeq	tRNA	5214	5280	.	-	.	ID=rna-OOC69_mgt10;Parent=gene-OOC69_mgt10;Dbxref=GeneID:76332362;gbkey=tRNA;locus_tag=OOC69_mgt10;product=tRNA-Cys
+NC_067757.1	RefSeq	exon	5214	5280	.	-	.	ID=exon-OOC69_mgt10-1;Parent=rna-OOC69_mgt10;Dbxref=GeneID:76332362;gbkey=tRNA;locus_tag=OOC69_mgt10;product=tRNA-Cys
+NC_067757.1	RefSeq	gene	5281	5348	.	-	.	ID=gene-OOC69_mgt11;Dbxref=GeneID:76332363;Name=OOC69_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt11
+NC_067757.1	RefSeq	tRNA	5281	5348	.	-	.	ID=rna-OOC69_mgt11;Parent=gene-OOC69_mgt11;Dbxref=GeneID:76332363;gbkey=tRNA;locus_tag=OOC69_mgt11;product=tRNA-Tyr
+NC_067757.1	RefSeq	exon	5281	5348	.	-	.	ID=exon-OOC69_mgt11-1;Parent=rna-OOC69_mgt11;Dbxref=GeneID:76332363;gbkey=tRNA;locus_tag=OOC69_mgt11;product=tRNA-Tyr
+NC_067757.1	RefSeq	gene	5350	6894	.	+	.	ID=gene-OOC69_mgp11;Dbxref=GeneID:76332364;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=OOC69_mgp11
+NC_067757.1	RefSeq	CDS	5350	6894	.	+	0	ID=cds-YP_010528536.1;Parent=gene-OOC69_mgp11;Dbxref=GenBank:YP_010528536.1,GeneID:76332364;Name=YP_010528536.1;gbkey=CDS;gene=COX1;locus_tag=OOC69_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010528536.1;transl_table=2
+NC_067757.1	RefSeq	gene	6892	6960	.	-	.	ID=gene-OOC69_mgt12;Dbxref=GeneID:76332339;Name=OOC69_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt12
+NC_067757.1	RefSeq	tRNA	6892	6960	.	-	.	ID=rna-OOC69_mgt12;Parent=gene-OOC69_mgt12;Dbxref=GeneID:76332339;codons=UCN;gbkey=tRNA;locus_tag=OOC69_mgt12;product=tRNA-Ser
+NC_067757.1	RefSeq	exon	6892	6960	.	-	.	ID=exon-OOC69_mgt12-1;Parent=rna-OOC69_mgt12;Dbxref=GeneID:76332339;codons=UCN;gbkey=tRNA;locus_tag=OOC69_mgt12;product=tRNA-Ser
+NC_067757.1	RefSeq	gene	6967	7034	.	+	.	ID=gene-OOC69_mgt13;Dbxref=GeneID:76332365;Name=OOC69_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt13
+NC_067757.1	RefSeq	tRNA	6967	7034	.	+	.	ID=rna-OOC69_mgt13;Parent=gene-OOC69_mgt13;Dbxref=GeneID:76332365;gbkey=tRNA;locus_tag=OOC69_mgt13;product=tRNA-Asp
+NC_067757.1	RefSeq	exon	6967	7034	.	+	.	ID=exon-OOC69_mgt13-1;Parent=rna-OOC69_mgt13;Dbxref=GeneID:76332365;gbkey=tRNA;locus_tag=OOC69_mgt13;product=tRNA-Asp
+NC_067757.1	RefSeq	gene	7035	7718	.	+	.	ID=gene-OOC69_mgp10;Dbxref=GeneID:76332366;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=OOC69_mgp10
+NC_067757.1	RefSeq	CDS	7035	7718	.	+	0	ID=cds-YP_010528537.1;Parent=gene-OOC69_mgp10;Dbxref=GenBank:YP_010528537.1,GeneID:76332366;Name=YP_010528537.1;gbkey=CDS;gene=COX2;locus_tag=OOC69_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010528537.1;transl_table=2
+NC_067757.1	RefSeq	gene	7736	7802	.	+	.	ID=gene-OOC69_mgt14;Dbxref=GeneID:76332345;Name=OOC69_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt14
+NC_067757.1	RefSeq	tRNA	7736	7802	.	+	.	ID=rna-OOC69_mgt14;Parent=gene-OOC69_mgt14;Dbxref=GeneID:76332345;gbkey=tRNA;locus_tag=OOC69_mgt14;product=tRNA-Lys
+NC_067757.1	RefSeq	exon	7736	7802	.	+	.	ID=exon-OOC69_mgt14-1;Parent=rna-OOC69_mgt14;Dbxref=GeneID:76332345;gbkey=tRNA;locus_tag=OOC69_mgt14;product=tRNA-Lys
+NC_067757.1	RefSeq	gene	7804	8007	.	+	.	ID=gene-OOC69_mgp09;Dbxref=GeneID:76332367;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=OOC69_mgp09
+NC_067757.1	RefSeq	CDS	7804	8007	.	+	0	ID=cds-YP_010528538.1;Parent=gene-OOC69_mgp09;Dbxref=GenBank:YP_010528538.1,GeneID:76332367;Name=YP_010528538.1;gbkey=CDS;gene=ATP8;locus_tag=OOC69_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010528538.1;transl_table=2
+NC_067757.1	RefSeq	gene	7965	8645	.	+	.	ID=gene-OOC69_mgp08;Dbxref=GeneID:76332350;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=OOC69_mgp08
+NC_067757.1	RefSeq	CDS	7965	8645	.	+	0	ID=cds-YP_010528539.1;Parent=gene-OOC69_mgp08;Dbxref=GenBank:YP_010528539.1,GeneID:76332350;Name=YP_010528539.1;gbkey=CDS;gene=ATP6;locus_tag=OOC69_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010528539.1;transl_table=2
+NC_067757.1	RefSeq	gene	8645	9428	.	+	.	ID=gene-OOC69_mgp07;Dbxref=GeneID:76332346;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=OOC69_mgp07
+NC_067757.1	RefSeq	CDS	8645	9428	.	+	0	ID=cds-YP_010528540.1;Parent=gene-OOC69_mgp07;Dbxref=GenBank:YP_010528540.1,GeneID:76332346;Name=YP_010528540.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=OOC69_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010528540.1;transl_except=(pos:9428%2Caa:TERM);transl_table=2
+NC_067757.1	RefSeq	gene	9429	9496	.	+	.	ID=gene-OOC69_mgt15;Dbxref=GeneID:76332344;Name=OOC69_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt15
+NC_067757.1	RefSeq	tRNA	9429	9496	.	+	.	ID=rna-OOC69_mgt15;Parent=gene-OOC69_mgt15;Dbxref=GeneID:76332344;gbkey=tRNA;locus_tag=OOC69_mgt15;product=tRNA-Gly
+NC_067757.1	RefSeq	exon	9429	9496	.	+	.	ID=exon-OOC69_mgt15-1;Parent=rna-OOC69_mgt15;Dbxref=GeneID:76332344;gbkey=tRNA;locus_tag=OOC69_mgt15;product=tRNA-Gly
+NC_067757.1	RefSeq	gene	9497	9842	.	+	.	ID=gene-OOC69_mgp06;Dbxref=GeneID:76332368;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=OOC69_mgp06
+NC_067757.1	RefSeq	CDS	9497	9842	.	+	0	ID=cds-YP_010528541.1;Parent=gene-OOC69_mgp06;Dbxref=GenBank:YP_010528541.1,GeneID:76332368;Name=YP_010528541.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=OOC69_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010528541.1;transl_except=(pos:9842%2Caa:TERM);transl_table=2
+NC_067757.1	RefSeq	gene	9844	9912	.	+	.	ID=gene-OOC69_mgt16;Dbxref=GeneID:76332348;Name=OOC69_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt16
+NC_067757.1	RefSeq	tRNA	9844	9912	.	+	.	ID=rna-OOC69_mgt16;Parent=gene-OOC69_mgt16;Dbxref=GeneID:76332348;gbkey=tRNA;locus_tag=OOC69_mgt16;product=tRNA-Arg
+NC_067757.1	RefSeq	exon	9844	9912	.	+	.	ID=exon-OOC69_mgt16-1;Parent=rna-OOC69_mgt16;Dbxref=GeneID:76332348;gbkey=tRNA;locus_tag=OOC69_mgt16;product=tRNA-Arg
+NC_067757.1	RefSeq	gene	9919	10209	.	+	.	ID=gene-OOC69_mgp05;Dbxref=GeneID:76332369;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=OOC69_mgp05
+NC_067757.1	RefSeq	CDS	9919	10209	.	+	0	ID=cds-YP_010528542.1;Parent=gene-OOC69_mgp05;Dbxref=GenBank:YP_010528542.1,GeneID:76332369;Name=YP_010528542.1;gbkey=CDS;gene=ND4L;locus_tag=OOC69_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010528542.1;transl_table=2
+NC_067757.1	RefSeq	gene	10203	11580	.	+	.	ID=gene-OOC69_mgp04;Dbxref=GeneID:76332349;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=OOC69_mgp04
+NC_067757.1	RefSeq	CDS	10203	11580	.	+	0	ID=cds-YP_010528543.1;Parent=gene-OOC69_mgp04;Dbxref=GenBank:YP_010528543.1,GeneID:76332349;Name=YP_010528543.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=OOC69_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010528543.1;transl_except=(pos:11580%2Caa:TERM);transl_table=2
+NC_067757.1	RefSeq	gene	11581	11649	.	+	.	ID=gene-OOC69_mgt17;Dbxref=GeneID:76332340;Name=OOC69_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt17
+NC_067757.1	RefSeq	tRNA	11581	11649	.	+	.	ID=rna-OOC69_mgt17;Parent=gene-OOC69_mgt17;Dbxref=GeneID:76332340;gbkey=tRNA;locus_tag=OOC69_mgt17;product=tRNA-His
+NC_067757.1	RefSeq	exon	11581	11649	.	+	.	ID=exon-OOC69_mgt17-1;Parent=rna-OOC69_mgt17;Dbxref=GeneID:76332340;gbkey=tRNA;locus_tag=OOC69_mgt17;product=tRNA-His
+NC_067757.1	RefSeq	gene	11650	11709	.	+	.	ID=gene-OOC69_mgt18;Dbxref=GeneID:76332370;Name=OOC69_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt18
+NC_067757.1	RefSeq	tRNA	11650	11709	.	+	.	ID=rna-OOC69_mgt18;Parent=gene-OOC69_mgt18;Dbxref=GeneID:76332370;codons=AGY;gbkey=tRNA;locus_tag=OOC69_mgt18;product=tRNA-Ser
+NC_067757.1	RefSeq	exon	11650	11709	.	+	.	ID=exon-OOC69_mgt18-1;Parent=rna-OOC69_mgt18;Dbxref=GeneID:76332370;codons=AGY;gbkey=tRNA;locus_tag=OOC69_mgt18;product=tRNA-Ser
+NC_067757.1	RefSeq	gene	11710	11779	.	+	.	ID=gene-OOC69_mgt19;Dbxref=GeneID:76332371;Name=OOC69_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt19
+NC_067757.1	RefSeq	tRNA	11710	11779	.	+	.	ID=rna-OOC69_mgt19;Parent=gene-OOC69_mgt19;Dbxref=GeneID:76332371;codons=CUN;gbkey=tRNA;locus_tag=OOC69_mgt19;product=tRNA-Leu
+NC_067757.1	RefSeq	exon	11710	11779	.	+	.	ID=exon-OOC69_mgt19-1;Parent=rna-OOC69_mgt19;Dbxref=GeneID:76332371;codons=CUN;gbkey=tRNA;locus_tag=OOC69_mgt19;product=tRNA-Leu
+NC_067757.1	RefSeq	gene	11780	13600	.	+	.	ID=gene-OOC69_mgp03;Dbxref=GeneID:76332372;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=OOC69_mgp03
+NC_067757.1	RefSeq	CDS	11780	13600	.	+	0	ID=cds-YP_010528544.1;Parent=gene-OOC69_mgp03;Dbxref=GenBank:YP_010528544.1,GeneID:76332372;Name=YP_010528544.1;gbkey=CDS;gene=ND5;locus_tag=OOC69_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010528544.1;transl_table=2
+NC_067757.1	RefSeq	gene	13584	14111	.	-	.	ID=gene-OOC69_mgp02;Dbxref=GeneID:76332338;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=OOC69_mgp02
+NC_067757.1	RefSeq	CDS	13584	14111	.	-	0	ID=cds-YP_010528545.1;Parent=gene-OOC69_mgp02;Dbxref=GenBank:YP_010528545.1,GeneID:76332338;Name=YP_010528545.1;gbkey=CDS;gene=ND6;locus_tag=OOC69_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010528545.1;transl_table=2
+NC_067757.1	RefSeq	gene	14112	14180	.	-	.	ID=gene-OOC69_mgt20;Dbxref=GeneID:76332347;Name=OOC69_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt20
+NC_067757.1	RefSeq	tRNA	14112	14180	.	-	.	ID=rna-OOC69_mgt20;Parent=gene-OOC69_mgt20;Dbxref=GeneID:76332347;gbkey=tRNA;locus_tag=OOC69_mgt20;product=tRNA-Glu
+NC_067757.1	RefSeq	exon	14112	14180	.	-	.	ID=exon-OOC69_mgt20-1;Parent=rna-OOC69_mgt20;Dbxref=GeneID:76332347;gbkey=tRNA;locus_tag=OOC69_mgt20;product=tRNA-Glu
+NC_067757.1	RefSeq	gene	14185	15324	.	+	.	ID=gene-OOC69_mgp01;Dbxref=GeneID:76332373;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=OOC69_mgp01
+NC_067757.1	RefSeq	CDS	14185	15324	.	+	0	ID=cds-YP_010528546.1;Parent=gene-OOC69_mgp01;Dbxref=GenBank:YP_010528546.1,GeneID:76332373;Name=YP_010528546.1;gbkey=CDS;gene=CYTB;locus_tag=OOC69_mgp01;product=cytochrome b;protein_id=YP_010528546.1;transl_table=2
+NC_067757.1	RefSeq	gene	15325	15394	.	+	.	ID=gene-OOC69_mgt21;Dbxref=GeneID:76332341;Name=OOC69_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt21
+NC_067757.1	RefSeq	tRNA	15325	15394	.	+	.	ID=rna-OOC69_mgt21;Parent=gene-OOC69_mgt21;Dbxref=GeneID:76332341;gbkey=tRNA;locus_tag=OOC69_mgt21;product=tRNA-Thr
+NC_067757.1	RefSeq	exon	15325	15394	.	+	.	ID=exon-OOC69_mgt21-1;Parent=rna-OOC69_mgt21;Dbxref=GeneID:76332341;gbkey=tRNA;locus_tag=OOC69_mgt21;product=tRNA-Thr
+NC_067757.1	RefSeq	gene	15394	15459	.	-	.	ID=gene-OOC69_mgt22;Dbxref=GeneID:76332374;Name=OOC69_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=OOC69_mgt22
+NC_067757.1	RefSeq	tRNA	15394	15459	.	-	.	ID=rna-OOC69_mgt22;Parent=gene-OOC69_mgt22;Dbxref=GeneID:76332374;gbkey=tRNA;locus_tag=OOC69_mgt22;product=tRNA-Pro
+NC_067757.1	RefSeq	exon	15394	15459	.	-	.	ID=exon-OOC69_mgt22-1;Parent=rna-OOC69_mgt22;Dbxref=GeneID:76332374;gbkey=tRNA;locus_tag=OOC69_mgt22;product=tRNA-Pro
+NC_067757.1	RefSeq	D_loop	15460	16669	.	+	.	ID=id-NC_067757.1:15460..16669;Note=control region;gbkey=D-loop
+

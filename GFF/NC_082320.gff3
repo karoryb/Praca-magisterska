@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_082320.1 1 16763
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2933650
+NC_082320.1	RefSeq	region	1	16763	.	+	.	ID=NC_082320.1:1..16763;Dbxref=taxon:2933650;Is_circular=true;Name=MT;country=Mexico;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;old-name=Rhogeessa aeneus
+NC_082320.1	RefSeq	gene	1	68	.	+	.	ID=gene-RMH38_mgt01;Dbxref=GeneID:84369478;Name=RMH38_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt01
+NC_082320.1	RefSeq	tRNA	1	68	.	+	.	ID=rna-RMH38_mgt01;Parent=gene-RMH38_mgt01;Dbxref=GeneID:84369478;gbkey=tRNA;locus_tag=RMH38_mgt01;product=tRNA-Phe
+NC_082320.1	RefSeq	exon	1	68	.	+	.	ID=exon-RMH38_mgt01-1;Parent=rna-RMH38_mgt01;Dbxref=GeneID:84369478;gbkey=tRNA;locus_tag=RMH38_mgt01;product=tRNA-Phe
+NC_082320.1	RefSeq	gene	69	1030	.	+	.	ID=gene-RMH38_mgr02;Dbxref=GeneID:84369479;Name=RMH38_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=RMH38_mgr02
+NC_082320.1	RefSeq	rRNA	69	1030	.	+	.	ID=rna-RMH38_mgr02;Parent=gene-RMH38_mgr02;Dbxref=GeneID:84369479;gbkey=rRNA;locus_tag=RMH38_mgr02;product=12S ribosomal RNA
+NC_082320.1	RefSeq	exon	69	1030	.	+	.	ID=exon-RMH38_mgr02-1;Parent=rna-RMH38_mgr02;Dbxref=GeneID:84369479;gbkey=rRNA;locus_tag=RMH38_mgr02;product=12S ribosomal RNA
+NC_082320.1	RefSeq	gene	1031	1100	.	+	.	ID=gene-RMH38_mgt02;Dbxref=GeneID:84369480;Name=RMH38_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt02
+NC_082320.1	RefSeq	tRNA	1031	1100	.	+	.	ID=rna-RMH38_mgt02;Parent=gene-RMH38_mgt02;Dbxref=GeneID:84369480;gbkey=tRNA;locus_tag=RMH38_mgt02;product=tRNA-Val
+NC_082320.1	RefSeq	exon	1031	1100	.	+	.	ID=exon-RMH38_mgt02-1;Parent=rna-RMH38_mgt02;Dbxref=GeneID:84369480;gbkey=tRNA;locus_tag=RMH38_mgt02;product=tRNA-Val
+NC_082320.1	RefSeq	gene	1102	2654	.	+	.	ID=gene-RMH38_mgr01;Dbxref=GeneID:84369481;Name=RMH38_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=RMH38_mgr01
+NC_082320.1	RefSeq	rRNA	1102	2654	.	+	.	ID=rna-RMH38_mgr01;Parent=gene-RMH38_mgr01;Dbxref=GeneID:84369481;gbkey=rRNA;locus_tag=RMH38_mgr01;product=16S ribosomal RNA
+NC_082320.1	RefSeq	exon	1102	2654	.	+	.	ID=exon-RMH38_mgr01-1;Parent=rna-RMH38_mgr01;Dbxref=GeneID:84369481;gbkey=rRNA;locus_tag=RMH38_mgr01;product=16S ribosomal RNA
+NC_082320.1	RefSeq	gene	2657	2731	.	+	.	ID=gene-RMH38_mgt03;Dbxref=GeneID:84369482;Name=RMH38_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt03
+NC_082320.1	RefSeq	tRNA	2657	2731	.	+	.	ID=rna-RMH38_mgt03;Parent=gene-RMH38_mgt03;Dbxref=GeneID:84369482;gbkey=tRNA;locus_tag=RMH38_mgt03;product=tRNA-Leu
+NC_082320.1	RefSeq	exon	2657	2731	.	+	.	ID=exon-RMH38_mgt03-1;Parent=rna-RMH38_mgt03;Dbxref=GeneID:84369482;gbkey=tRNA;locus_tag=RMH38_mgt03;product=tRNA-Leu
+NC_082320.1	RefSeq	gene	2737	3692	.	+	.	ID=gene-RMH38_mgp13;Dbxref=GeneID:84369483;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=RMH38_mgp13
+NC_082320.1	RefSeq	CDS	2737	3692	.	+	0	ID=cds-YP_010944638.1;Parent=gene-RMH38_mgp13;Dbxref=GenBank:YP_010944638.1,GeneID:84369483;Name=YP_010944638.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=RMH38_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010944638.1;transl_except=(pos:3691..3692%2Caa:TERM);transl_table=2
+NC_082320.1	RefSeq	gene	3693	3760	.	+	.	ID=gene-RMH38_mgt04;Dbxref=GeneID:84369465;Name=RMH38_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt04
+NC_082320.1	RefSeq	tRNA	3693	3760	.	+	.	ID=rna-RMH38_mgt04;Parent=gene-RMH38_mgt04;Dbxref=GeneID:84369465;gbkey=tRNA;locus_tag=RMH38_mgt04;product=tRNA-Ile
+NC_082320.1	RefSeq	exon	3693	3760	.	+	.	ID=exon-RMH38_mgt04-1;Parent=rna-RMH38_mgt04;Dbxref=GeneID:84369465;gbkey=tRNA;locus_tag=RMH38_mgt04;product=tRNA-Ile
+NC_082320.1	RefSeq	gene	3758	3831	.	-	.	ID=gene-RMH38_mgt05;Dbxref=GeneID:84369484;Name=RMH38_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt05
+NC_082320.1	RefSeq	tRNA	3758	3831	.	-	.	ID=rna-RMH38_mgt05;Parent=gene-RMH38_mgt05;Dbxref=GeneID:84369484;gbkey=tRNA;locus_tag=RMH38_mgt05;product=tRNA-Gln
+NC_082320.1	RefSeq	exon	3758	3831	.	-	.	ID=exon-RMH38_mgt05-1;Parent=rna-RMH38_mgt05;Dbxref=GeneID:84369484;gbkey=tRNA;locus_tag=RMH38_mgt05;product=tRNA-Gln
+NC_082320.1	RefSeq	gene	3832	3900	.	+	.	ID=gene-RMH38_mgt06;Dbxref=GeneID:84369485;Name=RMH38_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt06
+NC_082320.1	RefSeq	tRNA	3832	3900	.	+	.	ID=rna-RMH38_mgt06;Parent=gene-RMH38_mgt06;Dbxref=GeneID:84369485;gbkey=tRNA;locus_tag=RMH38_mgt06;product=tRNA-Met
+NC_082320.1	RefSeq	exon	3832	3900	.	+	.	ID=exon-RMH38_mgt06-1;Parent=rna-RMH38_mgt06;Dbxref=GeneID:84369485;gbkey=tRNA;locus_tag=RMH38_mgt06;product=tRNA-Met
+NC_082320.1	RefSeq	gene	3901	4942	.	+	.	ID=gene-RMH38_mgp12;Dbxref=GeneID:84369486;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=RMH38_mgp12
+NC_082320.1	RefSeq	CDS	3901	4942	.	+	0	ID=cds-YP_010944639.1;Parent=gene-RMH38_mgp12;Dbxref=GenBank:YP_010944639.1,GeneID:84369486;Name=YP_010944639.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=RMH38_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010944639.1;transl_except=(pos:4942%2Caa:TERM);transl_table=2
+NC_082320.1	RefSeq	gene	4943	5009	.	+	.	ID=gene-RMH38_mgt07;Dbxref=GeneID:84369466;Name=RMH38_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt07
+NC_082320.1	RefSeq	tRNA	4943	5009	.	+	.	ID=rna-RMH38_mgt07;Parent=gene-RMH38_mgt07;Dbxref=GeneID:84369466;gbkey=tRNA;locus_tag=RMH38_mgt07;product=tRNA-Trp
+NC_082320.1	RefSeq	exon	4943	5009	.	+	.	ID=exon-RMH38_mgt07-1;Parent=rna-RMH38_mgt07;Dbxref=GeneID:84369466;gbkey=tRNA;locus_tag=RMH38_mgt07;product=tRNA-Trp
+NC_082320.1	RefSeq	gene	5014	5082	.	-	.	ID=gene-RMH38_mgt08;Dbxref=GeneID:84369487;Name=RMH38_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt08
+NC_082320.1	RefSeq	tRNA	5014	5082	.	-	.	ID=rna-RMH38_mgt08;Parent=gene-RMH38_mgt08;Dbxref=GeneID:84369487;gbkey=tRNA;locus_tag=RMH38_mgt08;product=tRNA-Ala
+NC_082320.1	RefSeq	exon	5014	5082	.	-	.	ID=exon-RMH38_mgt08-1;Parent=rna-RMH38_mgt08;Dbxref=GeneID:84369487;gbkey=tRNA;locus_tag=RMH38_mgt08;product=tRNA-Ala
+NC_082320.1	RefSeq	gene	5084	5156	.	-	.	ID=gene-RMH38_mgt09;Dbxref=GeneID:84369488;Name=RMH38_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt09
+NC_082320.1	RefSeq	tRNA	5084	5156	.	-	.	ID=rna-RMH38_mgt09;Parent=gene-RMH38_mgt09;Dbxref=GeneID:84369488;gbkey=tRNA;locus_tag=RMH38_mgt09;product=tRNA-Asn
+NC_082320.1	RefSeq	exon	5084	5156	.	-	.	ID=exon-RMH38_mgt09-1;Parent=rna-RMH38_mgt09;Dbxref=GeneID:84369488;gbkey=tRNA;locus_tag=RMH38_mgt09;product=tRNA-Asn
+NC_082320.1	RefSeq	origin_of_replication	5159	5189	.	+	.	ID=id-NC_082320.1:5159..5189;gbkey=rep_origin
+NC_082320.1	RefSeq	gene	5189	5255	.	-	.	ID=gene-RMH38_mgt10;Dbxref=GeneID:84369489;Name=RMH38_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt10
+NC_082320.1	RefSeq	tRNA	5189	5255	.	-	.	ID=rna-RMH38_mgt10;Parent=gene-RMH38_mgt10;Dbxref=GeneID:84369489;gbkey=tRNA;locus_tag=RMH38_mgt10;product=tRNA-Cys
+NC_082320.1	RefSeq	exon	5189	5255	.	-	.	ID=exon-RMH38_mgt10-1;Parent=rna-RMH38_mgt10;Dbxref=GeneID:84369489;gbkey=tRNA;locus_tag=RMH38_mgt10;product=tRNA-Cys
+NC_082320.1	RefSeq	gene	5256	5322	.	-	.	ID=gene-RMH38_mgt11;Dbxref=GeneID:84369490;Name=RMH38_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt11
+NC_082320.1	RefSeq	tRNA	5256	5322	.	-	.	ID=rna-RMH38_mgt11;Parent=gene-RMH38_mgt11;Dbxref=GeneID:84369490;gbkey=tRNA;locus_tag=RMH38_mgt11;product=tRNA-Tyr
+NC_082320.1	RefSeq	exon	5256	5322	.	-	.	ID=exon-RMH38_mgt11-1;Parent=rna-RMH38_mgt11;Dbxref=GeneID:84369490;gbkey=tRNA;locus_tag=RMH38_mgt11;product=tRNA-Tyr
+NC_082320.1	RefSeq	gene	5324	6868	.	+	.	ID=gene-RMH38_mgp11;Dbxref=GeneID:84369491;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=RMH38_mgp11
+NC_082320.1	RefSeq	CDS	5324	6868	.	+	0	ID=cds-YP_010944640.1;Parent=gene-RMH38_mgp11;Dbxref=GenBank:YP_010944640.1,GeneID:84369491;Name=YP_010944640.1;gbkey=CDS;gene=COX1;locus_tag=RMH38_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010944640.1;transl_table=2
+NC_082320.1	RefSeq	gene	6878	6946	.	-	.	ID=gene-RMH38_mgt12;Dbxref=GeneID:84369467;Name=RMH38_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt12
+NC_082320.1	RefSeq	tRNA	6878	6946	.	-	.	ID=rna-RMH38_mgt12;Parent=gene-RMH38_mgt12;Dbxref=GeneID:84369467;gbkey=tRNA;locus_tag=RMH38_mgt12;product=tRNA-Ser
+NC_082320.1	RefSeq	exon	6878	6946	.	-	.	ID=exon-RMH38_mgt12-1;Parent=rna-RMH38_mgt12;Dbxref=GeneID:84369467;gbkey=tRNA;locus_tag=RMH38_mgt12;product=tRNA-Ser
+NC_082320.1	RefSeq	gene	6954	7020	.	+	.	ID=gene-RMH38_mgt13;Dbxref=GeneID:84369492;Name=RMH38_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt13
+NC_082320.1	RefSeq	tRNA	6954	7020	.	+	.	ID=rna-RMH38_mgt13;Parent=gene-RMH38_mgt13;Dbxref=GeneID:84369492;gbkey=tRNA;locus_tag=RMH38_mgt13;product=tRNA-Asp
+NC_082320.1	RefSeq	exon	6954	7020	.	+	.	ID=exon-RMH38_mgt13-1;Parent=rna-RMH38_mgt13;Dbxref=GeneID:84369492;gbkey=tRNA;locus_tag=RMH38_mgt13;product=tRNA-Asp
+NC_082320.1	RefSeq	gene	7021	7704	.	+	.	ID=gene-RMH38_mgp10;Dbxref=GeneID:84369493;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=RMH38_mgp10
+NC_082320.1	RefSeq	CDS	7021	7704	.	+	0	ID=cds-YP_010944641.1;Parent=gene-RMH38_mgp10;Dbxref=GenBank:YP_010944641.1,GeneID:84369493;Name=YP_010944641.1;gbkey=CDS;gene=COX2;locus_tag=RMH38_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010944641.1;transl_table=2
+NC_082320.1	RefSeq	gene	7708	7774	.	+	.	ID=gene-RMH38_mgt14;Dbxref=GeneID:84369468;Name=RMH38_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt14
+NC_082320.1	RefSeq	tRNA	7708	7774	.	+	.	ID=rna-RMH38_mgt14;Parent=gene-RMH38_mgt14;Dbxref=GeneID:84369468;gbkey=tRNA;locus_tag=RMH38_mgt14;product=tRNA-Lys
+NC_082320.1	RefSeq	exon	7708	7774	.	+	.	ID=exon-RMH38_mgt14-1;Parent=rna-RMH38_mgt14;Dbxref=GeneID:84369468;gbkey=tRNA;locus_tag=RMH38_mgt14;product=tRNA-Lys
+NC_082320.1	RefSeq	gene	7776	7979	.	+	.	ID=gene-RMH38_mgp09;Dbxref=GeneID:84369494;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=RMH38_mgp09
+NC_082320.1	RefSeq	CDS	7776	7979	.	+	0	ID=cds-YP_010944642.1;Parent=gene-RMH38_mgp09;Dbxref=GenBank:YP_010944642.1,GeneID:84369494;Name=YP_010944642.1;gbkey=CDS;gene=ATP8;locus_tag=RMH38_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010944642.1;transl_table=2
+NC_082320.1	RefSeq	gene	7937	8617	.	+	.	ID=gene-RMH38_mgp08;Dbxref=GeneID:84369469;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=RMH38_mgp08
+NC_082320.1	RefSeq	CDS	7937	8617	.	+	0	ID=cds-YP_010944643.1;Parent=gene-RMH38_mgp08;Dbxref=GenBank:YP_010944643.1,GeneID:84369469;Name=YP_010944643.1;gbkey=CDS;gene=ATP6;locus_tag=RMH38_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010944643.1;transl_table=2
+NC_082320.1	RefSeq	gene	8617	9401	.	+	.	ID=gene-RMH38_mgp07;Dbxref=GeneID:84369470;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=RMH38_mgp07
+NC_082320.1	RefSeq	CDS	8617	9401	.	+	0	ID=cds-YP_010944644.1;Parent=gene-RMH38_mgp07;Dbxref=GenBank:YP_010944644.1,GeneID:84369470;Name=YP_010944644.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=RMH38_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010944644.1;transl_except=(pos:9400..9401%2Caa:TERM);transl_table=2
+NC_082320.1	RefSeq	gene	9401	9469	.	+	.	ID=gene-RMH38_mgt15;Dbxref=GeneID:84369471;Name=RMH38_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt15
+NC_082320.1	RefSeq	tRNA	9401	9469	.	+	.	ID=rna-RMH38_mgt15;Parent=gene-RMH38_mgt15;Dbxref=GeneID:84369471;gbkey=tRNA;locus_tag=RMH38_mgt15;product=tRNA-Gly
+NC_082320.1	RefSeq	exon	9401	9469	.	+	.	ID=exon-RMH38_mgt15-1;Parent=rna-RMH38_mgt15;Dbxref=GeneID:84369471;gbkey=tRNA;locus_tag=RMH38_mgt15;product=tRNA-Gly
+NC_082320.1	RefSeq	gene	9470	9816	.	+	.	ID=gene-RMH38_mgp06;Dbxref=GeneID:84369495;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=RMH38_mgp06
+NC_082320.1	RefSeq	CDS	9470	9816	.	+	0	ID=cds-YP_010944645.1;Parent=gene-RMH38_mgp06;Dbxref=GenBank:YP_010944645.1,GeneID:84369495;Name=YP_010944645.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=RMH38_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010944645.1;transl_except=(pos:9815..9816%2Caa:TERM);transl_table=2
+NC_082320.1	RefSeq	gene	9817	9885	.	+	.	ID=gene-RMH38_mgt16;Dbxref=GeneID:84369472;Name=RMH38_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt16
+NC_082320.1	RefSeq	tRNA	9817	9885	.	+	.	ID=rna-RMH38_mgt16;Parent=gene-RMH38_mgt16;Dbxref=GeneID:84369472;gbkey=tRNA;locus_tag=RMH38_mgt16;product=tRNA-Arg
+NC_082320.1	RefSeq	exon	9817	9885	.	+	.	ID=exon-RMH38_mgt16-1;Parent=rna-RMH38_mgt16;Dbxref=GeneID:84369472;gbkey=tRNA;locus_tag=RMH38_mgt16;product=tRNA-Arg
+NC_082320.1	RefSeq	gene	9887	10183	.	+	.	ID=gene-RMH38_mgp05;Dbxref=GeneID:84369496;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=RMH38_mgp05
+NC_082320.1	RefSeq	CDS	9887	10183	.	+	0	ID=cds-YP_010944646.1;Parent=gene-RMH38_mgp05;Dbxref=GenBank:YP_010944646.1,GeneID:84369496;Name=YP_010944646.1;gbkey=CDS;gene=ND4L;locus_tag=RMH38_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010944646.1;transl_table=2
+NC_082320.1	RefSeq	gene	10177	11554	.	+	.	ID=gene-RMH38_mgp04;Dbxref=GeneID:84369473;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=RMH38_mgp04
+NC_082320.1	RefSeq	CDS	10177	11554	.	+	0	ID=cds-YP_010944647.1;Parent=gene-RMH38_mgp04;Dbxref=GenBank:YP_010944647.1,GeneID:84369473;Name=YP_010944647.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=RMH38_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010944647.1;transl_except=(pos:11554%2Caa:TERM);transl_table=2
+NC_082320.1	RefSeq	gene	11555	11622	.	+	.	ID=gene-RMH38_mgt17;Dbxref=GeneID:84369474;Name=RMH38_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt17
+NC_082320.1	RefSeq	tRNA	11555	11622	.	+	.	ID=rna-RMH38_mgt17;Parent=gene-RMH38_mgt17;Dbxref=GeneID:84369474;gbkey=tRNA;locus_tag=RMH38_mgt17;product=tRNA-His
+NC_082320.1	RefSeq	exon	11555	11622	.	+	.	ID=exon-RMH38_mgt17-1;Parent=rna-RMH38_mgt17;Dbxref=GeneID:84369474;gbkey=tRNA;locus_tag=RMH38_mgt17;product=tRNA-His
+NC_082320.1	RefSeq	gene	11623	11681	.	+	.	ID=gene-RMH38_mgt18;Dbxref=GeneID:84369497;Name=RMH38_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt18
+NC_082320.1	RefSeq	tRNA	11623	11681	.	+	.	ID=rna-RMH38_mgt18;Parent=gene-RMH38_mgt18;Dbxref=GeneID:84369497;gbkey=tRNA;locus_tag=RMH38_mgt18;product=tRNA-Ser
+NC_082320.1	RefSeq	exon	11623	11681	.	+	.	ID=exon-RMH38_mgt18-1;Parent=rna-RMH38_mgt18;Dbxref=GeneID:84369497;gbkey=tRNA;locus_tag=RMH38_mgt18;product=tRNA-Ser
+NC_082320.1	RefSeq	gene	11683	11752	.	+	.	ID=gene-RMH38_mgt19;Dbxref=GeneID:84369498;Name=RMH38_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt19
+NC_082320.1	RefSeq	tRNA	11683	11752	.	+	.	ID=rna-RMH38_mgt19;Parent=gene-RMH38_mgt19;Dbxref=GeneID:84369498;gbkey=tRNA;locus_tag=RMH38_mgt19;product=tRNA-Leu
+NC_082320.1	RefSeq	exon	11683	11752	.	+	.	ID=exon-RMH38_mgt19-1;Parent=rna-RMH38_mgt19;Dbxref=GeneID:84369498;gbkey=tRNA;locus_tag=RMH38_mgt19;product=tRNA-Leu
+NC_082320.1	RefSeq	gene	11753	13573	.	+	.	ID=gene-RMH38_mgp03;Dbxref=GeneID:84369499;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=RMH38_mgp03
+NC_082320.1	RefSeq	CDS	11753	13573	.	+	0	ID=cds-YP_010944648.1;Parent=gene-RMH38_mgp03;Dbxref=GenBank:YP_010944648.1,GeneID:84369499;Name=YP_010944648.1;gbkey=CDS;gene=ND5;locus_tag=RMH38_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010944648.1;transl_table=2
+NC_082320.1	RefSeq	gene	13557	14084	.	-	.	ID=gene-RMH38_mgp02;Dbxref=GeneID:84369475;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=RMH38_mgp02
+NC_082320.1	RefSeq	CDS	13557	14084	.	-	0	ID=cds-YP_010944649.1;Parent=gene-RMH38_mgp02;Dbxref=GenBank:YP_010944649.1,GeneID:84369475;Name=YP_010944649.1;gbkey=CDS;gene=ND6;locus_tag=RMH38_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010944649.1;transl_table=2
+NC_082320.1	RefSeq	gene	14085	14153	.	-	.	ID=gene-RMH38_mgt20;Dbxref=GeneID:84369476;Name=RMH38_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt20
+NC_082320.1	RefSeq	tRNA	14085	14153	.	-	.	ID=rna-RMH38_mgt20;Parent=gene-RMH38_mgt20;Dbxref=GeneID:84369476;gbkey=tRNA;locus_tag=RMH38_mgt20;product=tRNA-Glu
+NC_082320.1	RefSeq	exon	14085	14153	.	-	.	ID=exon-RMH38_mgt20-1;Parent=rna-RMH38_mgt20;Dbxref=GeneID:84369476;gbkey=tRNA;locus_tag=RMH38_mgt20;product=tRNA-Glu
+NC_082320.1	RefSeq	gene	14159	15298	.	+	.	ID=gene-RMH38_mgp01;Dbxref=GeneID:84369500;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=RMH38_mgp01
+NC_082320.1	RefSeq	CDS	14159	15298	.	+	0	ID=cds-YP_010944650.1;Parent=gene-RMH38_mgp01;Dbxref=GenBank:YP_010944650.1,GeneID:84369500;Name=YP_010944650.1;gbkey=CDS;gene=CYTB;locus_tag=RMH38_mgp01;product=cytochrome b;protein_id=YP_010944650.1;transl_table=2
+NC_082320.1	RefSeq	gene	15303	15370	.	+	.	ID=gene-RMH38_mgt21;Dbxref=GeneID:84369477;Name=RMH38_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt21
+NC_082320.1	RefSeq	tRNA	15303	15370	.	+	.	ID=rna-RMH38_mgt21;Parent=gene-RMH38_mgt21;Dbxref=GeneID:84369477;gbkey=tRNA;locus_tag=RMH38_mgt21;product=tRNA-Thr
+NC_082320.1	RefSeq	exon	15303	15370	.	+	.	ID=exon-RMH38_mgt21-1;Parent=rna-RMH38_mgt21;Dbxref=GeneID:84369477;gbkey=tRNA;locus_tag=RMH38_mgt21;product=tRNA-Thr
+NC_082320.1	RefSeq	gene	15370	15435	.	-	.	ID=gene-RMH38_mgt22;Dbxref=GeneID:84369501;Name=RMH38_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=RMH38_mgt22
+NC_082320.1	RefSeq	tRNA	15370	15435	.	-	.	ID=rna-RMH38_mgt22;Parent=gene-RMH38_mgt22;Dbxref=GeneID:84369501;gbkey=tRNA;locus_tag=RMH38_mgt22;product=tRNA-Pro
+NC_082320.1	RefSeq	exon	15370	15435	.	-	.	ID=exon-RMH38_mgt22-1;Parent=rna-RMH38_mgt22;Dbxref=GeneID:84369501;gbkey=tRNA;locus_tag=RMH38_mgt22;product=tRNA-Pro
+NC_082320.1	RefSeq	D_loop	15470	16763	.	+	.	ID=id-NC_082320.1:15470..16763;gbkey=D-loop
+

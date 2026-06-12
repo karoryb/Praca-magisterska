@@ -1,0 +1,103 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_061372.1 1 17507
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=273761
+NC_061372.1	RefSeq	region	1	17507	.	+	.	ID=NC_061372.1:1..17507;Dbxref=taxon:273761;Is_circular=true;Name=MT;collection-date=1939;country=Indonesia: SW Bernhard Camp%2C West Papua;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;tissue-type=skin
+NC_061372.1	RefSeq	gene	1	69	.	+	.	ID=gene-MN597_mgt01;Dbxref=GeneID:71027909;Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA;locus_tag=MN597_mgt01
+NC_061372.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-MN597_mgt01;Parent=gene-MN597_mgt01;Dbxref=GeneID:71027909;gbkey=tRNA;gene=trnF(gaa);locus_tag=MN597_mgt01;product=tRNA-Phe
+NC_061372.1	RefSeq	exon	1	69	.	+	.	ID=exon-MN597_mgt01-1;Parent=rna-MN597_mgt01;Dbxref=GeneID:71027909;gbkey=tRNA;gene=trnF(gaa);locus_tag=MN597_mgt01;product=tRNA-Phe
+NC_061372.1	RefSeq	gene	70	1024	.	+	.	ID=gene-MN597_mgr02;Dbxref=GeneID:71027874;Name=rrnS;gbkey=Gene;gene=rrnS;gene_biotype=rRNA;locus_tag=MN597_mgr02
+NC_061372.1	RefSeq	rRNA	70	1024	.	+	.	ID=rna-MN597_mgr02;Parent=gene-MN597_mgr02;Dbxref=GeneID:71027874;gbkey=rRNA;gene=rrnS;locus_tag=MN597_mgr02;product=12S ribosomal RNA
+NC_061372.1	RefSeq	exon	70	1024	.	+	.	ID=exon-MN597_mgr02-1;Parent=rna-MN597_mgr02;Dbxref=GeneID:71027874;gbkey=rRNA;gene=rrnS;locus_tag=MN597_mgr02;product=12S ribosomal RNA
+NC_061372.1	RefSeq	gene	1024	1091	.	+	.	ID=gene-MN597_mgt02;Dbxref=GeneID:71027875;Name=trnV(tac);gbkey=Gene;gene=trnV(tac);gene_biotype=tRNA;locus_tag=MN597_mgt02
+NC_061372.1	RefSeq	tRNA	1024	1091	.	+	.	ID=rna-MN597_mgt02;Parent=gene-MN597_mgt02;Dbxref=GeneID:71027875;gbkey=tRNA;gene=trnV(tac);locus_tag=MN597_mgt02;product=tRNA-Val
+NC_061372.1	RefSeq	exon	1024	1091	.	+	.	ID=exon-MN597_mgt02-1;Parent=rna-MN597_mgt02;Dbxref=GeneID:71027875;gbkey=tRNA;gene=trnV(tac);locus_tag=MN597_mgt02;product=tRNA-Val
+NC_061372.1	RefSeq	gene	1092	2671	.	+	.	ID=gene-MN597_mgr01;Dbxref=GeneID:71027876;Name=rrnL;gbkey=Gene;gene=rrnL;gene_biotype=rRNA;locus_tag=MN597_mgr01
+NC_061372.1	RefSeq	rRNA	1092	2671	.	+	.	ID=rna-MN597_mgr01;Parent=gene-MN597_mgr01;Dbxref=GeneID:71027876;gbkey=rRNA;gene=rrnL;locus_tag=MN597_mgr01;product=16S ribosomal RNA
+NC_061372.1	RefSeq	exon	1092	2671	.	+	.	ID=exon-MN597_mgr01-1;Parent=rna-MN597_mgr01;Dbxref=GeneID:71027876;gbkey=rRNA;gene=rrnL;locus_tag=MN597_mgr01;product=16S ribosomal RNA
+NC_061372.1	RefSeq	gene	2672	2745	.	+	.	ID=gene-MN597_mgt03;Dbxref=GeneID:71027877;Name=trnL2(taa);gbkey=Gene;gene=trnL2(taa);gene_biotype=tRNA;locus_tag=MN597_mgt03
+NC_061372.1	RefSeq	tRNA	2672	2745	.	+	.	ID=rna-MN597_mgt03;Parent=gene-MN597_mgt03;Dbxref=GeneID:71027877;Note=tRNA-Leu2;gbkey=tRNA;gene=trnL2(taa);locus_tag=MN597_mgt03;product=tRNA-Leu
+NC_061372.1	RefSeq	exon	2672	2745	.	+	.	ID=exon-MN597_mgt03-1;Parent=rna-MN597_mgt03;Dbxref=GeneID:71027877;Note=tRNA-Leu2;gbkey=tRNA;gene=trnL2(taa);locus_tag=MN597_mgt03;product=tRNA-Leu
+NC_061372.1	RefSeq	gene	2747	3701	.	+	.	ID=gene-MN597_mgp13;Dbxref=GeneID:71027878;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=MN597_mgp13
+NC_061372.1	RefSeq	CDS	2747	3701	.	+	0	ID=cds-YP_010295453.1;Parent=gene-MN597_mgp13;Dbxref=GenBank:YP_010295453.1,GeneID:71027878;Name=YP_010295453.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=MN597_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010295453.1;transl_except=(pos:3701%2Caa:TERM);transl_table=2
+NC_061372.1	RefSeq	gene	3702	3770	.	+	.	ID=gene-MN597_mgt04;Dbxref=GeneID:71027879;Name=trnI(gat);gbkey=Gene;gene=trnI(gat);gene_biotype=tRNA;locus_tag=MN597_mgt04
+NC_061372.1	RefSeq	tRNA	3702	3770	.	+	.	ID=rna-MN597_mgt04;Parent=gene-MN597_mgt04;Dbxref=GeneID:71027879;gbkey=tRNA;gene=trnI(gat);locus_tag=MN597_mgt04;product=tRNA-Ile
+NC_061372.1	RefSeq	exon	3702	3770	.	+	.	ID=exon-MN597_mgt04-1;Parent=rna-MN597_mgt04;Dbxref=GeneID:71027879;gbkey=tRNA;gene=trnI(gat);locus_tag=MN597_mgt04;product=tRNA-Ile
+NC_061372.1	RefSeq	gene	3768	3838	.	-	.	ID=gene-MN597_mgt05;Dbxref=GeneID:71027880;Name=trnQ(ttg);gbkey=Gene;gene=trnQ(ttg);gene_biotype=tRNA;locus_tag=MN597_mgt05
+NC_061372.1	RefSeq	tRNA	3768	3838	.	-	.	ID=rna-MN597_mgt05;Parent=gene-MN597_mgt05;Dbxref=GeneID:71027880;gbkey=tRNA;gene=trnQ(ttg);locus_tag=MN597_mgt05;product=tRNA-Gln
+NC_061372.1	RefSeq	exon	3768	3838	.	-	.	ID=exon-MN597_mgt05-1;Parent=rna-MN597_mgt05;Dbxref=GeneID:71027880;gbkey=tRNA;gene=trnQ(ttg);locus_tag=MN597_mgt05;product=tRNA-Gln
+NC_061372.1	RefSeq	gene	3838	3905	.	+	.	ID=gene-MN597_mgt06;Dbxref=GeneID:71027881;Name=trnM(cat);gbkey=Gene;gene=trnM(cat);gene_biotype=tRNA;locus_tag=MN597_mgt06
+NC_061372.1	RefSeq	tRNA	3838	3905	.	+	.	ID=rna-MN597_mgt06;Parent=gene-MN597_mgt06;Dbxref=GeneID:71027881;gbkey=tRNA;gene=trnM(cat);locus_tag=MN597_mgt06;product=tRNA-Met
+NC_061372.1	RefSeq	exon	3838	3905	.	+	.	ID=exon-MN597_mgt06-1;Parent=rna-MN597_mgt06;Dbxref=GeneID:71027881;gbkey=tRNA;gene=trnM(cat);locus_tag=MN597_mgt06;product=tRNA-Met
+NC_061372.1	RefSeq	gene	3906	4949	.	+	.	ID=gene-MN597_mgp12;Dbxref=GeneID:71027882;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=MN597_mgp12
+NC_061372.1	RefSeq	CDS	3906	4949	.	+	0	ID=cds-YP_010295454.1;Parent=gene-MN597_mgp12;Dbxref=GenBank:YP_010295454.1,GeneID:71027882;Name=YP_010295454.1;gbkey=CDS;gene=ND2;locus_tag=MN597_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010295454.1;transl_table=2
+NC_061372.1	RefSeq	gene	4951	5019	.	-	.	ID=gene-MN597_mgt07;Dbxref=GeneID:71027883;Name=trnA(tgc);gbkey=Gene;gene=trnA(tgc);gene_biotype=tRNA;locus_tag=MN597_mgt07
+NC_061372.1	RefSeq	tRNA	4951	5019	.	-	.	ID=rna-MN597_mgt07;Parent=gene-MN597_mgt07;Dbxref=GeneID:71027883;gbkey=tRNA;gene=trnA(tgc);locus_tag=MN597_mgt07;product=tRNA-Ala
+NC_061372.1	RefSeq	exon	4951	5019	.	-	.	ID=exon-MN597_mgt07-1;Parent=rna-MN597_mgt07;Dbxref=GeneID:71027883;gbkey=tRNA;gene=trnA(tgc);locus_tag=MN597_mgt07;product=tRNA-Ala
+NC_061372.1	RefSeq	gene	5026	5091	.	-	.	ID=gene-MN597_mgt08;Dbxref=GeneID:71027884;Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA;locus_tag=MN597_mgt08
+NC_061372.1	RefSeq	tRNA	5026	5091	.	-	.	ID=rna-MN597_mgt08;Parent=gene-MN597_mgt08;Dbxref=GeneID:71027884;gbkey=tRNA;gene=trnC(gca);locus_tag=MN597_mgt08;product=tRNA-Cys
+NC_061372.1	RefSeq	exon	5026	5091	.	-	.	ID=exon-MN597_mgt08-1;Parent=rna-MN597_mgt08;Dbxref=GeneID:71027884;gbkey=tRNA;gene=trnC(gca);locus_tag=MN597_mgt08;product=tRNA-Cys
+NC_061372.1	RefSeq	gene	5097	5165	.	+	.	ID=gene-MN597_mgt09;Dbxref=GeneID:71027885;Name=trnW(tca);gbkey=Gene;gene=trnW(tca);gene_biotype=tRNA;locus_tag=MN597_mgt09
+NC_061372.1	RefSeq	tRNA	5097	5165	.	+	.	ID=rna-MN597_mgt09;Parent=gene-MN597_mgt09;Dbxref=GeneID:71027885;gbkey=tRNA;gene=trnW(tca);locus_tag=MN597_mgt09;product=tRNA-Trp
+NC_061372.1	RefSeq	exon	5097	5165	.	+	.	ID=exon-MN597_mgt09-1;Parent=rna-MN597_mgt09;Dbxref=GeneID:71027885;gbkey=tRNA;gene=trnW(tca);locus_tag=MN597_mgt09;product=tRNA-Trp
+NC_061372.1	RefSeq	gene	5250	5321	.	-	.	ID=gene-MN597_mgt10;Dbxref=GeneID:71027886;Name=trnN(gtt);gbkey=Gene;gene=trnN(gtt);gene_biotype=tRNA;locus_tag=MN597_mgt10
+NC_061372.1	RefSeq	tRNA	5250	5321	.	-	.	ID=rna-MN597_mgt10;Parent=gene-MN597_mgt10;Dbxref=GeneID:71027886;gbkey=tRNA;gene=trnN(gtt);locus_tag=MN597_mgt10;product=tRNA-Asn
+NC_061372.1	RefSeq	exon	5250	5321	.	-	.	ID=exon-MN597_mgt10-1;Parent=rna-MN597_mgt10;Dbxref=GeneID:71027886;gbkey=tRNA;gene=trnN(gtt);locus_tag=MN597_mgt10;product=tRNA-Asn
+NC_061372.1	RefSeq	gene	5328	5393	.	-	.	ID=gene-MN597_mgt11;Dbxref=GeneID:71027887;Name=trnY(gta);gbkey=Gene;gene=trnY(gta);gene_biotype=tRNA;locus_tag=MN597_mgt11
+NC_061372.1	RefSeq	tRNA	5328	5393	.	-	.	ID=rna-MN597_mgt11;Parent=gene-MN597_mgt11;Dbxref=GeneID:71027887;gbkey=tRNA;gene=trnY(gta);locus_tag=MN597_mgt11;product=tRNA-Tyr
+NC_061372.1	RefSeq	exon	5328	5393	.	-	.	ID=exon-MN597_mgt11-1;Parent=rna-MN597_mgt11;Dbxref=GeneID:71027887;gbkey=tRNA;gene=trnY(gta);locus_tag=MN597_mgt11;product=tRNA-Tyr
+NC_061372.1	RefSeq	gene	5395	6936	.	+	.	ID=gene-MN597_mgp11;Dbxref=GeneID:71027888;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=MN597_mgp11
+NC_061372.1	RefSeq	CDS	5395	6936	.	+	0	ID=cds-YP_010295455.1;Parent=gene-MN597_mgp11;Dbxref=GenBank:YP_010295455.1,GeneID:71027888;Name=YP_010295455.1;gbkey=CDS;gene=COX1;locus_tag=MN597_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010295455.1;transl_table=2
+NC_061372.1	RefSeq	gene	6942	7011	.	-	.	ID=gene-MN597_mgt12;Dbxref=GeneID:71027889;Name=trnS2(tga);gbkey=Gene;gene=trnS2(tga);gene_biotype=tRNA;locus_tag=MN597_mgt12
+NC_061372.1	RefSeq	tRNA	6942	7011	.	-	.	ID=rna-MN597_mgt12;Parent=gene-MN597_mgt12;Dbxref=GeneID:71027889;Note=tRNA-Ser2;gbkey=tRNA;gene=trnS2(tga);locus_tag=MN597_mgt12;product=tRNA-Ser
+NC_061372.1	RefSeq	exon	6942	7011	.	-	.	ID=exon-MN597_mgt12-1;Parent=rna-MN597_mgt12;Dbxref=GeneID:71027889;Note=tRNA-Ser2;gbkey=tRNA;gene=trnS2(tga);locus_tag=MN597_mgt12;product=tRNA-Ser
+NC_061372.1	RefSeq	gene	7016	7085	.	+	.	ID=gene-MN597_mgt13;Dbxref=GeneID:71027890;Name=trnD(gcc);gbkey=Gene;gene=trnD(gcc);gene_biotype=tRNA;locus_tag=MN597_mgt13
+NC_061372.1	RefSeq	tRNA	7016	7085	.	+	.	ID=rna-MN597_mgt13;Parent=gene-MN597_mgt13;Dbxref=GeneID:71027890;gbkey=tRNA;gene=trnD(gcc);locus_tag=MN597_mgt13;product=tRNA-Asp
+NC_061372.1	RefSeq	exon	7016	7085	.	+	.	ID=exon-MN597_mgt13-1;Parent=rna-MN597_mgt13;Dbxref=GeneID:71027890;gbkey=tRNA;gene=trnD(gcc);locus_tag=MN597_mgt13;product=tRNA-Asp
+NC_061372.1	RefSeq	gene	7088	7772	.	+	.	ID=gene-MN597_mgp10;Dbxref=GeneID:71027891;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=MN597_mgp10
+NC_061372.1	RefSeq	CDS	7088	7772	.	+	0	ID=cds-YP_010295456.1;Parent=gene-MN597_mgp10;Dbxref=GenBank:YP_010295456.1,GeneID:71027891;Name=YP_010295456.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=MN597_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010295456.1;transl_except=(pos:7772%2Caa:TERM);transl_table=2
+NC_061372.1	RefSeq	gene	7832	8041	.	+	.	ID=gene-MN597_mgp09;Dbxref=GeneID:71027892;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=MN597_mgp09
+NC_061372.1	RefSeq	CDS	7832	8041	.	+	0	ID=cds-YP_010295457.1;Parent=gene-MN597_mgp09;Dbxref=GenBank:YP_010295457.1,GeneID:71027892;Name=YP_010295457.1;gbkey=CDS;gene=ATP8;locus_tag=MN597_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010295457.1;transl_table=2
+NC_061372.1	RefSeq	gene	7996	8676	.	+	.	ID=gene-MN597_mgp08;Dbxref=GeneID:71027893;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=MN597_mgp08
+NC_061372.1	RefSeq	CDS	7996	8676	.	+	0	ID=cds-YP_010295458.1;Parent=gene-MN597_mgp08;Dbxref=GenBank:YP_010295458.1,GeneID:71027893;Name=YP_010295458.1;gbkey=CDS;gene=ATP6;locus_tag=MN597_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010295458.1;transl_table=2
+NC_061372.1	RefSeq	gene	8713	9496	.	+	.	ID=gene-MN597_mgp07;Dbxref=GeneID:71027894;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=MN597_mgp07
+NC_061372.1	RefSeq	CDS	8713	9496	.	+	0	ID=cds-YP_010295459.1;Parent=gene-MN597_mgp07;Dbxref=GenBank:YP_010295459.1,GeneID:71027894;Name=YP_010295459.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=MN597_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010295459.1;transl_except=(pos:9496%2Caa:TERM);transl_table=2
+NC_061372.1	RefSeq	gene	9497	9564	.	+	.	ID=gene-MN597_mgt14;Dbxref=GeneID:71027895;Name=trnG_1(tcc);gbkey=Gene;gene=trnG_1(tcc);gene_biotype=tRNA;locus_tag=MN597_mgt14
+NC_061372.1	RefSeq	tRNA	9497	9564	.	+	.	ID=rna-MN597_mgt14;Parent=gene-MN597_mgt14;Dbxref=GeneID:71027895;gbkey=tRNA;gene=trnG_1(tcc);locus_tag=MN597_mgt14;product=tRNA-Gly
+NC_061372.1	RefSeq	exon	9497	9564	.	+	.	ID=exon-MN597_mgt14-1;Parent=rna-MN597_mgt14;Dbxref=GeneID:71027895;gbkey=tRNA;gene=trnG_1(tcc);locus_tag=MN597_mgt14;product=tRNA-Gly
+NC_061372.1	RefSeq	gene	9565	9910	.	+	.	ID=gene-MN597_mgp06;Dbxref=GeneID:71027896;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=MN597_mgp06
+NC_061372.1	RefSeq	CDS	9565	9910	.	+	0	ID=cds-YP_010295460.1;Parent=gene-MN597_mgp06;Dbxref=GenBank:YP_010295460.1,GeneID:71027896;Name=YP_010295460.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=MN597_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010295460.1;transl_except=(pos:9910%2Caa:TERM);transl_table=2
+NC_061372.1	RefSeq	gene	9911	9979	.	+	.	ID=gene-MN597_mgt15;Dbxref=GeneID:71027897;Name=trnR(tcg);gbkey=Gene;gene=trnR(tcg);gene_biotype=tRNA;locus_tag=MN597_mgt15
+NC_061372.1	RefSeq	tRNA	9911	9979	.	+	.	ID=rna-MN597_mgt15;Parent=gene-MN597_mgt15;Dbxref=GeneID:71027897;gbkey=tRNA;gene=trnR(tcg);locus_tag=MN597_mgt15;product=tRNA-Arg
+NC_061372.1	RefSeq	exon	9911	9979	.	+	.	ID=exon-MN597_mgt15-1;Parent=rna-MN597_mgt15;Dbxref=GeneID:71027897;gbkey=tRNA;gene=trnR(tcg);locus_tag=MN597_mgt15;product=tRNA-Arg
+NC_061372.1	RefSeq	gene	9980	10276	.	+	.	ID=gene-MN597_mgp05;Dbxref=GeneID:71027898;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=MN597_mgp05
+NC_061372.1	RefSeq	CDS	9980	10276	.	+	0	ID=cds-YP_010295461.1;Parent=gene-MN597_mgp05;Dbxref=GenBank:YP_010295461.1,GeneID:71027898;Name=YP_010295461.1;gbkey=CDS;gene=ND4L;locus_tag=MN597_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010295461.1;transl_table=2
+NC_061372.1	RefSeq	gene	10270	11647	.	+	.	ID=gene-MN597_mgp04;Dbxref=GeneID:71027899;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=MN597_mgp04
+NC_061372.1	RefSeq	CDS	10270	11647	.	+	0	ID=cds-YP_010295462.1;Parent=gene-MN597_mgp04;Dbxref=GenBank:YP_010295462.1,GeneID:71027899;Name=YP_010295462.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=MN597_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010295462.1;transl_except=(pos:11647%2Caa:TERM);transl_table=2
+NC_061372.1	RefSeq	gene	11648	11716	.	+	.	ID=gene-MN597_mgt16;Dbxref=GeneID:71027900;Name=trnH(gtg);gbkey=Gene;gene=trnH(gtg);gene_biotype=tRNA;locus_tag=MN597_mgt16
+NC_061372.1	RefSeq	tRNA	11648	11716	.	+	.	ID=rna-MN597_mgt16;Parent=gene-MN597_mgt16;Dbxref=GeneID:71027900;gbkey=tRNA;gene=trnH(gtg);locus_tag=MN597_mgt16;product=tRNA-His
+NC_061372.1	RefSeq	exon	11648	11716	.	+	.	ID=exon-MN597_mgt16-1;Parent=rna-MN597_mgt16;Dbxref=GeneID:71027900;gbkey=tRNA;gene=trnH(gtg);locus_tag=MN597_mgt16;product=tRNA-His
+NC_061372.1	RefSeq	gene	11718	11776	.	+	.	ID=gene-MN597_mgt17;Dbxref=GeneID:71027901;Name=trnS1(gct);gbkey=Gene;gene=trnS1(gct);gene_biotype=tRNA;locus_tag=MN597_mgt17
+NC_061372.1	RefSeq	tRNA	11718	11776	.	+	.	ID=rna-MN597_mgt17;Parent=gene-MN597_mgt17;Dbxref=GeneID:71027901;Note=tRNA-Ser1;gbkey=tRNA;gene=trnS1(gct);locus_tag=MN597_mgt17;product=tRNA-Ser
+NC_061372.1	RefSeq	exon	11718	11776	.	+	.	ID=exon-MN597_mgt17-1;Parent=rna-MN597_mgt17;Dbxref=GeneID:71027901;Note=tRNA-Ser1;gbkey=tRNA;gene=trnS1(gct);locus_tag=MN597_mgt17;product=tRNA-Ser
+NC_061372.1	RefSeq	gene	11776	11846	.	+	.	ID=gene-MN597_mgt18;Dbxref=GeneID:71027902;Name=trnL1(tag);gbkey=Gene;gene=trnL1(tag);gene_biotype=tRNA;locus_tag=MN597_mgt18
+NC_061372.1	RefSeq	tRNA	11776	11846	.	+	.	ID=rna-MN597_mgt18;Parent=gene-MN597_mgt18;Dbxref=GeneID:71027902;Note=tRNA-Leu1;gbkey=tRNA;gene=trnL1(tag);locus_tag=MN597_mgt18;product=tRNA-Leu
+NC_061372.1	RefSeq	exon	11776	11846	.	+	.	ID=exon-MN597_mgt18-1;Parent=rna-MN597_mgt18;Dbxref=GeneID:71027902;Note=tRNA-Leu1;gbkey=tRNA;gene=trnL1(tag);locus_tag=MN597_mgt18;product=tRNA-Leu
+NC_061372.1	RefSeq	gene	11847	13655	.	+	.	ID=gene-MN597_mgp03;Dbxref=GeneID:71027903;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=MN597_mgp03
+NC_061372.1	RefSeq	CDS	11847	13655	.	+	0	ID=cds-YP_010295463.1;Parent=gene-MN597_mgp03;Dbxref=GenBank:YP_010295463.1,GeneID:71027903;Name=YP_010295463.1;gbkey=CDS;gene=ND5;locus_tag=MN597_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010295463.1;transl_table=2
+NC_061372.1	RefSeq	gene	13656	14156	.	-	.	ID=gene-MN597_mgp02;Dbxref=GeneID:71027904;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=MN597_mgp02
+NC_061372.1	RefSeq	CDS	13656	14156	.	-	0	ID=cds-YP_010295464.1;Parent=gene-MN597_mgp02;Dbxref=GenBank:YP_010295464.1,GeneID:71027904;Name=YP_010295464.1;gbkey=CDS;gene=ND6;locus_tag=MN597_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010295464.1;transl_table=2
+NC_061372.1	RefSeq	gene	14160	14228	.	-	.	ID=gene-MN597_mgt19;Dbxref=GeneID:71027905;Name=trnE(ttc);gbkey=Gene;gene=trnE(ttc);gene_biotype=tRNA;locus_tag=MN597_mgt19
+NC_061372.1	RefSeq	tRNA	14160	14228	.	-	.	ID=rna-MN597_mgt19;Parent=gene-MN597_mgt19;Dbxref=GeneID:71027905;gbkey=tRNA;gene=trnE(ttc);locus_tag=MN597_mgt19;product=tRNA-Glu
+NC_061372.1	RefSeq	exon	14160	14228	.	-	.	ID=exon-MN597_mgt19-1;Parent=rna-MN597_mgt19;Dbxref=GeneID:71027905;gbkey=tRNA;gene=trnE(ttc);locus_tag=MN597_mgt19;product=tRNA-Glu
+NC_061372.1	RefSeq	gene	14231	15376	.	+	.	ID=gene-MN597_mgp01;Dbxref=GeneID:71027906;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=MN597_mgp01
+NC_061372.1	RefSeq	CDS	14231	15376	.	+	0	ID=cds-YP_010295465.1;Parent=gene-MN597_mgp01;Dbxref=GenBank:YP_010295465.1,GeneID:71027906;Name=YP_010295465.1;gbkey=CDS;gene=CYTB;locus_tag=MN597_mgp01;product=cytochrome b;protein_id=YP_010295465.1;transl_table=2
+NC_061372.1	RefSeq	gene	15377	15444	.	+	.	ID=gene-MN597_mgt20;Dbxref=GeneID:71027907;Name=trnT(tgt);gbkey=Gene;gene=trnT(tgt);gene_biotype=tRNA;locus_tag=MN597_mgt20
+NC_061372.1	RefSeq	tRNA	15377	15444	.	+	.	ID=rna-MN597_mgt20;Parent=gene-MN597_mgt20;Dbxref=GeneID:71027907;gbkey=tRNA;gene=trnT(tgt);locus_tag=MN597_mgt20;product=tRNA-Thr
+NC_061372.1	RefSeq	exon	15377	15444	.	+	.	ID=exon-MN597_mgt20-1;Parent=rna-MN597_mgt20;Dbxref=GeneID:71027907;gbkey=tRNA;gene=trnT(tgt);locus_tag=MN597_mgt20;product=tRNA-Thr
+NC_061372.1	RefSeq	gene	15450	15515	.	-	.	ID=gene-MN597_mgt21;Dbxref=GeneID:71027908;Name=trnP(tgg);gbkey=Gene;gene=trnP(tgg);gene_biotype=tRNA;locus_tag=MN597_mgt21
+NC_061372.1	RefSeq	tRNA	15450	15515	.	-	.	ID=rna-MN597_mgt21;Parent=gene-MN597_mgt21;Dbxref=GeneID:71027908;gbkey=tRNA;gene=trnP(tgg);locus_tag=MN597_mgt21;product=tRNA-Pro
+NC_061372.1	RefSeq	exon	15450	15515	.	-	.	ID=exon-MN597_mgt21-1;Parent=rna-MN597_mgt21;Dbxref=GeneID:71027908;gbkey=tRNA;gene=trnP(tgg);locus_tag=MN597_mgt21;product=tRNA-Pro
+NC_061372.1	RefSeq	sequence_feature	16752	17432	.	+	.	ID=id-NC_061372.1:16752..17432;Note=putative control region;gbkey=misc_feature
+

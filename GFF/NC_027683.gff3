@@ -1,0 +1,107 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_027683.1 1 16341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=298886
+NC_027683.1	RefSeq	region	1	16341	.	+	.	ID=NC_027683.1:1..16341;Dbxref=taxon:298886;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_027683.1	RefSeq	gene	1	67	.	+	.	ID=gene-AKK73_gt01;Dbxref=GeneID:25193814;Name=AKK73_gt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt01
+NC_027683.1	RefSeq	tRNA	1	67	.	+	.	ID=rna-AKK73_gt01;Parent=gene-AKK73_gt01;Dbxref=GeneID:25193814;gbkey=tRNA;locus_tag=AKK73_gt01;product=tRNA-Phe
+NC_027683.1	RefSeq	exon	1	67	.	+	.	ID=exon-AKK73_gt01-1;Parent=rna-AKK73_gt01;Dbxref=GeneID:25193814;gbkey=tRNA;locus_tag=AKK73_gt01;product=tRNA-Phe
+NC_027683.1	RefSeq	gene	68	1018	.	+	.	ID=gene-AKK73_gr02;Dbxref=GeneID:25193815;Name=AKK73_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK73_gr02
+NC_027683.1	RefSeq	rRNA	68	1018	.	+	.	ID=rna-AKK73_gr02;Parent=gene-AKK73_gr02;Dbxref=GeneID:25193815;gbkey=rRNA;locus_tag=AKK73_gr02;product=12S ribosomal RNA
+NC_027683.1	RefSeq	exon	68	1018	.	+	.	ID=exon-AKK73_gr02-1;Parent=rna-AKK73_gr02;Dbxref=GeneID:25193815;gbkey=rRNA;locus_tag=AKK73_gr02;product=12S ribosomal RNA
+NC_027683.1	RefSeq	gene	1019	1084	.	+	.	ID=gene-AKK73_gt02;Dbxref=GeneID:25193816;Name=AKK73_gt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt02
+NC_027683.1	RefSeq	tRNA	1019	1084	.	+	.	ID=rna-AKK73_gt02;Parent=gene-AKK73_gt02;Dbxref=GeneID:25193816;gbkey=tRNA;locus_tag=AKK73_gt02;product=tRNA-Val
+NC_027683.1	RefSeq	exon	1019	1084	.	+	.	ID=exon-AKK73_gt02-1;Parent=rna-AKK73_gt02;Dbxref=GeneID:25193816;gbkey=tRNA;locus_tag=AKK73_gt02;product=tRNA-Val
+NC_027683.1	RefSeq	gene	1085	2663	.	+	.	ID=gene-AKK73_gr01;Dbxref=GeneID:25193817;Name=AKK73_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=AKK73_gr01
+NC_027683.1	RefSeq	rRNA	1085	2663	.	+	.	ID=rna-AKK73_gr01;Parent=gene-AKK73_gr01;Dbxref=GeneID:25193817;gbkey=rRNA;locus_tag=AKK73_gr01;product=16S ribosomal RNA
+NC_027683.1	RefSeq	exon	1085	2663	.	+	.	ID=exon-AKK73_gr01-1;Parent=rna-AKK73_gr01;Dbxref=GeneID:25193817;gbkey=rRNA;locus_tag=AKK73_gr01;product=16S ribosomal RNA
+NC_027683.1	RefSeq	gene	2665	2739	.	+	.	ID=gene-AKK73_gt03;Dbxref=GeneID:25193818;Name=AKK73_gt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt03
+NC_027683.1	RefSeq	tRNA	2665	2739	.	+	.	ID=rna-AKK73_gt03;Parent=gene-AKK73_gt03;Dbxref=GeneID:25193818;codons=UUR;gbkey=tRNA;locus_tag=AKK73_gt03;product=tRNA-Leu
+NC_027683.1	RefSeq	exon	2665	2739	.	+	.	ID=exon-AKK73_gt03-1;Parent=rna-AKK73_gt03;Dbxref=GeneID:25193818;codons=UUR;gbkey=tRNA;locus_tag=AKK73_gt03;product=tRNA-Leu
+NC_027683.1	RefSeq	gene	2740	3694	.	+	.	ID=gene-AKK73_gp13;Dbxref=GeneID:25193819;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=AKK73_gp13
+NC_027683.1	RefSeq	CDS	2740	3694	.	+	0	ID=cds-YP_009161632.1;Parent=gene-AKK73_gp13;Dbxref=GenBank:YP_009161632.1,GeneID:25193819;Name=YP_009161632.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=AKK73_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009161632.1;transl_except=(pos:3694%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	3695	3762	.	+	.	ID=gene-AKK73_gt04;Dbxref=GeneID:25193813;Name=AKK73_gt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt04
+NC_027683.1	RefSeq	tRNA	3695	3762	.	+	.	ID=rna-AKK73_gt04;Parent=gene-AKK73_gt04;Dbxref=GeneID:25193813;gbkey=tRNA;locus_tag=AKK73_gt04;product=tRNA-Ile
+NC_027683.1	RefSeq	exon	3695	3762	.	+	.	ID=exon-AKK73_gt04-1;Parent=rna-AKK73_gt04;Dbxref=GeneID:25193813;gbkey=tRNA;locus_tag=AKK73_gt04;product=tRNA-Ile
+NC_027683.1	RefSeq	gene	3760	3831	.	-	.	ID=gene-AKK73_gt05;Dbxref=GeneID:25193820;Name=AKK73_gt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt05
+NC_027683.1	RefSeq	tRNA	3760	3831	.	-	.	ID=rna-AKK73_gt05;Parent=gene-AKK73_gt05;Dbxref=GeneID:25193820;gbkey=tRNA;locus_tag=AKK73_gt05;product=tRNA-Gln
+NC_027683.1	RefSeq	exon	3760	3831	.	-	.	ID=exon-AKK73_gt05-1;Parent=rna-AKK73_gt05;Dbxref=GeneID:25193820;gbkey=tRNA;locus_tag=AKK73_gt05;product=tRNA-Gln
+NC_027683.1	RefSeq	gene	3843	3911	.	+	.	ID=gene-AKK73_gt06;Dbxref=GeneID:25193821;Name=AKK73_gt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt06
+NC_027683.1	RefSeq	tRNA	3843	3911	.	+	.	ID=rna-AKK73_gt06;Parent=gene-AKK73_gt06;Dbxref=GeneID:25193821;gbkey=tRNA;locus_tag=AKK73_gt06;product=tRNA-Met
+NC_027683.1	RefSeq	exon	3843	3911	.	+	.	ID=exon-AKK73_gt06-1;Parent=rna-AKK73_gt06;Dbxref=GeneID:25193821;gbkey=tRNA;locus_tag=AKK73_gt06;product=tRNA-Met
+NC_027683.1	RefSeq	gene	3915	4951	.	+	.	ID=gene-AKK73_gp12;Dbxref=GeneID:25193822;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=AKK73_gp12
+NC_027683.1	RefSeq	CDS	3915	4951	.	+	0	ID=cds-YP_009161633.1;Parent=gene-AKK73_gp12;Dbxref=GenBank:YP_009161633.1,GeneID:25193822;Name=YP_009161633.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=AKK73_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009161633.1;transl_except=(pos:4950..4951%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	4952	5016	.	+	.	ID=gene-AKK73_gt07;Dbxref=GeneID:25193812;Name=AKK73_gt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt07
+NC_027683.1	RefSeq	tRNA	4952	5016	.	+	.	ID=rna-AKK73_gt07;Parent=gene-AKK73_gt07;Dbxref=GeneID:25193812;gbkey=tRNA;locus_tag=AKK73_gt07;product=tRNA-Trp
+NC_027683.1	RefSeq	exon	4952	5016	.	+	.	ID=exon-AKK73_gt07-1;Parent=rna-AKK73_gt07;Dbxref=GeneID:25193812;gbkey=tRNA;locus_tag=AKK73_gt07;product=tRNA-Trp
+NC_027683.1	RefSeq	gene	5019	5087	.	-	.	ID=gene-AKK73_gt08;Dbxref=GeneID:25193823;Name=AKK73_gt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt08
+NC_027683.1	RefSeq	tRNA	5019	5087	.	-	.	ID=rna-AKK73_gt08;Parent=gene-AKK73_gt08;Dbxref=GeneID:25193823;gbkey=tRNA;locus_tag=AKK73_gt08;product=tRNA-Ala
+NC_027683.1	RefSeq	exon	5019	5087	.	-	.	ID=exon-AKK73_gt08-1;Parent=rna-AKK73_gt08;Dbxref=GeneID:25193823;gbkey=tRNA;locus_tag=AKK73_gt08;product=tRNA-Ala
+NC_027683.1	RefSeq	gene	5095	5166	.	-	.	ID=gene-AKK73_gt09;Dbxref=GeneID:25193824;Name=AKK73_gt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt09
+NC_027683.1	RefSeq	tRNA	5095	5166	.	-	.	ID=rna-AKK73_gt09;Parent=gene-AKK73_gt09;Dbxref=GeneID:25193824;gbkey=tRNA;locus_tag=AKK73_gt09;product=tRNA-Asn
+NC_027683.1	RefSeq	exon	5095	5166	.	-	.	ID=exon-AKK73_gt09-1;Parent=rna-AKK73_gt09;Dbxref=GeneID:25193824;gbkey=tRNA;locus_tag=AKK73_gt09;product=tRNA-Asn
+NC_027683.1	RefSeq	origin_of_replication	5167	5200	.	-	.	ID=id-NC_027683.1:5167..5200;gbkey=rep_origin
+NC_027683.1	RefSeq	gene	5198	5264	.	-	.	ID=gene-AKK73_gt10;Dbxref=GeneID:25193825;Name=AKK73_gt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt10
+NC_027683.1	RefSeq	tRNA	5198	5264	.	-	.	ID=rna-AKK73_gt10;Parent=gene-AKK73_gt10;Dbxref=GeneID:25193825;gbkey=tRNA;locus_tag=AKK73_gt10;product=tRNA-Cys
+NC_027683.1	RefSeq	exon	5198	5264	.	-	.	ID=exon-AKK73_gt10-1;Parent=rna-AKK73_gt10;Dbxref=GeneID:25193825;gbkey=tRNA;locus_tag=AKK73_gt10;product=tRNA-Cys
+NC_027683.1	RefSeq	gene	5265	5331	.	+	.	ID=gene-AKK73_gt11;Dbxref=GeneID:25193826;Name=AKK73_gt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt11
+NC_027683.1	RefSeq	tRNA	5265	5331	.	+	.	ID=rna-AKK73_gt11;Parent=gene-AKK73_gt11;Dbxref=GeneID:25193826;gbkey=tRNA;locus_tag=AKK73_gt11;product=tRNA-Tyr
+NC_027683.1	RefSeq	exon	5265	5331	.	+	.	ID=exon-AKK73_gt11-1;Parent=rna-AKK73_gt11;Dbxref=GeneID:25193826;gbkey=tRNA;locus_tag=AKK73_gt11;product=tRNA-Tyr
+NC_027683.1	RefSeq	gene	5333	6877	.	+	.	ID=gene-AKK73_gp11;Dbxref=GeneID:25193827;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=AKK73_gp11
+NC_027683.1	RefSeq	CDS	5333	6877	.	+	0	ID=cds-YP_009161634.1;Parent=gene-AKK73_gp11;Dbxref=GenBank:YP_009161634.1,GeneID:25193827;Name=YP_009161634.1;gbkey=CDS;gene=COX1;locus_tag=AKK73_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009161634.1;transl_table=2
+NC_027683.1	RefSeq	gene	6875	6943	.	-	.	ID=gene-AKK73_gt12;Dbxref=GeneID:25193811;Name=AKK73_gt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt12
+NC_027683.1	RefSeq	tRNA	6875	6943	.	-	.	ID=rna-AKK73_gt12;Parent=gene-AKK73_gt12;Dbxref=GeneID:25193811;codons=UCN;gbkey=tRNA;locus_tag=AKK73_gt12;product=tRNA-Ser
+NC_027683.1	RefSeq	exon	6875	6943	.	-	.	ID=exon-AKK73_gt12-1;Parent=rna-AKK73_gt12;Dbxref=GeneID:25193811;codons=UCN;gbkey=tRNA;locus_tag=AKK73_gt12;product=tRNA-Ser
+NC_027683.1	RefSeq	gene	6947	7016	.	+	.	ID=gene-AKK73_gt13;Dbxref=GeneID:25193828;Name=AKK73_gt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt13
+NC_027683.1	RefSeq	tRNA	6947	7016	.	+	.	ID=rna-AKK73_gt13;Parent=gene-AKK73_gt13;Dbxref=GeneID:25193828;gbkey=tRNA;locus_tag=AKK73_gt13;product=tRNA-Asp
+NC_027683.1	RefSeq	exon	6947	7016	.	+	.	ID=exon-AKK73_gt13-1;Parent=rna-AKK73_gt13;Dbxref=GeneID:25193828;gbkey=tRNA;locus_tag=AKK73_gt13;product=tRNA-Asp
+NC_027683.1	RefSeq	gene	7017	7702	.	+	.	ID=gene-AKK73_gp10;Dbxref=GeneID:25193829;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=AKK73_gp10
+NC_027683.1	RefSeq	CDS	7017	7702	.	+	0	ID=cds-YP_009161635.1;Parent=gene-AKK73_gp10;Dbxref=GenBank:YP_009161635.1,GeneID:25193829;Name=YP_009161635.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;locus_tag=AKK73_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009161635.1;transl_except=(pos:7701..7702%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	7703	7769	.	+	.	ID=gene-AKK73_gt14;Dbxref=GeneID:25193810;Name=AKK73_gt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt14
+NC_027683.1	RefSeq	tRNA	7703	7769	.	+	.	ID=rna-AKK73_gt14;Parent=gene-AKK73_gt14;Dbxref=GeneID:25193810;gbkey=tRNA;locus_tag=AKK73_gt14;product=tRNA-Lys
+NC_027683.1	RefSeq	exon	7703	7769	.	+	.	ID=exon-AKK73_gt14-1;Parent=rna-AKK73_gt14;Dbxref=GeneID:25193810;gbkey=tRNA;locus_tag=AKK73_gt14;product=tRNA-Lys
+NC_027683.1	RefSeq	gene	7771	7974	.	+	.	ID=gene-AKK73_gp09;Dbxref=GeneID:25193830;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=AKK73_gp09
+NC_027683.1	RefSeq	CDS	7771	7974	.	+	0	ID=cds-YP_009161636.1;Parent=gene-AKK73_gp09;Dbxref=GenBank:YP_009161636.1,GeneID:25193830;Name=YP_009161636.1;gbkey=CDS;gene=ATP8;locus_tag=AKK73_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009161636.1;transl_table=2
+NC_027683.1	RefSeq	gene	7932	8612	.	+	.	ID=gene-AKK73_gp08;Dbxref=GeneID:25193809;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=AKK73_gp08
+NC_027683.1	RefSeq	CDS	7932	8612	.	+	0	ID=cds-YP_009161637.1;Parent=gene-AKK73_gp08;Dbxref=GenBank:YP_009161637.1,GeneID:25193809;Name=YP_009161637.1;gbkey=CDS;gene=ATP6;locus_tag=AKK73_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009161637.1;transl_table=2
+NC_027683.1	RefSeq	gene	8612	9395	.	+	.	ID=gene-AKK73_gp07;Dbxref=GeneID:25193808;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=AKK73_gp07
+NC_027683.1	RefSeq	CDS	8612	9395	.	+	0	ID=cds-YP_009161638.1;Parent=gene-AKK73_gp07;Dbxref=GenBank:YP_009161638.1,GeneID:25193808;Name=YP_009161638.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=AKK73_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009161638.1;transl_except=(pos:9395%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	9396	9463	.	+	.	ID=gene-AKK73_gt15;Dbxref=GeneID:25193807;Name=AKK73_gt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt15
+NC_027683.1	RefSeq	tRNA	9396	9463	.	+	.	ID=rna-AKK73_gt15;Parent=gene-AKK73_gt15;Dbxref=GeneID:25193807;gbkey=tRNA;locus_tag=AKK73_gt15;product=tRNA-Gly
+NC_027683.1	RefSeq	exon	9396	9463	.	+	.	ID=exon-AKK73_gt15-1;Parent=rna-AKK73_gt15;Dbxref=GeneID:25193807;gbkey=tRNA;locus_tag=AKK73_gt15;product=tRNA-Gly
+NC_027683.1	RefSeq	gene	9464	9811	.	+	.	ID=gene-AKK73_gp06;Dbxref=GeneID:25193831;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=AKK73_gp06
+NC_027683.1	RefSeq	CDS	9464	9811	.	+	0	ID=cds-YP_009161639.1;Parent=gene-AKK73_gp06;Dbxref=GenBank:YP_009161639.1,GeneID:25193831;Name=YP_009161639.1;gbkey=CDS;gene=ND3;locus_tag=AKK73_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009161639.1;transl_table=2
+NC_027683.1	RefSeq	gene	9817	9883	.	+	.	ID=gene-AKK73_gt16;Dbxref=GeneID:25193806;Name=AKK73_gt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt16
+NC_027683.1	RefSeq	tRNA	9817	9883	.	+	.	ID=rna-AKK73_gt16;Parent=gene-AKK73_gt16;Dbxref=GeneID:25193806;gbkey=tRNA;locus_tag=AKK73_gt16;product=tRNA-Arg
+NC_027683.1	RefSeq	exon	9817	9883	.	+	.	ID=exon-AKK73_gt16-1;Parent=rna-AKK73_gt16;Dbxref=GeneID:25193806;gbkey=tRNA;locus_tag=AKK73_gt16;product=tRNA-Arg
+NC_027683.1	RefSeq	gene	9885	10181	.	+	.	ID=gene-AKK73_gp05;Dbxref=GeneID:25193832;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=AKK73_gp05
+NC_027683.1	RefSeq	CDS	9885	10181	.	+	0	ID=cds-YP_009161640.1;Parent=gene-AKK73_gp05;Dbxref=GenBank:YP_009161640.1,GeneID:25193832;Name=YP_009161640.1;gbkey=CDS;gene=ND4L;locus_tag=AKK73_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009161640.1;transl_table=2
+NC_027683.1	RefSeq	gene	10175	11540	.	+	.	ID=gene-AKK73_gp04;Dbxref=GeneID:25193805;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=AKK73_gp04
+NC_027683.1	RefSeq	CDS	10175	11540	.	+	0	ID=cds-YP_009161641.1;Parent=gene-AKK73_gp04;Dbxref=GenBank:YP_009161641.1,GeneID:25193805;Name=YP_009161641.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=AKK73_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009161641.1;transl_except=(pos:11540%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	11541	11609	.	+	.	ID=gene-AKK73_gt17;Dbxref=GeneID:25193804;Name=AKK73_gt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt17
+NC_027683.1	RefSeq	tRNA	11541	11609	.	+	.	ID=rna-AKK73_gt17;Parent=gene-AKK73_gt17;Dbxref=GeneID:25193804;gbkey=tRNA;locus_tag=AKK73_gt17;product=tRNA-His
+NC_027683.1	RefSeq	exon	11541	11609	.	+	.	ID=exon-AKK73_gt17-1;Parent=rna-AKK73_gt17;Dbxref=GeneID:25193804;gbkey=tRNA;locus_tag=AKK73_gt17;product=tRNA-His
+NC_027683.1	RefSeq	gene	11610	11668	.	+	.	ID=gene-AKK73_gt18;Dbxref=GeneID:25193833;Name=AKK73_gt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt18
+NC_027683.1	RefSeq	tRNA	11610	11668	.	+	.	ID=rna-AKK73_gt18;Parent=gene-AKK73_gt18;Dbxref=GeneID:25193833;codons=AGY;gbkey=tRNA;locus_tag=AKK73_gt18;product=tRNA-Ser
+NC_027683.1	RefSeq	exon	11610	11668	.	+	.	ID=exon-AKK73_gt18-1;Parent=rna-AKK73_gt18;Dbxref=GeneID:25193833;codons=AGY;gbkey=tRNA;locus_tag=AKK73_gt18;product=tRNA-Ser
+NC_027683.1	RefSeq	gene	11669	11735	.	+	.	ID=gene-AKK73_gt19;Dbxref=GeneID:25193834;Name=AKK73_gt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt19
+NC_027683.1	RefSeq	tRNA	11669	11735	.	+	.	ID=rna-AKK73_gt19;Parent=gene-AKK73_gt19;Dbxref=GeneID:25193834;codons=CUN;gbkey=tRNA;locus_tag=AKK73_gt19;product=tRNA-Leu
+NC_027683.1	RefSeq	exon	11669	11735	.	+	.	ID=exon-AKK73_gt19-1;Parent=rna-AKK73_gt19;Dbxref=GeneID:25193834;codons=CUN;gbkey=tRNA;locus_tag=AKK73_gt19;product=tRNA-Leu
+NC_027683.1	RefSeq	gene	11736	13547	.	+	.	ID=gene-AKK73_gp03;Dbxref=GeneID:25193835;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=AKK73_gp03
+NC_027683.1	RefSeq	CDS	11736	13547	.	+	0	ID=cds-YP_009161642.1;Parent=gene-AKK73_gp03;Dbxref=GenBank:YP_009161642.1,GeneID:25193835;Name=YP_009161642.1;gbkey=CDS;gene=ND5;locus_tag=AKK73_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009161642.1;transl_table=2
+NC_027683.1	RefSeq	gene	13549	14067	.	-	.	ID=gene-AKK73_gp02;Dbxref=GeneID:25193803;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=AKK73_gp02
+NC_027683.1	RefSeq	CDS	13549	14067	.	-	0	ID=cds-YP_009161643.1;Parent=gene-AKK73_gp02;Dbxref=GenBank:YP_009161643.1,GeneID:25193803;Name=YP_009161643.1;gbkey=CDS;gene=ND6;locus_tag=AKK73_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009161643.1;transl_table=2
+NC_027683.1	RefSeq	gene	14068	14136	.	-	.	ID=gene-AKK73_gt20;Dbxref=GeneID:25193802;Name=AKK73_gt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt20
+NC_027683.1	RefSeq	tRNA	14068	14136	.	-	.	ID=rna-AKK73_gt20;Parent=gene-AKK73_gt20;Dbxref=GeneID:25193802;gbkey=tRNA;locus_tag=AKK73_gt20;product=tRNA-Glu
+NC_027683.1	RefSeq	exon	14068	14136	.	-	.	ID=exon-AKK73_gt20-1;Parent=rna-AKK73_gt20;Dbxref=GeneID:25193802;gbkey=tRNA;locus_tag=AKK73_gt20;product=tRNA-Glu
+NC_027683.1	RefSeq	gene	14141	15284	.	+	.	ID=gene-AKK73_gp01;Dbxref=GeneID:25193836;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=AKK73_gp01
+NC_027683.1	RefSeq	CDS	14141	15284	.	+	0	ID=cds-YP_009161644.1;Parent=gene-AKK73_gp01;Dbxref=GenBank:YP_009161644.1,GeneID:25193836;Name=YP_009161644.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=CYTB;locus_tag=AKK73_gp01;product=cytochrome b;protein_id=YP_009161644.1;transl_except=(pos:15284%2Caa:TERM);transl_table=2
+NC_027683.1	RefSeq	gene	15285	15369	.	+	.	ID=gene-AKK73_gt21;Dbxref=GeneID:25193801;Name=AKK73_gt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt21
+NC_027683.1	RefSeq	tRNA	15285	15369	.	+	.	ID=rna-AKK73_gt21;Parent=gene-AKK73_gt21;Dbxref=GeneID:25193801;gbkey=tRNA;locus_tag=AKK73_gt21;product=tRNA-Thr
+NC_027683.1	RefSeq	exon	15285	15369	.	+	.	ID=exon-AKK73_gt21-1;Parent=rna-AKK73_gt21;Dbxref=GeneID:25193801;gbkey=tRNA;locus_tag=AKK73_gt21;product=tRNA-Thr
+NC_027683.1	RefSeq	gene	15351	15421	.	-	.	ID=gene-AKK73_gt22;Dbxref=GeneID:25193837;Name=AKK73_gt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=AKK73_gt22
+NC_027683.1	RefSeq	tRNA	15351	15421	.	-	.	ID=rna-AKK73_gt22;Parent=gene-AKK73_gt22;Dbxref=GeneID:25193837;gbkey=tRNA;locus_tag=AKK73_gt22;product=tRNA-Pro
+NC_027683.1	RefSeq	exon	15351	15421	.	-	.	ID=exon-AKK73_gt22-1;Parent=rna-AKK73_gt22;Dbxref=GeneID:25193837;gbkey=tRNA;locus_tag=AKK73_gt22;product=tRNA-Pro
+NC_027683.1	RefSeq	D_loop	15421	16341	.	+	.	ID=id-NC_027683.1:15421..16341;gbkey=D-loop
+

@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_019590.1 1 16383
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=48747
+NC_019590.1	RefSeq	region	1	16383	.	+	.	ID=NC_019590.1:1..16383;Dbxref=taxon:48747;Is_circular=true;Name=MT;country=Indonesia;gbkey=Src;genome=mitochondrion;isolate=97;mol_type=genomic DNA;specimen-voucher=SWFSC:74697
+NC_019590.1	RefSeq	gene	1	72	.	+	.	ID=gene-F688_mgt01;Dbxref=GeneID:79571870;Name=F688_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt01
+NC_019590.1	RefSeq	tRNA	1	72	.	+	.	ID=rna-F688_mgt01;Parent=gene-F688_mgt01;Dbxref=GeneID:79571870;gbkey=tRNA;locus_tag=F688_mgt01;product=tRNA-Phe
+NC_019590.1	RefSeq	exon	1	72	.	+	.	ID=exon-F688_mgt01-1;Parent=rna-F688_mgt01;Dbxref=GeneID:79571870;gbkey=tRNA;locus_tag=F688_mgt01;product=tRNA-Phe
+NC_019590.1	RefSeq	gene	73	1044	.	+	.	ID=gene-F688_mgr02;Dbxref=GeneID:79571856;Name=F688_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=F688_mgr02
+NC_019590.1	RefSeq	rRNA	73	1044	.	+	.	ID=rna-F688_mgr02;Parent=gene-F688_mgr02;Dbxref=GeneID:79571856;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F688_mgr02;product=s-rRNA
+NC_019590.1	RefSeq	exon	73	1044	.	+	.	ID=exon-F688_mgr02-1;Parent=rna-F688_mgr02;Dbxref=GeneID:79571856;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=F688_mgr02;product=s-rRNA
+NC_019590.1	RefSeq	gene	1045	1111	.	+	.	ID=gene-F688_mgt02;Dbxref=GeneID:79571857;Name=F688_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt02
+NC_019590.1	RefSeq	tRNA	1045	1111	.	+	.	ID=rna-F688_mgt02;Parent=gene-F688_mgt02;Dbxref=GeneID:79571857;gbkey=tRNA;locus_tag=F688_mgt02;product=tRNA-Val
+NC_019590.1	RefSeq	exon	1045	1111	.	+	.	ID=exon-F688_mgt02-1;Parent=rna-F688_mgt02;Dbxref=GeneID:79571857;gbkey=tRNA;locus_tag=F688_mgt02;product=tRNA-Val
+NC_019590.1	RefSeq	gene	1112	2689	.	+	.	ID=gene-F688_mgr01;Dbxref=GeneID:79571858;Name=F688_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=F688_mgr01
+NC_019590.1	RefSeq	rRNA	1112	2689	.	+	.	ID=rna-F688_mgr01;Parent=gene-F688_mgr01;Dbxref=GeneID:79571858;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F688_mgr01;product=l-rRNA
+NC_019590.1	RefSeq	exon	1112	2689	.	+	.	ID=exon-F688_mgr01-1;Parent=rna-F688_mgr01;Dbxref=GeneID:79571858;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=F688_mgr01;product=l-rRNA
+NC_019590.1	RefSeq	gene	2690	2765	.	+	.	ID=gene-F688_mgt03;Dbxref=GeneID:79571859;Name=F688_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt03
+NC_019590.1	RefSeq	tRNA	2690	2765	.	+	.	ID=rna-F688_mgt03;Parent=gene-F688_mgt03;Dbxref=GeneID:79571859;gbkey=tRNA;locus_tag=F688_mgt03;product=tRNA-Leu
+NC_019590.1	RefSeq	exon	2690	2765	.	+	.	ID=exon-F688_mgt03-1;Parent=rna-F688_mgt03;Dbxref=GeneID:79571859;gbkey=tRNA;locus_tag=F688_mgt03;product=tRNA-Leu
+NC_019590.1	RefSeq	gene	2766	3722	.	+	.	ID=gene-F688_mgp13;Dbxref=GeneID:14048490;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=F688_mgp13
+NC_019590.1	RefSeq	CDS	2766	3722	.	+	0	ID=cds-YP_007025034.1;Parent=gene-F688_mgp13;Dbxref=GenBank:YP_007025034.1,GeneID:14048490;Name=YP_007025034.1;gbkey=CDS;gene=ND1;locus_tag=F688_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_007025034.1;transl_table=2
+NC_019590.1	RefSeq	gene	3727	3795	.	+	.	ID=gene-F688_mgt04;Dbxref=GeneID:79571847;Name=F688_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt04
+NC_019590.1	RefSeq	tRNA	3727	3795	.	+	.	ID=rna-F688_mgt04;Parent=gene-F688_mgt04;Dbxref=GeneID:79571847;gbkey=tRNA;locus_tag=F688_mgt04;product=tRNA-Ile
+NC_019590.1	RefSeq	exon	3727	3795	.	+	.	ID=exon-F688_mgt04-1;Parent=rna-F688_mgt04;Dbxref=GeneID:79571847;gbkey=tRNA;locus_tag=F688_mgt04;product=tRNA-Ile
+NC_019590.1	RefSeq	gene	3793	3865	.	-	.	ID=gene-F688_mgt05;Dbxref=GeneID:79571860;Name=F688_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt05
+NC_019590.1	RefSeq	tRNA	3793	3865	.	-	.	ID=rna-F688_mgt05;Parent=gene-F688_mgt05;Dbxref=GeneID:79571860;gbkey=tRNA;locus_tag=F688_mgt05;product=tRNA-Gln
+NC_019590.1	RefSeq	exon	3793	3865	.	-	.	ID=exon-F688_mgt05-1;Parent=rna-F688_mgt05;Dbxref=GeneID:79571860;gbkey=tRNA;locus_tag=F688_mgt05;product=tRNA-Gln
+NC_019590.1	RefSeq	gene	3867	3935	.	+	.	ID=gene-F688_mgt06;Dbxref=GeneID:79571861;Name=F688_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt06
+NC_019590.1	RefSeq	tRNA	3867	3935	.	+	.	ID=rna-F688_mgt06;Parent=gene-F688_mgt06;Dbxref=GeneID:79571861;gbkey=tRNA;locus_tag=F688_mgt06;product=tRNA-Met
+NC_019590.1	RefSeq	exon	3867	3935	.	+	.	ID=exon-F688_mgt06-1;Parent=rna-F688_mgt06;Dbxref=GeneID:79571861;gbkey=tRNA;locus_tag=F688_mgt06;product=tRNA-Met
+NC_019590.1	RefSeq	gene	3936	4977	.	+	.	ID=gene-F688_mgp12;Dbxref=GeneID:14048478;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=F688_mgp12
+NC_019590.1	RefSeq	CDS	3936	4977	.	+	0	ID=cds-YP_007025035.1;Parent=gene-F688_mgp12;Dbxref=GenBank:YP_007025035.1,GeneID:14048478;Name=YP_007025035.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=F688_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_007025035.1;transl_except=(pos:4977%2Caa:TERM);transl_table=2
+NC_019590.1	RefSeq	gene	4978	5046	.	+	.	ID=gene-F688_mgt07;Dbxref=GeneID:79571848;Name=F688_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt07
+NC_019590.1	RefSeq	tRNA	4978	5046	.	+	.	ID=rna-F688_mgt07;Parent=gene-F688_mgt07;Dbxref=GeneID:79571848;gbkey=tRNA;locus_tag=F688_mgt07;product=tRNA-Trp
+NC_019590.1	RefSeq	exon	4978	5046	.	+	.	ID=exon-F688_mgt07-1;Parent=rna-F688_mgt07;Dbxref=GeneID:79571848;gbkey=tRNA;locus_tag=F688_mgt07;product=tRNA-Trp
+NC_019590.1	RefSeq	gene	5052	5120	.	-	.	ID=gene-F688_mgt08;Dbxref=GeneID:79571862;Name=F688_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt08
+NC_019590.1	RefSeq	tRNA	5052	5120	.	-	.	ID=rna-F688_mgt08;Parent=gene-F688_mgt08;Dbxref=GeneID:79571862;gbkey=tRNA;locus_tag=F688_mgt08;product=tRNA-Ala
+NC_019590.1	RefSeq	exon	5052	5120	.	-	.	ID=exon-F688_mgt08-1;Parent=rna-F688_mgt08;Dbxref=GeneID:79571862;gbkey=tRNA;locus_tag=F688_mgt08;product=tRNA-Ala
+NC_019590.1	RefSeq	gene	5122	5196	.	-	.	ID=gene-F688_mgt09;Dbxref=GeneID:79571863;Name=F688_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt09
+NC_019590.1	RefSeq	tRNA	5122	5196	.	-	.	ID=rna-F688_mgt09;Parent=gene-F688_mgt09;Dbxref=GeneID:79571863;gbkey=tRNA;locus_tag=F688_mgt09;product=tRNA-Asn
+NC_019590.1	RefSeq	exon	5122	5196	.	-	.	ID=exon-F688_mgt09-1;Parent=rna-F688_mgt09;Dbxref=GeneID:79571863;gbkey=tRNA;locus_tag=F688_mgt09;product=tRNA-Asn
+NC_019590.1	RefSeq	gene	5229	5295	.	-	.	ID=gene-F688_mgt10;Dbxref=GeneID:79571864;Name=F688_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt10
+NC_019590.1	RefSeq	tRNA	5229	5295	.	-	.	ID=rna-F688_mgt10;Parent=gene-F688_mgt10;Dbxref=GeneID:79571864;gbkey=tRNA;locus_tag=F688_mgt10;product=tRNA-Cys
+NC_019590.1	RefSeq	exon	5229	5295	.	-	.	ID=exon-F688_mgt10-1;Parent=rna-F688_mgt10;Dbxref=GeneID:79571864;gbkey=tRNA;locus_tag=F688_mgt10;product=tRNA-Cys
+NC_019590.1	RefSeq	gene	5296	5361	.	-	.	ID=gene-F688_mgt11;Dbxref=GeneID:79571865;Name=F688_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt11
+NC_019590.1	RefSeq	tRNA	5296	5361	.	-	.	ID=rna-F688_mgt11;Parent=gene-F688_mgt11;Dbxref=GeneID:79571865;gbkey=tRNA;locus_tag=F688_mgt11;product=tRNA-Tyr
+NC_019590.1	RefSeq	exon	5296	5361	.	-	.	ID=exon-F688_mgt11-1;Parent=rna-F688_mgt11;Dbxref=GeneID:79571865;gbkey=tRNA;locus_tag=F688_mgt11;product=tRNA-Tyr
+NC_019590.1	RefSeq	gene	5362	6912	.	+	.	ID=gene-F688_mgp11;Dbxref=GeneID:14048479;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=F688_mgp11
+NC_019590.1	RefSeq	CDS	5362	6912	.	+	0	ID=cds-YP_007025036.1;Parent=gene-F688_mgp11;Dbxref=GenBank:YP_007025036.1,GeneID:14048479;Name=YP_007025036.1;gbkey=CDS;gene=COX1;locus_tag=F688_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_007025036.1;transl_table=2
+NC_019590.1	RefSeq	gene	6908	6976	.	-	.	ID=gene-F688_mgt12;Dbxref=GeneID:79571849;Name=F688_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt12
+NC_019590.1	RefSeq	tRNA	6908	6976	.	-	.	ID=rna-F688_mgt12;Parent=gene-F688_mgt12;Dbxref=GeneID:79571849;gbkey=tRNA;locus_tag=F688_mgt12;product=tRNA-Ser
+NC_019590.1	RefSeq	exon	6908	6976	.	-	.	ID=exon-F688_mgt12-1;Parent=rna-F688_mgt12;Dbxref=GeneID:79571849;gbkey=tRNA;locus_tag=F688_mgt12;product=tRNA-Ser
+NC_019590.1	RefSeq	gene	6984	7051	.	+	.	ID=gene-F688_mgt13;Dbxref=GeneID:79571866;Name=F688_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt13
+NC_019590.1	RefSeq	tRNA	6984	7051	.	+	.	ID=rna-F688_mgt13;Parent=gene-F688_mgt13;Dbxref=GeneID:79571866;gbkey=tRNA;locus_tag=F688_mgt13;product=tRNA-Asp
+NC_019590.1	RefSeq	exon	6984	7051	.	+	.	ID=exon-F688_mgt13-1;Parent=rna-F688_mgt13;Dbxref=GeneID:79571866;gbkey=tRNA;locus_tag=F688_mgt13;product=tRNA-Asp
+NC_019590.1	RefSeq	gene	7052	7735	.	+	.	ID=gene-F688_mgp10;Dbxref=GeneID:14048480;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=F688_mgp10
+NC_019590.1	RefSeq	CDS	7052	7735	.	+	0	ID=cds-YP_007025037.1;Parent=gene-F688_mgp10;Dbxref=GenBank:YP_007025037.1,GeneID:14048480;Name=YP_007025037.1;gbkey=CDS;gene=COX2;locus_tag=F688_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_007025037.1;transl_table=2
+NC_019590.1	RefSeq	gene	7738	7805	.	+	.	ID=gene-F688_mgt14;Dbxref=GeneID:79571850;Name=F688_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt14
+NC_019590.1	RefSeq	tRNA	7738	7805	.	+	.	ID=rna-F688_mgt14;Parent=gene-F688_mgt14;Dbxref=GeneID:79571850;gbkey=tRNA;locus_tag=F688_mgt14;product=tRNA-Lys
+NC_019590.1	RefSeq	exon	7738	7805	.	+	.	ID=exon-F688_mgt14-1;Parent=rna-F688_mgt14;Dbxref=GeneID:79571850;gbkey=tRNA;locus_tag=F688_mgt14;product=tRNA-Lys
+NC_019590.1	RefSeq	gene	7808	7999	.	+	.	ID=gene-F688_mgp09;Dbxref=GeneID:14048481;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=F688_mgp09
+NC_019590.1	RefSeq	CDS	7808	7999	.	+	0	ID=cds-YP_007025038.1;Parent=gene-F688_mgp09;Dbxref=GenBank:YP_007025038.1,GeneID:14048481;Name=YP_007025038.1;gbkey=CDS;gene=ATP8;locus_tag=F688_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_007025038.1;transl_table=2
+NC_019590.1	RefSeq	gene	7969	8646	.	+	.	ID=gene-F688_mgp08;Dbxref=GeneID:14048482;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=F688_mgp08
+NC_019590.1	RefSeq	CDS	7969	8646	.	+	0	ID=cds-YP_007025039.1;Parent=gene-F688_mgp08;Dbxref=GenBank:YP_007025039.1,GeneID:14048482;Name=YP_007025039.1;gbkey=CDS;gene=ATP6;locus_tag=F688_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_007025039.1;transl_table=2
+NC_019590.1	RefSeq	gene	8646	9429	.	+	.	ID=gene-F688_mgp07;Dbxref=GeneID:14048483;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=F688_mgp07
+NC_019590.1	RefSeq	CDS	8646	9429	.	+	0	ID=cds-YP_007025040.1;Parent=gene-F688_mgp07;Dbxref=GenBank:YP_007025040.1,GeneID:14048483;Name=YP_007025040.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=F688_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_007025040.1;transl_except=(pos:9429%2Caa:TERM);transl_table=2
+NC_019590.1	RefSeq	gene	9430	9498	.	+	.	ID=gene-F688_mgt15;Dbxref=GeneID:79571851;Name=F688_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt15
+NC_019590.1	RefSeq	tRNA	9430	9498	.	+	.	ID=rna-F688_mgt15;Parent=gene-F688_mgt15;Dbxref=GeneID:79571851;gbkey=tRNA;locus_tag=F688_mgt15;product=tRNA-Gly
+NC_019590.1	RefSeq	exon	9430	9498	.	+	.	ID=exon-F688_mgt15-1;Parent=rna-F688_mgt15;Dbxref=GeneID:79571851;gbkey=tRNA;locus_tag=F688_mgt15;product=tRNA-Gly
+NC_019590.1	RefSeq	gene	9500	9845	.	+	.	ID=gene-F688_mgp06;Dbxref=GeneID:14048484;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=F688_mgp06
+NC_019590.1	RefSeq	CDS	9500	9845	.	+	0	ID=cds-YP_007025041.1;Parent=gene-F688_mgp06;Dbxref=GenBank:YP_007025041.1,GeneID:14048484;Name=YP_007025041.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=F688_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_007025041.1;transl_except=(pos:9845%2Caa:TERM);transl_table=2
+NC_019590.1	RefSeq	gene	9846	9915	.	+	.	ID=gene-F688_mgt16;Dbxref=GeneID:79571852;Name=F688_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt16
+NC_019590.1	RefSeq	tRNA	9846	9915	.	+	.	ID=rna-F688_mgt16;Parent=gene-F688_mgt16;Dbxref=GeneID:79571852;gbkey=tRNA;locus_tag=F688_mgt16;product=tRNA-Arg
+NC_019590.1	RefSeq	exon	9846	9915	.	+	.	ID=exon-F688_mgt16-1;Parent=rna-F688_mgt16;Dbxref=GeneID:79571852;gbkey=tRNA;locus_tag=F688_mgt16;product=tRNA-Arg
+NC_019590.1	RefSeq	gene	9917	10213	.	+	.	ID=gene-F688_mgp05;Dbxref=GeneID:14048485;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=F688_mgp05
+NC_019590.1	RefSeq	CDS	9917	10213	.	+	0	ID=cds-YP_007025042.1;Parent=gene-F688_mgp05;Dbxref=GenBank:YP_007025042.1,GeneID:14048485;Name=YP_007025042.1;gbkey=CDS;gene=ND4L;locus_tag=F688_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_007025042.1;transl_table=2
+NC_019590.1	RefSeq	gene	10207	11584	.	+	.	ID=gene-F688_mgp04;Dbxref=GeneID:14048486;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=F688_mgp04
+NC_019590.1	RefSeq	CDS	10207	11584	.	+	0	ID=cds-YP_007025043.1;Parent=gene-F688_mgp04;Dbxref=GenBank:YP_007025043.1,GeneID:14048486;Name=YP_007025043.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=F688_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_007025043.1;transl_except=(pos:11584%2Caa:TERM);transl_table=2
+NC_019590.1	RefSeq	gene	11585	11653	.	+	.	ID=gene-F688_mgt17;Dbxref=GeneID:79571853;Name=F688_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt17
+NC_019590.1	RefSeq	tRNA	11585	11653	.	+	.	ID=rna-F688_mgt17;Parent=gene-F688_mgt17;Dbxref=GeneID:79571853;gbkey=tRNA;locus_tag=F688_mgt17;product=tRNA-His
+NC_019590.1	RefSeq	exon	11585	11653	.	+	.	ID=exon-F688_mgt17-1;Parent=rna-F688_mgt17;Dbxref=GeneID:79571853;gbkey=tRNA;locus_tag=F688_mgt17;product=tRNA-His
+NC_019590.1	RefSeq	gene	11654	11715	.	+	.	ID=gene-F688_mgt18;Dbxref=GeneID:79571867;Name=F688_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt18
+NC_019590.1	RefSeq	tRNA	11654	11715	.	+	.	ID=rna-F688_mgt18;Parent=gene-F688_mgt18;Dbxref=GeneID:79571867;gbkey=tRNA;locus_tag=F688_mgt18;product=tRNA-Ser
+NC_019590.1	RefSeq	exon	11654	11715	.	+	.	ID=exon-F688_mgt18-1;Parent=rna-F688_mgt18;Dbxref=GeneID:79571867;gbkey=tRNA;locus_tag=F688_mgt18;product=tRNA-Ser
+NC_019590.1	RefSeq	gene	11716	11785	.	+	.	ID=gene-F688_mgt19;Dbxref=GeneID:79571868;Name=F688_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt19
+NC_019590.1	RefSeq	tRNA	11716	11785	.	+	.	ID=rna-F688_mgt19;Parent=gene-F688_mgt19;Dbxref=GeneID:79571868;gbkey=tRNA;locus_tag=F688_mgt19;product=tRNA-Leu
+NC_019590.1	RefSeq	exon	11716	11785	.	+	.	ID=exon-F688_mgt19-1;Parent=rna-F688_mgt19;Dbxref=GeneID:79571868;gbkey=tRNA;locus_tag=F688_mgt19;product=tRNA-Leu
+NC_019590.1	RefSeq	gene	11786	13606	.	+	.	ID=gene-F688_mgp03;Dbxref=GeneID:14048487;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=F688_mgp03
+NC_019590.1	RefSeq	CDS	11786	13606	.	+	0	ID=cds-YP_007025044.1;Parent=gene-F688_mgp03;Dbxref=GenBank:YP_007025044.1,GeneID:14048487;Name=YP_007025044.1;gbkey=CDS;gene=ND5;locus_tag=F688_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_007025044.1;transl_table=2
+NC_019590.1	RefSeq	gene	13592	14117	.	-	.	ID=gene-F688_mgp02;Dbxref=GeneID:14048488;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=F688_mgp02
+NC_019590.1	RefSeq	CDS	13592	14117	.	-	0	ID=cds-YP_007025045.1;Parent=gene-F688_mgp02;Dbxref=GenBank:YP_007025045.1,GeneID:14048488;Name=YP_007025045.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND6;locus_tag=F688_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_007025045.1;transl_except=(pos:complement(13592)%2Caa:TERM);transl_table=2
+NC_019590.1	RefSeq	gene	14118	14185	.	-	.	ID=gene-F688_mgt20;Dbxref=GeneID:79571854;Name=F688_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt20
+NC_019590.1	RefSeq	tRNA	14118	14185	.	-	.	ID=rna-F688_mgt20;Parent=gene-F688_mgt20;Dbxref=GeneID:79571854;gbkey=tRNA;locus_tag=F688_mgt20;product=tRNA-Glu
+NC_019590.1	RefSeq	exon	14118	14185	.	-	.	ID=exon-F688_mgt20-1;Parent=rna-F688_mgt20;Dbxref=GeneID:79571854;gbkey=tRNA;locus_tag=F688_mgt20;product=tRNA-Glu
+NC_019590.1	RefSeq	gene	14191	15330	.	+	.	ID=gene-F688_mgp01;Dbxref=GeneID:14048489;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=F688_mgp01
+NC_019590.1	RefSeq	CDS	14191	15330	.	+	0	ID=cds-YP_007025046.1;Parent=gene-F688_mgp01;Dbxref=GenBank:YP_007025046.1,GeneID:14048489;Name=YP_007025046.1;gbkey=CDS;gene=CYTB;locus_tag=F688_mgp01;product=cytochrome b;protein_id=YP_007025046.1;transl_table=2
+NC_019590.1	RefSeq	gene	15332	15401	.	+	.	ID=gene-F688_mgt21;Dbxref=GeneID:79571855;Name=F688_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt21
+NC_019590.1	RefSeq	tRNA	15332	15401	.	+	.	ID=rna-F688_mgt21;Parent=gene-F688_mgt21;Dbxref=GeneID:79571855;gbkey=tRNA;locus_tag=F688_mgt21;product=tRNA-Thr
+NC_019590.1	RefSeq	exon	15332	15401	.	+	.	ID=exon-F688_mgt21-1;Parent=rna-F688_mgt21;Dbxref=GeneID:79571855;gbkey=tRNA;locus_tag=F688_mgt21;product=tRNA-Thr
+NC_019590.1	RefSeq	gene	15402	15468	.	-	.	ID=gene-F688_mgt22;Dbxref=GeneID:79571869;Name=F688_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=F688_mgt22
+NC_019590.1	RefSeq	tRNA	15402	15468	.	-	.	ID=rna-F688_mgt22;Parent=gene-F688_mgt22;Dbxref=GeneID:79571869;gbkey=tRNA;locus_tag=F688_mgt22;product=tRNA-Pro
+NC_019590.1	RefSeq	exon	15402	15468	.	-	.	ID=exon-F688_mgt22-1;Parent=rna-F688_mgt22;Dbxref=GeneID:79571869;gbkey=tRNA;locus_tag=F688_mgt22;product=tRNA-Pro
+NC_019590.1	RefSeq	D_loop	15469	16383	.	+	.	ID=id-NC_019590.1:15469..16383;gbkey=D-loop
+

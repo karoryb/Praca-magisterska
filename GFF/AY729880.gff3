@@ -1,0 +1,83 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region AY729880.1 1 16756
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9615
+AY729880.1	Genbank	region	1	16756	.	+	.	ID=AY729880.1:1..16756;Dbxref=taxon:9615;Is_circular=true;Name=MT;breed=beagle;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;old-name=Canis familiaris;sub-species=familiaris
+AY729880.1	Genbank	tRNA	1	69	.	+	.	ID=rna-AY729880.1:1..69;gbkey=tRNA;product=tRNA-Phe
+AY729880.1	Genbank	exon	1	69	.	+	.	ID=exon-AY729880.1:1..69-1;Parent=rna-AY729880.1:1..69;gbkey=tRNA;product=tRNA-Phe
+AY729880.1	Genbank	rRNA	70	1027	.	+	.	ID=rna-AY729880.1:70..1027;gbkey=rRNA;product=12S ribosomal RNA
+AY729880.1	Genbank	exon	70	1027	.	+	.	ID=exon-AY729880.1:70..1027-1;Parent=rna-AY729880.1:70..1027;gbkey=rRNA;product=12S ribosomal RNA
+AY729880.1	Genbank	tRNA	1028	1094	.	+	.	ID=rna-AY729880.1:1028..1094;gbkey=tRNA;product=tRNA-Val
+AY729880.1	Genbank	exon	1028	1094	.	+	.	ID=exon-AY729880.1:1028..1094-1;Parent=rna-AY729880.1:1028..1094;gbkey=tRNA;product=tRNA-Val
+AY729880.1	Genbank	rRNA	1095	2677	.	+	.	ID=rna-AY729880.1:1095..2677;gbkey=rRNA;product=16S ribosomal RNA
+AY729880.1	Genbank	exon	1095	2677	.	+	.	ID=exon-AY729880.1:1095..2677-1;Parent=rna-AY729880.1:1095..2677;gbkey=rRNA;product=16S ribosomal RNA
+AY729880.1	Genbank	tRNA	2678	2752	.	+	.	ID=rna-AY729880.1:2678..2752;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+AY729880.1	Genbank	exon	2678	2752	.	+	.	ID=exon-AY729880.1:2678..2752-1;Parent=rna-AY729880.1:2678..2752;codons=UUR;gbkey=tRNA;product=tRNA-Leu
+AY729880.1	Genbank	gene	2755	3711	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	2755	3711	.	+	0	ID=cds-AAU12149.1;Parent=gene-ND1;Dbxref=NCBI_GP:AAU12149.1;Name=AAU12149.1;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=AAU12149.1;transl_table=2
+AY729880.1	Genbank	tRNA	3711	3779	.	+	.	ID=rna-AY729880.1:3711..3779;gbkey=tRNA;product=tRNA-Ile
+AY729880.1	Genbank	exon	3711	3779	.	+	.	ID=exon-AY729880.1:3711..3779-1;Parent=rna-AY729880.1:3711..3779;gbkey=tRNA;product=tRNA-Ile
+AY729880.1	Genbank	tRNA	3777	3850	.	-	.	ID=rna-AY729880.1:3777..3850;gbkey=tRNA;product=tRNA-Gln
+AY729880.1	Genbank	exon	3777	3850	.	-	.	ID=exon-AY729880.1:3777..3850-1;Parent=rna-AY729880.1:3777..3850;gbkey=tRNA;product=tRNA-Gln
+AY729880.1	Genbank	tRNA	3852	3921	.	+	.	ID=rna-AY729880.1:3852..3921;gbkey=tRNA;product=tRNA-Met
+AY729880.1	Genbank	exon	3852	3921	.	+	.	ID=exon-AY729880.1:3852..3921-1;Parent=rna-AY729880.1:3852..3921;gbkey=tRNA;product=tRNA-Met
+AY729880.1	Genbank	gene	3922	4965	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	3922	4965	.	+	0	ID=cds-AAU12150.1;Parent=gene-ND2;Dbxref=NCBI_GP:AAU12150.1;Name=AAU12150.1;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=AAU12150.1;transl_table=2
+AY729880.1	Genbank	tRNA	4964	5031	.	+	.	ID=rna-AY729880.1:4964..5031;gbkey=tRNA;product=tRNA-Trp
+AY729880.1	Genbank	exon	4964	5031	.	+	.	ID=exon-AY729880.1:4964..5031-1;Parent=rna-AY729880.1:4964..5031;gbkey=tRNA;product=tRNA-Trp
+AY729880.1	Genbank	tRNA	5045	5113	.	-	.	ID=rna-AY729880.1:5045..5113;gbkey=tRNA;product=tRNA-Ala
+AY729880.1	Genbank	exon	5045	5113	.	-	.	ID=exon-AY729880.1:5045..5113-1;Parent=rna-AY729880.1:5045..5113;gbkey=tRNA;product=tRNA-Ala
+AY729880.1	Genbank	tRNA	5115	5186	.	-	.	ID=rna-AY729880.1:5115..5186;gbkey=tRNA;product=tRNA-Asn
+AY729880.1	Genbank	exon	5115	5186	.	-	.	ID=exon-AY729880.1:5115..5186-1;Parent=rna-AY729880.1:5115..5186;gbkey=tRNA;product=tRNA-Asn
+AY729880.1	Genbank	origin_of_replication	5187	5223	.	+	.	ID=id-AY729880.1:5187..5223;Note=origin of L-strand replication;gbkey=rep_origin
+AY729880.1	Genbank	tRNA	5221	5287	.	-	.	ID=rna-AY729880.1:5221..5287;gbkey=tRNA;product=tRNA-Cys
+AY729880.1	Genbank	exon	5221	5287	.	-	.	ID=exon-AY729880.1:5221..5287-1;Parent=rna-AY729880.1:5221..5287;gbkey=tRNA;product=tRNA-Cys
+AY729880.1	Genbank	tRNA	5288	5353	.	-	.	ID=rna-AY729880.1:5288..5353;gbkey=tRNA;product=tRNA-Tyr
+AY729880.1	Genbank	exon	5288	5353	.	-	.	ID=exon-AY729880.1:5288..5353-1;Parent=rna-AY729880.1:5288..5353;gbkey=tRNA;product=tRNA-Tyr
+AY729880.1	Genbank	gene	5355	6899	.	+	.	ID=gene-COI;Name=COI;gbkey=Gene;gene=COI;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	5355	6899	.	+	0	ID=cds-AAU12151.1;Parent=gene-COI;Dbxref=NCBI_GP:AAU12151.1;Name=AAU12151.1;gbkey=CDS;gene=COI;product=cytochrome c oxidase subunit I;protein_id=AAU12151.1;transl_table=2
+AY729880.1	Genbank	tRNA	6897	6965	.	-	.	ID=rna-AY729880.1:6897..6965;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+AY729880.1	Genbank	exon	6897	6965	.	-	.	ID=exon-AY729880.1:6897..6965-1;Parent=rna-AY729880.1:6897..6965;codons=UCN;gbkey=tRNA;product=tRNA-Ser
+AY729880.1	Genbank	tRNA	6972	7040	.	+	.	ID=rna-AY729880.1:6972..7040;gbkey=tRNA;product=tRNA-Asp
+AY729880.1	Genbank	exon	6972	7040	.	+	.	ID=exon-AY729880.1:6972..7040-1;Parent=rna-AY729880.1:6972..7040;gbkey=tRNA;product=tRNA-Asp
+AY729880.1	Genbank	gene	7041	7724	.	+	.	ID=gene-COII;Name=COII;gbkey=Gene;gene=COII;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	7041	7724	.	+	0	ID=cds-AAU12152.1;Parent=gene-COII;Dbxref=NCBI_GP:AAU12152.1;Name=AAU12152.1;gbkey=CDS;gene=COII;product=cytochrome c oxidase subunit II;protein_id=AAU12152.1;transl_table=2
+AY729880.1	Genbank	tRNA	7742	7808	.	+	.	ID=rna-AY729880.1:7742..7808;gbkey=tRNA;product=tRNA-Lys
+AY729880.1	Genbank	exon	7742	7808	.	+	.	ID=exon-AY729880.1:7742..7808-1;Parent=rna-AY729880.1:7742..7808;gbkey=tRNA;product=tRNA-Lys
+AY729880.1	Genbank	gene	7810	8013	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	7810	8013	.	+	0	ID=cds-AAU12160.1;Parent=gene-ATP8;Dbxref=NCBI_GP:AAU12160.1;Name=AAU12160.1;gbkey=CDS;gene=ATP8;product=ATPase 8;protein_id=AAU12160.1;transl_table=2
+AY729880.1	Genbank	gene	7971	8651	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	7971	8651	.	+	0	ID=cds-AAU12161.1;Parent=gene-ATP6;Dbxref=NCBI_GP:AAU12161.1;Name=AAU12161.1;gbkey=CDS;gene=ATP6;product=ATPase 6;protein_id=AAU12161.1;transl_table=2
+AY729880.1	Genbank	gene	8651	9434	.	+	.	ID=gene-COIII;Name=COIII;gbkey=Gene;gene=COIII;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	8651	9434	.	+	0	ID=cds-AAU12153.1;Parent=gene-COIII;Dbxref=NCBI_GP:AAU12153.1;Name=AAU12153.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COIII;product=cytochrome c oxidase subunit III;protein_id=AAU12153.1;transl_except=(pos:9434%2Caa:TERM);transl_table=2
+AY729880.1	Genbank	tRNA	9435	9502	.	+	.	ID=rna-AY729880.1:9435..9502;gbkey=tRNA;product=tRNA-Gly
+AY729880.1	Genbank	exon	9435	9502	.	+	.	ID=exon-AY729880.1:9435..9502-1;Parent=rna-AY729880.1:9435..9502;gbkey=tRNA;product=tRNA-Gly
+AY729880.1	Genbank	gene	9503	9849	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	9503	9849	.	+	0	ID=cds-AAU12154.1;Parent=gene-ND3;Dbxref=NCBI_GP:AAU12154.1;Name=AAU12154.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=AAU12154.1;transl_except=(pos:9848..9849%2Caa:TERM);transl_table=2
+AY729880.1	Genbank	tRNA	9850	9919	.	+	.	ID=rna-AY729880.1:9850..9919;gbkey=tRNA;product=tRNA-Arg
+AY729880.1	Genbank	exon	9850	9919	.	+	.	ID=exon-AY729880.1:9850..9919-1;Parent=rna-AY729880.1:9850..9919;gbkey=tRNA;product=tRNA-Arg
+AY729880.1	Genbank	gene	9918	10214	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	9918	10214	.	+	0	ID=cds-AAU12155.1;Parent=gene-ND4L;Dbxref=NCBI_GP:AAU12155.1;Name=AAU12155.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=AAU12155.1;transl_table=2
+AY729880.1	Genbank	gene	10208	11585	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	10208	11585	.	+	0	ID=cds-AAU12156.1;Parent=gene-ND4;Dbxref=NCBI_GP:AAU12156.1;Name=AAU12156.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=AAU12156.1;transl_except=(pos:11585%2Caa:TERM);transl_table=2
+AY729880.1	Genbank	tRNA	11586	11654	.	+	.	ID=rna-AY729880.1:11586..11654;gbkey=tRNA;product=tRNA-His
+AY729880.1	Genbank	exon	11586	11654	.	+	.	ID=exon-AY729880.1:11586..11654-1;Parent=rna-AY729880.1:11586..11654;gbkey=tRNA;product=tRNA-His
+AY729880.1	Genbank	tRNA	11655	11714	.	+	.	ID=rna-AY729880.1:11655..11714;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+AY729880.1	Genbank	exon	11655	11714	.	+	.	ID=exon-AY729880.1:11655..11714-1;Parent=rna-AY729880.1:11655..11714;codons=AGY;gbkey=tRNA;product=tRNA-Ser
+AY729880.1	Genbank	tRNA	11715	11784	.	+	.	ID=rna-AY729880.1:11715..11784;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+AY729880.1	Genbank	exon	11715	11784	.	+	.	ID=exon-AY729880.1:11715..11784-1;Parent=rna-AY729880.1:11715..11784;codons=CUN;gbkey=tRNA;product=tRNA-Leu
+AY729880.1	Genbank	gene	11785	13605	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	11785	13605	.	+	0	ID=cds-AAU12157.1;Parent=gene-ND5;Dbxref=NCBI_GP:AAU12157.1;Name=AAU12157.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=AAU12157.1;transl_table=2
+AY729880.1	Genbank	gene	13589	14116	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	13589	14116	.	-	0	ID=cds-AAU12158.1;Parent=gene-ND6;Dbxref=NCBI_GP:AAU12158.1;Name=AAU12158.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=AAU12158.1;transl_table=2
+AY729880.1	Genbank	tRNA	14117	14185	.	-	.	ID=rna-AY729880.1:14117..14185;gbkey=tRNA;product=tRNA-Glu
+AY729880.1	Genbank	exon	14117	14185	.	-	.	ID=exon-AY729880.1:14117..14185-1;Parent=rna-AY729880.1:14117..14185;gbkey=tRNA;product=tRNA-Glu
+AY729880.1	Genbank	gene	14190	15329	.	+	.	ID=gene-cytb;Name=cytb;gbkey=Gene;gene=cytb;gene_biotype=protein_coding
+AY729880.1	Genbank	CDS	14190	15329	.	+	0	ID=cds-AAU12159.1;Parent=gene-cytb;Dbxref=NCBI_GP:AAU12159.1;Name=AAU12159.1;gbkey=CDS;gene=cytb;product=cytochrome b;protein_id=AAU12159.1;transl_table=2
+AY729880.1	Genbank	tRNA	15330	15399	.	+	.	ID=rna-AY729880.1:15330..15399;gbkey=tRNA;product=tRNA-Thr
+AY729880.1	Genbank	exon	15330	15399	.	+	.	ID=exon-AY729880.1:15330..15399-1;Parent=rna-AY729880.1:15330..15399;gbkey=tRNA;product=tRNA-Thr
+AY729880.1	Genbank	tRNA	15399	15464	.	-	.	ID=rna-AY729880.1:15399..15464;gbkey=tRNA;product=tRNA-Pro
+AY729880.1	Genbank	exon	15399	15464	.	-	.	ID=exon-AY729880.1:15399..15464-1;Parent=rna-AY729880.1:15399..15464;gbkey=tRNA;product=tRNA-Pro
+AY729880.1	Genbank	D_loop	15465	16756	.	+	.	ID=id-AY729880.1:15465..16756;Note=control region;gbkey=D-loop
+

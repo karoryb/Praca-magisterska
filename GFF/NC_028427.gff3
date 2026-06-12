@@ -1,0 +1,106 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_028427.1 1 16173
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9622
+NC_028427.1	RefSeq	region	1	16173	.	+	.	ID=NC_028427.1:1..16173;Dbxref=taxon:9622;Is_circular=true;Name=MT;cell-type=fibroblast;country=South Korea;gbkey=Src;genome=mitochondrion;isolation-source=Seoul Children's Grand Park;mol_type=genomic DNA;sex=female
+NC_028427.1	RefSeq	gene	1	69	.	+	.	ID=gene-AS317_gt01;Dbxref=GeneID:26219196;Name=trnF;gbkey=Gene;gene=trnF;gene_biotype=tRNA;locus_tag=AS317_gt01
+NC_028427.1	RefSeq	tRNA	1	69	.	+	.	ID=rna-AS317_gt01;Parent=gene-AS317_gt01;Dbxref=GeneID:26219196;gbkey=tRNA;gene=trnF;locus_tag=AS317_gt01;product=tRNA-Phe
+NC_028427.1	RefSeq	exon	1	69	.	+	.	ID=exon-AS317_gt01-1;Parent=rna-AS317_gt01;Dbxref=GeneID:26219196;gbkey=tRNA;gene=trnF;locus_tag=AS317_gt01;product=tRNA-Phe
+NC_028427.1	RefSeq	gene	70	1025	.	+	.	ID=gene-AS317_gr02;Dbxref=GeneID:26219162;Name=AS317_gr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=AS317_gr02
+NC_028427.1	RefSeq	rRNA	70	1025	.	+	.	ID=rna-AS317_gr02;Parent=gene-AS317_gr02;Dbxref=GeneID:26219162;gbkey=rRNA;locus_tag=AS317_gr02;product=12S ribosomal RNA
+NC_028427.1	RefSeq	exon	70	1025	.	+	.	ID=exon-AS317_gr02-1;Parent=rna-AS317_gr02;Dbxref=GeneID:26219162;gbkey=rRNA;locus_tag=AS317_gr02;product=12S ribosomal RNA
+NC_028427.1	RefSeq	gene	1026	1092	.	+	.	ID=gene-AS317_gt02;Dbxref=GeneID:26219197;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA;locus_tag=AS317_gt02
+NC_028427.1	RefSeq	tRNA	1026	1092	.	+	.	ID=rna-AS317_gt02;Parent=gene-AS317_gt02;Dbxref=GeneID:26219197;gbkey=tRNA;gene=trnV;locus_tag=AS317_gt02;product=tRNA-Val
+NC_028427.1	RefSeq	exon	1026	1092	.	+	.	ID=exon-AS317_gt02-1;Parent=rna-AS317_gt02;Dbxref=GeneID:26219197;gbkey=tRNA;gene=trnV;locus_tag=AS317_gt02;product=tRNA-Val
+NC_028427.1	RefSeq	gene	1093	2672	.	+	.	ID=gene-AS317_gr01;Dbxref=GeneID:26219163;Name=AS317_gr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=AS317_gr01
+NC_028427.1	RefSeq	rRNA	1093	2672	.	+	.	ID=rna-AS317_gr01;Parent=gene-AS317_gr01;Dbxref=GeneID:26219163;gbkey=rRNA;locus_tag=AS317_gr01;product=16S ribosomal RNA
+NC_028427.1	RefSeq	exon	1093	2672	.	+	.	ID=exon-AS317_gr01-1;Parent=rna-AS317_gr01;Dbxref=GeneID:26219163;gbkey=rRNA;locus_tag=AS317_gr01;product=16S ribosomal RNA
+NC_028427.1	RefSeq	gene	2672	2746	.	+	.	ID=gene-AS317_gt03;Dbxref=GeneID:26219198;Name=trnL(UUR);gbkey=Gene;gene=trnL(UUR);gene_biotype=tRNA;locus_tag=AS317_gt03
+NC_028427.1	RefSeq	tRNA	2672	2746	.	+	.	ID=rna-AS317_gt03;Parent=gene-AS317_gt03;Dbxref=GeneID:26219198;codons=UUR;gbkey=tRNA;gene=trnL(UUR);locus_tag=AS317_gt03;product=tRNA-Leu
+NC_028427.1	RefSeq	exon	2672	2746	.	+	.	ID=exon-AS317_gt03-1;Parent=rna-AS317_gt03;Dbxref=GeneID:26219198;codons=UUR;gbkey=tRNA;gene=trnL(UUR);locus_tag=AS317_gt03;product=tRNA-Leu
+NC_028427.1	RefSeq	gene	2749	3704	.	+	.	ID=gene-AS317_gp13;Dbxref=GeneID:26219164;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=AS317_gp13
+NC_028427.1	RefSeq	CDS	2749	3704	.	+	0	ID=cds-YP_009180061.1;Parent=gene-AS317_gp13;Dbxref=GenBank:YP_009180061.1,GeneID:26219164;Name=YP_009180061.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND1;locus_tag=AS317_gp13;product=NADH dehydrogenase subunit 1;protein_id=YP_009180061.1;transl_except=(pos:3703..3704%2Caa:TERM);transl_table=2
+NC_028427.1	RefSeq	gene	3705	3773	.	+	.	ID=gene-AS317_gt04;Dbxref=GeneID:26219165;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA;locus_tag=AS317_gt04
+NC_028427.1	RefSeq	tRNA	3705	3773	.	+	.	ID=rna-AS317_gt04;Parent=gene-AS317_gt04;Dbxref=GeneID:26219165;gbkey=tRNA;gene=trnI;locus_tag=AS317_gt04;product=tRNA-Ile
+NC_028427.1	RefSeq	exon	3705	3773	.	+	.	ID=exon-AS317_gt04-1;Parent=rna-AS317_gt04;Dbxref=GeneID:26219165;gbkey=tRNA;gene=trnI;locus_tag=AS317_gt04;product=tRNA-Ile
+NC_028427.1	RefSeq	gene	3770	3844	.	-	.	ID=gene-AS317_gt05;Dbxref=GeneID:26219166;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA;locus_tag=AS317_gt05
+NC_028427.1	RefSeq	tRNA	3770	3844	.	-	.	ID=rna-AS317_gt05;Parent=gene-AS317_gt05;Dbxref=GeneID:26219166;gbkey=tRNA;gene=trnQ;locus_tag=AS317_gt05;product=tRNA-Gln
+NC_028427.1	RefSeq	exon	3770	3844	.	-	.	ID=exon-AS317_gt05-1;Parent=rna-AS317_gt05;Dbxref=GeneID:26219166;gbkey=tRNA;gene=trnQ;locus_tag=AS317_gt05;product=tRNA-Gln
+NC_028427.1	RefSeq	gene	3846	3915	.	+	.	ID=gene-AS317_gt06;Dbxref=GeneID:26219167;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA;locus_tag=AS317_gt06
+NC_028427.1	RefSeq	tRNA	3846	3915	.	+	.	ID=rna-AS317_gt06;Parent=gene-AS317_gt06;Dbxref=GeneID:26219167;gbkey=tRNA;gene=trnM;locus_tag=AS317_gt06;product=tRNA-Met
+NC_028427.1	RefSeq	exon	3846	3915	.	+	.	ID=exon-AS317_gt06-1;Parent=rna-AS317_gt06;Dbxref=GeneID:26219167;gbkey=tRNA;gene=trnM;locus_tag=AS317_gt06;product=tRNA-Met
+NC_028427.1	RefSeq	gene	3916	4957	.	+	.	ID=gene-AS317_gp12;Dbxref=GeneID:26219168;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=AS317_gp12
+NC_028427.1	RefSeq	CDS	3916	4957	.	+	0	ID=cds-YP_009180062.1;Parent=gene-AS317_gp12;Dbxref=GenBank:YP_009180062.1,GeneID:26219168;Name=YP_009180062.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=AS317_gp12;product=NADH dehydrogenase subunit 2;protein_id=YP_009180062.1;transl_except=(pos:4957%2Caa:TERM);transl_table=2
+NC_028427.1	RefSeq	gene	4958	5025	.	+	.	ID=gene-AS317_gt07;Dbxref=GeneID:26219169;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA;locus_tag=AS317_gt07
+NC_028427.1	RefSeq	tRNA	4958	5025	.	+	.	ID=rna-AS317_gt07;Parent=gene-AS317_gt07;Dbxref=GeneID:26219169;gbkey=tRNA;gene=trnW;locus_tag=AS317_gt07;product=tRNA-Trp
+NC_028427.1	RefSeq	exon	4958	5025	.	+	.	ID=exon-AS317_gt07-1;Parent=rna-AS317_gt07;Dbxref=GeneID:26219169;gbkey=tRNA;gene=trnW;locus_tag=AS317_gt07;product=tRNA-Trp
+NC_028427.1	RefSeq	gene	5038	5104	.	-	.	ID=gene-AS317_gt08;Dbxref=GeneID:26219170;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA;locus_tag=AS317_gt08
+NC_028427.1	RefSeq	tRNA	5038	5104	.	-	.	ID=rna-AS317_gt08;Parent=gene-AS317_gt08;Dbxref=GeneID:26219170;gbkey=tRNA;gene=trnA;locus_tag=AS317_gt08;product=tRNA-Ala
+NC_028427.1	RefSeq	exon	5038	5104	.	-	.	ID=exon-AS317_gt08-1;Parent=rna-AS317_gt08;Dbxref=GeneID:26219170;gbkey=tRNA;gene=trnA;locus_tag=AS317_gt08;product=tRNA-Ala
+NC_028427.1	RefSeq	gene	5108	5179	.	-	.	ID=gene-AS317_gt09;Dbxref=GeneID:26219171;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA;locus_tag=AS317_gt09
+NC_028427.1	RefSeq	tRNA	5108	5179	.	-	.	ID=rna-AS317_gt09;Parent=gene-AS317_gt09;Dbxref=GeneID:26219171;gbkey=tRNA;gene=trnN;locus_tag=AS317_gt09;product=tRNA-Asn
+NC_028427.1	RefSeq	exon	5108	5179	.	-	.	ID=exon-AS317_gt09-1;Parent=rna-AS317_gt09;Dbxref=GeneID:26219171;gbkey=tRNA;gene=trnN;locus_tag=AS317_gt09;product=tRNA-Asn
+NC_028427.1	RefSeq	origin_of_replication	5180	5217	.	+	.	ID=id-NC_028427.1:5180..5217;Note=origin of L strand replication;direction=RIGHT;gbkey=rep_origin
+NC_028427.1	RefSeq	gene	5213	5280	.	-	.	ID=gene-AS317_gt10;Dbxref=GeneID:26219172;Name=trnC;gbkey=Gene;gene=trnC;gene_biotype=tRNA;locus_tag=AS317_gt10
+NC_028427.1	RefSeq	tRNA	5213	5280	.	-	.	ID=rna-AS317_gt10;Parent=gene-AS317_gt10;Dbxref=GeneID:26219172;gbkey=tRNA;gene=trnC;locus_tag=AS317_gt10;product=tRNA-Cys
+NC_028427.1	RefSeq	exon	5213	5280	.	-	.	ID=exon-AS317_gt10-1;Parent=rna-AS317_gt10;Dbxref=GeneID:26219172;gbkey=tRNA;gene=trnC;locus_tag=AS317_gt10;product=tRNA-Cys
+NC_028427.1	RefSeq	gene	5281	5348	.	-	.	ID=gene-AS317_gt11;Dbxref=GeneID:26219173;Name=trnY;gbkey=Gene;gene=trnY;gene_biotype=tRNA;locus_tag=AS317_gt11
+NC_028427.1	RefSeq	tRNA	5281	5348	.	-	.	ID=rna-AS317_gt11;Parent=gene-AS317_gt11;Dbxref=GeneID:26219173;gbkey=tRNA;gene=trnY;locus_tag=AS317_gt11;product=tRNA-Tyr
+NC_028427.1	RefSeq	exon	5281	5348	.	-	.	ID=exon-AS317_gt11-1;Parent=rna-AS317_gt11;Dbxref=GeneID:26219173;gbkey=tRNA;gene=trnY;locus_tag=AS317_gt11;product=tRNA-Tyr
+NC_028427.1	RefSeq	gene	5350	6894	.	+	.	ID=gene-AS317_gp11;Dbxref=GeneID:26219174;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;locus_tag=AS317_gp11
+NC_028427.1	RefSeq	CDS	5350	6894	.	+	0	ID=cds-YP_009180063.1;Parent=gene-AS317_gp11;Dbxref=GenBank:YP_009180063.1,GeneID:26219174;Name=YP_009180063.1;gbkey=CDS;gene=COX1;locus_tag=AS317_gp11;product=cytochrome c oxidase subunit I;protein_id=YP_009180063.1;transl_table=2
+NC_028427.1	RefSeq	gene	6892	6962	.	-	.	ID=gene-AS317_gt12;Dbxref=GeneID:26219175;Name=trnS(UCN);gbkey=Gene;gene=trnS(UCN);gene_biotype=tRNA;locus_tag=AS317_gt12
+NC_028427.1	RefSeq	tRNA	6892	6962	.	-	.	ID=rna-AS317_gt12;Parent=gene-AS317_gt12;Dbxref=GeneID:26219175;codons=UCN;gbkey=tRNA;gene=trnS(UCN);locus_tag=AS317_gt12;product=tRNA-Ser
+NC_028427.1	RefSeq	exon	6892	6962	.	-	.	ID=exon-AS317_gt12-1;Parent=rna-AS317_gt12;Dbxref=GeneID:26219175;codons=UCN;gbkey=tRNA;gene=trnS(UCN);locus_tag=AS317_gt12;product=tRNA-Ser
+NC_028427.1	RefSeq	gene	6966	7033	.	+	.	ID=gene-AS317_gt13;Dbxref=GeneID:26219176;Name=trnD;gbkey=Gene;gene=trnD;gene_biotype=tRNA;locus_tag=AS317_gt13
+NC_028427.1	RefSeq	tRNA	6966	7033	.	+	.	ID=rna-AS317_gt13;Parent=gene-AS317_gt13;Dbxref=GeneID:26219176;gbkey=tRNA;gene=trnD;locus_tag=AS317_gt13;product=tRNA-Asp
+NC_028427.1	RefSeq	exon	6966	7033	.	+	.	ID=exon-AS317_gt13-1;Parent=rna-AS317_gt13;Dbxref=GeneID:26219176;gbkey=tRNA;gene=trnD;locus_tag=AS317_gt13;product=tRNA-Asp
+NC_028427.1	RefSeq	gene	7034	7717	.	+	.	ID=gene-AS317_gp10;Dbxref=GeneID:26219177;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;locus_tag=AS317_gp10
+NC_028427.1	RefSeq	CDS	7034	7717	.	+	0	ID=cds-YP_009180064.1;Parent=gene-AS317_gp10;Dbxref=GenBank:YP_009180064.1,GeneID:26219177;Name=YP_009180064.1;gbkey=CDS;gene=COX2;locus_tag=AS317_gp10;product=cytochrome c oxidase subunit II;protein_id=YP_009180064.1;transl_table=2
+NC_028427.1	RefSeq	gene	7735	7801	.	+	.	ID=gene-AS317_gt14;Dbxref=GeneID:26219178;Name=trnK;gbkey=Gene;gene=trnK;gene_biotype=tRNA;locus_tag=AS317_gt14
+NC_028427.1	RefSeq	tRNA	7735	7801	.	+	.	ID=rna-AS317_gt14;Parent=gene-AS317_gt14;Dbxref=GeneID:26219178;gbkey=tRNA;gene=trnK;locus_tag=AS317_gt14;product=tRNA-Lys
+NC_028427.1	RefSeq	exon	7735	7801	.	+	.	ID=exon-AS317_gt14-1;Parent=rna-AS317_gt14;Dbxref=GeneID:26219178;gbkey=tRNA;gene=trnK;locus_tag=AS317_gt14;product=tRNA-Lys
+NC_028427.1	RefSeq	gene	7803	8006	.	+	.	ID=gene-AS317_gp09;Dbxref=GeneID:26219179;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=AS317_gp09
+NC_028427.1	RefSeq	CDS	7803	8006	.	+	0	ID=cds-YP_009180065.1;Parent=gene-AS317_gp09;Dbxref=GenBank:YP_009180065.1,GeneID:26219179;Name=YP_009180065.1;gbkey=CDS;gene=ATP8;locus_tag=AS317_gp09;product=ATP synthase F0 subunit 8;protein_id=YP_009180065.1;transl_table=2
+NC_028427.1	RefSeq	gene	7964	8644	.	+	.	ID=gene-AS317_gp08;Dbxref=GeneID:26219180;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=AS317_gp08
+NC_028427.1	RefSeq	CDS	7964	8644	.	+	0	ID=cds-YP_009180066.1;Parent=gene-AS317_gp08;Dbxref=GenBank:YP_009180066.1,GeneID:26219180;Name=YP_009180066.1;gbkey=CDS;gene=ATP6;locus_tag=AS317_gp08;product=ATP synthase F0 subunit 6;protein_id=YP_009180066.1;transl_table=2
+NC_028427.1	RefSeq	gene	8644	9427	.	+	.	ID=gene-AS317_gp07;Dbxref=GeneID:26219181;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;locus_tag=AS317_gp07
+NC_028427.1	RefSeq	CDS	8644	9427	.	+	0	ID=cds-YP_009180067.1;Parent=gene-AS317_gp07;Dbxref=GenBank:YP_009180067.1,GeneID:26219181;Name=YP_009180067.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=AS317_gp07;product=cytochrome c oxidase subunit III;protein_id=YP_009180067.1;transl_except=(pos:9427%2Caa:TERM);transl_table=2
+NC_028427.1	RefSeq	gene	9428	9495	.	+	.	ID=gene-AS317_gt15;Dbxref=GeneID:26219182;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA;locus_tag=AS317_gt15
+NC_028427.1	RefSeq	tRNA	9428	9495	.	+	.	ID=rna-AS317_gt15;Parent=gene-AS317_gt15;Dbxref=GeneID:26219182;gbkey=tRNA;gene=trnG;locus_tag=AS317_gt15;product=tRNA-Gly
+NC_028427.1	RefSeq	exon	9428	9495	.	+	.	ID=exon-AS317_gt15-1;Parent=rna-AS317_gt15;Dbxref=GeneID:26219182;gbkey=tRNA;gene=trnG;locus_tag=AS317_gt15;product=tRNA-Gly
+NC_028427.1	RefSeq	gene	9496	9841	.	+	.	ID=gene-AS317_gp06;Dbxref=GeneID:26219183;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=AS317_gp06
+NC_028427.1	RefSeq	CDS	9496	9841	.	+	0	ID=cds-YP_009180068.1;Parent=gene-AS317_gp06;Dbxref=GenBank:YP_009180068.1,GeneID:26219183;Name=YP_009180068.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=AS317_gp06;product=NADH dehydrogenase subunit 3;protein_id=YP_009180068.1;transl_except=(pos:9841%2Caa:TERM);transl_table=2
+NC_028427.1	RefSeq	gene	9842	9910	.	+	.	ID=gene-AS317_gt16;Dbxref=GeneID:26219184;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA;locus_tag=AS317_gt16
+NC_028427.1	RefSeq	tRNA	9842	9910	.	+	.	ID=rna-AS317_gt16;Parent=gene-AS317_gt16;Dbxref=GeneID:26219184;gbkey=tRNA;gene=trnR;locus_tag=AS317_gt16;product=tRNA-Arg
+NC_028427.1	RefSeq	exon	9842	9910	.	+	.	ID=exon-AS317_gt16-1;Parent=rna-AS317_gt16;Dbxref=GeneID:26219184;gbkey=tRNA;gene=trnR;locus_tag=AS317_gt16;product=tRNA-Arg
+NC_028427.1	RefSeq	gene	9913	10209	.	+	.	ID=gene-AS317_gp05;Dbxref=GeneID:26219185;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=AS317_gp05
+NC_028427.1	RefSeq	CDS	9913	10209	.	+	0	ID=cds-YP_009180069.1;Parent=gene-AS317_gp05;Dbxref=GenBank:YP_009180069.1,GeneID:26219185;Name=YP_009180069.1;gbkey=CDS;gene=ND4L;locus_tag=AS317_gp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_009180069.1;transl_table=2
+NC_028427.1	RefSeq	gene	10203	11578	.	+	.	ID=gene-AS317_gp04;Dbxref=GeneID:26219186;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=AS317_gp04
+NC_028427.1	RefSeq	CDS	10203	11578	.	+	0	ID=cds-YP_009180070.1;Parent=gene-AS317_gp04;Dbxref=GenBank:YP_009180070.1,GeneID:26219186;Name=YP_009180070.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=AS317_gp04;product=NADH dehydrogenase subunit 4;protein_id=YP_009180070.1;transl_except=(pos:11577..11578%2Caa:TERM);transl_table=2
+NC_028427.1	RefSeq	gene	11579	11649	.	+	.	ID=gene-AS317_gt17;Dbxref=GeneID:26219187;Name=trnH;gbkey=Gene;gene=trnH;gene_biotype=tRNA;locus_tag=AS317_gt17
+NC_028427.1	RefSeq	tRNA	11579	11649	.	+	.	ID=rna-AS317_gt17;Parent=gene-AS317_gt17;Dbxref=GeneID:26219187;gbkey=tRNA;gene=trnH;locus_tag=AS317_gt17;product=tRNA-His
+NC_028427.1	RefSeq	exon	11579	11649	.	+	.	ID=exon-AS317_gt17-1;Parent=rna-AS317_gt17;Dbxref=GeneID:26219187;gbkey=tRNA;gene=trnH;locus_tag=AS317_gt17;product=tRNA-His
+NC_028427.1	RefSeq	gene	11650	11709	.	+	.	ID=gene-AS317_gt18;Dbxref=GeneID:26219188;Name=trnS(AGY);gbkey=Gene;gene=trnS(AGY);gene_biotype=tRNA;locus_tag=AS317_gt18
+NC_028427.1	RefSeq	tRNA	11650	11709	.	+	.	ID=rna-AS317_gt18;Parent=gene-AS317_gt18;Dbxref=GeneID:26219188;codons=AGY;gbkey=tRNA;gene=trnS(AGY);locus_tag=AS317_gt18;product=tRNA-Ser
+NC_028427.1	RefSeq	exon	11650	11709	.	+	.	ID=exon-AS317_gt18-1;Parent=rna-AS317_gt18;Dbxref=GeneID:26219188;codons=AGY;gbkey=tRNA;gene=trnS(AGY);locus_tag=AS317_gt18;product=tRNA-Ser
+NC_028427.1	RefSeq	gene	11710	11779	.	+	.	ID=gene-AS317_gt19;Dbxref=GeneID:26219189;Name=trnL(CUN);gbkey=Gene;gene=trnL(CUN);gene_biotype=tRNA;locus_tag=AS317_gt19
+NC_028427.1	RefSeq	tRNA	11710	11779	.	+	.	ID=rna-AS317_gt19;Parent=gene-AS317_gt19;Dbxref=GeneID:26219189;codons=CUN;gbkey=tRNA;gene=trnL(CUN);locus_tag=AS317_gt19;product=tRNA-Leu
+NC_028427.1	RefSeq	exon	11710	11779	.	+	.	ID=exon-AS317_gt19-1;Parent=rna-AS317_gt19;Dbxref=GeneID:26219189;codons=CUN;gbkey=tRNA;gene=trnL(CUN);locus_tag=AS317_gt19;product=tRNA-Leu
+NC_028427.1	RefSeq	gene	11780	13600	.	+	.	ID=gene-AS317_gp03;Dbxref=GeneID:26219190;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=AS317_gp03
+NC_028427.1	RefSeq	CDS	11780	13600	.	+	0	ID=cds-YP_009180071.1;Parent=gene-AS317_gp03;Dbxref=GenBank:YP_009180071.1,GeneID:26219190;Name=YP_009180071.1;gbkey=CDS;gene=ND5;locus_tag=AS317_gp03;product=NADH dehydrogenase subunit 5;protein_id=YP_009180071.1;transl_table=2
+NC_028427.1	RefSeq	gene	13584	14111	.	-	.	ID=gene-AS317_gp02;Dbxref=GeneID:26219191;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=AS317_gp02
+NC_028427.1	RefSeq	CDS	13584	14111	.	-	0	ID=cds-YP_009180072.1;Parent=gene-AS317_gp02;Dbxref=GenBank:YP_009180072.1,GeneID:26219191;Name=YP_009180072.1;gbkey=CDS;gene=ND6;locus_tag=AS317_gp02;product=NADH dehydrogenase subunit 6;protein_id=YP_009180072.1;transl_table=2
+NC_028427.1	RefSeq	gene	14110	14180	.	-	.	ID=gene-AS317_gt20;Dbxref=GeneID:26219192;Name=trnE;gbkey=Gene;gene=trnE;gene_biotype=tRNA;locus_tag=AS317_gt20
+NC_028427.1	RefSeq	tRNA	14110	14180	.	-	.	ID=rna-AS317_gt20;Parent=gene-AS317_gt20;Dbxref=GeneID:26219192;gbkey=tRNA;gene=trnE;locus_tag=AS317_gt20;product=tRNA-Glu
+NC_028427.1	RefSeq	exon	14110	14180	.	-	.	ID=exon-AS317_gt20-1;Parent=rna-AS317_gt20;Dbxref=GeneID:26219192;gbkey=tRNA;gene=trnE;locus_tag=AS317_gt20;product=tRNA-Glu
+NC_028427.1	RefSeq	gene	14185	15324	.	+	.	ID=gene-AS317_gp01;Dbxref=GeneID:26219193;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=AS317_gp01
+NC_028427.1	RefSeq	CDS	14185	15324	.	+	0	ID=cds-YP_009180073.1;Parent=gene-AS317_gp01;Dbxref=GenBank:YP_009180073.1,GeneID:26219193;Name=YP_009180073.1;gbkey=CDS;gene=CYTB;locus_tag=AS317_gp01;product=cytochrome b;protein_id=YP_009180073.1;transl_table=2
+NC_028427.1	RefSeq	gene	15325	15394	.	+	.	ID=gene-AS317_gt21;Dbxref=GeneID:26219194;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA;locus_tag=AS317_gt21
+NC_028427.1	RefSeq	tRNA	15325	15394	.	+	.	ID=rna-AS317_gt21;Parent=gene-AS317_gt21;Dbxref=GeneID:26219194;gbkey=tRNA;gene=trnT;locus_tag=AS317_gt21;product=tRNA-Thr
+NC_028427.1	RefSeq	exon	15325	15394	.	+	.	ID=exon-AS317_gt21-1;Parent=rna-AS317_gt21;Dbxref=GeneID:26219194;gbkey=tRNA;gene=trnT;locus_tag=AS317_gt21;product=tRNA-Thr
+NC_028427.1	RefSeq	gene	15395	15460	.	-	.	ID=gene-AS317_gt22;Dbxref=GeneID:26219195;Name=trnP;gbkey=Gene;gene=trnP;gene_biotype=tRNA;locus_tag=AS317_gt22
+NC_028427.1	RefSeq	tRNA	15395	15460	.	-	.	ID=rna-AS317_gt22;Parent=gene-AS317_gt22;Dbxref=GeneID:26219195;gbkey=tRNA;gene=trnP;locus_tag=AS317_gt22;product=tRNA-Pro
+NC_028427.1	RefSeq	exon	15395	15460	.	-	.	ID=exon-AS317_gt22-1;Parent=rna-AS317_gt22;Dbxref=GeneID:26219195;gbkey=tRNA;gene=trnP;locus_tag=AS317_gt22;product=tRNA-Pro
+

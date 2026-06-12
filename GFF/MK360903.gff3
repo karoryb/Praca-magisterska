@@ -1,0 +1,82 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MK360903.1 1 16998
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29139
+MK360903.1	Genbank	region	1	16998	.	+	.	ID=MK360903.1:1..16998;Dbxref=taxon:29139;Is_circular=true;Name=MT;cell-type=V.urs89K-pv1 mitochondrion;collected-by=Nino Ficorilli;collection-date=2012;country=Australia;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+MK360903.1	Genbank	tRNA	1	73	.	+	.	ID=rna-MK360903.1:1..73;gbkey=tRNA;product=tRNA-Phe
+MK360903.1	Genbank	exon	1	73	.	+	.	ID=exon-MK360903.1:1..73-1;Parent=rna-MK360903.1:1..73;gbkey=tRNA;product=tRNA-Phe
+MK360903.1	Genbank	rRNA	73	1030	.	+	.	ID=rna-MK360903.1:73..1030;gbkey=rRNA;product=12S ribosomal RNA
+MK360903.1	Genbank	exon	73	1030	.	+	.	ID=exon-MK360903.1:73..1030-1;Parent=rna-MK360903.1:73..1030;gbkey=rRNA;product=12S ribosomal RNA
+MK360903.1	Genbank	tRNA	1031	1099	.	+	.	ID=rna-MK360903.1:1031..1099;gbkey=tRNA;product=tRNA-Val
+MK360903.1	Genbank	exon	1031	1099	.	+	.	ID=exon-MK360903.1:1031..1099-1;Parent=rna-MK360903.1:1031..1099;gbkey=tRNA;product=tRNA-Val
+MK360903.1	Genbank	rRNA	1100	2657	.	+	.	ID=rna-MK360903.1:1100..2657;gbkey=rRNA;product=16S ribosomal RNA
+MK360903.1	Genbank	exon	1100	2657	.	+	.	ID=exon-MK360903.1:1100..2657-1;Parent=rna-MK360903.1:1100..2657;gbkey=rRNA;product=16S ribosomal RNA
+MK360903.1	Genbank	tRNA	2667	2740	.	+	.	ID=rna-MK360903.1:2667..2740;gbkey=tRNA;product=tRNA-Leu
+MK360903.1	Genbank	exon	2667	2740	.	+	.	ID=exon-MK360903.1:2667..2740-1;Parent=rna-MK360903.1:2667..2740;gbkey=tRNA;product=tRNA-Leu
+MK360903.1	Genbank	gene	2742	3698	.	+	.	ID=gene-ND1;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	2742	3698	.	+	0	ID=cds-QBL02128.1;Parent=gene-ND1;Dbxref=NCBI_GP:QBL02128.1;Name=QBL02128.1;gbkey=CDS;gene=ND1;product=NADH dehydrogenase subunit 1;protein_id=QBL02128.1;transl_table=2
+MK360903.1	Genbank	tRNA	3699	3764	.	+	.	ID=rna-MK360903.1:3699..3764;gbkey=tRNA;product=tRNA-Ile
+MK360903.1	Genbank	exon	3699	3764	.	+	.	ID=exon-MK360903.1:3699..3764-1;Parent=rna-MK360903.1:3699..3764;gbkey=tRNA;product=tRNA-Ile
+MK360903.1	Genbank	tRNA	3763	3834	.	-	.	ID=rna-MK360903.1:3763..3834;gbkey=tRNA;product=tRNA-Gln
+MK360903.1	Genbank	exon	3763	3834	.	-	.	ID=exon-MK360903.1:3763..3834-1;Parent=rna-MK360903.1:3763..3834;gbkey=tRNA;product=tRNA-Gln
+MK360903.1	Genbank	tRNA	3834	3902	.	+	.	ID=rna-MK360903.1:3834..3902;gbkey=tRNA;product=tRNA-Met
+MK360903.1	Genbank	exon	3834	3902	.	+	.	ID=exon-MK360903.1:3834..3902-1;Parent=rna-MK360903.1:3834..3902;gbkey=tRNA;product=tRNA-Met
+MK360903.1	Genbank	gene	3903	4946	.	+	.	ID=gene-ND2;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	3903	4946	.	+	0	ID=cds-QBL02127.1;Parent=gene-ND2;Dbxref=NCBI_GP:QBL02127.1;Name=QBL02127.1;gbkey=CDS;gene=ND2;product=NADH dehydrogenase subunit 2;protein_id=QBL02127.1;transl_table=2
+MK360903.1	Genbank	tRNA	4948	5016	.	-	.	ID=rna-MK360903.1:4948..5016;gbkey=tRNA;product=tRNA-Ala
+MK360903.1	Genbank	exon	4948	5016	.	-	.	ID=exon-MK360903.1:4948..5016-1;Parent=rna-MK360903.1:4948..5016;gbkey=tRNA;product=tRNA-Ala
+MK360903.1	Genbank	tRNA	5026	5090	.	-	.	ID=rna-MK360903.1:5026..5090;gbkey=tRNA;product=tRNA-Cys
+MK360903.1	Genbank	exon	5026	5090	.	-	.	ID=exon-MK360903.1:5026..5090-1;Parent=rna-MK360903.1:5026..5090;gbkey=tRNA;product=tRNA-Cys
+MK360903.1	Genbank	tRNA	5095	5164	.	+	.	ID=rna-MK360903.1:5095..5164;gbkey=tRNA;product=tRNA-Trp
+MK360903.1	Genbank	exon	5095	5164	.	+	.	ID=exon-MK360903.1:5095..5164-1;Parent=rna-MK360903.1:5095..5164;gbkey=tRNA;product=tRNA-Trp
+MK360903.1	Genbank	tRNA	5247	5318	.	-	.	ID=rna-MK360903.1:5247..5318;gbkey=tRNA;product=tRNA-Asn
+MK360903.1	Genbank	exon	5247	5318	.	-	.	ID=exon-MK360903.1:5247..5318-1;Parent=rna-MK360903.1:5247..5318;gbkey=tRNA;product=tRNA-Asn
+MK360903.1	Genbank	tRNA	5320	5387	.	-	.	ID=rna-MK360903.1:5320..5387;gbkey=tRNA;product=tRNA-Tyr
+MK360903.1	Genbank	exon	5320	5387	.	-	.	ID=exon-MK360903.1:5320..5387-1;Parent=rna-MK360903.1:5320..5387;gbkey=tRNA;product=tRNA-Tyr
+MK360903.1	Genbank	gene	5389	6930	.	+	.	ID=gene-COX1;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	5389	6930	.	+	0	ID=cds-QBL02124.1;Parent=gene-COX1;Dbxref=NCBI_GP:QBL02124.1;Name=QBL02124.1;gbkey=CDS;gene=COX1;product=cytochrome c oxidase subunit I;protein_id=QBL02124.1;transl_table=2
+MK360903.1	Genbank	tRNA	6933	7001	.	-	.	ID=rna-MK360903.1:6933..7001;gbkey=tRNA;product=tRNA-Ser
+MK360903.1	Genbank	exon	6933	7001	.	-	.	ID=exon-MK360903.1:6933..7001-1;Parent=rna-MK360903.1:6933..7001;gbkey=tRNA;product=tRNA-Ser
+MK360903.1	Genbank	tRNA	7004	7073	.	+	.	ID=rna-MK360903.1:7004..7073;Note=anticodon GCC is modified by RNA-editing to the cognate anticodon GUC (Janke and Paabo%2C 1993 NAR Vol 21%2C 1523-1525);gbkey=tRNA;product=tRNA-Asp
+MK360903.1	Genbank	exon	7004	7073	.	+	.	ID=exon-MK360903.1:7004..7073-1;Parent=rna-MK360903.1:7004..7073;Note=anticodon GCC is modified by RNA-editing to the cognate anticodon GUC (Janke and Paabo%2C 1993 NAR Vol 21%2C 1523-1525);gbkey=tRNA;product=tRNA-Asp
+MK360903.1	Genbank	gene	7075	7759	.	+	.	ID=gene-COX2;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	7075	7759	.	+	0	ID=cds-QBL02130.1;Parent=gene-COX2;Dbxref=NCBI_GP:QBL02130.1;Name=QBL02130.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX2;product=cytochrome c oxidase subunit II;protein_id=QBL02130.1;transl_except=(pos:7759%2Caa:TERM);transl_table=2
+MK360903.1	Genbank	tRNA	7760	7815	.	+	.	ID=rna-MK360903.1:7760..7815;Note=putative pseudogene%3B tRNA-Lys is missing in all marsupialian mitochondrial genomes;gbkey=tRNA;product=tRNA-Lys
+MK360903.1	Genbank	exon	7760	7815	.	+	.	ID=exon-MK360903.1:7760..7815-1;Parent=rna-MK360903.1:7760..7815;Note=putative pseudogene%3B tRNA-Lys is missing in all marsupialian mitochondrial genomes;gbkey=tRNA;product=tRNA-Lys
+MK360903.1	Genbank	gene	7816	8025	.	+	.	ID=gene-ATP8;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	7816	8025	.	+	0	ID=cds-QBL02135.1;Parent=gene-ATP8;Dbxref=NCBI_GP:QBL02135.1;Name=QBL02135.1;gbkey=CDS;gene=ATP8;product=ATP synthase F0 subunit 8;protein_id=QBL02135.1;transl_table=2
+MK360903.1	Genbank	gene	7980	8660	.	+	.	ID=gene-ATP6;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	7980	8660	.	+	0	ID=cds-QBL02131.1;Parent=gene-ATP6;Dbxref=NCBI_GP:QBL02131.1;Name=QBL02131.1;gbkey=CDS;gene=ATP6;product=ATP synthase F0 subunit 6;protein_id=QBL02131.1;transl_table=2
+MK360903.1	Genbank	gene	8660	9443	.	+	.	ID=gene-COX3;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	8660	9443	.	+	0	ID=cds-QBL02129.1;Parent=gene-COX3;Dbxref=NCBI_GP:QBL02129.1;Name=QBL02129.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;product=cytochrome c oxidase subunit III;protein_id=QBL02129.1;transl_except=(pos:9443%2Caa:TERM);transl_table=2
+MK360903.1	Genbank	tRNA	9444	9508	.	+	.	ID=rna-MK360903.1:9444..9508;gbkey=tRNA;product=tRNA-Gly
+MK360903.1	Genbank	exon	9444	9508	.	+	.	ID=exon-MK360903.1:9444..9508-1;Parent=rna-MK360903.1:9444..9508;gbkey=tRNA;product=tRNA-Gly
+MK360903.1	Genbank	gene	9509	9857	.	+	.	ID=gene-ND3;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	9509	9857	.	+	0	ID=cds-QBL02133.1;Parent=gene-ND3;Dbxref=NCBI_GP:QBL02133.1;Name=QBL02133.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;product=NADH dehydrogenase subunit 3;protein_id=QBL02133.1;transl_except=(pos:9857%2Caa:TERM);transl_table=2
+MK360903.1	Genbank	tRNA	9858	9926	.	+	.	ID=rna-MK360903.1:9858..9926;gbkey=tRNA;product=tRNA-Arg
+MK360903.1	Genbank	exon	9858	9926	.	+	.	ID=exon-MK360903.1:9858..9926-1;Parent=rna-MK360903.1:9858..9926;gbkey=tRNA;product=tRNA-Arg
+MK360903.1	Genbank	gene	9927	10223	.	+	.	ID=gene-ND4L;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	9927	10223	.	+	0	ID=cds-QBL02134.1;Parent=gene-ND4L;Dbxref=NCBI_GP:QBL02134.1;Name=QBL02134.1;gbkey=CDS;gene=ND4L;product=NADH dehydrogenase subunit 4L;protein_id=QBL02134.1;transl_table=2
+MK360903.1	Genbank	gene	10217	11594	.	+	.	ID=gene-ND4;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	10217	11594	.	+	0	ID=cds-QBL02125.1;Parent=gene-ND4;Dbxref=NCBI_GP:QBL02125.1;Name=QBL02125.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;product=NADH dehydrogenase subunit 4;protein_id=QBL02125.1;transl_except=(pos:11594%2Caa:TERM);transl_table=2
+MK360903.1	Genbank	tRNA	11595	11663	.	+	.	ID=rna-MK360903.1:11595..11663;gbkey=tRNA;product=tRNA-His
+MK360903.1	Genbank	exon	11595	11663	.	+	.	ID=exon-MK360903.1:11595..11663-1;Parent=rna-MK360903.1:11595..11663;gbkey=tRNA;product=tRNA-His
+MK360903.1	Genbank	tRNA	11664	11722	.	+	.	ID=rna-MK360903.1:11664..11722;gbkey=tRNA;product=tRNA-Ser
+MK360903.1	Genbank	exon	11664	11722	.	+	.	ID=exon-MK360903.1:11664..11722-1;Parent=rna-MK360903.1:11664..11722;gbkey=tRNA;product=tRNA-Ser
+MK360903.1	Genbank	tRNA	11721	11792	.	+	.	ID=rna-MK360903.1:11721..11792;gbkey=tRNA;product=tRNA-Leu
+MK360903.1	Genbank	exon	11721	11792	.	+	.	ID=exon-MK360903.1:11721..11792-1;Parent=rna-MK360903.1:11721..11792;gbkey=tRNA;product=tRNA-Leu
+MK360903.1	Genbank	gene	11793	13604	.	+	.	ID=gene-ND5;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	11793	13604	.	+	0	ID=cds-QBL02123.1;Parent=gene-ND5;Dbxref=NCBI_GP:QBL02123.1;Name=QBL02123.1;gbkey=CDS;gene=ND5;product=NADH dehydrogenase subunit 5;protein_id=QBL02123.1;transl_table=2
+MK360903.1	Genbank	gene	13601	14104	.	-	.	ID=gene-ND6;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	13601	14104	.	-	0	ID=cds-QBL02132.1;Parent=gene-ND6;Dbxref=NCBI_GP:QBL02132.1;Name=QBL02132.1;gbkey=CDS;gene=ND6;product=NADH dehydrogenase subunit 6;protein_id=QBL02132.1;transl_table=2
+MK360903.1	Genbank	tRNA	14105	14173	.	-	.	ID=rna-MK360903.1:14105..14173;gbkey=tRNA;product=tRNA-Glu
+MK360903.1	Genbank	exon	14105	14173	.	-	.	ID=exon-MK360903.1:14105..14173-1;Parent=rna-MK360903.1:14105..14173;gbkey=tRNA;product=tRNA-Glu
+MK360903.1	Genbank	gene	14176	15321	.	+	.	ID=gene-CYTB;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding
+MK360903.1	Genbank	CDS	14176	15321	.	+	0	ID=cds-QBL02126.1;Parent=gene-CYTB;Dbxref=NCBI_GP:QBL02126.1;Name=QBL02126.1;gbkey=CDS;gene=CYTB;product=cytochrome b;protein_id=QBL02126.1;transl_table=2
+MK360903.1	Genbank	tRNA	15329	15389	.	+	.	ID=rna-MK360903.1:15329..15389;gbkey=tRNA;product=tRNA-Thr
+MK360903.1	Genbank	exon	15329	15389	.	+	.	ID=exon-MK360903.1:15329..15389-1;Parent=rna-MK360903.1:15329..15389;gbkey=tRNA;product=tRNA-Thr
+MK360903.1	Genbank	tRNA	15392	15458	.	-	.	ID=rna-MK360903.1:15392..15458;gbkey=tRNA;product=tRNA-Pro
+MK360903.1	Genbank	exon	15392	15458	.	-	.	ID=exon-MK360903.1:15392..15458-1;Parent=rna-MK360903.1:15392..15458;gbkey=tRNA;product=tRNA-Pro
+MK360903.1	Genbank	D_loop	15459	16998	.	+	.	ID=id-MK360903.1:15459..16998;Note=control region;gbkey=D-loop
+

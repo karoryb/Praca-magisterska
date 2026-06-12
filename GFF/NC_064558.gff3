@@ -1,0 +1,108 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_064558.1 1 16392
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9733
+NC_064558.1	RefSeq	region	1	16392	.	+	.	ID=NC_064558.1:1..16392;Dbxref=taxon:9733;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA
+NC_064558.1	RefSeq	gene	1	71	.	+	.	ID=gene-NKY04_mgt01;Dbxref=GeneID:72909429;Name=NKY04_mgt01;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt01
+NC_064558.1	RefSeq	tRNA	1	71	.	+	.	ID=rna-NKY04_mgt01;Parent=gene-NKY04_mgt01;Dbxref=GeneID:72909429;gbkey=tRNA;locus_tag=NKY04_mgt01;product=tRNA-Phe
+NC_064558.1	RefSeq	exon	1	71	.	+	.	ID=exon-NKY04_mgt01-1;Parent=rna-NKY04_mgt01;Dbxref=GeneID:72909429;gbkey=tRNA;locus_tag=NKY04_mgt01;product=tRNA-Phe
+NC_064558.1	RefSeq	gene	72	1045	.	+	.	ID=gene-NKY04_mgr02;Dbxref=GeneID:72909406;Name=NKY04_mgr02;gbkey=Gene;gene_biotype=rRNA;locus_tag=NKY04_mgr02
+NC_064558.1	RefSeq	rRNA	72	1045	.	+	.	ID=rna-NKY04_mgr02;Parent=gene-NKY04_mgr02;Dbxref=GeneID:72909406;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=NKY04_mgr02;product=12S ribosomal RNA
+NC_064558.1	RefSeq	exon	72	1045	.	+	.	ID=exon-NKY04_mgr02-1;Parent=rna-NKY04_mgr02;Dbxref=GeneID:72909406;Note=12S ribosomal RNA;gbkey=rRNA;locus_tag=NKY04_mgr02;product=12S ribosomal RNA
+NC_064558.1	RefSeq	gene	1046	1112	.	+	.	ID=gene-NKY04_mgt02;Dbxref=GeneID:72909407;Name=NKY04_mgt02;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt02
+NC_064558.1	RefSeq	tRNA	1046	1112	.	+	.	ID=rna-NKY04_mgt02;Parent=gene-NKY04_mgt02;Dbxref=GeneID:72909407;gbkey=tRNA;locus_tag=NKY04_mgt02;product=tRNA-Val
+NC_064558.1	RefSeq	exon	1046	1112	.	+	.	ID=exon-NKY04_mgt02-1;Parent=rna-NKY04_mgt02;Dbxref=GeneID:72909407;gbkey=tRNA;locus_tag=NKY04_mgt02;product=tRNA-Val
+NC_064558.1	RefSeq	gene	1113	2692	.	+	.	ID=gene-NKY04_mgr01;Dbxref=GeneID:72909408;Name=NKY04_mgr01;gbkey=Gene;gene_biotype=rRNA;locus_tag=NKY04_mgr01
+NC_064558.1	RefSeq	rRNA	1113	2692	.	+	.	ID=rna-NKY04_mgr01;Parent=gene-NKY04_mgr01;Dbxref=GeneID:72909408;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=NKY04_mgr01;product=16S ribosomal RNA
+NC_064558.1	RefSeq	exon	1113	2692	.	+	.	ID=exon-NKY04_mgr01-1;Parent=rna-NKY04_mgr01;Dbxref=GeneID:72909408;Note=16S ribosomal RNA;gbkey=rRNA;locus_tag=NKY04_mgr01;product=16S ribosomal RNA
+NC_064558.1	RefSeq	tandem_repeat	1128	1136	.	+	.	ID=id-NKY04_mgr01;Dbxref=GeneID:72909408;Note=variable polyC region;gbkey=repeat_region;locus_tag=NKY04_mgr01;rpt_type=tandem;rpt_unit_seq=c
+NC_064558.1	RefSeq	gene	2693	2767	.	+	.	ID=gene-NKY04_mgt03;Dbxref=GeneID:72909409;Name=NKY04_mgt03;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt03
+NC_064558.1	RefSeq	tRNA	2693	2767	.	+	.	ID=rna-NKY04_mgt03;Parent=gene-NKY04_mgt03;Dbxref=GeneID:72909409;gbkey=tRNA;locus_tag=NKY04_mgt03;product=tRNA-Leu
+NC_064558.1	RefSeq	exon	2693	2767	.	+	.	ID=exon-NKY04_mgt03-1;Parent=rna-NKY04_mgt03;Dbxref=GeneID:72909409;gbkey=tRNA;locus_tag=NKY04_mgt03;product=tRNA-Leu
+NC_064558.1	RefSeq	gene	2769	3725	.	+	.	ID=gene-NKY04_mgp13;Dbxref=GeneID:72909410;Name=ND1;gbkey=Gene;gene=ND1;gene_biotype=protein_coding;locus_tag=NKY04_mgp13
+NC_064558.1	RefSeq	CDS	2769	3725	.	+	0	ID=cds-YP_010417120.1;Parent=gene-NKY04_mgp13;Dbxref=GenBank:YP_010417120.1,GeneID:72909410;Name=YP_010417120.1;gbkey=CDS;gene=ND1;locus_tag=NKY04_mgp13;product=NADH dehydrogenase subunit 1;protein_id=YP_010417120.1;transl_table=2
+NC_064558.1	RefSeq	gene	3730	3798	.	+	.	ID=gene-NKY04_mgt04;Dbxref=GeneID:72909393;Name=NKY04_mgt04;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt04
+NC_064558.1	RefSeq	tRNA	3730	3798	.	+	.	ID=rna-NKY04_mgt04;Parent=gene-NKY04_mgt04;Dbxref=GeneID:72909393;gbkey=tRNA;locus_tag=NKY04_mgt04;product=tRNA-Ile
+NC_064558.1	RefSeq	exon	3730	3798	.	+	.	ID=exon-NKY04_mgt04-1;Parent=rna-NKY04_mgt04;Dbxref=GeneID:72909393;gbkey=tRNA;locus_tag=NKY04_mgt04;product=tRNA-Ile
+NC_064558.1	RefSeq	gene	3796	3868	.	-	.	ID=gene-NKY04_mgt05;Dbxref=GeneID:72909411;Name=NKY04_mgt05;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt05
+NC_064558.1	RefSeq	tRNA	3796	3868	.	-	.	ID=rna-NKY04_mgt05;Parent=gene-NKY04_mgt05;Dbxref=GeneID:72909411;gbkey=tRNA;locus_tag=NKY04_mgt05;product=tRNA-Gln
+NC_064558.1	RefSeq	exon	3796	3868	.	-	.	ID=exon-NKY04_mgt05-1;Parent=rna-NKY04_mgt05;Dbxref=GeneID:72909411;gbkey=tRNA;locus_tag=NKY04_mgt05;product=tRNA-Gln
+NC_064558.1	RefSeq	gene	3870	3938	.	+	.	ID=gene-NKY04_mgt06;Dbxref=GeneID:72909412;Name=NKY04_mgt06;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt06
+NC_064558.1	RefSeq	tRNA	3870	3938	.	+	.	ID=rna-NKY04_mgt06;Parent=gene-NKY04_mgt06;Dbxref=GeneID:72909412;gbkey=tRNA;locus_tag=NKY04_mgt06;product=tRNA-Met
+NC_064558.1	RefSeq	exon	3870	3938	.	+	.	ID=exon-NKY04_mgt06-1;Parent=rna-NKY04_mgt06;Dbxref=GeneID:72909412;gbkey=tRNA;locus_tag=NKY04_mgt06;product=tRNA-Met
+NC_064558.1	RefSeq	gene	3939	4980	.	+	.	ID=gene-NKY04_mgp12;Dbxref=GeneID:72909413;Name=ND2;gbkey=Gene;gene=ND2;gene_biotype=protein_coding;locus_tag=NKY04_mgp12
+NC_064558.1	RefSeq	CDS	3939	4980	.	+	0	ID=cds-YP_010417121.1;Parent=gene-NKY04_mgp12;Dbxref=GenBank:YP_010417121.1,GeneID:72909413;Name=YP_010417121.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND2;locus_tag=NKY04_mgp12;product=NADH dehydrogenase subunit 2;protein_id=YP_010417121.1;transl_except=(pos:4980%2Caa:TERM);transl_table=2
+NC_064558.1	RefSeq	gene	4981	5049	.	+	.	ID=gene-NKY04_mgt07;Dbxref=GeneID:72909394;Name=NKY04_mgt07;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt07
+NC_064558.1	RefSeq	tRNA	4981	5049	.	+	.	ID=rna-NKY04_mgt07;Parent=gene-NKY04_mgt07;Dbxref=GeneID:72909394;gbkey=tRNA;locus_tag=NKY04_mgt07;product=tRNA-Trp
+NC_064558.1	RefSeq	exon	4981	5049	.	+	.	ID=exon-NKY04_mgt07-1;Parent=rna-NKY04_mgt07;Dbxref=GeneID:72909394;gbkey=tRNA;locus_tag=NKY04_mgt07;product=tRNA-Trp
+NC_064558.1	RefSeq	gene	5055	5124	.	-	.	ID=gene-NKY04_mgt08;Dbxref=GeneID:72909414;Name=NKY04_mgt08;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt08
+NC_064558.1	RefSeq	tRNA	5055	5124	.	-	.	ID=rna-NKY04_mgt08;Parent=gene-NKY04_mgt08;Dbxref=GeneID:72909414;gbkey=tRNA;locus_tag=NKY04_mgt08;product=tRNA-Ala
+NC_064558.1	RefSeq	exon	5055	5124	.	-	.	ID=exon-NKY04_mgt08-1;Parent=rna-NKY04_mgt08;Dbxref=GeneID:72909414;gbkey=tRNA;locus_tag=NKY04_mgt08;product=tRNA-Ala
+NC_064558.1	RefSeq	gene	5125	5198	.	-	.	ID=gene-NKY04_mgt09;Dbxref=GeneID:72909415;Name=NKY04_mgt09;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt09
+NC_064558.1	RefSeq	tRNA	5125	5198	.	-	.	ID=rna-NKY04_mgt09;Parent=gene-NKY04_mgt09;Dbxref=GeneID:72909415;gbkey=tRNA;locus_tag=NKY04_mgt09;product=tRNA-Asn
+NC_064558.1	RefSeq	exon	5125	5198	.	-	.	ID=exon-NKY04_mgt09-1;Parent=rna-NKY04_mgt09;Dbxref=GeneID:72909415;gbkey=tRNA;locus_tag=NKY04_mgt09;product=tRNA-Asn
+NC_064558.1	RefSeq	repeat_region	5215	5221	.	+	.	ID=id-NC_064558.1:5215..5221;Note=variable polyA region;gbkey=repeat_region;rpt_unit_seq=a
+NC_064558.1	RefSeq	gene	5231	5297	.	-	.	ID=gene-NKY04_mgt10;Dbxref=GeneID:72909416;Name=NKY04_mgt10;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt10
+NC_064558.1	RefSeq	tRNA	5231	5297	.	-	.	ID=rna-NKY04_mgt10;Parent=gene-NKY04_mgt10;Dbxref=GeneID:72909416;gbkey=tRNA;locus_tag=NKY04_mgt10;product=tRNA-Cys
+NC_064558.1	RefSeq	exon	5231	5297	.	-	.	ID=exon-NKY04_mgt10-1;Parent=rna-NKY04_mgt10;Dbxref=GeneID:72909416;gbkey=tRNA;locus_tag=NKY04_mgt10;product=tRNA-Cys
+NC_064558.1	RefSeq	gene	5298	5363	.	-	.	ID=gene-NKY04_mgt11;Dbxref=GeneID:72909417;Name=NKY04_mgt11;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt11
+NC_064558.1	RefSeq	tRNA	5298	5363	.	-	.	ID=rna-NKY04_mgt11;Parent=gene-NKY04_mgt11;Dbxref=GeneID:72909417;gbkey=tRNA;locus_tag=NKY04_mgt11;product=tRNA-Tyr
+NC_064558.1	RefSeq	exon	5298	5363	.	-	.	ID=exon-NKY04_mgt11-1;Parent=rna-NKY04_mgt11;Dbxref=GeneID:72909417;gbkey=tRNA;locus_tag=NKY04_mgt11;product=tRNA-Tyr
+NC_064558.1	RefSeq	gene	5365	6915	.	+	.	ID=gene-NKY04_mgp11;Dbxref=GeneID:72909418;Name=COX1;gbkey=Gene;gene=COX1;gene_biotype=protein_coding;gene_synonym=COI;locus_tag=NKY04_mgp11
+NC_064558.1	RefSeq	CDS	5365	6915	.	+	0	ID=cds-YP_010417122.1;Parent=gene-NKY04_mgp11;Dbxref=GenBank:YP_010417122.1,GeneID:72909418;Name=YP_010417122.1;gbkey=CDS;gene=COX1;locus_tag=NKY04_mgp11;product=cytochrome c oxidase subunit I;protein_id=YP_010417122.1;transl_table=2
+NC_064558.1	RefSeq	gene	6911	6979	.	-	.	ID=gene-NKY04_mgt12;Dbxref=GeneID:72909395;Name=NKY04_mgt12;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt12
+NC_064558.1	RefSeq	tRNA	6911	6979	.	-	.	ID=rna-NKY04_mgt12;Parent=gene-NKY04_mgt12;Dbxref=GeneID:72909395;gbkey=tRNA;locus_tag=NKY04_mgt12;product=tRNA-Ser
+NC_064558.1	RefSeq	exon	6911	6979	.	-	.	ID=exon-NKY04_mgt12-1;Parent=rna-NKY04_mgt12;Dbxref=GeneID:72909395;gbkey=tRNA;locus_tag=NKY04_mgt12;product=tRNA-Ser
+NC_064558.1	RefSeq	gene	6987	7054	.	+	.	ID=gene-NKY04_mgt13;Dbxref=GeneID:72909419;Name=NKY04_mgt13;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt13
+NC_064558.1	RefSeq	tRNA	6987	7054	.	+	.	ID=rna-NKY04_mgt13;Parent=gene-NKY04_mgt13;Dbxref=GeneID:72909419;gbkey=tRNA;locus_tag=NKY04_mgt13;product=tRNA-Asp
+NC_064558.1	RefSeq	exon	6987	7054	.	+	.	ID=exon-NKY04_mgt13-1;Parent=rna-NKY04_mgt13;Dbxref=GeneID:72909419;gbkey=tRNA;locus_tag=NKY04_mgt13;product=tRNA-Asp
+NC_064558.1	RefSeq	gene	7055	7738	.	+	.	ID=gene-NKY04_mgp10;Dbxref=GeneID:72909420;Name=COX2;gbkey=Gene;gene=COX2;gene_biotype=protein_coding;gene_synonym=COII;locus_tag=NKY04_mgp10
+NC_064558.1	RefSeq	CDS	7055	7738	.	+	0	ID=cds-YP_010417123.1;Parent=gene-NKY04_mgp10;Dbxref=GenBank:YP_010417123.1,GeneID:72909420;Name=YP_010417123.1;gbkey=CDS;gene=COX2;locus_tag=NKY04_mgp10;product=cytochrome c oxidase subunit II;protein_id=YP_010417123.1;transl_table=2
+NC_064558.1	RefSeq	gene	7742	7809	.	+	.	ID=gene-NKY04_mgt14;Dbxref=GeneID:72909396;Name=NKY04_mgt14;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt14
+NC_064558.1	RefSeq	tRNA	7742	7809	.	+	.	ID=rna-NKY04_mgt14;Parent=gene-NKY04_mgt14;Dbxref=GeneID:72909396;gbkey=tRNA;locus_tag=NKY04_mgt14;product=tRNA-Lys
+NC_064558.1	RefSeq	exon	7742	7809	.	+	.	ID=exon-NKY04_mgt14-1;Parent=rna-NKY04_mgt14;Dbxref=GeneID:72909396;gbkey=tRNA;locus_tag=NKY04_mgt14;product=tRNA-Lys
+NC_064558.1	RefSeq	gene	7811	8002	.	+	.	ID=gene-NKY04_mgp09;Dbxref=GeneID:72909421;Name=ATP8;gbkey=Gene;gene=ATP8;gene_biotype=protein_coding;locus_tag=NKY04_mgp09
+NC_064558.1	RefSeq	CDS	7811	8002	.	+	0	ID=cds-YP_010417124.1;Parent=gene-NKY04_mgp09;Dbxref=GenBank:YP_010417124.1,GeneID:72909421;Name=YP_010417124.1;gbkey=CDS;gene=ATP8;locus_tag=NKY04_mgp09;product=ATP synthase F0 subunit 8;protein_id=YP_010417124.1;transl_table=2
+NC_064558.1	RefSeq	gene	7972	8652	.	+	.	ID=gene-NKY04_mgp08;Dbxref=GeneID:72909397;Name=ATP6;gbkey=Gene;gene=ATP6;gene_biotype=protein_coding;locus_tag=NKY04_mgp08
+NC_064558.1	RefSeq	CDS	7972	8652	.	+	0	ID=cds-YP_010417125.1;Parent=gene-NKY04_mgp08;Dbxref=GenBank:YP_010417125.1,GeneID:72909397;Name=YP_010417125.1;gbkey=CDS;gene=ATP6;locus_tag=NKY04_mgp08;product=ATP synthase F0 subunit 6;protein_id=YP_010417125.1;transl_table=2
+NC_064558.1	RefSeq	gene	8652	9436	.	+	.	ID=gene-NKY04_mgp07;Dbxref=GeneID:72909398;Name=COX3;gbkey=Gene;gene=COX3;gene_biotype=protein_coding;gene_synonym=COIII;locus_tag=NKY04_mgp07
+NC_064558.1	RefSeq	CDS	8652	9436	.	+	0	ID=cds-YP_010417126.1;Parent=gene-NKY04_mgp07;Dbxref=GenBank:YP_010417126.1,GeneID:72909398;Name=YP_010417126.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=COX3;locus_tag=NKY04_mgp07;product=cytochrome c oxidase subunit III;protein_id=YP_010417126.1;transl_except=(pos:9435..9436%2Caa:TERM);transl_table=2
+NC_064558.1	RefSeq	gene	9437	9505	.	+	.	ID=gene-NKY04_mgt15;Dbxref=GeneID:72909399;Name=NKY04_mgt15;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt15
+NC_064558.1	RefSeq	tRNA	9437	9505	.	+	.	ID=rna-NKY04_mgt15;Parent=gene-NKY04_mgt15;Dbxref=GeneID:72909399;gbkey=tRNA;locus_tag=NKY04_mgt15;product=tRNA-Gly
+NC_064558.1	RefSeq	exon	9437	9505	.	+	.	ID=exon-NKY04_mgt15-1;Parent=rna-NKY04_mgt15;Dbxref=GeneID:72909399;gbkey=tRNA;locus_tag=NKY04_mgt15;product=tRNA-Gly
+NC_064558.1	RefSeq	gene	9506	9851	.	+	.	ID=gene-NKY04_mgp06;Dbxref=GeneID:72909422;Name=ND3;gbkey=Gene;gene=ND3;gene_biotype=protein_coding;locus_tag=NKY04_mgp06
+NC_064558.1	RefSeq	CDS	9506	9851	.	+	0	ID=cds-YP_010417127.1;Parent=gene-NKY04_mgp06;Dbxref=GenBank:YP_010417127.1,GeneID:72909422;Name=YP_010417127.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND3;locus_tag=NKY04_mgp06;product=NADH dehydrogenase subunit 3;protein_id=YP_010417127.1;transl_except=(pos:9851%2Caa:TERM);transl_table=2
+NC_064558.1	RefSeq	gene	9853	9922	.	+	.	ID=gene-NKY04_mgt16;Dbxref=GeneID:72909400;Name=NKY04_mgt16;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt16
+NC_064558.1	RefSeq	tRNA	9853	9922	.	+	.	ID=rna-NKY04_mgt16;Parent=gene-NKY04_mgt16;Dbxref=GeneID:72909400;gbkey=tRNA;locus_tag=NKY04_mgt16;product=tRNA-Arg
+NC_064558.1	RefSeq	exon	9853	9922	.	+	.	ID=exon-NKY04_mgt16-1;Parent=rna-NKY04_mgt16;Dbxref=GeneID:72909400;gbkey=tRNA;locus_tag=NKY04_mgt16;product=tRNA-Arg
+NC_064558.1	RefSeq	gene	9923	10219	.	+	.	ID=gene-NKY04_mgp05;Dbxref=GeneID:72909423;Name=ND4L;gbkey=Gene;gene=ND4L;gene_biotype=protein_coding;locus_tag=NKY04_mgp05
+NC_064558.1	RefSeq	CDS	9923	10219	.	+	0	ID=cds-YP_010417128.1;Parent=gene-NKY04_mgp05;Dbxref=GenBank:YP_010417128.1,GeneID:72909423;Name=YP_010417128.1;gbkey=CDS;gene=ND4L;locus_tag=NKY04_mgp05;product=NADH dehydrogenase subunit 4L;protein_id=YP_010417128.1;transl_table=2
+NC_064558.1	RefSeq	gene	10213	11590	.	+	.	ID=gene-NKY04_mgp04;Dbxref=GeneID:72909401;Name=ND4;gbkey=Gene;gene=ND4;gene_biotype=protein_coding;locus_tag=NKY04_mgp04
+NC_064558.1	RefSeq	CDS	10213	11590	.	+	0	ID=cds-YP_010417129.1;Parent=gene-NKY04_mgp04;Dbxref=GenBank:YP_010417129.1,GeneID:72909401;Name=YP_010417129.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=ND4;locus_tag=NKY04_mgp04;product=NADH dehydrogenase subunit 4;protein_id=YP_010417129.1;transl_except=(pos:11590%2Caa:TERM);transl_table=2
+NC_064558.1	RefSeq	gene	11591	11659	.	+	.	ID=gene-NKY04_mgt17;Dbxref=GeneID:72909402;Name=NKY04_mgt17;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt17
+NC_064558.1	RefSeq	tRNA	11591	11659	.	+	.	ID=rna-NKY04_mgt17;Parent=gene-NKY04_mgt17;Dbxref=GeneID:72909402;gbkey=tRNA;locus_tag=NKY04_mgt17;product=tRNA-His
+NC_064558.1	RefSeq	exon	11591	11659	.	+	.	ID=exon-NKY04_mgt17-1;Parent=rna-NKY04_mgt17;Dbxref=GeneID:72909402;gbkey=tRNA;locus_tag=NKY04_mgt17;product=tRNA-His
+NC_064558.1	RefSeq	gene	11660	11720	.	+	.	ID=gene-NKY04_mgt18;Dbxref=GeneID:72909424;Name=NKY04_mgt18;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt18
+NC_064558.1	RefSeq	tRNA	11660	11720	.	+	.	ID=rna-NKY04_mgt18;Parent=gene-NKY04_mgt18;Dbxref=GeneID:72909424;gbkey=tRNA;locus_tag=NKY04_mgt18;product=tRNA-Ser
+NC_064558.1	RefSeq	exon	11660	11720	.	+	.	ID=exon-NKY04_mgt18-1;Parent=rna-NKY04_mgt18;Dbxref=GeneID:72909424;gbkey=tRNA;locus_tag=NKY04_mgt18;product=tRNA-Ser
+NC_064558.1	RefSeq	gene	11722	11791	.	+	.	ID=gene-NKY04_mgt19;Dbxref=GeneID:72909425;Name=NKY04_mgt19;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt19
+NC_064558.1	RefSeq	tRNA	11722	11791	.	+	.	ID=rna-NKY04_mgt19;Parent=gene-NKY04_mgt19;Dbxref=GeneID:72909425;gbkey=tRNA;locus_tag=NKY04_mgt19;product=tRNA-Leu
+NC_064558.1	RefSeq	exon	11722	11791	.	+	.	ID=exon-NKY04_mgt19-1;Parent=rna-NKY04_mgt19;Dbxref=GeneID:72909425;gbkey=tRNA;locus_tag=NKY04_mgt19;product=tRNA-Leu
+NC_064558.1	RefSeq	gene	11792	13612	.	+	.	ID=gene-NKY04_mgp03;Dbxref=GeneID:72909426;Name=ND5;gbkey=Gene;gene=ND5;gene_biotype=protein_coding;locus_tag=NKY04_mgp03
+NC_064558.1	RefSeq	CDS	11792	13612	.	+	0	ID=cds-YP_010417130.1;Parent=gene-NKY04_mgp03;Dbxref=GenBank:YP_010417130.1,GeneID:72909426;Name=YP_010417130.1;gbkey=CDS;gene=ND5;locus_tag=NKY04_mgp03;product=NADH dehydrogenase subunit 5;protein_id=YP_010417130.1;transl_table=2
+NC_064558.1	RefSeq	gene	13596	14123	.	-	.	ID=gene-NKY04_mgp02;Dbxref=GeneID:72909403;Name=ND6;gbkey=Gene;gene=ND6;gene_biotype=protein_coding;locus_tag=NKY04_mgp02
+NC_064558.1	RefSeq	CDS	13596	14123	.	-	0	ID=cds-YP_010417131.1;Parent=gene-NKY04_mgp02;Dbxref=GenBank:YP_010417131.1,GeneID:72909403;Name=YP_010417131.1;gbkey=CDS;gene=ND6;locus_tag=NKY04_mgp02;product=NADH dehydrogenase subunit 6;protein_id=YP_010417131.1;transl_table=2
+NC_064558.1	RefSeq	gene	14124	14192	.	-	.	ID=gene-NKY04_mgt20;Dbxref=GeneID:72909404;Name=NKY04_mgt20;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt20
+NC_064558.1	RefSeq	tRNA	14124	14192	.	-	.	ID=rna-NKY04_mgt20;Parent=gene-NKY04_mgt20;Dbxref=GeneID:72909404;gbkey=tRNA;locus_tag=NKY04_mgt20;product=tRNA-Glu
+NC_064558.1	RefSeq	exon	14124	14192	.	-	.	ID=exon-NKY04_mgt20-1;Parent=rna-NKY04_mgt20;Dbxref=GeneID:72909404;gbkey=tRNA;locus_tag=NKY04_mgt20;product=tRNA-Glu
+NC_064558.1	RefSeq	gene	14197	15336	.	+	.	ID=gene-NKY04_mgp01;Dbxref=GeneID:72909427;Name=CYTB;gbkey=Gene;gene=CYTB;gene_biotype=protein_coding;locus_tag=NKY04_mgp01
+NC_064558.1	RefSeq	CDS	14197	15336	.	+	0	ID=cds-YP_010417132.1;Parent=gene-NKY04_mgp01;Dbxref=GenBank:YP_010417132.1,GeneID:72909427;Name=YP_010417132.1;gbkey=CDS;gene=CYTB;locus_tag=NKY04_mgp01;product=cytochrome b;protein_id=YP_010417132.1;transl_table=2
+NC_064558.1	RefSeq	gene	15337	15407	.	+	.	ID=gene-NKY04_mgt21;Dbxref=GeneID:72909405;Name=NKY04_mgt21;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt21
+NC_064558.1	RefSeq	tRNA	15337	15407	.	+	.	ID=rna-NKY04_mgt21;Parent=gene-NKY04_mgt21;Dbxref=GeneID:72909405;gbkey=tRNA;locus_tag=NKY04_mgt21;product=tRNA-Thr
+NC_064558.1	RefSeq	exon	15337	15407	.	+	.	ID=exon-NKY04_mgt21-1;Parent=rna-NKY04_mgt21;Dbxref=GeneID:72909405;gbkey=tRNA;locus_tag=NKY04_mgt21;product=tRNA-Thr
+NC_064558.1	RefSeq	gene	15407	15473	.	-	.	ID=gene-NKY04_mgt22;Dbxref=GeneID:72909428;Name=NKY04_mgt22;gbkey=Gene;gene_biotype=tRNA;locus_tag=NKY04_mgt22
+NC_064558.1	RefSeq	tRNA	15407	15473	.	-	.	ID=rna-NKY04_mgt22;Parent=gene-NKY04_mgt22;Dbxref=GeneID:72909428;gbkey=tRNA;locus_tag=NKY04_mgt22;product=tRNA-Pro
+NC_064558.1	RefSeq	exon	15407	15473	.	-	.	ID=exon-NKY04_mgt22-1;Parent=rna-NKY04_mgt22;Dbxref=GeneID:72909428;gbkey=tRNA;locus_tag=NKY04_mgt22;product=tRNA-Pro
+NC_064558.1	RefSeq	D_loop	15474	16387	.	+	.	ID=id-NC_064558.1:15474..16387;gbkey=D-loop
+
